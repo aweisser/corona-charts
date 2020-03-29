@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Line Chart</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+	
+	<style>
+	canvas{
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+	</style>
+</head>
+
+<body>
+	<script>
+		const COLORS = [
+	      'rgb(255, 99, 132)', // red
+	      'rgb(255, 159, 64)', // orange
+	      'rgb(255, 205, 86)', // yellow
+	      'rgb(75, 192, 192)', // green
+	      'rgb(54, 162, 235)', // blue
+	      'rgb(153, 102, 255)', // purple
+	      'rgb(201, 203, 207)' // grey
+		];
+		const countries = ["Germany", "Italy", "Spain", "US", "China", "United Kingdom", "Russia"];
+		const charts = [
+			{ 
+				title: 'Corona Infections absolute', 
+				getValue: function(dayData) { return dayData.confirmed; },
+				config: {},
+			},
+			{ 
+				title: 'Corona Infections per 100.000 citizens', 
+				getValue: function(dayData, citizens) { return dayData.confirmed/citizens*100000; },
+				config: {},
+			},
+			{ 
+				title: 'Corona Deaths absolute', 
+				getValue: function(dayData) { return dayData.deaths; },
+				config: {},
+			},
+			{ 
+				title: 'Corona Deaths per 100.000 citizens', 
+				getValue: function(dayData, citizens) { return dayData.deaths/citizens*100000; },
+				config: {},
+			},
+		];
+		const configTemplate = {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: []
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: true,
+					text: '',
+					fontSize: 18,
+				},
+				tooltips: {
+					mode: 'index',
+					intersect: false,
+				},
+				hover: {
+					mode: 'nearest',
+					intersect: true,
+				},
+				scales: {
+					x: {
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Month',
+						}
+					},
+					y: {
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Value',
+						}
+					}
+				}
+			}
+		};
+		var covidWorldData = [];
+		var populationData = [];
+
+		var clone = function(obj) {
+			return JSON.parse(JSON.stringify(obj));
+		};
+
+		var initConfigs = function() {
+			charts.forEach(function(chart) {
+					var cfg = clone(configTemplate);
+					cfg.options.title.text = chart.title;
+					chart.config = cfg;
+			});	
+			covidWorldData.Germany.forEach(function(day) {
+				charts.forEach(function(chart, index) {
+					chart.config.data.labels.push(day.date);
+				});
+			});
+		};
+
+		var addCountry = function(name, color) {
+			var citizens = populationData.filter(function(item) { return item.country == name; })[0].population;
+			var covidData = covidWorldData[name];
+			charts.forEach(function(chart, index) {
+				var ds = {
+					label: name,
+					backgroundColor: color,
+					borderColor: color,
+					data: [],
+					fill: false,
+				};
+				covidData.forEach(function(day) {
+					ds.data.push(chart.getValue(day, citizens));
+				});
+				chart.config.data.datasets.push(ds);
+			});
+		};
+
+		window.onload = function() {
+			$.getJSON('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json',
+				function(populationJson) {
+					populationData = populationJson.filter(function(item) {
+						// Some countries have different names
+						if (item.country === 'United States') {
+							item.country = 'US';
+						}
+						if (item.country === 'Russian Federation') {
+							item.country = 'Russia';
+						}
+    					return countries.includes(item.country);
+					});
+					$.getJSON('https://pomber.github.io/covid19/timeseries.json', 
+					function(covidJson) {
+						covidWorldData = covidJson;
+						initConfigs();
+						countries.forEach(function(country, index) {
+							addCountry(country, COLORS[index]);
+						});
+
+						charts.forEach(function(chart, index) {
+							var canvasId = "canvas"+index;
+							$("body").append($([
+								"<div style='width:75%;'>",
+								"	<canvas id='"+canvasId+"'></canvas>",
+								"</div>",
+								"<br>",
+								"<br>"
+							].join("\n")));
+							var ctx = document.getElementById(canvasId).getContext('2d');
+							window.myLine = new Chart(ctx, chart.config);
+						});
+				});
+			});
+		};
+	</script>
+</body>
+
+</html>
