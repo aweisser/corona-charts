@@ -39,6 +39,15 @@
 				config: {},
 			},
 			{ 
+				title: 'New Corona Infections per 100k citizens', 
+				getValue: function(dayData, citizens, covidData, index) {
+					var today = dayData.confirmed;
+					var yesterday = index == 0 ? 0 : covidData[index-1].confirmed;
+					return (today - yesterday)/citizens*100000;
+				},
+				config: {},
+			},
+			{ 
 				title: 'Corona Deaths absolute', 
 				getValue: function(dayData) { return dayData.deaths; },
 				config: {},
@@ -46,6 +55,15 @@
 			{ 
 				title: 'Corona Deaths per 100k citizens', 
 				getValue: function(dayData, citizens) { return dayData.deaths/citizens*100000; },
+				config: {},
+			},
+			{ 
+				title: 'New Corona Deaths per 100k citizens', 
+				getValue: function(dayData, citizens, covidData, index) {
+					var today = dayData.deaths;
+					var yesterday = index == 0 ? 0 : covidData[index-1].deaths;
+					return (today - yesterday)/citizens*100000;
+				},
 				config: {},
 			},
 		];
