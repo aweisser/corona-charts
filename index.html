@@ -48,6 +48,14 @@
 				config: {},
 			},
 			{ 
+				title: 'Running Corona Infections per 100k citizens (confirmed-recovered-deaths)', 
+				getValue: function(dayData, citizens, covidData, index) {
+					var running = dayData.confirmed - dayData.recovered - dayData.deaths;
+					return running/citizens*100000;
+				},
+				config: {},
+			},
+			{ 
 				title: 'Corona Deaths absolute', 
 				getValue: function(dayData) { return dayData.deaths; },
 				config: {},
