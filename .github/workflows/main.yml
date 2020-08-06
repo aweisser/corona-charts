@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Update data.json
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -25,4 +25,13 @@ jobs:
     - run: |
         python -m pip install --upgrade pip
         pip install requests
-    - run: python update_data.py
+    - run: python update_data.py data.json
+    # Git add, commit and push the data.json to the current branch
+    - uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
+      with:
+        add: 'data.json'
+        message: 'Nightly update of data.json from GitHub Actions'
+
+  env:
+    # This is necessary in order to push a commit to the repo
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
