@@ -26,7 +26,7 @@
 	      'rgb(153, 102, 255)', // purple
 	      'rgb(255, 205, 86)', // yellow
 		];
-		const countries = ["Germany", "France", "Brazil", "US", "India", "United Kingdom", "Sweden"];
+		const countries = ["Germany", "France", "Italy", "US", "India", "United Kingdom", "Sweden"];
 		const charts = [
 			{ 
 				title: 'Corona Infections absolute', 
@@ -154,37 +154,37 @@
 
 		window.onload = function() {
 			$.getJSON('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json',
-				function(populationJson) {
-					populationData = populationJson.filter(function(item) {
-						// Some countries have different names
-						if (item.country === 'United States') {
-							item.country = 'US';
-						}
-						if (item.country === 'Russian Federation') {
-							item.country = 'Russia';
-						}
-    					return countries.includes(item.country);
+			function(populationJson) {
+				populationData = populationJson.filter(function(item) {
+					// Some countries have different names
+					if (item.country === 'United States') {
+						item.country = 'US';
+					}
+					if (item.country === 'Russian Federation') {
+						item.country = 'Russia';
+					}
+					return countries.includes(item.country);
+				});
+				$.getJSON('https://pomber.github.io/covid19/timeseries.json', 
+				function(covidJson) {
+					covidWorldData = covidJson;
+					initConfigs();
+					countries.forEach(function(country, index) {
+						addCountry(country, COLORS[index]);
 					});
-					$.getJSON('https://pomber.github.io/covid19/timeseries.json', 
-					function(covidJson) {
-						covidWorldData = covidJson;
-						initConfigs();
-						countries.forEach(function(country, index) {
-							addCountry(country, COLORS[index]);
-						});
 
-						charts.forEach(function(chart, index) {
-							var canvasId = "canvas"+index;
-							$("body").append($([
-								"<div style='width:75%;'>",
-								"	<canvas id='"+canvasId+"'></canvas>",
-								"</div>",
-								"<br>",
-								"<br>"
-							].join("\n")));
-							var ctx = document.getElementById(canvasId).getContext('2d');
-							window.myLine = new Chart(ctx, chart.config);
-						});
+					charts.forEach(function(chart, index) {
+						var canvasId = "canvas"+index;
+						$("body").append($([
+							"<div style='width:75%;'>",
+							"	<canvas id='"+canvasId+"'></canvas>",
+							"</div>",
+							"<br>",
+							"<br>"
+						].join("\n")));
+						var ctx = document.getElementById(canvasId).getContext('2d');
+						window.myLine = new Chart(ctx, chart.config);
+					});
 				});
 			});
 		};
