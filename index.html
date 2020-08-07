@@ -115,7 +115,7 @@
 			}
 		};
 		var covidWorldData = [];
-		var populationData = [];
+		var populationAndTests = [];
 
 		var clone = function(obj) {
 			return JSON.parse(JSON.stringify(obj));
@@ -135,7 +135,7 @@
 		};
 
 		var addCountry = function(name, color) {
-			var citizens = populationData.filter(function(item) { return item.country == name; })[0].population;
+			var citizens = populationAndTests.filter(function(item) { return item.location == name; })[0].population;
 			var covidData = covidWorldData[name];
 			charts.forEach(function(chart, index) {
 				var ds = {
@@ -153,17 +153,17 @@
 		};
 
 		window.onload = function() {
-			$.getJSON('https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-population.json',
-			function(populationJson) {
-				populationData = populationJson.filter(function(item) {
+			$.getJSON('https://raw.githubusercontent.com/aweisser/corona-charts/master/data.json',
+			function(dataJson) {
+				populationAndTests = dataJson.filter(function(item) {
 					// Some countries have different names
-					if (item.country === 'United States') {
-						item.country = 'US';
+					if (item.location === 'United States') {
+						item.location = 'US';
 					}
-					if (item.country === 'Russian Federation') {
-						item.country = 'Russia';
+					if (item.location === 'Russian Federation') {
+						item.location = 'Russia';
 					}
-					return countries.includes(item.country);
+					return countries.includes(item.location);
 				});
 				$.getJSON('https://pomber.github.io/covid19/timeseries.json', 
 				function(covidJson) {
