@@ -45,10 +45,32 @@
 				config: {},
 			},
 			{ 
-				title: 'Running Corona Infections per 100k citizens (confirmed-recovered-deaths)', 
+				title: 'Running Corona Infections per 100k citizens', 
 				getValue: function(dayData, citizens, index) {
 					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
 					return running/citizens*100000;
+				},
+				config: {},
+			},
+			{ 
+				title: 'Total number of new tests (smoothed)', 
+				getValue: function(dayData, citizens, index) {
+					return dayData.new_tests_smoothed;
+				},
+				config: {},
+			},
+			{ 
+				title: 'New tests per 100k citizens (smoothed)', 
+				getValue: function(dayData, citizens, index) {
+					return dayData.new_tests_smoothed/citizens*100000;
+				},
+				config: {},
+			},
+			{ 
+				title: 'Running Corona Infections per new test (smoothed)', 
+				getValue: function(dayData, citizens, index) {
+					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
+					return running/dayData.new_tests_smoothed;
 				},
 				config: {},
 			},
