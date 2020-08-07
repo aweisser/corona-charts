@@ -66,11 +66,19 @@
 				},
 				config: {},
 			},
+			
 			{ 
 				title: 'Running Corona Infections per new test (smoothed)', 
 				getValue: function(dayData, citizens, index) {
 					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
 					return running/dayData.new_tests_smoothed;
+				},
+				config: {},
+			},
+			{ 
+				title: 'Tests per case', 
+				getValue: function(dayData, citizens, index) {
+					return dayData.tests_per_case;
 				},
 				config: {},
 			},
