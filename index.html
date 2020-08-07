@@ -26,51 +26,46 @@
 	      'rgb(153, 102, 255)', // purple
 	      'rgb(255, 205, 86)', // yellow
 		];
-		const countries = ["Germany", "France", "Italy", "US", "India", "United Kingdom", "Sweden"];
 		const charts = [
 			{ 
 				title: 'Corona Infections absolute', 
-				getValue: function(dayData) { return dayData.confirmed; },
+				getValue: function(dayData) { return dayData.total_cases; },
 				config: {},
 			},
 			{ 
 				title: 'Corona Infections per 100k citizens', 
-				getValue: function(dayData, citizens) { return dayData.confirmed/citizens*100000; },
+				getValue: function(dayData, citizens) { return dayData.total_cases/citizens*100000; },
 				config: {},
 			},
 			{ 
 				title: 'New Corona Infections per 100k citizens', 
-				getValue: function(dayData, citizens, covidData, index) {
-					var today = dayData.confirmed;
-					var yesterday = index == 0 ? 0 : covidData[index-1].confirmed;
-					return (today - yesterday)/citizens*100000;
+				getValue: function(dayData, citizens, index) {
+					return dayData.new_cases/citizens*100000;
 				},
 				config: {},
 			},
 			{ 
 				title: 'Running Corona Infections per 100k citizens (confirmed-recovered-deaths)', 
-				getValue: function(dayData, citizens, covidData, index) {
-					var running = dayData.confirmed - dayData.recovered - dayData.deaths;
+				getValue: function(dayData, citizens, index) {
+					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
 					return running/citizens*100000;
 				},
 				config: {},
 			},
 			{ 
 				title: 'Corona Deaths absolute', 
-				getValue: function(dayData) { return dayData.deaths; },
+				getValue: function(dayData) { return dayData.total_deaths; },
 				config: {},
 			},
 			{ 
 				title: 'Corona Deaths per 100k citizens', 
-				getValue: function(dayData, citizens) { return dayData.deaths/citizens*100000; },
+				getValue: function(dayData, citizens) { return dayData.total_deaths/citizens*100000; },
 				config: {},
 			},
 			{ 
 				title: 'New Corona Deaths per 100k citizens', 
-				getValue: function(dayData, citizens, covidData, index) {
-					var today = dayData.deaths;
-					var yesterday = index == 0 ? 0 : covidData[index-1].deaths;
-					return (today - yesterday)/citizens*100000;
+				getValue: function(dayData, citizens, index) {
+					return dayData.new_deaths/citizens*100000;
 				},
 				config: {},
 			},
@@ -115,7 +110,6 @@
 			}
 		};
 		var covidWorldData = [];
-		var populationAndTests = [];
 
 		var clone = function(obj) {
 			return JSON.parse(JSON.stringify(obj));
@@ -127,16 +121,17 @@
 					cfg.options.title.text = chart.title;
 					chart.config = cfg;
 			});	
-			covidWorldData.Germany.forEach(function(day) {
+			// Get days from the first country (examplary for all other countries)
+			covidWorldData[0].data.forEach(function(day) {
 				charts.forEach(function(chart, index) {
 					chart.config.data.labels.push(day.date);
 				});
 			});
 		};
 
-		var addCountry = function(name, color) {
-			var citizens = populationAndTests.filter(function(item) { return item.location == name; })[0].population;
-			var covidData = covidWorldData[name];
+		var addCountry = function(countryData, color) {
+			var name = countryData.location;
+			var citizens = countryData.population;
 			charts.forEach(function(chart, index) {
 				var ds = {
 					label: name,
@@ -145,8 +140,8 @@
 					data: [],
 					fill: false,
 				};
-				covidData.forEach(function(day, index) {
-					ds.data.push(chart.getValue(day, citizens, covidData, index));
+				countryData.data.forEach(function(dayData, index) {
+					ds.data.push(chart.getValue(dayData, citizens, index));
 				});
 				chart.config.data.datasets.push(ds);
 			});
@@ -154,37 +149,24 @@
 
 		window.onload = function() {
 			$.getJSON('https://raw.githubusercontent.com/aweisser/corona-charts/master/data.json',
-			function(dataJson) {
-				populationAndTests = dataJson.filter(function(item) {
-					// Some countries have different names
-					if (item.location === 'United States') {
-						item.location = 'US';
-					}
-					if (item.location === 'Russian Federation') {
-						item.location = 'Russia';
-					}
-					return countries.includes(item.location);
+			function(owidCovidJson) {
+				covidWorldData = owidCovidJson;
+				initConfigs();
+				covidWorldData.forEach(function(countryData, index) {
+					addCountry(countryData, COLORS[index]);
 				});
-				$.getJSON('https://pomber.github.io/covid19/timeseries.json', 
-				function(covidJson) {
-					covidWorldData = covidJson;
-					initConfigs();
-					countries.forEach(function(country, index) {
-						addCountry(country, COLORS[index]);
-					});
 
-					charts.forEach(function(chart, index) {
-						var canvasId = "canvas"+index;
-						$("body").append($([
-							"<div style='width:75%;'>",
-							"	<canvas id='"+canvasId+"'></canvas>",
-							"</div>",
-							"<br>",
-							"<br>"
-						].join("\n")));
-						var ctx = document.getElementById(canvasId).getContext('2d');
-						window.myLine = new Chart(ctx, chart.config);
-					});
+				charts.forEach(function(chart, index) {
+					var canvasId = "canvas"+index;
+					$("body").append($([
+						"<div style='width:75%;'>",
+						"	<canvas id='"+canvasId+"'></canvas>",
+						"</div>",
+						"<br>",
+						"<br>"
+					].join("\n")));
+					var ctx = document.getElementById(canvasId).getContext('2d');
+					window.myLine = new Chart(ctx, chart.config);
 				});
 			});
 		};
