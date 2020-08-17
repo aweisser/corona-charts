@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-	<title>Line Chart</title>
+	<title>Corona-Charts</title>
+	<link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 	
@@ -15,7 +16,34 @@
 	</style>
 </head>
 
-<body>
+<body class="container">
+	<div class="jumbotron">
+		<h3>Do you want to visit another country but you can't really assess the Corona situation there?</h3>
+        <p class="lead">
+			The daily news mostly talk about absolute numbers of confirmed Covid-19 infections, 
+			which does not tell you anything about the current situation in the different countries.
+			Ok. 500k infections in the United States would be as bad as 500k infections in Luxembourg. 
+			But if you're planning to visit Luxembourg, it'd be much more likely that you get infected than in the US,
+			because 500k infections would mean, that almost every citizen of Luxembourg would be infected.
+			It's about population or even population density, isn't it?
+		</p>
+		<p class="lead">
+			In addition, the reported infections of a country must always be considered in relation to the number of tests performed.
+			If a country has very few confirmed cases but does apply only very few tests as well, than you can expect that a lot more people are infected than confirmed.
+		</p>
+		<p class="lead">
+			I think you can kind of assess the Corona situation in your own country. 
+			In relation to that you can then judge the situation in other countries. 
+			But that presupposes that the figures are comparable. You should avoid comparing apples with oranges.
+			So let's try to get to something comparable!
+        </p>
+        <hr>
+		<p>
+			The following charts are based on live data from <a href="https://github.com/owid/covid-19-data">https://github.com/owid/covid-19-data</a>
+			and <a href="https://github.com/pomber/covid19">https://github.com/pomber/covid19</a>, which in turn sources <a href="https://coronavirus.jhu.edu/map.html">jhu.edu</a>.
+		</p>
+        <p></p>
+	</div>
 	<script>
 		const COLORS = [
 	      'rgb(75, 192, 192)', // green
@@ -28,76 +56,52 @@
 		];
 		const charts = [
 			{ 
-				title: 'Corona Infections absolute', 
+				header: "Let's start with the absolute numbers.",
+				title: 'Corona Infections absolute',
 				getValue: function(dayData) { return dayData.total_cases; },
 				config: {},
+				text: "This tells you nothing. The different countries are not comparable. It's obvious that some big countries like USA and India have much more cases than the small European countries.", 
 			},
 			{ 
-				title: 'Corona Infections per 100k citizens', 
-				getValue: function(dayData, citizens) { return dayData.total_cases/citizens*100000; },
+				header: "Let's normalize those numbers. As if every country had the same population.",
+				title: 'Corona infections per 100k citizens',
+				getValue: function(dayData, countryData) { return dayData.total_cases/countryData.population*100000; },
 				config: {},
+				text: "Now the countries are somehow comparable. But it doesn't show you the current situation.",
 			},
 			{ 
-				title: 'New Corona Infections per 100k citizens', 
-				getValue: function(dayData, citizens, index) {
-					return dayData.new_cases/citizens*100000;
-				},
-				config: {},
-			},
-			{ 
-				title: 'Running Corona Infections per 100k citizens', 
-				getValue: function(dayData, citizens, index) {
+				header: "Ok. Now let's see how many people are currently infected in the different countries.",
+				title: 'Running Corona infections per 100k citizens', 
+				getValue: function(dayData, countryData, index) {
 					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
-					return running/citizens*100000;
+					return running/countryData.population*100000;
 				},
 				config: {},
+				text: "This is even better because this reflects the current situation."
 			},
 			{ 
-				title: 'Total number of new tests (smoothed)', 
-				getValue: function(dayData, citizens, index) {
-					return dayData.new_tests_smoothed;
-				},
-				config: {},
-			},
-			{ 
-				title: 'New tests per 100k citizens (smoothed)', 
-				getValue: function(dayData, citizens, index) {
-					return dayData.new_tests_smoothed/citizens*100000;
-				},
-				config: {},
-			},
-			
-			{ 
-				title: 'Running Corona Infections per new test (smoothed)', 
-				getValue: function(dayData, citizens, index) {
+				header: "Let's see how this changes when we normalize the numbers to the population density.", 
+				title: "Running Corona infections per square kilometer", 				
+				getValue: function(dayData, countryData) {
 					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
-					return running/dayData.new_tests_smoothed;
+					return running/countryData.population * countryData.population_density;
 				},
 				config: {},
+				text: "This describes an average square kilometer. So don't take this as absolute numbers. " + 
+				"It should be clear that the numbers in a city are much higher than on the countryside. " +
+				"But if you compare similar regions of two countries this graph reflects the correct relation.",
 			},
 			{ 
-				title: 'Tests per case', 
-				getValue: function(dayData, citizens, index) {
-					return dayData.tests_per_case;
+				header: "But how reliable are those numbers above? The Corona test policies of the countries are very different." +
+				"If only a few tests are applied than the number of running infections is not very reliable. " +
+				"Let's try to fix this. Let's say every country would apply the same number of tests in relation to their population. ",
+				title: 'Running Corona infections per square kilometer in relation to new tests (smoothed)', 
+				getValue: function(dayData, countryData) {
+					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
+					return (running/countryData.population * countryData.population_density)/dayData.new_tests_smoothed;
 				},
 				config: {},
-			},
-			{ 
-				title: 'Corona Deaths absolute', 
-				getValue: function(dayData) { return dayData.total_deaths; },
-				config: {},
-			},
-			{ 
-				title: 'Corona Deaths per 100k citizens', 
-				getValue: function(dayData, citizens) { return dayData.total_deaths/citizens*100000; },
-				config: {},
-			},
-			{ 
-				title: 'New Corona Deaths per 100k citizens', 
-				getValue: function(dayData, citizens, index) {
-					return dayData.new_deaths/citizens*100000;
-				},
-				config: {},
+				text: "Unfortunately the number of new tests is not consitently reported by the different countries. So the graphs are not that smooth.",
 			},
 		];
 		const configTemplate = {
@@ -161,7 +165,6 @@
 
 		var addCountry = function(countryData, color) {
 			var name = countryData.location;
-			var citizens = countryData.population;
 			charts.forEach(function(chart, index) {
 				var ds = {
 					label: name,
@@ -171,7 +174,7 @@
 					fill: false,
 				};
 				countryData.data.forEach(function(dayData, index) {
-					ds.data.push(chart.getValue(dayData, citizens, index));
+					ds.data.push(chart.getValue(dayData, countryData, index));
 				});
 				chart.config.data.datasets.push(ds);
 			});
@@ -189,11 +192,21 @@
 				charts.forEach(function(chart, index) {
 					var canvasId = "canvas"+index;
 					$("body").append($([
-						"<div style='width:75%;'>",
-						"	<canvas id='"+canvasId+"'></canvas>",
+						"<div class='card mt-3'>",
+						"	<div class='card-header'>",
+						"		"+chart.header,
+						"	</div>",
+						"	<div class='card-body'>",
+						"		<div style='width:100%;'>",
+						"			<canvas id='"+canvasId+"'></canvas>",
+						"		</div>",
+						"		<p/>",
+						"		<p class='card-text'>",
+						"			"+chart.text || '',
+						"		</p>",
+						"	</div>",
 						"</div>",
 						"<br>",
-						"<br>"
 					].join("\n")));
 					var ctx = document.getElementById(canvasId).getContext('2d');
 					window.myLine = new Chart(ctx, chart.config);
