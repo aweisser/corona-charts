@@ -96,14 +96,20 @@
 			{ 
 				header: "But how reliable are those numbers above? The Corona test policies of the countries are very different." +
 				"If only a few tests are applied than the number of running infections is not very reliable. " +
-				"Let's try to fix this. Let's say every country would apply the same number of tests in relation to their population. ",
+				"Let's try to fix this. Let's say every country would apply the same number of tests in relation to their population. " +
+				"How many running infections would each country have per square kilometer?",
 				title: 'Running Corona infections per square kilometer in relation to new tests (smoothed)', 
 				getValue: function(dayData, countryData) {
-					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
-					return (running/countryData.population * countryData.population_density)/dayData.new_tests_smoothed;
+					var runningCases = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
+					var runningCasesPerSquareKilometer = runningCases/countryData.population * countryData.population_density
+					var testsPerSquareKilometer = dayData.new_tests_smoothed/countryData.population * countryData.population_density;
+					return runningCasesPerSquareKilometer/testsPerSquareKilometer;;
 				},
 				config: {},
-				text: "Unfortunately the number of new tests is not consitently reported by the different countries. So the graphs are not that smooth.",
+				text: "If you want to compare the Corona situations I would recommend this chart. " + 
+				'It corrects the poor comparability of countries by removing the factors "population density" and "different test policies". ' +
+				"(Unfortunately the number of new tests is not consistently reported by the different countries. " +
+				"So the graphs are incomplete and not that smooth.)",
 			},
 		];
 		const configTemplate = {
