@@ -94,9 +94,18 @@
 				"But if you compare similar regions of two countries this graph reflects the correct relation.",
 			},
 			{ 
-				header: "But how reliable are those numbers above? The Corona test policies of the countries are very different." +
-				"If only a few tests are applied than the number of running infections is not very reliable. " +
-				"Let's try to fix this. Let's say every country would apply the same number of tests in relation to their population. " +
+				header: "But how reliable are those numbers above? The Corona test policies of the countries are very different. " +
+				"If only a few tests are applied then the number of running infections is not very reliable. " +
+				"So let's take a look at the number of tests applied in relation to the population.",
+				title: 'New tests per 100k citizens (smoothed)', 
+				getValue: function(dayData, countryData) {
+					return dayData.new_tests_smoothed/countryData.population*100000;
+				},
+				config: {},
+				text: "",
+			},
+			{ 
+				header: "Finally we can sum it all up. Let's say every country would apply the same number of tests in relation to their population. " +
 				"How many running infections would each country have per square kilometer?",
 				title: 'Running Corona infections per square kilometer in relation to new tests (smoothed)', 
 				getValue: function(dayData, countryData) {
