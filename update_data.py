@@ -4,6 +4,7 @@ from datetime import datetime
 #outfile_name = sys.argv[1]
 countries = ["DEU", "FRA", "ITA", "USA", "IND", "GBR", "SWE"]
 result = []
+locations = []
 
 # Get base data from OurWorldInData source.
 url = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.json"
@@ -16,6 +17,7 @@ url = "https://pomber.github.io/covid19/timeseries.json"
 jhuWorld = requests.get(url).json()
 for country in result:
     location = country["location"]
+    locations.append(location)
     # Some locations have different names in JHU data set
     if location == "United States":
         location = "US"
@@ -34,3 +36,6 @@ for country in result:
     # regenerate outfile
     with open('data/'+location+'.json', 'w') as outfile:
         json.dump(country, outfile, indent=2)
+
+with open('locations.json', 'w') as outfile:
+    json.dump(locations, outfile, indent=2)
