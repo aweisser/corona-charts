@@ -67,16 +67,16 @@
 			{ 
 				header: "Let's normalize those numbers. As if every country had the same population.",
 				title: 'Corona infections per 100k citizens',
-				getValue: function(dayData, countryData) { return dayData.total_cases/countryData.population*100000; },
+				getValue: function(dayData, locationData) { return dayData.total_cases/locationData.population*100000; },
 				config: {},
 				text: "Now the countries are somehow comparable. But it doesn't show you the current situation.",
 			},
 			{ 
 				header: "Ok. Now let's see how many people are currently infected in the different countries.",
 				title: 'Running Corona infections per 100k citizens', 
-				getValue: function(dayData, countryData, index) {
+				getValue: function(dayData, locationData, index) {
 					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
-					return running/countryData.population*100000;
+					return running/locationData.population*100000;
 				},
 				config: {},
 				text: "This is even better because this reflects the current situation."
@@ -84,9 +84,9 @@
 			{ 
 				header: "Let's see how this changes when we normalize the numbers to the population density.", 
 				title: "Running Corona infections per square kilometer", 				
-				getValue: function(dayData, countryData) {
+				getValue: function(dayData, locationData) {
 					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
-					return running/countryData.population * countryData.population_density;
+					return running/locationData.population * locationData.population_density;
 				},
 				config: {},
 				text: "This describes an average square kilometer. So don't take this as absolute numbers. " + 
@@ -98,8 +98,8 @@
 				"If only a few tests are applied then the number of running infections is not very reliable. " +
 				"So let's take a look at the number of tests applied in relation to the population.",
 				title: 'New tests per 100k citizens (smoothed)', 
-				getValue: function(dayData, countryData) {
-					return dayData.new_tests_smoothed/countryData.population*100000;
+				getValue: function(dayData, locationData) {
+					return dayData.new_tests_smoothed/locationData.population*100000;
 				},
 				config: {},
 				text: "",
@@ -108,10 +108,10 @@
 				header: "Finally we can sum it all up. Let's say every country would apply the same number of tests in relation to their population. " +
 				"How many running infections would each country have per square kilometer?",
 				title: 'Running Corona infections per square kilometer in relation to new tests (smoothed)', 
-				getValue: function(dayData, countryData) {
+				getValue: function(dayData, locationData) {
 					var runningCases = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
-					var runningCasesPerSquareKilometer = runningCases/countryData.population * countryData.population_density
-					var testsPerSquareKilometer = dayData.new_tests_smoothed/countryData.population * countryData.population_density;
+					var runningCasesPerSquareKilometer = runningCases/locationData.population * locationData.population_density
+					var testsPerSquareKilometer = dayData.new_tests_smoothed/locationData.population * locationData.population_density;
 					return runningCasesPerSquareKilometer/testsPerSquareKilometer;;
 				},
 				config: {},
@@ -160,28 +160,27 @@
 				}
 			}
 		};
-		var covidWorldData = [];
 
 		var clone = function(obj) {
 			return JSON.parse(JSON.stringify(obj));
 		};
 
-		var initConfigs = function() {
+		var initCharts = function(locationData) {
 			charts.forEach(function(chart) {
 					var cfg = clone(configTemplate);
 					cfg.options.title.text = chart.title;
 					chart.config = cfg;
 			});	
-			// Get days from the first country (examplary for all other countries)
-			covidWorldData[0].data.forEach(function(day) {
+			// Get days from the given location (examplary for all other locations)
+			locationData.data.forEach(function(day) {
 				charts.forEach(function(chart, index) {
 					chart.config.data.labels.push(day.date);
 				});
 			});
 		};
 
-		var addCountry = function(countryData, color) {
-			var name = countryData.location;
+		var addLocationToCharts = function(locationData, color) {
+			var name = locationData.location;
 			charts.forEach(function(chart, index) {
 				var ds = {
 					label: name,
@@ -190,43 +189,55 @@
 					data: [],
 					fill: false,
 				};
-				countryData.data.forEach(function(dayData, index) {
-					ds.data.push(chart.getValue(dayData, countryData, index));
+				locationData.data.forEach(function(dayData, index) {
+					ds.data.push(chart.getValue(dayData, locationData, index));
 				});
 				chart.config.data.datasets.push(ds);
 			});
 		};
 
-		window.onload = function() {
-			$.getJSON('https://raw.githubusercontent.com/aweisser/corona-charts/master/data.json',
-			function(owidCovidJson) {
-				covidWorldData = owidCovidJson;
-				initConfigs();
-				covidWorldData.forEach(function(countryData, index) {
-					addCountry(countryData, COLORS[index]);
-				});
+		var drawCharts = function() {
+			charts.forEach(function(chart, index) {
+				var canvasId = "canvas"+index;
+				$("body").append($([
+					"<div class='card mt-3'>",
+					"	<div class='card-header'>",
+					"		"+chart.header,
+					"	</div>",
+					"	<div class='card-body'>",
+					"		<div style='width:100%;'>",
+					"			<canvas id='"+canvasId+"'></canvas>",
+					"		</div>",
+					"		<p/>",
+					"		<p class='card-text'>",
+					"			"+chart.text || '',
+					"		</p>",
+					"	</div>",
+					"</div>",
+					"<br>",
+				].join("\n")));
+				var ctx = document.getElementById(canvasId).getContext('2d');
+				window.myLine = new Chart(ctx, chart.config);
+			});
+		}
 
-				charts.forEach(function(chart, index) {
-					var canvasId = "canvas"+index;
-					$("body").append($([
-						"<div class='card mt-3'>",
-						"	<div class='card-header'>",
-						"		"+chart.header,
-						"	</div>",
-						"	<div class='card-body'>",
-						"		<div style='width:100%;'>",
-						"			<canvas id='"+canvasId+"'></canvas>",
-						"		</div>",
-						"		<p/>",
-						"		<p class='card-text'>",
-						"			"+chart.text || '',
-						"		</p>",
-						"	</div>",
-						"</div>",
-						"<br>",
-					].join("\n")));
-					var ctx = document.getElementById(canvasId).getContext('2d');
-					window.myLine = new Chart(ctx, chart.config);
+		// MAIN process
+		window.onload = function() {
+			$.getJSON('locations.json', function(locationNames) {
+				locationNames.forEach(function(locationName, index) {
+					$.getJSON('data/'+locationName+'.json', function(location) {
+						// Init charts only once. Use first location to get exemplary dates from.
+						if(index == 0) {
+							initCharts(location);
+						}
+						
+						addLocationToCharts(location, COLORS[index]);
+
+						// Draw charts after the last location has been processed
+						if(index == locationNames.length -1) {
+							drawCharts();
+						}
+					});
 				});
 			});
 		};
