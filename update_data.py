@@ -1,7 +1,7 @@
 import requests, json, sys
 from datetime import datetime
 
-outfile_name = sys.argv[1]
+#outfile_name = sys.argv[1]
 countries = ["DEU", "FRA", "ITA", "USA", "IND", "GBR", "SWE"]
 result = []
 
@@ -30,7 +30,7 @@ for country in result:
             total_recovered = jhuDay["recovered"]
         except:
             print(location, day["date"], "not found in JHU data set")
-
-# regenerate outfile
-with open(outfile_name, 'w') as outfile:
-    json.dump(result, outfile, indent=2)
+    
+    # regenerate outfile
+    with open('data/'+location+'.json', 'w') as outfile:
+        json.dump(country, outfile, indent=2)
