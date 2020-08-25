@@ -20,8 +20,10 @@ for country in result:
     locations.append(location)
     # Some locations have different names in JHU data set
     if location == "United States":
-        location = "US"
-    jhuCountry = jhuWorld[location]
+        jhuCountry = jhuWorld["US"]
+    else:
+        jhuCountry = jhuWorld[location]
+    
     jhuCountryDict = { datetime.strptime(day["date"], "%Y-%m-%d").strftime("%Y-%m-%d") : day for day in jhuCountry }
     total_recovered = 0
     for day in country["data"]:
