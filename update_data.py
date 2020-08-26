@@ -1,16 +1,13 @@
 import requests, json, sys
 from datetime import datetime
 
-#outfile_name = sys.argv[1]
-countries = ["DEU", "FRA", "ITA", "USA", "IND", "GBR", "SWE"]
 result = []
 locations = []
 
 # Get base data from OurWorldInData source.
 url = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.json"
 owidWorld = requests.get(url).json()
-for country in countries:
-    result.append(owidWorld[country])
+result = list(owidWorld.values())
 
 # Enhance the base data with additional data from JHU
 url = "https://pomber.github.io/covid19/timeseries.json"
@@ -18,12 +15,21 @@ jhuWorld = requests.get(url).json()
 for country in result:
     location = country["location"]
     locations.append(location)
+
     # Some locations have different names in JHU data set
     if location == "United States":
         jhuCountry = jhuWorld["US"]
+    elif location == "Czech Republic":
+         jhuCountry = jhuWorld["Czechia"]
     else:
-        jhuCountry = jhuWorld[location]
+        # avoid KeyError by using get
+        jhuCountry = jhuWorld.get(location)
     
+    # Some locations does not exist in JHU data set
+    if not jhuCountry:
+        print(f"Location '{location}' does not exist in JHU data set.")
+        continue
+
     jhuCountryDict = { datetime.strptime(day["date"], "%Y-%m-%d").strftime("%Y-%m-%d") : day for day in jhuCountry }
     total_recovered = 0
     for day in country["data"]:
