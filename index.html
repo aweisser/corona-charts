@@ -53,7 +53,7 @@
         </div>
         <div class="row d-flex justify-content-center mt-100">
 			<div class="col-md-12"> 
-				<select id="choices-multiple-remove-button" placeholder="Select upto 6 countries" multiple>
+				<select id="choices-multiple-remove-button" placeholder="Select upto 7 countries. Start typing to filter." multiple>
 				</select>
 			</div>
 		</div>
@@ -277,9 +277,9 @@
 				// Init country selector
 				var multipleCancelButton = new Choices('#choices-multiple-remove-button', {
 					removeItemButton: true,
-					maxItemCount:6,
-					searchResultLimit:6,
-					renderChoiceLimit:6
+					maxItemCount:7,
+					searchResultLimit:7,
+					renderChoiceLimit:7
 				});
 
 				$("#choices-multiple-remove-button").change(function(){
