@@ -85,7 +85,7 @@
 			{ 
 				header: "Ok. Now let's see how many people are currently infected in the different countries.",
 				title: 'Running Corona infections per 100k citizens', 
-				getValue: function(dayData, locationData, index) {
+				getValue: function(dayData, locationData) {
 					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
 					return running/locationData.population*100000;
 				},
@@ -211,8 +211,8 @@
 					data: [],
 					fill: false,
 				};
-				locationData.data.forEach(function(dayData, index) {
-					ds.data.push(round(chart.getValue(dayData, locationData, index)));
+				locationData.data.forEach(function(dayData) {
+					ds.data.push(round(chart.getValue(dayData, locationData)));
 				});
 				chart.config.data.datasets.push(ds);
 			});
