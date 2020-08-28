@@ -16,17 +16,6 @@
   "life_expectancy": 72.58,
   "data": [
     {
-      "date": "2019-12-31",
-      "total_cases": 0.0,
-      "new_cases": 0.0,
-      "total_deaths": 0.0,
-      "new_deaths": 0.0,
-      "total_cases_per_million": 0.0,
-      "new_cases_per_million": 0.0,
-      "total_deaths_per_million": 0.0,
-      "new_deaths_per_million": 0.0
-    },
-    {
       "date": "2020-01-01",
       "total_cases": 0.0,
       "new_cases": 0.0,
@@ -5772,6 +5761,15 @@
       "total_deaths_per_million": 113.53,
       "new_deaths_per_million": 0.822,
       "new_deaths_smoothed_per_million": 0.681,
+      "new_tests": 295122.0,
+      "total_tests": 35423783.0,
+      "total_tests_per_thousand": 242.738,
+      "new_tests_per_thousand": 2.022,
+      "new_tests_smoothed": 273501.0,
+      "new_tests_smoothed_per_thousand": 1.874,
+      "tests_per_case": 56.817,
+      "positive_rate": 0.018000000000000002,
+      "tests_units": "tests performed",
       "total_recovered": 784277,
       "new_recovered": 6317
     },
@@ -5788,7 +5786,33 @@
       "new_cases_smoothed_per_million": 32.837,
       "total_deaths_per_million": 114.318,
       "new_deaths_per_million": 0.788,
-      "new_deaths_smoothed_per_million": 0.679
+      "new_deaths_smoothed_per_million": 0.679,
+      "new_tests": 327964.0,
+      "total_tests": 35751747.0,
+      "total_tests_per_thousand": 244.985,
+      "new_tests_per_thousand": 2.247,
+      "new_tests_smoothed": 276806.0,
+      "new_tests_smoothed_per_thousand": 1.897,
+      "tests_per_case": 57.763999999999996,
+      "positive_rate": 0.017,
+      "tests_units": "tests performed",
+      "total_recovered": 790629,
+      "new_recovered": 6352
+    },
+    {
+      "date": "2020-08-28",
+      "total_cases": 975576.0,
+      "new_cases": 4711.0,
+      "new_cases_smoothed": 4781.429,
+      "total_deaths": 16804.0,
+      "new_deaths": 121.0,
+      "new_deaths_smoothed": 100.714,
+      "total_cases_per_million": 6685.028,
+      "new_cases_per_million": 32.282,
+      "new_cases_smoothed_per_million": 32.764,
+      "total_deaths_per_million": 115.148,
+      "new_deaths_per_million": 0.829,
+      "new_deaths_smoothed_per_million": 0.69
     }
   ]
 }

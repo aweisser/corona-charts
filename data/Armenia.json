@@ -17,17 +17,6 @@
   "life_expectancy": 75.09,
   "data": [
     {
-      "date": "2019-12-31",
-      "total_cases": 0.0,
-      "new_cases": 0.0,
-      "total_deaths": 0.0,
-      "new_deaths": 0.0,
-      "total_cases_per_million": 0.0,
-      "new_cases_per_million": 0.0,
-      "total_deaths_per_million": 0.0,
-      "new_deaths_per_million": 0.0
-    },
-    {
       "date": "2020-01-01",
       "total_cases": 0.0,
       "new_cases": 0.0,
@@ -3968,6 +3957,23 @@
       "new_cases_per_million": 44.208,
       "new_cases_smoothed_per_million": 48.74,
       "total_deaths_per_million": 290.561,
+      "new_deaths_per_million": 1.012,
+      "new_deaths_smoothed_per_million": 1.35,
+      "total_recovered": 36988,
+      "new_recovered": 262
+    },
+    {
+      "date": "2020-08-28",
+      "total_cases": 43270.0,
+      "new_cases": 203.0,
+      "new_cases_smoothed": 135.857,
+      "total_deaths": 864.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 4.0,
+      "total_cases_per_million": 14602.289,
+      "new_cases_per_million": 68.506,
+      "new_cases_smoothed_per_million": 45.848,
+      "total_deaths_per_million": 291.573,
       "new_deaths_per_million": 1.012,
       "new_deaths_smoothed_per_million": 1.35
     }
