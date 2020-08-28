@@ -178,6 +178,15 @@
 			return JSON.parse(JSON.stringify(obj));
 		};
 
+		var round = function(num) {
+			if(num < 10) {
+				// round to 4 digits
+				return Math.round((num + Number.EPSILON) * 10000) / 10000;
+			}
+			// round to integer
+			return Math.round(num);
+		}
+
 		var initChartConfigs = function(locationData) {
 			charts.forEach(function(chart) {
 					var cfg = clone(configTemplate);
@@ -203,7 +212,7 @@
 					fill: false,
 				};
 				locationData.data.forEach(function(dayData, index) {
-					ds.data.push(chart.getValue(dayData, locationData, index));
+					ds.data.push(round(chart.getValue(dayData, locationData, index)));
 				});
 				chart.config.data.datasets.push(ds);
 			});
