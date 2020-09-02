@@ -140,6 +140,15 @@
 				config: {},
 				text: "",
 			},
+                        { 
+				header: "And new deaths in relation to the population.",
+				title: 'New deaths per 100k citizens (smoothed)', 
+				getValue: function(dayData, locationData) {
+				        return dayData.new_deaths_smoothed/locationData.population*100000
+				},
+				config: {},
+				text: "",
+			},
 
 		];
 		const configTemplate = {
