@@ -116,7 +116,7 @@
 				text: "",
 			},
 			{ 
-				header: "Finally we can sum it all up. Let's say every country would apply the same number of tests in relation to their population. " +
+				header: "Now we can sum it all up. Let's say every country would apply the same number of tests in relation to their population. " +
 				"How many running infections would each country have per square kilometer?",
 				title: 'Running Corona infections per square kilometer in relation to new tests (smoothed)', 
 				getValue: function(dayData, locationData) {
@@ -131,6 +131,16 @@
 				"(Unfortunately the number of new tests is not consistently reported by the different countries. " +
 				"So the graphs are incomplete and not that smooth.)",
 			},
+                        { 
+				header: "Finally we take a look at the total deaths in relation to the population.",
+				title: 'Total deaths per 100k citizens', 
+				getValue: function(dayData, locationData) {
+				        return dayData.total_deaths/locationData.population*100000
+				},
+				config: {},
+				text: "",
+			},
+
 		];
 		const configTemplate = {
 			type: 'line',
