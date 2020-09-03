@@ -4787,6 +4787,15 @@
       "total_deaths_per_million": 8.299,
       "new_deaths_per_million": 0.177,
       "new_deaths_smoothed_per_million": 0.063,
+      "new_tests": 5438.0,
+      "total_tests": 398223.0,
+      "total_tests_per_thousand": 35.158,
+      "new_tests_per_thousand": 0.48,
+      "new_tests_smoothed": 4696.0,
+      "new_tests_smoothed_per_thousand": 0.415,
+      "tests_per_case": 106.727,
+      "positive_rate": 0.009000000000000001,
+      "tests_units": "tests performed",
       "stringency_index": 74.07,
       "total_recovered": 3327,
       "new_recovered": 54
@@ -4805,6 +4814,15 @@
       "total_deaths_per_million": 8.299,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.038,
+      "new_tests": 4958.0,
+      "total_tests": 403181.0,
+      "total_tests_per_thousand": 35.596,
+      "new_tests_per_thousand": 0.438,
+      "new_tests_smoothed": 4756.0,
+      "new_tests_smoothed_per_thousand": 0.42,
+      "tests_per_case": 114.405,
+      "positive_rate": 0.009000000000000001,
+      "tests_units": "tests performed",
       "stringency_index": 74.07,
       "total_recovered": 3378,
       "new_recovered": 51
@@ -4822,10 +4840,27 @@
       "new_cases_smoothed_per_million": 3.973,
       "total_deaths_per_million": 8.299,
       "new_deaths_per_million": 0.0,
-      "new_deaths_smoothed_per_million": 0.038
+      "new_deaths_smoothed_per_million": 0.038,
+      "total_recovered": 3395,
+      "new_recovered": 17
     },
     {
-      "date": "2020-09-02"
+      "date": "2020-09-02",
+      "total_cases": 4065.0,
+      "new_cases": 33.0,
+      "new_cases_smoothed": 45.857,
+      "total_deaths": 95.0,
+      "new_deaths": 1.0,
+      "new_deaths_smoothed": 0.571,
+      "total_cases_per_million": 358.889,
+      "new_cases_per_million": 2.913,
+      "new_cases_smoothed_per_million": 4.049,
+      "total_deaths_per_million": 8.387,
+      "new_deaths_per_million": 0.088,
+      "new_deaths_smoothed_per_million": 0.05
+    },
+    {
+      "date": "2020-09-03"
     }
   ]
 }

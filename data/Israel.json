@@ -6033,6 +6033,15 @@
       "total_deaths_per_million": 97.856,
       "new_deaths_per_million": 1.502,
       "new_deaths_smoothed_per_million": 2.558,
+      "new_tests": 34049.0,
+      "total_tests": 2319698.0,
+      "total_tests_per_thousand": 268.002,
+      "new_tests_per_thousand": 3.934,
+      "new_tests_smoothed": 24720.0,
+      "new_tests_smoothed_per_thousand": 2.856,
+      "tests_per_case": 17.419,
+      "positive_rate": 0.057,
+      "tests_units": "tests performed",
       "stringency_index": 34.26,
       "total_recovered": 83822,
       "new_recovered": 2180
@@ -6051,6 +6060,15 @@
       "total_deaths_per_million": 99.243,
       "new_deaths_per_million": 1.386,
       "new_deaths_smoothed_per_million": 2.492,
+      "new_tests": 34286.0,
+      "total_tests": 2353984.0,
+      "total_tests_per_thousand": 271.963,
+      "new_tests_per_thousand": 3.961,
+      "new_tests_smoothed": 25560.0,
+      "new_tests_smoothed_per_thousand": 2.953,
+      "tests_per_case": 16.77,
+      "positive_rate": 0.06,
+      "tests_units": "tests performed",
       "stringency_index": 34.26,
       "total_recovered": 86466,
       "new_recovered": 2644
@@ -6157,10 +6175,27 @@
       "new_cases_smoothed_per_million": 197.512,
       "total_deaths_per_million": 108.485,
       "new_deaths_per_million": 2.311,
-      "new_deaths_smoothed_per_million": 1.518
+      "new_deaths_smoothed_per_million": 1.518,
+      "total_recovered": 96214,
+      "new_recovered": 1205
     },
     {
-      "date": "2020-09-02"
+      "date": "2020-09-02",
+      "total_cases": 119265.0,
+      "new_cases": 2235.0,
+      "new_cases_smoothed": 1741.0,
+      "total_deaths": 957.0,
+      "new_deaths": 18.0,
+      "new_deaths_smoothed": 14.0,
+      "total_cases_per_million": 13779.035,
+      "new_cases_per_million": 258.216,
+      "new_cases_smoothed_per_million": 201.143,
+      "total_deaths_per_million": 110.565,
+      "new_deaths_per_million": 2.08,
+      "new_deaths_smoothed_per_million": 1.617
+    },
+    {
+      "date": "2020-09-03"
     }
   ]
 }
