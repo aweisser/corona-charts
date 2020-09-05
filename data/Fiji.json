@@ -4843,6 +4843,14 @@
       "total_deaths_per_million": 2.231,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.159,
+      "new_tests": 19.0,
+      "total_tests": 8427.0,
+      "total_tests_per_thousand": 9.4,
+      "new_tests_per_thousand": 0.021,
+      "new_tests_smoothed": 56.0,
+      "new_tests_smoothed_per_thousand": 0.062,
+      "positive_rate": 0.0,
+      "tests_units": "tests performed",
       "total_recovered": 23,
       "new_recovered": 0
     },
@@ -4860,6 +4868,15 @@
       "total_deaths_per_million": 2.231,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.159,
+      "new_tests": 123.0,
+      "total_tests": 8550.0,
+      "total_tests_per_thousand": 9.538,
+      "new_tests_per_thousand": 0.137,
+      "new_tests_smoothed": 50.0,
+      "new_tests_smoothed_per_thousand": 0.056,
+      "tests_per_case": 350.0,
+      "positive_rate": 0.003,
+      "tests_units": "tests performed",
       "total_recovered": 23,
       "new_recovered": 0
     },
@@ -4876,10 +4893,39 @@
       "new_cases_smoothed_per_million": 0.159,
       "total_deaths_per_million": 2.231,
       "new_deaths_per_million": 0.0,
-      "new_deaths_smoothed_per_million": 0.159
+      "new_deaths_smoothed_per_million": 0.159,
+      "new_tests_smoothed": 51.0,
+      "new_tests_smoothed_per_thousand": 0.057,
+      "tests_per_case": 357.0,
+      "positive_rate": 0.003,
+      "tests_units": "tests performed",
+      "total_recovered": 23,
+      "new_recovered": 0
     },
     {
-      "date": "2020-09-04"
+      "date": "2020-09-04",
+      "total_cases": 31.0,
+      "new_cases": 2.0,
+      "new_cases_smoothed": 0.429,
+      "total_deaths": 2.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.143,
+      "total_cases_per_million": 34.581,
+      "new_cases_per_million": 2.231,
+      "new_cases_smoothed_per_million": 0.478,
+      "total_deaths_per_million": 2.231,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.159,
+      "total_tests": 8646.0,
+      "total_tests_per_thousand": 9.645,
+      "new_tests_smoothed": 52.0,
+      "new_tests_smoothed_per_thousand": 0.058,
+      "tests_per_case": 121.333,
+      "positive_rate": 0.008,
+      "tests_units": "tests performed"
+    },
+    {
+      "date": "2020-09-05"
     }
   ]
 }
