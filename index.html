@@ -132,16 +132,7 @@
 				"So the graphs are incomplete and not that smooth.)",
 			},
                         { 
-				header: "Finally we take a look at the total deaths in relation to the population.",
-				title: 'Total deaths per 100k citizens', 
-				getValue: function(dayData, locationData) {
-				        return dayData.total_deaths/locationData.population*100000
-				},
-				config: {},
-				text: "",
-			},
-                        { 
-				header: "And new deaths in relation to the population.",
+				header: "Finally, to complete the picture, we take a look at new deaths in relation to the population.",
 				title: 'New deaths per 100k citizens (smoothed)', 
 				getValue: function(dayData, locationData) {
 				        return dayData.new_deaths_smoothed/locationData.population*100000
