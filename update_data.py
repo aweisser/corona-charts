@@ -17,8 +17,7 @@ jhuWorld = requests.get(url).json()
 # Iterate locations from OWID and enhance with additional data from JHU
 for owidCountry in owidWorld:
     location = owidCountry["location"]
-    locations.append(location)
-
+    
     # Some locations have different names in JHU data set
     if location == "United States":
         jhuCountry = jhuWorld["US"]
@@ -32,6 +31,9 @@ for owidCountry in owidWorld:
     if not jhuCountry:
         print(f"Location '{location}' does not exist in JHU data set.")
         continue
+
+    # Extend list of selectable locations
+    locations.append(location)
 
     # Create dicts with date as keys and day data as values
     owidCountryDict = { datetime.strptime(day["date"], "%Y-%m-%d").strftime("%Y-%m-%d") : day for day in owidCountry["data"] }
@@ -72,6 +74,6 @@ for owidCountry in owidWorld:
     with open('data/'+location+'.json', 'w') as country_file:
         json.dump(country, country_file, indent=2)
 
-# regenarate locations.json
+# regenerate locations.json
 with open('locations.json', 'w') as locations_file:
     json.dump(locations, locations_file, indent=2)
