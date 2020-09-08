@@ -5768,6 +5768,15 @@
       "total_deaths_per_million": 28.334,
       "new_deaths_per_million": 0.49,
       "new_deaths_smoothed_per_million": 0.358,
+      "new_tests": 18100.0,
+      "total_tests": 1371391.0,
+      "total_tests_per_thousand": 5.014,
+      "new_tests_per_thousand": 0.066,
+      "new_tests_smoothed": 19701.0,
+      "new_tests_smoothed_per_thousand": 0.072,
+      "tests_per_case": 6.449,
+      "positive_rate": 0.155,
+      "tests_units": "people tested",
       "total_recovered": 134181,
       "new_recovered": 2126
     },
@@ -5785,6 +5794,11 @@
       "total_deaths_per_million": 28.634,
       "new_deaths_per_million": 0.3,
       "new_deaths_smoothed_per_million": 0.346,
+      "new_tests_smoothed": 19474.0,
+      "new_tests_smoothed_per_thousand": 0.071,
+      "tests_per_case": 6.296,
+      "positive_rate": 0.159,
+      "tests_units": "people tested",
       "total_recovered": 136401,
       "new_recovered": 2220
     },
@@ -5801,10 +5815,34 @@
       "new_cases_smoothed_per_million": 11.213,
       "total_deaths_per_million": 29.029,
       "new_deaths_per_million": 0.395,
-      "new_deaths_smoothed_per_million": 0.355
+      "new_deaths_smoothed_per_million": 0.355,
+      "total_tests": 1401513.0,
+      "total_tests_per_thousand": 5.124,
+      "new_tests_smoothed": 18602.0,
+      "new_tests_smoothed_per_thousand": 0.068,
+      "tests_per_case": 6.065,
+      "positive_rate": 0.165,
+      "tests_units": "people tested",
+      "total_recovered": 138575,
+      "new_recovered": 2174
     },
     {
-      "date": "2020-09-07"
+      "date": "2020-09-07",
+      "total_cases": 194109.0,
+      "new_cases": 3444.0,
+      "new_cases_smoothed": 3150.857,
+      "total_deaths": 8025.0,
+      "new_deaths": 85.0,
+      "new_deaths_smoothed": 97.429,
+      "total_cases_per_million": 709.661,
+      "new_cases_per_million": 12.591,
+      "new_cases_smoothed_per_million": 11.52,
+      "total_deaths_per_million": 29.339,
+      "new_deaths_per_million": 0.311,
+      "new_deaths_smoothed_per_million": 0.356
+    },
+    {
+      "date": "2020-09-08"
     }
   ]
 }
