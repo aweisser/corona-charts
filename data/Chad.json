@@ -12,6 +12,7 @@
   "diabetes_prevalence": 6.1,
   "handwashing_facilities": 5.818,
   "life_expectancy": 54.24,
+  "human_development_index": 0.404,
   "data": [
     {
       "date": "2020-01-01"
@@ -3468,10 +3469,27 @@
       "new_cases_smoothed_per_million": 0.244,
       "total_deaths_per_million": 4.809,
       "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.017,
+      "total_recovered": 931,
+      "new_recovered": 4
+    },
+    {
+      "date": "2020-09-10",
+      "total_cases": 1048.0,
+      "new_cases": 3.0,
+      "new_cases_smoothed": 4.429,
+      "total_deaths": 79.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.286,
+      "total_cases_per_million": 63.802,
+      "new_cases_per_million": 0.183,
+      "new_cases_smoothed_per_million": 0.27,
+      "total_deaths_per_million": 4.809,
+      "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.017
     },
     {
-      "date": "2020-09-10"
+      "date": "2020-09-11"
     }
   ]
 }

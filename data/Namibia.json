@@ -14,6 +14,7 @@
   "male_smokers": 34.2,
   "handwashing_facilities": 44.6,
   "life_expectancy": 63.71,
+  "human_development_index": 0.647,
   "data": [
     {
       "date": "2020-01-01"
@@ -3531,10 +3532,27 @@
       "new_cases_smoothed_per_million": 69.491,
       "total_deaths_per_million": 35.814,
       "new_deaths_per_million": 0.0,
-      "new_deaths_smoothed_per_million": 0.562
+      "new_deaths_smoothed_per_million": 0.562,
+      "total_recovered": 4640,
+      "new_recovered": 659
     },
     {
-      "date": "2020-09-10"
+      "date": "2020-09-10",
+      "total_cases": 9108.0,
+      "new_cases": 180.0,
+      "new_cases_smoothed": 180.571,
+      "total_deaths": 93.0,
+      "new_deaths": 2.0,
+      "new_deaths_smoothed": 1.571,
+      "total_cases_per_million": 3584.534,
+      "new_cases_per_million": 70.841,
+      "new_cases_smoothed_per_million": 71.065,
+      "total_deaths_per_million": 36.601,
+      "new_deaths_per_million": 0.787,
+      "new_deaths_smoothed_per_million": 0.618
+    },
+    {
+      "date": "2020-09-11"
     }
   ]
 }

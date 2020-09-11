@@ -11,6 +11,7 @@
   "diabetes_prevalence": 6.47,
   "hospital_beds_per_thousand": 0.8,
   "life_expectancy": 72.06,
+  "human_development_index": 0.761,
   "data": [
     {
       "date": "2020-01-01"
@@ -3509,21 +3510,38 @@
     },
     {
       "date": "2020-09-09",
-      "total_cases": 54350.0,
-      "new_cases": 0.0,
-      "new_cases_smoothed": 942.0,
-      "total_deaths": 436.0,
-      "new_deaths": 0.0,
-      "new_deaths_smoothed": 6.429,
-      "total_cases_per_million": 1911.313,
-      "new_cases_per_million": 0.0,
-      "new_cases_smoothed_per_million": 33.127,
-      "total_deaths_per_million": 15.333,
-      "new_deaths_per_million": 0.0,
-      "new_deaths_smoothed_per_million": 0.226
+      "total_cases": 55563.0,
+      "new_cases": 1213.0,
+      "new_cases_smoothed": 1115.286,
+      "total_deaths": 444.0,
+      "new_deaths": 8.0,
+      "new_deaths_smoothed": 7.571,
+      "total_cases_per_million": 1953.971,
+      "new_cases_per_million": 42.657,
+      "new_cases_smoothed_per_million": 39.221,
+      "total_deaths_per_million": 15.614,
+      "new_deaths_per_million": 0.281,
+      "new_deaths_smoothed_per_million": 0.266,
+      "total_recovered": 45318,
+      "new_recovered": 883
     },
     {
-      "date": "2020-09-10"
+      "date": "2020-09-10",
+      "total_cases": 56751.0,
+      "new_cases": 1188.0,
+      "new_cases_smoothed": 1124.0,
+      "total_deaths": 452.0,
+      "new_deaths": 8.0,
+      "new_deaths_smoothed": 7.714,
+      "total_cases_per_million": 1995.749,
+      "new_cases_per_million": 41.778,
+      "new_cases_smoothed_per_million": 39.527,
+      "total_deaths_per_million": 15.895,
+      "new_deaths_per_million": 0.281,
+      "new_deaths_smoothed_per_million": 0.271
+    },
+    {
+      "date": "2020-09-11"
     }
   ]
 }

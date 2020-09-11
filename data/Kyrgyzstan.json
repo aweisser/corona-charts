@@ -15,6 +15,7 @@
   "handwashing_facilities": 89.22,
   "hospital_beds_per_thousand": 4.5,
   "life_expectancy": 71.45,
+  "human_development_index": 0.672,
   "data": [
     {
       "date": "2020-01-01"
@@ -3484,10 +3485,27 @@
       "new_cases_smoothed_per_million": 12.634,
       "total_deaths_per_million": 162.626,
       "new_deaths_per_million": 0.153,
+      "new_deaths_smoothed_per_million": 0.044,
+      "total_recovered": 40336,
+      "new_recovered": 244
+    },
+    {
+      "date": "2020-09-10",
+      "total_cases": 44684.0,
+      "new_cases": 71.0,
+      "new_cases_smoothed": 78.429,
+      "total_deaths": 1061.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.286,
+      "total_cases_per_million": 6848.972,
+      "new_cases_per_million": 10.883,
+      "new_cases_smoothed_per_million": 12.021,
+      "total_deaths_per_million": 162.626,
+      "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.044
     },
     {
-      "date": "2020-09-10"
+      "date": "2020-09-11"
     }
   ]
 }

@@ -14,6 +14,7 @@
   "male_smokers": 37.7,
   "hospital_beds_per_thousand": 5.82,
   "life_expectancy": 77.54,
+  "human_development_index": 0.855,
   "data": [
     {
       "date": "2020-01-01"
@@ -5129,10 +5130,36 @@
       "new_tests_smoothed_per_thousand": 0.676,
       "tests_per_case": 34.991,
       "positive_rate": 0.028999999999999998,
+      "tests_units": "tests performed",
+      "total_recovered": 2947,
+      "new_recovered": 34
+    },
+    {
+      "date": "2020-09-10",
+      "total_cases": 4888.0,
+      "new_cases": 161.0,
+      "new_cases_smoothed": 120.857,
+      "total_deaths": 37.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.571,
+      "total_cases_per_million": 895.297,
+      "new_cases_per_million": 29.489,
+      "new_cases_smoothed_per_million": 22.136,
+      "total_deaths_per_million": 6.777,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.105,
+      "new_tests": 5021.0,
+      "total_tests": 370966.0,
+      "total_tests_per_thousand": 67.947,
+      "new_tests_per_thousand": 0.92,
+      "new_tests_smoothed": 3903.0,
+      "new_tests_smoothed_per_thousand": 0.715,
+      "tests_per_case": 32.294000000000004,
+      "positive_rate": 0.031,
       "tests_units": "tests performed"
     },
     {
-      "date": "2020-09-10"
+      "date": "2020-09-11"
     }
   ]
 }
