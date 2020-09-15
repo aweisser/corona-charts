@@ -5467,6 +5467,15 @@
       "total_deaths_per_million": 39.365,
       "new_deaths_per_million": 0.704,
       "new_deaths_smoothed_per_million": 0.917,
+      "new_tests": 22634.0,
+      "total_tests": 2160798.0,
+      "total_tests_per_thousand": 58.541,
+      "new_tests_per_thousand": 0.613,
+      "new_tests_smoothed": 22811.0,
+      "new_tests_smoothed_per_thousand": 0.618,
+      "tests_per_case": 12.850999999999999,
+      "positive_rate": 0.078,
+      "tests_units": "people tested",
       "stringency_index": 70.37,
       "total_recovered": 61850,
       "new_recovered": 2127
@@ -5485,6 +5494,15 @@
       "total_deaths_per_million": 40.395,
       "new_deaths_per_million": 1.03,
       "new_deaths_smoothed_per_million": 0.921,
+      "new_tests": 23468.0,
+      "total_tests": 2184266.0,
+      "total_tests_per_thousand": 59.177,
+      "new_tests_per_thousand": 0.636,
+      "new_tests_smoothed": 22906.0,
+      "new_tests_smoothed_per_thousand": 0.621,
+      "tests_per_case": 11.525,
+      "positive_rate": 0.087,
+      "tests_units": "people tested",
       "stringency_index": 70.37,
       "total_recovered": 64194,
       "new_recovered": 2344
@@ -5519,10 +5537,27 @@
       "new_cases_smoothed_per_million": 55.249,
       "total_deaths_per_million": 42.075,
       "new_deaths_per_million": 0.786,
-      "new_deaths_smoothed_per_million": 0.867
+      "new_deaths_smoothed_per_million": 0.867,
+      "total_recovered": 67528,
+      "new_recovered": 1661
     },
     {
-      "date": "2020-09-14"
+      "date": "2020-09-14",
+      "total_cases": 86686.0,
+      "new_cases": 2251.0,
+      "new_cases_smoothed": 2041.714,
+      "total_deaths": 1578.0,
+      "new_deaths": 25.0,
+      "new_deaths_smoothed": 31.0,
+      "total_cases_per_million": 2348.542,
+      "new_cases_per_million": 60.985,
+      "new_cases_smoothed_per_million": 55.315,
+      "total_deaths_per_million": 42.752,
+      "new_deaths_per_million": 0.677,
+      "new_deaths_smoothed_per_million": 0.84
+    },
+    {
+      "date": "2020-09-15"
     }
   ]
 }
