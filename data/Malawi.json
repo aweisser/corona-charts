@@ -4716,6 +4716,7 @@
       "tests_per_case": 22.694000000000003,
       "positive_rate": 0.044000000000000004,
       "tests_units": "samples tested",
+      "stringency_index": 55.56,
       "total_recovered": 3720,
       "new_recovered": 37
     },
@@ -4742,6 +4743,7 @@
       "tests_per_case": 26.738000000000003,
       "positive_rate": 0.037000000000000005,
       "tests_units": "samples tested",
+      "stringency_index": 55.56,
       "total_recovered": 3724,
       "new_recovered": 4
     },
@@ -4768,6 +4770,7 @@
       "tests_per_case": 28.627,
       "positive_rate": 0.035,
       "tests_units": "samples tested",
+      "stringency_index": 55.56,
       "total_recovered": 3731,
       "new_recovered": 7
     },
@@ -4785,6 +4788,7 @@
       "total_deaths_per_million": 9.253,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.015,
+      "stringency_index": 55.56,
       "total_recovered": 3742,
       "new_recovered": 11
     },
@@ -4802,6 +4806,7 @@
       "total_deaths_per_million": 9.305,
       "new_deaths_per_million": 0.052,
       "new_deaths_smoothed_per_million": 0.015,
+      "stringency_index": 55.56,
       "total_recovered": 3762,
       "new_recovered": 20
     },
@@ -4818,10 +4823,29 @@
       "new_cases_smoothed_per_million": 0.53,
       "total_deaths_per_million": 9.305,
       "new_deaths_per_million": 0.0,
-      "new_deaths_smoothed_per_million": 0.015
+      "new_deaths_smoothed_per_million": 0.015,
+      "stringency_index": 55.56,
+      "total_recovered": 3764,
+      "new_recovered": 2
     },
     {
-      "date": "2020-09-17"
+      "date": "2020-09-17",
+      "total_cases": 5701.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 6.857,
+      "total_deaths": 178.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.286,
+      "total_cases_per_million": 298.014,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 0.358,
+      "total_deaths_per_million": 9.305,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.015,
+      "stringency_index": 55.56
+    },
+    {
+      "date": "2020-09-18"
     }
   ]
 }
