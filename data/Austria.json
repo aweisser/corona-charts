@@ -6434,6 +6434,7 @@
       "tests_per_case": 20.888,
       "positive_rate": 0.048,
       "tests_units": "tests performed",
+      "stringency_index": 37.04,
       "total_recovered": 28044,
       "new_recovered": 389
     },
@@ -6458,6 +6459,7 @@
       "tests_per_case": 19.749000000000002,
       "positive_rate": 0.051,
       "tests_units": "tests performed",
+      "stringency_index": 37.04,
       "total_recovered": 28451,
       "new_recovered": 407
     },
@@ -6484,6 +6486,7 @@
       "tests_per_case": 21.247,
       "positive_rate": 0.047,
       "tests_units": "tests performed",
+      "stringency_index": 37.04,
       "total_recovered": 28961,
       "new_recovered": 510
     },
@@ -6510,6 +6513,7 @@
       "tests_per_case": 20.535999999999998,
       "positive_rate": 0.049,
       "tests_units": "tests performed",
+      "stringency_index": 37.04,
       "total_recovered": 29229,
       "new_recovered": 268
     },
@@ -6536,6 +6540,7 @@
       "tests_per_case": 20.43,
       "positive_rate": 0.049,
       "tests_units": "tests performed",
+      "stringency_index": 37.04,
       "total_recovered": 29516,
       "new_recovered": 287
     },
@@ -6562,6 +6567,7 @@
       "tests_per_case": 20.535,
       "positive_rate": 0.049,
       "tests_units": "tests performed",
+      "stringency_index": 37.04,
       "total_recovered": 30312,
       "new_recovered": 796
     },
@@ -6588,6 +6594,7 @@
       "tests_per_case": 21.235,
       "positive_rate": 0.047,
       "tests_units": "tests performed",
+      "stringency_index": 37.04,
       "total_recovered": 30949,
       "new_recovered": 637
     },
@@ -6614,6 +6621,7 @@
       "tests_per_case": 21.699,
       "positive_rate": 0.046,
       "tests_units": "tests performed",
+      "stringency_index": 37.04,
       "total_recovered": 31661,
       "new_recovered": 712
     },
@@ -6631,6 +6639,12 @@
       "total_deaths_per_million": 86.938,
       "new_deaths_per_million": 0.666,
       "new_deaths_smoothed_per_million": 0.397,
+      "new_tests_smoothed": 16106.0,
+      "new_tests_smoothed_per_thousand": 1.788,
+      "tests_per_case": 23.122,
+      "positive_rate": 0.043,
+      "tests_units": "tests performed",
+      "stringency_index": 37.04,
       "total_recovered": 32301,
       "new_recovered": 640
     },
@@ -6648,6 +6662,14 @@
       "total_deaths_per_million": 87.271,
       "new_deaths_per_million": 0.333,
       "new_deaths_smoothed_per_million": 0.365,
+      "total_tests": 1545634.0,
+      "total_tests_per_thousand": 171.615,
+      "new_tests_smoothed": 16219.0,
+      "new_tests_smoothed_per_thousand": 1.801,
+      "tests_per_case": 22.148000000000003,
+      "positive_rate": 0.045,
+      "tests_units": "tests performed",
+      "stringency_index": 37.04,
       "total_recovered": 33154,
       "new_recovered": 853
     },
@@ -6664,10 +6686,38 @@
       "new_cases_smoothed_per_million": 79.182,
       "total_deaths_per_million": 87.382,
       "new_deaths_per_million": 0.111,
-      "new_deaths_smoothed_per_million": 0.349
+      "new_deaths_smoothed_per_million": 0.349,
+      "new_tests": 9865.0,
+      "total_tests": 1555499.0,
+      "total_tests_per_thousand": 172.71,
+      "new_tests_per_thousand": 1.095,
+      "new_tests_smoothed": 15831.0,
+      "new_tests_smoothed_per_thousand": 1.758,
+      "tests_per_case": 22.199,
+      "positive_rate": 0.045,
+      "tests_units": "tests performed",
+      "stringency_index": 37.04,
+      "total_recovered": 33589,
+      "new_recovered": 435
     },
     {
-      "date": "2020-09-28"
+      "date": "2020-09-28",
+      "total_cases": 43466.0,
+      "new_cases": 526.0,
+      "new_cases_smoothed": 701.286,
+      "total_deaths": 787.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 3.0,
+      "total_cases_per_million": 4826.124,
+      "new_cases_per_million": 58.403,
+      "new_cases_smoothed_per_million": 77.865,
+      "total_deaths_per_million": 87.382,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.333,
+      "stringency_index": 37.04
+    },
+    {
+      "date": "2020-09-29"
     }
   ]
 }

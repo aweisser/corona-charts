@@ -6709,6 +6709,15 @@
       "total_deaths_per_million": 138.177,
       "new_deaths_per_million": 3.119,
       "new_deaths_smoothed_per_million": 1.749,
+      "new_tests": 42833.0,
+      "total_tests": 3243943.0,
+      "total_tests_per_thousand": 374.782,
+      "new_tests_per_thousand": 4.949,
+      "new_tests_smoothed": 50091.0,
+      "new_tests_smoothed_per_thousand": 5.787,
+      "tests_per_case": 11.494000000000002,
+      "positive_rate": 0.087,
+      "tests_units": "tests performed",
       "stringency_index": 34.26,
       "total_recovered": 132449,
       "new_recovered": 2425
@@ -6727,6 +6736,15 @@
       "total_deaths_per_million": 141.643,
       "new_deaths_per_million": 3.466,
       "new_deaths_smoothed_per_million": 2.03,
+      "new_tests": 24493.0,
+      "total_tests": 3268436.0,
+      "total_tests_per_thousand": 377.612,
+      "new_tests_per_thousand": 2.83,
+      "new_tests_smoothed": 48593.0,
+      "new_tests_smoothed_per_thousand": 5.614,
+      "tests_per_case": 11.195,
+      "positive_rate": 0.08900000000000001,
+      "tests_units": "tests performed",
       "stringency_index": 34.26,
       "total_recovered": 134069,
       "new_recovered": 1620
@@ -6846,10 +6864,27 @@
       "new_cases_smoothed_per_million": 717.922,
       "total_deaths_per_million": 166.483,
       "new_deaths_per_million": 4.159,
-      "new_deaths_smoothed_per_million": 3.549
+      "new_deaths_smoothed_per_million": 3.549,
+      "total_recovered": 159931,
+      "new_recovered": 2394
     },
     {
-      "date": "2020-09-28"
+      "date": "2020-09-28",
+      "total_cases": 231026.0,
+      "new_cases": 3926.0,
+      "new_cases_smoothed": 6085.571,
+      "total_deaths": 1466.0,
+      "new_deaths": 25.0,
+      "new_deaths_smoothed": 30.0,
+      "total_cases_per_million": 26691.11,
+      "new_cases_per_million": 453.582,
+      "new_cases_smoothed_per_million": 703.084,
+      "total_deaths_per_million": 169.371,
+      "new_deaths_per_million": 2.888,
+      "new_deaths_smoothed_per_million": 3.466
+    },
+    {
+      "date": "2020-09-29"
     }
   ]
 }
