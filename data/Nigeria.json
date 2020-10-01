@@ -6043,6 +6043,11 @@
       "total_deaths_per_million": 5.365,
       "new_deaths_per_million": 0.015,
       "new_deaths_smoothed_per_million": 0.008,
+      "new_tests_smoothed": 3828.0,
+      "new_tests_smoothed_per_thousand": 0.019,
+      "tests_per_case": 25.447,
+      "positive_rate": 0.039,
+      "tests_units": "samples tested",
       "total_recovered": 49794,
       "new_recovered": 72
     },
@@ -6060,6 +6065,13 @@
       "total_deaths_per_million": 5.375,
       "new_deaths_per_million": 0.01,
       "new_deaths_smoothed_per_million": 0.007,
+      "total_tests": 507006.0,
+      "total_tests_per_thousand": 2.46,
+      "new_tests_smoothed": 3733.0,
+      "new_tests_smoothed_per_thousand": 0.018,
+      "tests_per_case": 24.151,
+      "positive_rate": 0.040999999999999995,
+      "tests_units": "samples tested",
       "total_recovered": 49895,
       "new_recovered": 101
     },
@@ -6076,10 +6088,36 @@
       "new_cases_smoothed_per_million": 0.709,
       "total_deaths_per_million": 5.39,
       "new_deaths_per_million": 0.015,
+      "new_deaths_smoothed_per_million": 0.008,
+      "new_tests": 2549.0,
+      "total_tests": 509555.0,
+      "total_tests_per_thousand": 2.472,
+      "new_tests_per_thousand": 0.012,
+      "new_tests_smoothed": 3870.0,
+      "new_tests_smoothed_per_thousand": 0.019,
+      "tests_per_case": 26.480999999999998,
+      "positive_rate": 0.038,
+      "tests_units": "samples tested",
+      "total_recovered": 49937,
+      "new_recovered": 42
+    },
+    {
+      "date": "2020-09-30",
+      "total_cases": 58647.0,
+      "new_cases": 187.0,
+      "new_cases_smoothed": 147.714,
+      "total_deaths": 1111.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 1.571,
+      "total_cases_per_million": 284.501,
+      "new_cases_per_million": 0.907,
+      "new_cases_smoothed_per_million": 0.717,
+      "total_deaths_per_million": 5.39,
+      "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.008
     },
     {
-      "date": "2020-09-30"
+      "date": "2020-10-01"
     }
   ]
 }
