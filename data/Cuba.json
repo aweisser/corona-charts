@@ -5592,6 +5592,15 @@
       "total_deaths_per_million": 10.771,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.076,
+      "new_tests": 7550.0,
+      "total_tests": 613994.0,
+      "total_tests_per_thousand": 54.208,
+      "new_tests_per_thousand": 0.667,
+      "new_tests_smoothed": 7464.0,
+      "new_tests_smoothed_per_thousand": 0.659,
+      "tests_per_case": 152.77200000000002,
+      "positive_rate": 0.006999999999999999,
+      "tests_units": "tests performed",
       "total_recovered": 4866,
       "new_recovered": 79
     },
@@ -5608,10 +5617,27 @@
       "new_cases_smoothed_per_million": 3.897,
       "total_deaths_per_million": 10.771,
       "new_deaths_per_million": 0.0,
-      "new_deaths_smoothed_per_million": 0.063
+      "new_deaths_smoothed_per_million": 0.063,
+      "total_recovered": 4893,
+      "new_recovered": 27
     },
     {
-      "date": "2020-10-01"
+      "date": "2020-10-01",
+      "total_cases": 5597.0,
+      "new_cases": 66.0,
+      "new_cases_smoothed": 46.714,
+      "total_deaths": 122.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.571,
+      "total_cases_per_million": 494.146,
+      "new_cases_per_million": 5.827,
+      "new_cases_smoothed_per_million": 4.124,
+      "total_deaths_per_million": 10.771,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.05
+    },
+    {
+      "date": "2020-10-02"
     }
   ]
 }
