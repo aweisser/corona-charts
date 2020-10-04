@@ -5998,10 +5998,27 @@
       "tests_per_case": 80.219,
       "positive_rate": 0.012,
       "tests_units": "tests performed",
-      "stringency_index": 42.59
+      "stringency_index": 42.59,
+      "total_recovered": 1307,
+      "new_recovered": 0
     },
     {
-      "date": "2020-10-03"
+      "date": "2020-10-03",
+      "total_cases": 1945.0,
+      "new_cases": 77.0,
+      "new_cases_smoothed": 45.714,
+      "total_deaths": 38.0,
+      "new_deaths": 1.0,
+      "new_deaths_smoothed": 0.286,
+      "total_cases_per_million": 1031.173,
+      "new_cases_per_million": 40.823,
+      "new_cases_smoothed_per_million": 24.236,
+      "total_deaths_per_million": 20.146,
+      "new_deaths_per_million": 0.53,
+      "new_deaths_smoothed_per_million": 0.151
+    },
+    {
+      "date": "2020-10-04"
     }
   ]
 }
