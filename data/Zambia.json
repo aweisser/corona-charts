@@ -5378,6 +5378,7 @@
       "tests_per_case": 22.916999999999998,
       "positive_rate": 0.044000000000000004,
       "tests_units": "tests performed",
+      "stringency_index": 44.44,
       "total_recovered": 13727,
       "new_recovered": 84
     },
@@ -5404,6 +5405,7 @@
       "tests_per_case": 19.476,
       "positive_rate": 0.051,
       "tests_units": "tests performed",
+      "stringency_index": 44.44,
       "total_recovered": 13784,
       "new_recovered": 57
     },
@@ -5430,6 +5432,7 @@
       "tests_per_case": 21.686,
       "positive_rate": 0.046,
       "tests_units": "tests performed",
+      "stringency_index": 44.44,
       "total_recovered": 13821,
       "new_recovered": 37
     },
@@ -5456,6 +5459,7 @@
       "tests_per_case": 22.746,
       "positive_rate": 0.044000000000000004,
       "tests_units": "tests performed",
+      "stringency_index": 44.44,
       "total_recovered": 13937,
       "new_recovered": 116
     },
@@ -5482,6 +5486,7 @@
       "tests_per_case": 33.518,
       "positive_rate": 0.03,
       "tests_units": "tests performed",
+      "stringency_index": 44.44,
       "total_recovered": 13959,
       "new_recovered": 22
     },
@@ -5508,6 +5513,7 @@
       "tests_per_case": 34.313,
       "positive_rate": 0.028999999999999998,
       "tests_units": "tests performed",
+      "stringency_index": 44.44,
       "total_recovered": 13961,
       "new_recovered": 2
     },
@@ -5525,6 +5531,16 @@
       "total_deaths_per_million": 18.114,
       "new_deaths_per_million": 0.054,
       "new_deaths_smoothed_per_million": 0.008,
+      "new_tests": 1323.0,
+      "total_tests": 158496.0,
+      "total_tests_per_thousand": 8.621,
+      "new_tests_per_thousand": 0.072,
+      "new_tests_smoothed": 1490.0,
+      "new_tests_smoothed_per_thousand": 0.081,
+      "tests_per_case": 33.537,
+      "positive_rate": 0.03,
+      "tests_units": "tests performed",
+      "stringency_index": 44.44,
       "total_recovered": 13980,
       "new_recovered": 19
     },
@@ -5542,6 +5558,16 @@
       "total_deaths_per_million": 18.114,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.008,
+      "new_tests": 1891.0,
+      "total_tests": 160387.0,
+      "total_tests_per_thousand": 8.724,
+      "new_tests_per_thousand": 0.103,
+      "new_tests_smoothed": 1523.0,
+      "new_tests_smoothed_per_thousand": 0.083,
+      "tests_per_case": 33.844,
+      "positive_rate": 0.03,
+      "tests_units": "tests performed",
+      "stringency_index": 44.44,
       "total_recovered": 14094,
       "new_recovered": 114
     },
@@ -5558,10 +5584,46 @@
       "new_cases_smoothed_per_million": 2.813,
       "total_deaths_per_million": 18.114,
       "new_deaths_per_million": 0.0,
-      "new_deaths_smoothed_per_million": 0.008
+      "new_deaths_smoothed_per_million": 0.008,
+      "new_tests": 2792.0,
+      "total_tests": 163179.0,
+      "total_tests_per_thousand": 8.876,
+      "new_tests_per_thousand": 0.152,
+      "new_tests_smoothed": 1683.0,
+      "new_tests_smoothed_per_thousand": 0.092,
+      "tests_per_case": 32.544000000000004,
+      "positive_rate": 0.031,
+      "tests_units": "tests performed",
+      "stringency_index": 44.44,
+      "total_recovered": 14187,
+      "new_recovered": 93
     },
     {
-      "date": "2020-10-05"
+      "date": "2020-10-05",
+      "total_cases": 15052.0,
+      "new_cases": 78.0,
+      "new_cases_smoothed": 58.714,
+      "total_deaths": 333.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.143,
+      "total_cases_per_million": 818.757,
+      "new_cases_per_million": 4.243,
+      "new_cases_smoothed_per_million": 3.194,
+      "total_deaths_per_million": 18.114,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.008,
+      "new_tests": 1772.0,
+      "total_tests": 164951.0,
+      "total_tests_per_thousand": 8.973,
+      "new_tests_per_thousand": 0.096,
+      "new_tests_smoothed": 1771.0,
+      "new_tests_smoothed_per_thousand": 0.096,
+      "tests_per_case": 30.163,
+      "positive_rate": 0.033,
+      "tests_units": "tests performed"
+    },
+    {
+      "date": "2020-10-06"
     }
   ]
 }
