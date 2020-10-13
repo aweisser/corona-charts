@@ -6340,6 +6340,11 @@
       "total_deaths_per_million": 5.399,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.001,
+      "new_tests_smoothed": 4340.0,
+      "new_tests_smoothed_per_thousand": 0.021,
+      "tests_per_case": 36.167,
+      "positive_rate": 0.027999999999999997,
+      "tests_units": "samples tested",
       "total_recovered": 51614,
       "new_recovered": 63
     },
@@ -6357,6 +6362,13 @@
       "total_deaths_per_million": 5.399,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.001,
+      "total_tests": 551362.0,
+      "total_tests_per_thousand": 2.675,
+      "new_tests_smoothed": 4366.0,
+      "new_tests_smoothed_per_thousand": 0.021,
+      "tests_per_case": 35.332,
+      "positive_rate": 0.027999999999999997,
+      "tests_units": "samples tested",
       "total_recovered": 51711,
       "new_recovered": 97
     },
@@ -6373,10 +6385,36 @@
       "new_cases_smoothed_per_million": 0.565,
       "total_deaths_per_million": 5.409,
       "new_deaths_per_million": 0.01,
+      "new_deaths_smoothed_per_million": 0.001,
+      "new_tests": 1675.0,
+      "total_tests": 553037.0,
+      "total_tests_per_thousand": 2.683,
+      "new_tests_per_thousand": 0.008,
+      "new_tests_smoothed": 2896.0,
+      "new_tests_smoothed_per_thousand": 0.014,
+      "tests_per_case": 24.843000000000004,
+      "positive_rate": 0.04,
+      "tests_units": "samples tested",
+      "total_recovered": 51735,
+      "new_recovered": 24
+    },
+    {
+      "date": "2020-10-12",
+      "total_cases": 60266.0,
+      "new_cases": 163.0,
+      "new_cases_smoothed": 131.571,
+      "total_deaths": 1115.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.286,
+      "total_cases_per_million": 292.355,
+      "new_cases_per_million": 0.791,
+      "new_cases_smoothed_per_million": 0.638,
+      "total_deaths_per_million": 5.409,
+      "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.001
     },
     {
-      "date": "2020-10-12"
+      "date": "2020-10-13"
     }
   ]
 }
