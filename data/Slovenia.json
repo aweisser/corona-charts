@@ -6069,6 +6069,7 @@
       "tests_per_case": 12.869000000000002,
       "positive_rate": 0.078,
       "tests_units": "tests performed",
+      "stringency_index": 47.22,
       "total_recovered": 4842,
       "new_recovered": 187
     },
@@ -6091,6 +6092,7 @@
       "tests_per_case": 12.095,
       "positive_rate": 0.083,
       "tests_units": "tests performed",
+      "stringency_index": 47.22,
       "total_recovered": 5024,
       "new_recovered": 182
     },
@@ -6115,6 +6117,7 @@
       "tests_per_case": 11.73,
       "positive_rate": 0.085,
       "tests_units": "tests performed",
+      "stringency_index": 47.22,
       "total_recovered": 5182,
       "new_recovered": 158
     },
@@ -6141,6 +6144,7 @@
       "tests_per_case": 10.783,
       "positive_rate": 0.09300000000000001,
       "tests_units": "tests performed",
+      "stringency_index": 47.22,
       "total_recovered": 5219,
       "new_recovered": 37
     },
@@ -6167,6 +6171,7 @@
       "tests_per_case": 10.748,
       "positive_rate": 0.09300000000000001,
       "tests_units": "tests performed",
+      "stringency_index": 47.22,
       "total_recovered": 5314,
       "new_recovered": 95
     },
@@ -6183,10 +6188,28 @@
       "new_cases_smoothed_per_million": 169.249,
       "total_deaths_per_million": 70.709,
       "new_deaths_per_million": 1.443,
-      "new_deaths_smoothed_per_million": 0.412
+      "new_deaths_smoothed_per_million": 0.412,
+      "stringency_index": 47.22,
+      "total_recovered": 5515,
+      "new_recovered": 201
     },
     {
-      "date": "2020-10-15"
+      "date": "2020-10-15",
+      "total_cases": 9938.0,
+      "new_cases": 707.0,
+      "new_cases_smoothed": 402.0,
+      "total_deaths": 148.0,
+      "new_deaths": 1.0,
+      "new_deaths_smoothed": 1.0,
+      "total_cases_per_million": 4780.339,
+      "new_cases_per_million": 340.078,
+      "new_cases_smoothed_per_million": 193.369,
+      "total_deaths_per_million": 71.19,
+      "new_deaths_per_million": 0.481,
+      "new_deaths_smoothed_per_million": 0.481
+    },
+    {
+      "date": "2020-10-16"
     }
   ]
 }
