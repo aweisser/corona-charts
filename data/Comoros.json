@@ -589,11 +589,9 @@
       "date": "2020-05-02",
       "total_cases": 1.0,
       "new_cases": 1.0,
-      "total_deaths": 0.0,
       "new_deaths": 0.0,
       "total_cases_per_million": 1.15,
       "new_cases_per_million": 1.15,
-      "total_deaths_per_million": 0.0,
       "new_deaths_per_million": 0.0,
       "total_recovered": 0,
       "new_recovered": 0
@@ -602,11 +600,9 @@
       "date": "2020-05-03",
       "total_cases": 1.0,
       "new_cases": 0.0,
-      "total_deaths": 0.0,
       "new_deaths": 0.0,
       "total_cases_per_million": 1.15,
       "new_cases_per_million": 0.0,
-      "total_deaths_per_million": 0.0,
       "new_deaths_per_million": 0.0,
       "total_recovered": 0,
       "new_recovered": 0
@@ -615,11 +611,9 @@
       "date": "2020-05-04",
       "total_cases": 3.0,
       "new_cases": 2.0,
-      "total_deaths": 0.0,
       "new_deaths": 0.0,
       "total_cases_per_million": 3.45,
       "new_cases_per_million": 2.3,
-      "total_deaths_per_million": 0.0,
       "new_deaths_per_million": 0.0,
       "total_recovered": 0,
       "new_recovered": 0
@@ -3396,10 +3390,27 @@
       "new_cases_smoothed_per_million": 0.821,
       "total_deaths_per_million": 8.05,
       "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "total_recovered": 484,
+      "new_recovered": 0
+    },
+    {
+      "date": "2020-10-16",
+      "total_cases": 496.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 0.143,
+      "total_deaths": 7.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 570.38,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 0.164,
+      "total_deaths_per_million": 8.05,
+      "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0
     },
     {
-      "date": "2020-10-16"
+      "date": "2020-10-17"
     }
   ]
 }
