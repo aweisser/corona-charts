@@ -5830,6 +5830,7 @@
       "tests_per_case": 6.797000000000001,
       "positive_rate": 0.147,
       "tests_units": "tests performed",
+      "stringency_index": 35.19,
       "total_recovered": 16943,
       "new_recovered": 31
     },
@@ -5856,6 +5857,7 @@
       "tests_per_case": 7.055,
       "positive_rate": 0.142,
       "tests_units": "tests performed",
+      "stringency_index": 35.19,
       "total_recovered": 17153,
       "new_recovered": 210
     },
@@ -5882,6 +5884,7 @@
       "tests_per_case": 6.513,
       "positive_rate": 0.154,
       "tests_units": "tests performed",
+      "stringency_index": 35.19,
       "total_recovered": 17414,
       "new_recovered": 261
     },
@@ -5908,6 +5911,7 @@
       "tests_per_case": 6.857,
       "positive_rate": 0.146,
       "tests_units": "tests performed",
+      "stringency_index": 35.19,
       "total_recovered": 17598,
       "new_recovered": 184
     },
@@ -5933,10 +5937,37 @@
       "new_tests_smoothed_per_thousand": 0.917,
       "tests_per_case": 6.615,
       "positive_rate": 0.151,
+      "tests_units": "tests performed",
+      "stringency_index": 35.19,
+      "total_recovered": 17833,
+      "new_recovered": 235
+    },
+    {
+      "date": "2020-10-23",
+      "total_cases": 34930.0,
+      "new_cases": 1595.0,
+      "new_cases_smoothed": 1060.429,
+      "total_deaths": 1064.0,
+      "new_deaths": 16.0,
+      "new_deaths_smoothed": 17.143,
+      "total_cases_per_million": 5027.024,
+      "new_cases_per_million": 229.548,
+      "new_cases_smoothed_per_million": 152.614,
+      "total_deaths_per_million": 153.128,
+      "new_deaths_per_million": 2.303,
+      "new_deaths_smoothed_per_million": 2.467,
+      "total_tests": 642677.0,
+      "new_tests": 9038.0,
+      "total_tests_per_thousand": 92.492,
+      "new_tests_per_thousand": 1.301,
+      "new_tests_smoothed": 6759.0,
+      "new_tests_smoothed_per_thousand": 0.973,
+      "tests_per_case": 6.374,
+      "positive_rate": 0.157,
       "tests_units": "tests performed"
     },
     {
-      "date": "2020-10-23"
+      "date": "2020-10-24"
     }
   ]
 }
