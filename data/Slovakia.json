@@ -6182,6 +6182,7 @@
       "tests_per_case": 8.765,
       "positive_rate": 0.114,
       "tests_units": "tests performed",
+      "stringency_index": 38.89,
       "total_recovered": 6709,
       "new_recovered": 321
     },
@@ -6208,6 +6209,7 @@
       "tests_per_case": 8.66,
       "positive_rate": 0.115,
       "tests_units": "tests performed",
+      "stringency_index": 42.59,
       "total_recovered": 6926,
       "new_recovered": 217
     },
@@ -6234,6 +6236,7 @@
       "tests_per_case": 7.843,
       "positive_rate": 0.127,
       "tests_units": "tests performed",
+      "stringency_index": 42.59,
       "total_recovered": 7182,
       "new_recovered": 256
     },
@@ -6260,6 +6263,7 @@
       "tests_per_case": 7.301,
       "positive_rate": 0.13699999999999998,
       "tests_units": "tests performed",
+      "stringency_index": 42.59,
       "total_recovered": 7297,
       "new_recovered": 115
     },
@@ -6286,6 +6290,7 @@
       "tests_per_case": 7.347,
       "positive_rate": 0.136,
       "tests_units": "tests performed",
+      "stringency_index": 42.59,
       "total_recovered": 7359,
       "new_recovered": 62
     },
@@ -6423,10 +6428,28 @@
       "new_cases_smoothed_per_million": 303.814,
       "total_deaths_per_million": 24.544,
       "new_deaths_per_million": 3.48,
-      "new_deaths_smoothed_per_million": 1.648
+      "new_deaths_smoothed_per_million": 1.648,
+      "stringency_index": 59.26,
+      "total_recovered": 9920,
+      "new_recovered": 1061
     },
     {
-      "date": "2020-10-25"
+      "date": "2020-10-25",
+      "total_cases": 40801.0,
+      "new_cases": 2890.0,
+      "new_cases_smoothed": 1790.429,
+      "total_deaths": 159.0,
+      "new_deaths": 25.0,
+      "new_deaths_smoothed": 11.0,
+      "total_cases_per_million": 7473.199,
+      "new_cases_per_million": 529.339,
+      "new_cases_smoothed_per_million": 327.939,
+      "total_deaths_per_million": 29.123,
+      "new_deaths_per_million": 4.579,
+      "new_deaths_smoothed_per_million": 2.015
+    },
+    {
+      "date": "2020-10-26"
     }
   ]
 }
