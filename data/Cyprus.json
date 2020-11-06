@@ -135,9 +135,6 @@
     },
     {
       "date": "2020-02-02",
-      "weekly_hosp_admissions": 1.0,
-      "weekly_hosp_admissions_per_million": 1.1420000000000001,
-      "stringency_index": 0.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -313,9 +310,6 @@
     },
     {
       "date": "2020-03-08",
-      "weekly_hosp_admissions": 1.0,
-      "weekly_hosp_admissions_per_million": 1.1420000000000001,
-      "stringency_index": 11.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -6343,6 +6337,10 @@
       "total_deaths_per_million": 28.542,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "weekly_icu_admissions": 1.0,
+      "weekly_icu_admissions_per_million": 1.1420000000000001,
+      "weekly_hosp_admissions": 16.0,
+      "weekly_hosp_admissions_per_million": 18.267,
       "total_tests": 466763.0,
       "new_tests": 2781.0,
       "total_tests_per_thousand": 532.896,
@@ -6532,6 +6530,10 @@
       "total_deaths_per_million": 29.684,
       "new_deaths_per_million": 1.142,
       "new_deaths_smoothed_per_million": 0.163,
+      "weekly_icu_admissions": 1.0,
+      "weekly_icu_admissions_per_million": 1.1420000000000001,
+      "weekly_hosp_admissions": 25.0,
+      "weekly_hosp_admissions_per_million": 28.541999999999998,
       "total_tests": 489797.0,
       "new_tests": 3053.0,
       "total_tests_per_thousand": 559.193,
@@ -6602,10 +6604,27 @@
       "new_cases_smoothed_per_million": 182.18,
       "total_deaths_per_million": 30.825,
       "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.326,
+      "total_recovered": 1882,
+      "new_recovered": 0
+    },
+    {
+      "date": "2020-11-05",
+      "total_cases": 5100.0,
+      "new_cases": 166.0,
+      "new_cases_smoothed": 183.286,
+      "total_deaths": 27.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.286,
+      "total_cases_per_million": 5822.589,
+      "new_cases_per_million": 189.52,
+      "new_cases_smoothed_per_million": 209.254,
+      "total_deaths_per_million": 30.825,
+      "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.326
     },
     {
-      "date": "2020-11-05"
+      "date": "2020-11-06"
     }
   ]
 }
