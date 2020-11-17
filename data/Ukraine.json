@@ -6787,6 +6787,15 @@
       "total_deaths_per_million": 209.106,
       "new_deaths_per_million": 4.527,
       "new_deaths_smoothed_per_million": 3.988,
+      "total_tests": 3828912.0,
+      "new_tests": 46813.0,
+      "total_tests_per_thousand": 87.55,
+      "new_tests_per_thousand": 1.07,
+      "new_tests_smoothed": 43962.0,
+      "new_tests_smoothed_per_thousand": 1.005,
+      "tests_per_case": 4.371,
+      "positive_rate": 0.229,
+      "tests_units": "tests performed",
       "stringency_index": 61.57,
       "total_recovered": 243901,
       "new_recovered": 6502
@@ -6805,6 +6814,15 @@
       "total_deaths_per_million": 213.039,
       "new_deaths_per_million": 3.933,
       "new_deaths_smoothed_per_million": 3.894,
+      "total_tests": 3912966.0,
+      "new_tests": 84054.0,
+      "total_tests_per_thousand": 89.472,
+      "new_tests_per_thousand": 1.922,
+      "new_tests_smoothed": 48648.0,
+      "new_tests_smoothed_per_thousand": 1.112,
+      "tests_per_case": 4.699,
+      "positive_rate": 0.213,
+      "tests_units": "tests performed",
       "stringency_index": 61.57,
       "total_recovered": 249127,
       "new_recovered": 5226
@@ -6822,10 +6840,27 @@
       "new_cases_smoothed_per_million": 242.513,
       "total_deaths_per_million": 217.406,
       "new_deaths_per_million": 4.367,
-      "new_deaths_smoothed_per_million": 3.907
+      "new_deaths_smoothed_per_million": 3.907,
+      "total_recovered": 251864,
+      "new_recovered": 2737
     },
     {
-      "date": "2020-11-16"
+      "date": "2020-11-16",
+      "total_cases": 535857.0,
+      "new_cases": 10681.0,
+      "new_cases_smoothed": 10789.429,
+      "total_deaths": 9603.0,
+      "new_deaths": 95.0,
+      "new_deaths_smoothed": 164.714,
+      "total_cases_per_million": 12252.708,
+      "new_cases_per_million": 244.228,
+      "new_cases_smoothed_per_million": 246.707,
+      "total_deaths_per_million": 219.579,
+      "new_deaths_per_million": 2.172,
+      "new_deaths_smoothed_per_million": 3.766
+    },
+    {
+      "date": "2020-11-17"
     }
   ]
 }

@@ -6467,6 +6467,11 @@
       "total_deaths_per_million": 9.671,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.007,
+      "new_tests_smoothed": 414.0,
+      "new_tests_smoothed_per_thousand": 0.022,
+      "tests_per_case": 138.0,
+      "positive_rate": 0.007,
+      "tests_units": "samples tested",
       "total_recovered": 5369,
       "new_recovered": 3
     },
@@ -6484,6 +6489,11 @@
       "total_deaths_per_million": 9.671,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.007,
+      "new_tests_smoothed": 368.0,
+      "new_tests_smoothed_per_thousand": 0.019,
+      "tests_per_case": 143.111,
+      "positive_rate": 0.007,
+      "tests_units": "samples tested",
       "total_recovered": 5372,
       "new_recovered": 3
     },
@@ -6501,6 +6511,13 @@
       "total_deaths_per_million": 9.671,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.007,
+      "total_tests": 68261.0,
+      "total_tests_per_thousand": 3.568,
+      "new_tests_smoothed": 337.0,
+      "new_tests_smoothed_per_thousand": 0.018,
+      "tests_per_case": 117.95,
+      "positive_rate": 0.008,
+      "tests_units": "samples tested",
       "total_recovered": 5399,
       "new_recovered": 27
     },
@@ -6517,10 +6534,27 @@
       "new_cases_smoothed_per_million": 0.119,
       "total_deaths_per_million": 9.671,
       "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.007,
+      "total_recovered": 5399,
+      "new_recovered": 0
+    },
+    {
+      "date": "2020-11-16",
+      "total_cases": 5965.0,
+      "new_cases": 1.0,
+      "new_cases_smoothed": 2.0,
+      "total_deaths": 185.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.143,
+      "total_cases_per_million": 311.815,
+      "new_cases_per_million": 0.052,
+      "new_cases_smoothed_per_million": 0.105,
+      "total_deaths_per_million": 9.671,
+      "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.007
     },
     {
-      "date": "2020-11-16"
+      "date": "2020-11-17"
     }
   ]
 }
