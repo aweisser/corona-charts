@@ -7243,6 +7243,11 @@
       "total_deaths_per_million": 5.642,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.006,
+      "new_tests_smoothed": 3334.0,
+      "new_tests_smoothed_per_thousand": 0.016,
+      "tests_per_case": 19.352,
+      "positive_rate": 0.052,
+      "tests_units": "samples tested",
       "stringency_index": 50.93,
       "total_recovered": 61073,
       "new_recovered": 44
@@ -7261,6 +7266,11 @@
       "total_deaths_per_million": 5.642,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.006,
+      "new_tests_smoothed": 3673.0,
+      "new_tests_smoothed_per_thousand": 0.018,
+      "tests_per_case": 24.302,
+      "positive_rate": 0.041,
+      "tests_units": "samples tested",
       "total_recovered": 61162,
       "new_recovered": 89
     },
@@ -7277,10 +7287,39 @@
       "new_cases_smoothed_per_million": 0.777,
       "total_deaths_per_million": 5.642,
       "new_deaths_per_million": 0.0,
-      "new_deaths_smoothed_per_million": 0.003
+      "new_deaths_smoothed_per_million": 0.003,
+      "new_tests_smoothed": 3777.0,
+      "new_tests_smoothed_per_thousand": 0.018,
+      "tests_per_case": 23.585,
+      "positive_rate": 0.042,
+      "tests_units": "samples tested",
+      "total_recovered": 61337,
+      "new_recovered": 175
     },
     {
-      "date": "2020-11-18"
+      "date": "2020-11-18",
+      "total_cases": 65457.0,
+      "new_cases": 152.0,
+      "new_cases_smoothed": 160.143,
+      "total_deaths": 1163.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.429,
+      "total_cases_per_million": 317.537,
+      "new_cases_per_million": 0.737,
+      "new_cases_smoothed_per_million": 0.777,
+      "total_deaths_per_million": 5.642,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.002,
+      "total_tests": 721516.0,
+      "total_tests_per_thousand": 3.5,
+      "new_tests_smoothed": 3881.0,
+      "new_tests_smoothed_per_thousand": 0.019,
+      "tests_per_case": 24.235,
+      "positive_rate": 0.041,
+      "tests_units": "samples tested"
+    },
+    {
+      "date": "2020-11-19"
     }
   ]
 }
