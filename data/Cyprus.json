@@ -7145,6 +7145,10 @@
       "total_deaths_per_million": 44.526,
       "new_deaths_per_million": 1.142,
       "new_deaths_smoothed_per_million": 1.957,
+      "weekly_icu_admissions": 2.0,
+      "weekly_icu_admissions_per_million": 2.283,
+      "weekly_hosp_admissions": 42.0,
+      "weekly_hosp_admissions_per_million": 47.951,
       "total_tests": 537410.0,
       "new_tests": 3333.0,
       "total_tests_per_thousand": 613.552,
@@ -7224,10 +7228,27 @@
       "new_cases_smoothed_per_million": 198.49,
       "total_deaths_per_million": 45.667,
       "new_deaths_per_million": 0.0,
-      "new_deaths_smoothed_per_million": 1.794
+      "new_deaths_smoothed_per_million": 1.794,
+      "total_recovered": 2021,
+      "new_recovered": 0
     },
     {
-      "date": "2020-11-19"
+      "date": "2020-11-19",
+      "total_cases": 7711.0,
+      "new_cases": 198.0,
+      "new_cases_smoothed": 178.571,
+      "total_deaths": 41.0,
+      "new_deaths": 1.0,
+      "new_deaths_smoothed": 1.286,
+      "total_cases_per_million": 8803.526,
+      "new_cases_per_million": 226.053,
+      "new_cases_smoothed_per_million": 203.872,
+      "total_deaths_per_million": 46.809,
+      "new_deaths_per_million": 1.142,
+      "new_deaths_smoothed_per_million": 1.468
+    },
+    {
+      "date": "2020-11-20"
     }
   ]
 }

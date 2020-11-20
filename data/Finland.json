@@ -8473,6 +8473,10 @@
       "total_deaths_per_million": 65.334,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.103,
+      "icu_patients": 13.0,
+      "icu_patients_per_million": 2.346,
+      "hosp_patients": 86.0,
+      "hosp_patients_per_million": 15.521,
       "total_tests": 1666382.0,
       "new_tests": 11687.0,
       "total_tests_per_thousand": 300.752,
@@ -8527,6 +8531,10 @@
       "total_deaths_per_million": 65.515,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.103,
+      "icu_patients": 14.0,
+      "icu_patients_per_million": 2.527,
+      "hosp_patients": 73.0,
+      "hosp_patients_per_million": 13.175,
       "total_tests": 1699347.0,
       "new_tests": 16324.0,
       "total_tests_per_thousand": 306.702,
@@ -8581,6 +8589,10 @@
       "total_deaths_per_million": 65.876,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.103,
+      "icu_patients": 15.0,
+      "icu_patients_per_million": 2.707,
+      "hosp_patients": 73.0,
+      "hosp_patients_per_million": 13.175,
       "total_tests": 1726825.0,
       "new_tests": 11762.0,
       "total_tests_per_thousand": 311.661,
@@ -8722,10 +8734,27 @@
       "new_tests_smoothed_per_thousand": 1.355,
       "tests_per_case": 34.123,
       "positive_rate": 0.029,
-      "tests_units": "samples tested"
+      "tests_units": "samples tested",
+      "total_recovered": 15300,
+      "new_recovered": 1300
     },
     {
-      "date": "2020-11-19"
+      "date": "2020-11-19",
+      "total_cases": 19935.0,
+      "new_cases": 288.0,
+      "new_cases_smoothed": 227.143,
+      "total_deaths": 374.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 1.286,
+      "total_cases_per_million": 3597.909,
+      "new_cases_per_million": 51.979,
+      "new_cases_smoothed_per_million": 40.995,
+      "total_deaths_per_million": 67.5,
+      "new_deaths_per_million": 0.541,
+      "new_deaths_smoothed_per_million": 0.232
+    },
+    {
+      "date": "2020-11-20"
     }
   ]
 }
