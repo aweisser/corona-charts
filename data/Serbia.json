@@ -7391,6 +7391,7 @@
       "tests_per_case": 4.114,
       "positive_rate": 0.243,
       "tests_units": "people tested",
+      "stringency_index": 54.63,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7417,6 +7418,7 @@
       "tests_per_case": 4.045,
       "positive_rate": 0.247,
       "tests_units": "people tested",
+      "stringency_index": 54.63,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7443,6 +7445,7 @@
       "tests_per_case": 3.917,
       "positive_rate": 0.255,
       "tests_units": "people tested",
+      "stringency_index": 54.63,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7460,6 +7463,7 @@
       "total_deaths_per_million": 158.863,
       "new_deaths_per_million": 3.968,
       "new_deaths_smoothed_per_million": 3.044,
+      "stringency_index": 54.63,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7477,6 +7481,7 @@
       "total_deaths_per_million": 163.125,
       "new_deaths_per_million": 4.262,
       "new_deaths_smoothed_per_million": 3.254,
+      "stringency_index": 54.63,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7493,10 +7498,29 @@
       "new_cases_smoothed_per_million": 694.636,
       "total_deaths_per_million": 167.534,
       "new_deaths_per_million": 4.409,
-      "new_deaths_smoothed_per_million": 3.527
+      "new_deaths_smoothed_per_million": 3.527,
+      "stringency_index": 54.63,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
-      "date": "2020-11-22"
+      "date": "2020-11-22",
+      "total_cases": 116125.0,
+      "new_cases": 5774.0,
+      "new_cases_smoothed": 5005.571,
+      "total_deaths": 1168.0,
+      "new_deaths": 28.0,
+      "new_deaths_smoothed": 25.571,
+      "total_cases_per_million": 17065.671,
+      "new_cases_per_million": 848.544,
+      "new_cases_smoothed_per_million": 735.616,
+      "total_deaths_per_million": 171.649,
+      "new_deaths_per_million": 4.115,
+      "new_deaths_smoothed_per_million": 3.758,
+      "stringency_index": 54.63
+    },
+    {
+      "date": "2020-11-23"
     }
   ]
 }

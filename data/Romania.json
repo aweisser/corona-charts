@@ -8312,6 +8312,7 @@
       "tests_per_case": 3.79,
       "positive_rate": 0.264,
       "tests_units": "tests performed",
+      "stringency_index": 76.85,
       "total_recovered": 246633,
       "new_recovered": 2801
     },
@@ -8338,6 +8339,7 @@
       "tests_per_case": 3.614,
       "positive_rate": 0.277,
       "tests_units": "tests performed",
+      "stringency_index": 76.85,
       "total_recovered": 253244,
       "new_recovered": 6611
     },
@@ -8364,6 +8366,7 @@
       "tests_per_case": 3.605,
       "positive_rate": 0.277,
       "tests_units": "tests performed",
+      "stringency_index": 76.85,
       "total_recovered": 261387,
       "new_recovered": 8143
     },
@@ -8390,6 +8393,7 @@
       "tests_per_case": 3.897,
       "positive_rate": 0.257,
       "tests_units": "tests performed",
+      "stringency_index": 76.85,
       "total_recovered": 269590,
       "new_recovered": 8203
     },
@@ -8407,6 +8411,7 @@
       "total_deaths_per_million": 498.813,
       "new_deaths_per_million": 8.681,
       "new_deaths_smoothed_per_million": 8.065,
+      "stringency_index": 76.85,
       "total_recovered": 278676,
       "new_recovered": 9086
     },
@@ -8423,10 +8428,29 @@
       "new_cases_smoothed_per_million": 441.084,
       "total_deaths_per_million": 507.13,
       "new_deaths_per_million": 8.317,
-      "new_deaths_smoothed_per_million": 7.961
+      "new_deaths_smoothed_per_million": 7.961,
+      "stringency_index": 76.85,
+      "total_recovered": 287310,
+      "new_recovered": 8634
     },
     {
-      "date": "2020-11-22"
+      "date": "2020-11-22",
+      "total_cases": 412808.0,
+      "new_cases": 9685.0,
+      "new_cases_smoothed": 8517.571,
+      "total_deaths": 9916.0,
+      "new_deaths": 160.0,
+      "new_deaths_smoothed": 157.571,
+      "total_cases_per_million": 21458.303,
+      "new_cases_per_million": 503.439,
+      "new_cases_smoothed_per_million": 442.755,
+      "total_deaths_per_million": 515.447,
+      "new_deaths_per_million": 8.317,
+      "new_deaths_smoothed_per_million": 8.191,
+      "stringency_index": 76.85
+    },
+    {
+      "date": "2020-11-23"
     }
   ]
 }

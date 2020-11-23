@@ -9322,6 +9322,7 @@
       "tests_per_case": 4.0,
       "positive_rate": 0.25,
       "tests_units": "tests performed",
+      "stringency_index": 73.15,
       "total_recovered": 327306,
       "new_recovered": 4923
     },
@@ -9348,6 +9349,7 @@
       "tests_per_case": 4.054,
       "positive_rate": 0.247,
       "tests_units": "tests performed",
+      "stringency_index": 73.15,
       "total_recovered": 341249,
       "new_recovered": 13943
     },
@@ -9374,6 +9376,7 @@
       "tests_per_case": 3.67,
       "positive_rate": 0.272,
       "tests_units": "tests performed",
+      "stringency_index": 73.15,
       "total_recovered": 353794,
       "new_recovered": 12545
     },
@@ -9400,6 +9403,7 @@
       "tests_per_case": 3.841,
       "positive_rate": 0.26,
       "tests_units": "tests performed",
+      "stringency_index": 69.44,
       "total_recovered": 367574,
       "new_recovered": 13780
     },
@@ -9417,6 +9421,7 @@
       "total_deaths_per_million": 629.378,
       "new_deaths_per_million": 16.995,
       "new_deaths_smoothed_per_million": 15.608,
+      "stringency_index": 69.44,
       "total_recovered": 379380,
       "new_recovered": 11806
     },
@@ -9434,6 +9439,7 @@
       "total_deaths_per_million": 641.891,
       "new_deaths_per_million": 12.513,
       "new_deaths_smoothed_per_million": 14.927,
+      "stringency_index": 69.44,
       "total_recovered": 389873,
       "new_recovered": 10493
     },
@@ -9450,10 +9456,27 @@
       "new_cases_smoothed_per_million": 447.328,
       "total_deaths_per_million": 655.618,
       "new_deaths_per_million": 13.727,
-      "new_deaths_smoothed_per_million": 14.607
+      "new_deaths_smoothed_per_million": 14.607,
+      "total_recovered": 394830,
+      "new_recovered": 4957
     },
     {
-      "date": "2020-11-22"
+      "date": "2020-11-22",
+      "total_cases": 490750.0,
+      "new_cases": 3187.0,
+      "new_cases_smoothed": 4645.857,
+      "total_deaths": 7095.0,
+      "new_deaths": 74.0,
+      "new_deaths_smoothed": 148.143,
+      "total_cases_per_million": 45826.018,
+      "new_cases_per_million": 297.601,
+      "new_cases_smoothed_per_million": 433.828,
+      "total_deaths_per_million": 662.528,
+      "new_deaths_per_million": 6.91,
+      "new_deaths_smoothed_per_million": 13.834
+    },
+    {
+      "date": "2020-11-23"
     }
   ]
 }
