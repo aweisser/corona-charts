@@ -7259,6 +7259,7 @@
       "tests_per_case": 11.097,
       "positive_rate": 0.09,
       "tests_units": "tests performed",
+      "stringency_index": 51.85,
       "total_recovered": 65691,
       "new_recovered": 157
     },
@@ -7285,6 +7286,7 @@
       "tests_per_case": 11.218,
       "positive_rate": 0.089,
       "tests_units": "tests performed",
+      "stringency_index": 51.85,
       "total_recovered": 65839,
       "new_recovered": 148
     },
@@ -7311,6 +7313,7 @@
       "tests_per_case": 11.026,
       "positive_rate": 0.091,
       "tests_units": "tests performed",
+      "stringency_index": 51.85,
       "total_recovered": 66018,
       "new_recovered": 179
     },
@@ -7337,6 +7340,7 @@
       "tests_per_case": 10.986,
       "positive_rate": 0.091,
       "tests_units": "tests performed",
+      "stringency_index": 51.85,
       "total_recovered": 66574,
       "new_recovered": 556
     },
@@ -7363,6 +7367,7 @@
       "tests_per_case": 11.223,
       "positive_rate": 0.089,
       "tests_units": "tests performed",
+      "stringency_index": 51.85,
       "total_recovered": 67001,
       "new_recovered": 427
     },
@@ -7379,10 +7384,29 @@
       "new_cases_smoothed_per_million": 4.029,
       "total_deaths_per_million": 14.544,
       "new_deaths_per_million": 0.07,
-      "new_deaths_smoothed_per_million": 0.081
+      "new_deaths_smoothed_per_million": 0.081,
+      "stringency_index": 51.85,
+      "total_recovered": 67506,
+      "new_recovered": 505
     },
     {
-      "date": "2020-11-28"
+      "date": "2020-11-28",
+      "total_cases": 108438.0,
+      "new_cases": 769.0,
+      "new_cases_smoothed": 508.429,
+      "total_deaths": 1686.0,
+      "new_deaths": 14.0,
+      "new_deaths_smoothed": 9.429,
+      "total_cases_per_million": 943.238,
+      "new_cases_per_million": 6.689,
+      "new_cases_smoothed_per_million": 4.423,
+      "total_deaths_per_million": 14.666,
+      "new_deaths_per_million": 0.122,
+      "new_deaths_smoothed_per_million": 0.082,
+      "stringency_index": 51.85
+    },
+    {
+      "date": "2020-11-29"
     }
   ]
 }
