@@ -5482,6 +5482,7 @@
       "total_deaths_per_million": 10.254,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.057,
+      "stringency_index": 49.54,
       "total_recovered": 7351,
       "new_recovered": 5
     },
@@ -5499,6 +5500,7 @@
       "total_deaths_per_million": 10.284,
       "new_deaths_per_million": 0.03,
       "new_deaths_smoothed_per_million": 0.043,
+      "stringency_index": 49.54,
       "total_recovered": 7444,
       "new_recovered": 93
     },
@@ -5516,6 +5518,7 @@
       "total_deaths_per_million": 10.345,
       "new_deaths_per_million": 0.061,
       "new_deaths_smoothed_per_million": 0.035,
+      "stringency_index": 49.54,
       "total_recovered": 7517,
       "new_recovered": 73
     },
@@ -5533,6 +5536,7 @@
       "total_deaths_per_million": 10.375,
       "new_deaths_per_million": 0.03,
       "new_deaths_smoothed_per_million": 0.035,
+      "stringency_index": 49.54,
       "total_recovered": 7617,
       "new_recovered": 100
     },
@@ -5550,6 +5554,7 @@
       "total_deaths_per_million": 10.406,
       "new_deaths_per_million": 0.03,
       "new_deaths_smoothed_per_million": 0.035,
+      "stringency_index": 49.54,
       "total_recovered": 7697,
       "new_recovered": 80
     },
@@ -5567,6 +5572,7 @@
       "total_deaths_per_million": 10.497,
       "new_deaths_per_million": 0.091,
       "new_deaths_smoothed_per_million": 0.039,
+      "stringency_index": 49.54,
       "total_recovered": 7763,
       "new_recovered": 66
     },
@@ -5584,14 +5590,33 @@
       "total_deaths_per_million": 10.528,
       "new_deaths_per_million": 0.03,
       "new_deaths_smoothed_per_million": 0.039,
+      "stringency_index": 49.54,
       "total_recovered": 7763,
       "new_recovered": 0
     },
     {
-      "date": "2020-11-30"
+      "date": "2020-11-30",
+      "total_cases": 15139.0,
+      "new_cases": 36.0,
+      "new_cases_smoothed": 72.143,
+      "total_deaths": 348.0,
+      "new_deaths": 2.0,
+      "new_deaths_smoothed": 1.571,
+      "total_cases_per_million": 460.624,
+      "new_cases_per_million": 1.095,
+      "new_cases_smoothed_per_million": 2.195,
+      "total_deaths_per_million": 10.588,
+      "new_deaths_per_million": 0.061,
+      "new_deaths_smoothed_per_million": 0.048,
+      "stringency_index": 49.54,
+      "total_recovered": 7851,
+      "new_recovered": 88
     },
     {
       "date": "2020-12-01"
+    },
+    {
+      "date": "2020-12-02"
     }
   ]
 }
