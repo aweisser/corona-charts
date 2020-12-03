@@ -8592,10 +8592,36 @@
       "new_recovered": 5554
     },
     {
-      "date": "2020-12-01"
+      "date": "2020-12-01",
+      "total_cases": 150976.0,
+      "new_cases": 2014.0,
+      "new_cases_smoothed": 2170.0,
+      "total_deaths": 2109.0,
+      "new_deaths": 33.0,
+      "new_deaths_smoothed": 20.857,
+      "total_cases_per_million": 1193.708,
+      "new_cases_per_million": 15.924,
+      "new_cases_smoothed_per_million": 17.157,
+      "total_deaths_per_million": 16.675,
+      "new_deaths_per_million": 0.261,
+      "new_deaths_smoothed_per_million": 0.165,
+      "total_tests": 3257064.0,
+      "new_tests": 44289.0,
+      "total_tests_per_thousand": 25.752,
+      "new_tests_per_thousand": 0.35,
+      "new_tests_smoothed": 35278.0,
+      "new_tests_smoothed_per_thousand": 0.279,
+      "positive_rate": 0.062,
+      "tests_per_case": 16.3,
+      "tests_units": "people tested",
+      "total_recovered": 125304,
+      "new_recovered": -1985
     },
     {
       "date": "2020-12-02"
+    },
+    {
+      "date": "2020-12-03"
     }
   ]
 }
