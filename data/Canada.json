@@ -8416,6 +8416,7 @@
       "positive_rate": 0.08,
       "tests_per_case": 12.6,
       "tests_units": "people tested",
+      "stringency_index": 64.35,
       "total_recovered": 349629,
       "new_recovered": 5595
     },
@@ -8442,6 +8443,7 @@
       "positive_rate": 0.08,
       "tests_per_case": 12.6,
       "tests_units": "people tested",
+      "stringency_index": 64.35,
       "total_recovered": 355401,
       "new_recovered": 5772
     },
@@ -8468,14 +8470,32 @@
       "positive_rate": 0.08,
       "tests_per_case": 12.6,
       "tests_units": "people tested",
+      "stringency_index": 64.35,
       "total_recovered": 361020,
       "new_recovered": 5619
     },
     {
-      "date": "2020-12-11"
+      "date": "2020-12-11",
+      "total_cases": 452543.0,
+      "new_cases": 6715.0,
+      "new_cases_smoothed": 6622.0,
+      "total_deaths": 13267.0,
+      "new_deaths": 137.0,
+      "new_deaths_smoothed": 106.857,
+      "total_cases_per_million": 11990.385,
+      "new_cases_per_million": 177.918,
+      "new_cases_smoothed_per_million": 175.454,
+      "total_deaths_per_million": 351.517,
+      "new_deaths_per_million": 3.63,
+      "new_deaths_smoothed_per_million": 2.831,
+      "total_recovered": 367837,
+      "new_recovered": 6817
     },
     {
       "date": "2020-12-12"
+    },
+    {
+      "date": "2020-12-13"
     }
   ]
 }
