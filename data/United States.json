@@ -9255,6 +9255,7 @@
       "icu_patients_per_million": 61.882,
       "hosp_patients": 104590.0,
       "hosp_patients_per_million": 315.979,
+      "stringency_index": 71.76,
       "total_recovered": 5786915,
       "new_recovered": 72358
     },
@@ -9276,6 +9277,7 @@
       "icu_patients_per_million": 63.208,
       "hosp_patients": 106688.0,
       "hosp_patients_per_million": 322.318,
+      "stringency_index": 71.76,
       "total_recovered": 5889896,
       "new_recovered": 102981
     },
@@ -9293,6 +9295,7 @@
       "total_deaths_per_million": 882.594,
       "new_deaths_per_million": 8.362,
       "new_deaths_smoothed_per_million": 6.826,
+      "stringency_index": 71.76,
       "total_recovered": 5985047,
       "new_recovered": 95151
     },
@@ -9310,14 +9313,33 @@
       "total_deaths_per_million": 892.591,
       "new_deaths_per_million": 9.997,
       "new_deaths_smoothed_per_million": 7.129,
+      "stringency_index": 71.76,
       "total_recovered": 6135314,
       "new_recovered": 150267
     },
     {
-      "date": "2020-12-12"
+      "date": "2020-12-12",
+      "total_cases": 16062299.0,
+      "new_cases": 219510.0,
+      "new_cases_smoothed": 211568.714,
+      "total_deaths": 297818.0,
+      "new_deaths": 2368.0,
+      "new_deaths_smoothed": 2376.0,
+      "total_cases_per_million": 48526.195,
+      "new_cases_per_million": 663.167,
+      "new_cases_smoothed_per_million": 639.175,
+      "total_deaths_per_million": 899.745,
+      "new_deaths_per_million": 7.154,
+      "new_deaths_smoothed_per_million": 7.178,
+      "stringency_index": 71.76,
+      "total_recovered": 6246605,
+      "new_recovered": 111291
     },
     {
       "date": "2020-12-13"
+    },
+    {
+      "date": "2020-12-14"
     }
   ]
 }
