@@ -8017,6 +8017,7 @@
       "positive_rate": 0.06,
       "tests_per_case": 16.7,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 498064,
       "new_recovered": 2339
     },
@@ -8043,6 +8044,7 @@
       "positive_rate": 0.058,
       "tests_per_case": 17.2,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 499846,
       "new_recovered": 1782
     },
@@ -8069,6 +8071,7 @@
       "positive_rate": 0.055,
       "tests_per_case": 18.2,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 501967,
       "new_recovered": 2121
     },
@@ -8091,6 +8094,7 @@
       "positive_rate": 0.053,
       "tests_per_case": 18.9,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 503897,
       "new_recovered": 1930
     },
@@ -8115,6 +8119,7 @@
       "positive_rate": 0.049,
       "tests_per_case": 20.5,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 505669,
       "new_recovered": 1772
     },
@@ -8141,14 +8146,33 @@
       "positive_rate": 0.046,
       "tests_per_case": 21.7,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 507446,
       "new_recovered": 1777
     },
     {
-      "date": "2020-12-14"
+      "date": "2020-12-14",
+      "total_cases": 575972.0,
+      "new_cases": 1338.0,
+      "new_cases_smoothed": 1422.429,
+      "total_deaths": 12603.0,
+      "new_deaths": 24.0,
+      "new_deaths_smoothed": 20.429,
+      "total_cases_per_million": 14319.646,
+      "new_cases_per_million": 33.265,
+      "new_cases_smoothed_per_million": 35.364,
+      "total_deaths_per_million": 313.332,
+      "new_deaths_per_million": 0.597,
+      "new_deaths_smoothed_per_million": 0.508,
+      "stringency_index": 48.15,
+      "total_recovered": 509474,
+      "new_recovered": 2028
     },
     {
       "date": "2020-12-15"
+    },
+    {
+      "date": "2020-12-16"
     }
   ]
 }

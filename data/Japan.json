@@ -8817,6 +8817,7 @@
       "positive_rate": 0.066,
       "tests_per_case": 15.1,
       "tests_units": "people tested",
+      "stringency_index": 53.7,
       "total_recovered": 138838,
       "new_recovered": 2091
     },
@@ -8843,6 +8844,7 @@
       "positive_rate": 0.065,
       "tests_per_case": 15.5,
       "tests_units": "people tested",
+      "stringency_index": 53.7,
       "total_recovered": 140466,
       "new_recovered": 1628
     },
@@ -8869,6 +8871,7 @@
       "positive_rate": 0.065,
       "tests_per_case": 15.5,
       "tests_units": "people tested",
+      "stringency_index": 53.7,
       "total_recovered": 142850,
       "new_recovered": 2384
     },
@@ -8895,6 +8898,7 @@
       "positive_rate": 0.063,
       "tests_per_case": 16.0,
       "tests_units": "people tested",
+      "stringency_index": 53.7,
       "total_recovered": 144858,
       "new_recovered": 2008
     },
@@ -8921,6 +8925,7 @@
       "positive_rate": 0.063,
       "tests_per_case": 15.9,
       "tests_units": "people tested",
+      "stringency_index": 53.7,
       "total_recovered": 147368,
       "new_recovered": 2510
     },
@@ -8938,14 +8943,33 @@
       "total_deaths_per_million": 19.616,
       "new_deaths_per_million": 0.15,
       "new_deaths_smoothed_per_million": 0.251,
+      "stringency_index": 53.7,
       "total_recovered": 149130,
       "new_recovered": 1762
     },
     {
-      "date": "2020-12-14"
+      "date": "2020-12-14",
+      "total_cases": 182311.0,
+      "new_cases": 1672.0,
+      "new_cases_smoothed": 2553.857,
+      "total_deaths": 2530.0,
+      "new_deaths": 49.0,
+      "new_deaths_smoothed": 33.0,
+      "total_cases_per_million": 1441.462,
+      "new_cases_per_million": 13.22,
+      "new_cases_smoothed_per_million": 20.192,
+      "total_deaths_per_million": 20.004,
+      "new_deaths_per_million": 0.387,
+      "new_deaths_smoothed_per_million": 0.261,
+      "stringency_index": 53.7,
+      "total_recovered": 150791,
+      "new_recovered": 1661
     },
     {
       "date": "2020-12-15"
+    },
+    {
+      "date": "2020-12-16"
     }
   ]
 }

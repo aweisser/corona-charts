@@ -7975,6 +7975,7 @@
       "positive_rate": 0.119,
       "tests_per_case": 8.4,
       "tests_units": "samples tested",
+      "stringency_index": 62.96,
       "total_recovered": 69839,
       "new_recovered": 425
     },
@@ -7992,6 +7993,7 @@
       "total_deaths_per_million": 28.863,
       "new_deaths_per_million": 0.13,
       "new_deaths_smoothed_per_million": 0.181,
+      "stringency_index": 62.96,
       "total_recovered": 70194,
       "new_recovered": 355
     },
@@ -8009,6 +8011,7 @@
       "total_deaths_per_million": 29.161,
       "new_deaths_per_million": 0.298,
       "new_deaths_smoothed_per_million": 0.181,
+      "stringency_index": 62.96,
       "total_recovered": 71254,
       "new_recovered": 1060
     },
@@ -8026,6 +8029,7 @@
       "total_deaths_per_million": 29.421,
       "new_deaths_per_million": 0.26,
       "new_deaths_smoothed_per_million": 0.202,
+      "stringency_index": 62.96,
       "total_recovered": 71579,
       "new_recovered": 325
     },
@@ -8043,6 +8047,7 @@
       "total_deaths_per_million": 29.495,
       "new_deaths_per_million": 0.074,
       "new_deaths_smoothed_per_million": 0.181,
+      "stringency_index": 62.96,
       "total_recovered": 72596,
       "new_recovered": 1017
     },
@@ -8060,14 +8065,33 @@
       "total_deaths_per_million": 29.514,
       "new_deaths_per_million": 0.019,
       "new_deaths_smoothed_per_million": 0.162,
+      "stringency_index": 62.96,
       "total_recovered": 73028,
       "new_recovered": 432
     },
     {
-      "date": "2020-12-14"
+      "date": "2020-12-14",
+      "total_cases": 92055.0,
+      "new_cases": 163.0,
+      "new_cases_smoothed": 496.571,
+      "total_deaths": 1593.0,
+      "new_deaths": 6.0,
+      "new_deaths_smoothed": 8.857,
+      "total_cases_per_million": 1711.973,
+      "new_cases_per_million": 3.031,
+      "new_cases_smoothed_per_million": 9.235,
+      "total_deaths_per_million": 29.625,
+      "new_deaths_per_million": 0.112,
+      "new_deaths_smoothed_per_million": 0.165,
+      "stringency_index": 62.96,
+      "total_recovered": 73452,
+      "new_recovered": 424
     },
     {
       "date": "2020-12-15"
+    },
+    {
+      "date": "2020-12-16"
     }
   ]
 }
