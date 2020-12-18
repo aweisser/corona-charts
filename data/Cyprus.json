@@ -7943,6 +7943,10 @@
       "total_deaths_per_million": 89.051,
       "new_deaths_per_million": 3.425,
       "new_deaths_smoothed_per_million": 2.773,
+      "weekly_icu_admissions": 5.0,
+      "weekly_icu_admissions_per_million": 5.708,
+      "weekly_hosp_admissions": 82.0,
+      "weekly_hosp_admissions_per_million": 93.618,
       "new_tests": 2427.0,
       "total_tests": 667439.0,
       "total_tests_per_thousand": 762.005,
@@ -8010,10 +8014,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2020-12-16"
+      "date": "2020-12-16",
+      "total_cases": 16190.0,
+      "new_cases": 401.0,
+      "new_cases_smoothed": 414.857,
+      "total_deaths": 85.0,
+      "new_deaths": 1.0,
+      "new_deaths_smoothed": 2.429,
+      "total_cases_per_million": 18483.866,
+      "new_cases_per_million": 457.815,
+      "new_cases_smoothed_per_million": 473.636,
+      "total_deaths_per_million": 97.043,
+      "new_deaths_per_million": 1.142,
+      "new_deaths_smoothed_per_million": 2.773,
+      "total_recovered": 2057,
+      "new_recovered": 0
     },
     {
       "date": "2020-12-17"
+    },
+    {
+      "date": "2020-12-18"
     }
   ]
 }
