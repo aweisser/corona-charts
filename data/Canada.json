@@ -9621,7 +9621,7 @@
       "positive_rate": 0.082,
       "tests_per_case": 12.1,
       "tests_units": "people tested",
-      "total_vaccinations": 729.0,
+      "total_vaccinations": 723.0,
       "total_vaccinations_per_hundred": 0.002,
       "total_recovered": 391435,
       "new_recovered": 6414
@@ -9653,7 +9653,7 @@
       "positive_rate": 0.084,
       "tests_per_case": 11.9,
       "tests_units": "people tested",
-      "total_vaccinations": 3148.0,
+      "total_vaccinations": 2985.0,
       "total_vaccinations_per_hundred": 0.008,
       "total_recovered": 397217,
       "new_recovered": 5782
@@ -9685,8 +9685,8 @@
       "positive_rate": 0.086,
       "tests_per_case": 11.6,
       "tests_units": "people tested",
-      "total_vaccinations": 6846.0,
-      "total_vaccinations_per_hundred": 0.018,
+      "total_vaccinations": 7204.0,
+      "total_vaccinations_per_hundred": 0.019,
       "total_recovered": 403667,
       "new_recovered": 6450
     },
@@ -9708,16 +9708,37 @@
       "icu_patients_per_million": 18.679,
       "hosp_patients": 3506.0,
       "hosp_patients_per_million": 92.893,
-      "total_vaccinations": 10255.0,
-      "total_vaccinations_per_hundred": 0.027,
+      "total_vaccinations": 11170.0,
+      "total_vaccinations_per_hundred": 0.03,
       "total_recovered": 410988,
       "new_recovered": 7321
     },
     {
-      "date": "2020-12-19"
+      "date": "2020-12-19",
+      "total_cases": 505741.0,
+      "new_cases": 6459.0,
+      "new_cases_smoothed": 6744.857,
+      "total_deaths": 14171.0,
+      "new_deaths": 116.0,
+      "new_deaths_smoothed": 114.857,
+      "total_cases_per_million": 13399.897,
+      "new_cases_per_million": 171.135,
+      "new_cases_smoothed_per_million": 178.709,
+      "total_deaths_per_million": 375.469,
+      "new_deaths_per_million": 3.073,
+      "new_deaths_smoothed_per_million": 3.043,
+      "total_vaccinations": 11886.0,
+      "total_vaccinations_per_hundred": 0.031,
+      "total_recovered": 416901,
+      "new_recovered": 5913
     },
     {
-      "date": "2020-12-20"
+      "date": "2020-12-20",
+      "total_vaccinations": 12605.0,
+      "total_vaccinations_per_hundred": 0.033
+    },
+    {
+      "date": "2020-12-21"
     }
   ]
 }
