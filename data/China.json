@@ -6292,6 +6292,7 @@
       "total_deaths_per_million": 3.305,
       "new_deaths_per_million": 0.002,
       "new_deaths_smoothed_per_million": 0.001,
+      "stringency_index": 78.24,
       "total_recovered": 88211,
       "new_recovered": 89
     },
@@ -6309,6 +6310,7 @@
       "total_deaths_per_million": 3.305,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.001,
+      "stringency_index": 78.24,
       "total_recovered": 88326,
       "new_recovered": 115
     },
@@ -6326,6 +6328,7 @@
       "total_deaths_per_million": 3.306,
       "new_deaths_per_million": 0.001,
       "new_deaths_smoothed_per_million": 0.001,
+      "stringency_index": 78.24,
       "total_recovered": 88429,
       "new_recovered": 103
     },
@@ -6343,6 +6346,7 @@
       "total_deaths_per_million": 3.309,
       "new_deaths_per_million": 0.003,
       "new_deaths_smoothed_per_million": 0.001,
+      "stringency_index": 78.24,
       "total_recovered": 88538,
       "new_recovered": 109
     },
@@ -6361,15 +6365,34 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.001,
       "total_vaccinations": 1000000.0,
-      "total_vaccinations_per_hundred": 0.069,
+      "total_vaccinations_per_hundred": 0.07,
+      "stringency_index": 78.24,
       "total_recovered": 88666,
       "new_recovered": 128
     },
     {
-      "date": "2020-12-20"
+      "date": "2020-12-20",
+      "total_cases": 95050.0,
+      "new_cases": 97.0,
+      "new_cases_smoothed": 103.143,
+      "total_deaths": 4764.0,
+      "new_deaths": 1.0,
+      "new_deaths_smoothed": 1.857,
+      "total_cases_per_million": 66.038,
+      "new_cases_per_million": 0.067,
+      "new_cases_smoothed_per_million": 0.072,
+      "total_deaths_per_million": 3.31,
+      "new_deaths_per_million": 0.001,
+      "new_deaths_smoothed_per_million": 0.001,
+      "stringency_index": 78.24,
+      "total_recovered": 88781,
+      "new_recovered": 115
     },
     {
       "date": "2020-12-21"
+    },
+    {
+      "date": "2020-12-22"
     }
   ]
 }
