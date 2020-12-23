@@ -1401,7 +1401,9 @@
     {
       "date": "2020-10-12",
       "total_cases": 2.0,
+      "new_cases": 2.0,
       "total_cases_per_million": 2.912,
+      "new_cases_per_million": 2.912,
       "stringency_index": 43.52,
       "total_recovered": 0,
       "new_recovered": 0
@@ -1450,8 +1452,12 @@
       "date": "2020-10-17",
       "total_cases": 3.0,
       "new_cases": 0.0,
+      "new_cases_smoothed": 0.429,
+      "new_deaths_smoothed": 0.0,
       "total_cases_per_million": 4.368,
       "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 0.624,
+      "new_deaths_smoothed_per_million": 0.0,
       "stringency_index": 43.52,
       "total_recovered": 0,
       "new_recovered": 0
@@ -1460,11 +1466,11 @@
       "date": "2020-10-18",
       "total_cases": 3.0,
       "new_cases": 0.0,
-      "new_cases_smoothed": 0.143,
+      "new_cases_smoothed": 0.429,
       "new_deaths_smoothed": 0.0,
       "total_cases_per_million": 4.368,
       "new_cases_per_million": 0.0,
-      "new_cases_smoothed_per_million": 0.208,
+      "new_cases_smoothed_per_million": 0.624,
       "new_deaths_smoothed_per_million": 0.0,
       "stringency_index": 43.52,
       "total_recovered": 0,
@@ -2347,10 +2353,23 @@
       "new_recovered": 0
     },
     {
-      "date": "2020-12-21"
+      "date": "2020-12-21",
+      "total_cases": 17.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 24.75,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "total_recovered": 5,
+      "new_recovered": 0
     },
     {
       "date": "2020-12-22"
+    },
+    {
+      "date": "2020-12-23"
     }
   ]
 }

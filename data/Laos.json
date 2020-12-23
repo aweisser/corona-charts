@@ -393,7 +393,9 @@
     {
       "date": "2020-03-24",
       "total_cases": 2.0,
+      "new_cases": 2.0,
       "total_cases_per_million": 0.275,
+      "new_cases_per_million": 0.275,
       "stringency_index": 25.93,
       "total_recovered": 0,
       "new_recovered": 0
@@ -442,8 +444,12 @@
       "date": "2020-03-29",
       "total_cases": 8.0,
       "new_cases": 0.0,
+      "new_cases_smoothed": 1.143,
+      "new_deaths_smoothed": 0.0,
       "total_cases_per_million": 1.1,
       "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 0.157,
+      "new_deaths_smoothed_per_million": 0.0,
       "stringency_index": 28.7,
       "total_recovered": 0,
       "new_recovered": 0
@@ -452,11 +458,11 @@
       "date": "2020-03-30",
       "total_cases": 8.0,
       "new_cases": 0.0,
-      "new_cases_smoothed": 0.857,
+      "new_cases_smoothed": 1.143,
       "new_deaths_smoothed": 0.0,
       "total_cases_per_million": 1.1,
       "new_cases_per_million": 0.0,
-      "new_cases_smoothed_per_million": 0.118,
+      "new_cases_smoothed_per_million": 0.157,
       "new_deaths_smoothed_per_million": 0.0,
       "stringency_index": 96.3,
       "total_recovered": 0,
@@ -4173,10 +4179,24 @@
       "new_recovered": 0
     },
     {
-      "date": "2020-12-21"
+      "date": "2020-12-21",
+      "total_cases": 41.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 5.635,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "stringency_index": 29.63,
+      "total_recovered": 37,
+      "new_recovered": 1
     },
     {
       "date": "2020-12-22"
+    },
+    {
+      "date": "2020-12-23"
     }
   ]
 }
