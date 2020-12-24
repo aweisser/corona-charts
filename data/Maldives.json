@@ -7577,6 +7577,15 @@
       "total_deaths_per_million": 88.8,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "new_tests": 543.0,
+      "total_tests": 253863.0,
+      "total_tests_per_thousand": 469.645,
+      "new_tests_per_thousand": 1.005,
+      "new_tests_smoothed": 558.0,
+      "new_tests_smoothed_per_thousand": 1.032,
+      "positive_rate": 0.032,
+      "tests_per_case": 31.2,
+      "tests_units": "samples tested",
       "total_recovered": 12895,
       "new_recovered": 17
     },
@@ -7594,14 +7603,49 @@
       "total_deaths_per_million": 88.8,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "new_tests": 517.0,
+      "total_tests": 254380.0,
+      "total_tests_per_thousand": 470.602,
+      "new_tests_per_thousand": 0.956,
+      "new_tests_smoothed": 547.0,
+      "new_tests_smoothed_per_thousand": 1.012,
+      "positive_rate": 0.032,
+      "tests_per_case": 31.4,
+      "tests_units": "samples tested",
       "total_recovered": 12929,
       "new_recovered": 34
     },
     {
-      "date": "2020-12-22"
+      "date": "2020-12-22",
+      "total_cases": 13524.0,
+      "new_cases": 23.0,
+      "new_cases_smoothed": 18.857,
+      "total_deaths": 48.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 25019.332,
+      "new_cases_per_million": 42.55,
+      "new_cases_smoothed_per_million": 34.886,
+      "total_deaths_per_million": 88.8,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "new_tests": 509.0,
+      "total_tests": 254889.0,
+      "total_tests_per_thousand": 471.543,
+      "new_tests_per_thousand": 0.942,
+      "new_tests_smoothed": 537.0,
+      "new_tests_smoothed_per_thousand": 0.993,
+      "positive_rate": 0.035,
+      "tests_per_case": 28.5,
+      "tests_units": "samples tested",
+      "total_recovered": 12960,
+      "new_recovered": 31
     },
     {
       "date": "2020-12-23"
+    },
+    {
+      "date": "2020-12-24"
     }
   ]
 }

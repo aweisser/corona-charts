@@ -449,6 +449,8 @@
       "new_tests_per_thousand": 0.005,
       "new_tests_smoothed": 14.0,
       "new_tests_smoothed_per_thousand": 0.002,
+      "positive_rate": 0.122,
+      "tests_per_case": 8.2,
       "tests_units": "people tested",
       "stringency_index": 25.0,
       "total_recovered": 0,
@@ -470,8 +472,8 @@
       "new_tests_per_thousand": 0.005,
       "new_tests_smoothed": 18.0,
       "new_tests_smoothed_per_thousand": 0.003,
-      "positive_rate": 0.143,
-      "tests_per_case": 7.0,
+      "positive_rate": 0.151,
+      "tests_per_case": 6.6,
       "tests_units": "people tested",
       "stringency_index": 25.0,
       "total_recovered": 0,
@@ -8363,14 +8365,49 @@
       "total_deaths_per_million": 401.64,
       "new_deaths_per_million": 6.907,
       "new_deaths_smoothed_per_million": 7.411,
+      "new_tests": 13590.0,
+      "total_tests": 2155365.0,
+      "total_tests_per_thousand": 316.751,
+      "new_tests_per_thousand": 1.997,
+      "new_tests_smoothed": 15558.0,
+      "new_tests_smoothed_per_thousand": 2.286,
+      "positive_rate": 0.297,
+      "tests_per_case": 3.4,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2020-12-22"
+      "date": "2020-12-22",
+      "total_cases": 307827.0,
+      "new_cases": 4080.0,
+      "new_cases_smoothed": 4368.429,
+      "total_deaths": 2782.0,
+      "new_deaths": 49.0,
+      "new_deaths_smoothed": 49.857,
+      "total_cases_per_million": 45238.101,
+      "new_cases_per_million": 599.595,
+      "new_cases_smoothed_per_million": 641.982,
+      "total_deaths_per_million": 408.841,
+      "new_deaths_per_million": 7.201,
+      "new_deaths_smoothed_per_million": 7.327,
+      "new_tests": 16022.0,
+      "total_tests": 2171387.0,
+      "total_tests_per_thousand": 319.106,
+      "new_tests_per_thousand": 2.355,
+      "new_tests_smoothed": 15135.0,
+      "new_tests_smoothed_per_thousand": 2.224,
+      "positive_rate": 0.289,
+      "tests_per_case": 3.5,
+      "tests_units": "people tested",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2020-12-23"
+    },
+    {
+      "date": "2020-12-24"
     }
   ]
 }
