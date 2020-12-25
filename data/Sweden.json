@@ -7394,8 +7394,8 @@
       "new_deaths_smoothed_per_million": 5.46,
       "icu_patients": 247.0,
       "icu_patients_per_million": 24.457,
-      "weekly_icu_admissions": 161.901,
-      "weekly_icu_admissions_per_million": 16.031,
+      "weekly_icu_admissions": 163.876,
+      "weekly_icu_admissions_per_million": 16.226,
       "new_tests": 38302.0,
       "new_tests_per_thousand": 3.793,
       "new_tests_smoothed": 38302.0,
@@ -7585,8 +7585,8 @@
       "new_deaths_smoothed_per_million": 6.323,
       "icu_patients": 257.0,
       "icu_patients_per_million": 25.447,
-      "weekly_icu_admissions": 153.016,
-      "weekly_icu_admissions_per_million": 15.151,
+      "weekly_icu_admissions": 159.927,
+      "weekly_icu_admissions_per_million": 15.835,
       "new_tests": 39644.0,
       "new_tests_per_thousand": 3.925,
       "new_tests_smoothed": 39644.0,
@@ -7612,6 +7612,8 @@
       "total_deaths_per_million": 744.014,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 6.323,
+      "icu_patients": 255.0,
+      "icu_patients_per_million": 25.249,
       "stringency_index": 71.3,
       "total_recovered": 0,
       "new_recovered": 0
@@ -7630,6 +7632,8 @@
       "total_deaths_per_million": 759.164,
       "new_deaths_per_million": 15.15,
       "new_deaths_smoothed_per_million": 6.606,
+      "icu_patients": 267.0,
+      "icu_patients_per_million": 26.438,
       "stringency_index": 71.3,
       "total_recovered": 0,
       "new_recovered": 0
@@ -7648,6 +7652,8 @@
       "total_deaths_per_million": 772.531,
       "new_deaths_per_million": 13.367,
       "new_deaths_smoothed_per_million": 7.158,
+      "icu_patients": 268.0,
+      "icu_patients_per_million": 26.537,
       "stringency_index": 71.3,
       "total_recovered": 0,
       "new_recovered": 0
@@ -7666,6 +7672,8 @@
       "total_deaths_per_million": 781.542,
       "new_deaths_per_million": 9.011,
       "new_deaths_smoothed_per_million": 7.624,
+      "icu_patients": 277.0,
+      "icu_patients_per_million": 27.428,
       "stringency_index": 71.3,
       "total_recovered": 0,
       "new_recovered": 0
@@ -7684,6 +7692,8 @@
       "total_deaths_per_million": 791.443,
       "new_deaths_per_million": 9.902,
       "new_deaths_smoothed_per_million": 6.776,
+      "icu_patients": 282.0,
+      "icu_patients_per_million": 27.923,
       "stringency_index": 71.3,
       "total_recovered": 0,
       "new_recovered": 0
@@ -7702,6 +7712,8 @@
       "total_deaths_per_million": 791.443,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 6.776,
+      "icu_patients": 282.0,
+      "icu_patients_per_million": 27.923,
       "stringency_index": 71.3,
       "total_recovered": 0,
       "new_recovered": 0
@@ -7720,6 +7732,10 @@
       "total_deaths_per_million": 791.443,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 6.776,
+      "icu_patients": 288.0,
+      "icu_patients_per_million": 28.517,
+      "weekly_icu_admissions": 165.85,
+      "weekly_icu_admissions_per_million": 16.422,
       "stringency_index": 71.3,
       "total_recovered": 0,
       "new_recovered": 0
@@ -7760,10 +7776,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2020-12-23"
+      "date": "2020-12-23",
+      "total_cases": 396048.0,
+      "new_cases": 6609.0,
+      "new_cases_smoothed": 6780.429,
+      "total_deaths": 8279.0,
+      "new_deaths": 112.0,
+      "new_deaths_smoothed": 68.143,
+      "total_cases_per_million": 39215.508,
+      "new_cases_per_million": 654.404,
+      "new_cases_smoothed_per_million": 671.378,
+      "total_deaths_per_million": 819.762,
+      "new_deaths_per_million": 11.09,
+      "new_deaths_smoothed_per_million": 6.747,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2020-12-24"
+    },
+    {
+      "date": "2020-12-25"
     }
   ]
 }

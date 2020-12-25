@@ -6578,8 +6578,8 @@
       "new_deaths_per_million": 0.863,
       "new_deaths_smoothed_per_million": 0.822,
       "reproduction_rate": 1.3,
-      "weekly_icu_admissions": 34.016,
-      "weekly_icu_admissions_per_million": 3.264,
+      "weekly_icu_admissions": 33.044,
+      "weekly_icu_admissions_per_million": 3.17,
       "new_tests": 14898.0,
       "total_tests": 1542156.0,
       "total_tests_per_thousand": 147.956,
@@ -6974,8 +6974,8 @@
       "new_deaths_per_million": 0.863,
       "new_deaths_smoothed_per_million": 0.836,
       "reproduction_rate": 1.4,
-      "weekly_icu_admissions": 98.16,
-      "weekly_icu_admissions_per_million": 9.418,
+      "weekly_icu_admissions": 97.188,
+      "weekly_icu_admissions_per_million": 9.324,
       "new_tests_smoothed": 17788.0,
       "new_tests_smoothed_per_thousand": 1.707,
       "positive_rate": 0.081,
@@ -7364,8 +7364,8 @@
       "new_deaths_per_million": 6.812,
       "new_deaths_smoothed_per_million": 4.413,
       "reproduction_rate": 1.15,
-      "weekly_icu_admissions": 281.846,
-      "weekly_icu_admissions_per_million": 27.041,
+      "weekly_icu_admissions": 280.874,
+      "weekly_icu_admissions_per_million": 26.947,
       "new_tests": 14262.0,
       "total_tests": 2092324.0,
       "total_tests_per_thousand": 200.74,
@@ -7750,8 +7750,8 @@
       "new_deaths_per_million": 9.402,
       "new_deaths_smoothed_per_million": 9.471,
       "reproduction_rate": 0.97,
-      "weekly_icu_admissions": 311.974,
-      "weekly_icu_admissions_per_million": 29.931,
+      "weekly_icu_admissions": 309.059,
+      "weekly_icu_admissions_per_million": 29.651,
       "new_tests": 12320.0,
       "total_tests": 2366363.0,
       "total_tests_per_thousand": 227.032,
@@ -8137,8 +8137,8 @@
       "total_deaths_per_million": 347.787,
       "new_deaths_per_million": 8.155,
       "new_deaths_smoothed_per_million": 8.525,
-      "weekly_icu_admissions": 231.308,
-      "weekly_icu_admissions_per_million": 22.192,
+      "weekly_icu_admissions": 238.111,
+      "weekly_icu_admissions_per_million": 22.845,
       "new_tests": 9432.0,
       "total_tests": 2582260.0,
       "total_tests_per_thousand": 247.745,
@@ -8322,6 +8322,8 @@
       "total_deaths_per_million": 400.266,
       "new_deaths_per_million": 6.716,
       "new_deaths_smoothed_per_million": 7.497,
+      "weekly_icu_admissions": 190.489,
+      "weekly_icu_admissions_per_million": 18.276,
       "new_tests": 8639.0,
       "total_tests": 2682846.0,
       "total_tests_per_thousand": 257.395,
@@ -8389,10 +8391,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2020-12-23"
+      "date": "2020-12-23",
+      "total_cases": 133365.0,
+      "new_cases": 935.0,
+      "new_cases_smoothed": 829.714,
+      "total_deaths": 4402.0,
+      "new_deaths": 62.0,
+      "new_deaths_smoothed": 76.0,
+      "total_cases_per_million": 12795.192,
+      "new_cases_per_million": 89.705,
+      "new_cases_smoothed_per_million": 79.604,
+      "total_deaths_per_million": 422.333,
+      "new_deaths_per_million": 5.948,
+      "new_deaths_smoothed_per_million": 7.292,
+      "total_recovered": 23074,
+      "new_recovered": 0
     },
     {
       "date": "2020-12-24"
+    },
+    {
+      "date": "2020-12-25"
     }
   ]
 }
