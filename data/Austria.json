@@ -9329,6 +9329,15 @@
       "total_deaths_per_million": 637.88,
       "new_deaths_per_million": 10.104,
       "new_deaths_smoothed_per_million": 12.103,
+      "new_tests": 50017.0,
+      "total_tests": 3732153.0,
+      "total_tests_per_thousand": 414.389,
+      "new_tests_per_thousand": 5.553,
+      "new_tests_smoothed": 32726.0,
+      "new_tests_smoothed_per_thousand": 3.634,
+      "positive_rate": 0.063,
+      "tests_per_case": 15.9,
+      "tests_units": "tests performed",
       "total_recovered": 315952,
       "new_recovered": 3031
     },
@@ -9346,6 +9355,11 @@
       "total_deaths_per_million": 642.099,
       "new_deaths_per_million": 4.219,
       "new_deaths_smoothed_per_million": 10.405,
+      "new_tests_smoothed": 29322.0,
+      "new_tests_smoothed_per_thousand": 3.256,
+      "positive_rate": 0.069,
+      "tests_per_case": 14.5,
+      "tests_units": "tests performed",
       "total_recovered": 318154,
       "new_recovered": 2202
     },
@@ -9363,14 +9377,38 @@
       "total_deaths_per_million": 648.761,
       "new_deaths_per_million": 6.662,
       "new_deaths_smoothed_per_million": 10.056,
+      "total_tests": 3747328.0,
+      "total_tests_per_thousand": 416.074,
+      "new_tests_smoothed": 25577.0,
+      "new_tests_smoothed_per_thousand": 2.84,
+      "positive_rate": 0.074,
+      "tests_per_case": 13.5,
+      "tests_units": "tests performed",
       "total_recovered": 320753,
       "new_recovered": 2599
     },
     {
-      "date": "2020-12-27"
+      "date": "2020-12-27",
+      "total_cases": 351892.0,
+      "new_cases": 1408.0,
+      "new_cases_smoothed": 1862.571,
+      "total_deaths": 5881.0,
+      "new_deaths": 38.0,
+      "new_deaths_smoothed": 75.714,
+      "total_cases_per_million": 39071.327,
+      "new_cases_per_million": 156.333,
+      "new_cases_smoothed_per_million": 206.805,
+      "total_deaths_per_million": 652.98,
+      "new_deaths_per_million": 4.219,
+      "new_deaths_smoothed_per_million": 8.407,
+      "total_recovered": 323002,
+      "new_recovered": 2249
     },
     {
       "date": "2020-12-28"
+    },
+    {
+      "date": "2020-12-29"
     }
   ]
 }

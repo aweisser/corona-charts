@@ -8441,6 +8441,8 @@
       "new_tests_per_thousand": 0.247,
       "new_tests_smoothed": 38118.0,
       "new_tests_smoothed_per_thousand": 0.173,
+      "positive_rate": 0.056,
+      "tests_per_case": 18.0,
       "tests_units": "tests performed",
       "total_recovered": 420489,
       "new_recovered": 1531
@@ -8459,14 +8461,56 @@
       "total_deaths_per_million": 44.701,
       "new_deaths_per_million": 0.263,
       "new_deaths_smoothed_per_million": 0.352,
+      "new_tests": 40953.0,
+      "total_tests": 6523842.0,
+      "total_tests_per_thousand": 29.534,
+      "new_tests_per_thousand": 0.185,
+      "new_tests_smoothed": 37101.0,
+      "new_tests_smoothed_per_thousand": 0.168,
+      "positive_rate": 0.054,
+      "tests_per_case": 18.5,
+      "tests_units": "tests performed",
       "total_recovered": 422132,
       "new_recovered": 1643
     },
     {
-      "date": "2020-12-27"
+      "date": "2020-12-27",
+      "total_cases": 473309.0,
+      "new_cases": 1974.0,
+      "new_cases_smoothed": 2048.714,
+      "total_deaths": 9929.0,
+      "new_deaths": 55.0,
+      "new_deaths_smoothed": 76.714,
+      "total_cases_per_million": 2142.714,
+      "new_cases_per_million": 8.936,
+      "new_cases_smoothed_per_million": 9.275,
+      "total_deaths_per_million": 44.95,
+      "new_deaths_per_million": 0.249,
+      "new_deaths_smoothed_per_million": 0.347,
+      "new_tests": 33270.0,
+      "total_tests": 6557112.0,
+      "total_tests_per_thousand": 29.685,
+      "new_tests_per_thousand": 0.151,
+      "new_tests_smoothed": 36539.0,
+      "new_tests_smoothed_per_thousand": 0.165,
+      "positive_rate": 0.056,
+      "tests_per_case": 17.8,
+      "tests_units": "tests performed",
+      "total_recovered": 423892,
+      "new_recovered": 1760
     },
     {
-      "date": "2020-12-28"
+      "date": "2020-12-28",
+      "new_tests": 32205.0,
+      "total_tests": 6589317.0,
+      "total_tests_per_thousand": 29.83,
+      "new_tests_per_thousand": 0.146,
+      "new_tests_smoothed": 36172.0,
+      "new_tests_smoothed_per_thousand": 0.164,
+      "tests_units": "tests performed"
+    },
+    {
+      "date": "2020-12-29"
     }
   ]
 }
