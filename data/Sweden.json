@@ -7198,8 +7198,8 @@
       "reproduction_rate": 1.42,
       "icu_patients": 229.0,
       "icu_patients_per_million": 22.675,
-      "weekly_icu_admissions": 165.85,
-      "weekly_icu_admissions_per_million": 16.422,
+      "weekly_icu_admissions": 166.837,
+      "weekly_icu_admissions_per_million": 16.52,
       "new_tests": 40350.0,
       "new_tests_per_thousand": 3.995,
       "new_tests_smoothed": 40350.0,
@@ -7394,8 +7394,8 @@
       "new_deaths_smoothed_per_million": 5.46,
       "icu_patients": 247.0,
       "icu_patients_per_million": 24.457,
-      "weekly_icu_admissions": 163.876,
-      "weekly_icu_admissions_per_million": 16.226,
+      "weekly_icu_admissions": 164.863,
+      "weekly_icu_admissions_per_million": 16.324,
       "new_tests": 38302.0,
       "new_tests_per_thousand": 3.793,
       "new_tests_smoothed": 38302.0,
@@ -7585,8 +7585,8 @@
       "new_deaths_smoothed_per_million": 6.323,
       "icu_patients": 257.0,
       "icu_patients_per_million": 25.447,
-      "weekly_icu_admissions": 159.927,
-      "weekly_icu_admissions_per_million": 15.835,
+      "weekly_icu_admissions": 162.889,
+      "weekly_icu_admissions_per_million": 16.129,
       "new_tests": 39644.0,
       "new_tests_per_thousand": 3.925,
       "new_tests_smoothed": 39644.0,
@@ -7776,8 +7776,8 @@
       "new_deaths_smoothed_per_million": 6.776,
       "icu_patients": 288.0,
       "icu_patients_per_million": 28.517,
-      "weekly_icu_admissions": 165.85,
-      "weekly_icu_admissions_per_million": 16.422,
+      "weekly_icu_admissions": 181.645,
+      "weekly_icu_admissions_per_million": 17.986,
       "new_tests": 42104.0,
       "new_tests_per_thousand": 4.169,
       "new_tests_smoothed": 42104.0,
@@ -7803,6 +7803,8 @@
       "total_deaths_per_million": 791.443,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 6.776,
+      "icu_patients": 290.0,
+      "icu_patients_per_million": 28.715,
       "stringency_index": 71.3,
       "total_recovered": 0,
       "new_recovered": 0
@@ -7821,6 +7823,8 @@
       "total_deaths_per_million": 808.672,
       "new_deaths_per_million": 17.229,
       "new_deaths_smoothed_per_million": 7.073,
+      "icu_patients": 304.0,
+      "icu_patients_per_million": 30.101,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7838,6 +7842,8 @@
       "total_deaths_per_million": 819.762,
       "new_deaths_per_million": 11.09,
       "new_deaths_smoothed_per_million": 6.747,
+      "icu_patients": 311.0,
+      "icu_patients_per_million": 30.794,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7855,6 +7861,8 @@
       "total_deaths_per_million": 819.762,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 5.46,
+      "icu_patients": 299.0,
+      "icu_patients_per_million": 29.606,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7872,6 +7880,8 @@
       "total_deaths_per_million": 819.762,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 4.046,
+      "icu_patients": 308.0,
+      "icu_patients_per_million": 30.497,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7889,6 +7899,8 @@
       "total_deaths_per_million": 819.762,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 4.046,
+      "icu_patients": 316.0,
+      "icu_patients_per_million": 31.289,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7906,6 +7918,10 @@
       "total_deaths_per_million": 819.762,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 4.046,
+      "icu_patients": 323.0,
+      "icu_patients_per_million": 31.983,
+      "weekly_icu_admissions": 175.722,
+      "weekly_icu_admissions_per_million": 17.399,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -7944,10 +7960,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2020-12-30"
+      "date": "2020-12-30",
+      "total_cases": 437379.0,
+      "new_cases": 8846.0,
+      "new_cases_smoothed": 5904.429,
+      "total_deaths": 8727.0,
+      "new_deaths": 243.0,
+      "new_deaths_smoothed": 64.0,
+      "total_cases_per_million": 43307.982,
+      "new_cases_per_million": 875.905,
+      "new_cases_smoothed_per_million": 584.639,
+      "total_deaths_per_million": 864.122,
+      "new_deaths_per_million": 24.061,
+      "new_deaths_smoothed_per_million": 6.337,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2020-12-31"
+    },
+    {
+      "date": "2021-01-01"
     }
   ]
 }

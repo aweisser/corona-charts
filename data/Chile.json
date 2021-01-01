@@ -8375,7 +8375,7 @@
       "positive_rate": 0.051,
       "tests_per_case": 19.8,
       "tests_units": "tests performed",
-      "total_vaccinations": 8336.0,
+      "total_vaccinations": 8337.0,
       "total_vaccinations_per_hundred": 0.04,
       "total_recovered": 567376,
       "new_recovered": 2374
@@ -8403,7 +8403,7 @@
       "positive_rate": 0.053,
       "tests_per_case": 18.9,
       "tests_units": "tests performed",
-      "total_vaccinations": 8647.0,
+      "total_vaccinations": 8648.0,
       "total_vaccinations_per_hundred": 0.05,
       "total_recovered": 569578,
       "new_recovered": 2202
@@ -8461,10 +8461,27 @@
       "new_recovered": 2007
     },
     {
-      "date": "2020-12-30"
+      "date": "2020-12-30",
+      "total_cases": 606950.0,
+      "new_cases": 2964.0,
+      "new_cases_smoothed": 2290.857,
+      "total_deaths": 16499.0,
+      "new_deaths": 11.0,
+      "new_deaths_smoothed": 38.714,
+      "total_cases_per_million": 31750.542,
+      "new_cases_per_million": 155.052,
+      "new_cases_smoothed_per_million": 119.838,
+      "total_deaths_per_million": 863.09,
+      "new_deaths_per_million": 0.575,
+      "new_deaths_smoothed_per_million": 2.025,
+      "total_recovered": 575595,
+      "new_recovered": 1914
     },
     {
       "date": "2020-12-31"
+    },
+    {
+      "date": "2021-01-01"
     }
   ]
 }
