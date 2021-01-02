@@ -10061,6 +10061,15 @@
       "icu_patients_per_million": 20.031,
       "hosp_patients": 3776.0,
       "hosp_patients_per_million": 100.047,
+      "new_tests": 86871.0,
+      "total_tests": 13710053.0,
+      "total_tests_per_thousand": 363.256,
+      "new_tests_per_thousand": 2.302,
+      "new_tests_smoothed": 65128.0,
+      "new_tests_smoothed_per_thousand": 1.726,
+      "positive_rate": 0.095,
+      "tests_per_case": 10.5,
+      "tests_units": "people tested",
       "total_vaccinations": 72473.0,
       "total_vaccinations_per_hundred": 0.19,
       "total_recovered": 482944,
@@ -10084,16 +10093,44 @@
       "icu_patients_per_million": 20.508,
       "hosp_patients": 4180.0,
       "hosp_patients_per_million": 110.751,
-      "total_vaccinations": 85279.0,
+      "new_tests": 65062.0,
+      "total_tests": 13775115.0,
+      "total_tests_per_thousand": 364.98,
+      "new_tests_per_thousand": 1.724,
+      "new_tests_smoothed": 61681.0,
+      "new_tests_smoothed_per_thousand": 1.634,
+      "positive_rate": 0.104,
+      "tests_per_case": 9.6,
+      "tests_units": "people tested",
+      "total_vaccinations": 86181.0,
       "total_vaccinations_per_hundred": 0.23,
       "total_recovered": 490229,
       "new_recovered": 7285
     },
     {
-      "date": "2020-12-31"
+      "date": "2020-12-31",
+      "total_cases": 584409.0,
+      "new_cases": 7143.0,
+      "new_cases_smoothed": 6459.857,
+      "total_deaths": 15632.0,
+      "new_deaths": 134.0,
+      "new_deaths_smoothed": 122.429,
+      "total_cases_per_million": 15484.25,
+      "new_cases_per_million": 189.258,
+      "new_cases_smoothed_per_million": 171.158,
+      "total_deaths_per_million": 414.179,
+      "new_deaths_per_million": 3.55,
+      "new_deaths_smoothed_per_million": 3.244,
+      "total_vaccinations": 99946.0,
+      "total_vaccinations_per_hundred": 0.26,
+      "total_recovered": 493638,
+      "new_recovered": 3409
     },
     {
       "date": "2021-01-01"
+    },
+    {
+      "date": "2021-01-02"
     }
   ]
 }
