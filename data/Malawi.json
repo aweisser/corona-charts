@@ -7683,10 +7683,30 @@
       "new_recovered": 5
     },
     {
-      "date": "2021-01-01"
+      "date": "2021-01-01",
+      "total_cases": 6684.0,
+      "new_cases": 101.0,
+      "new_cases_smoothed": 49.286,
+      "total_deaths": 191.0,
+      "new_deaths": 2.0,
+      "new_deaths_smoothed": 0.571,
+      "total_cases_per_million": 349.4,
+      "new_cases_per_million": 5.28,
+      "new_cases_smoothed_per_million": 2.576,
+      "total_deaths_per_million": 9.984,
+      "new_deaths_per_million": 0.105,
+      "new_deaths_smoothed_per_million": 0.03,
+      "total_tests": 85449.0,
+      "total_tests_per_thousand": 4.467,
+      "new_tests_smoothed": 285.0,
+      "new_tests_smoothed_per_thousand": 0.015,
+      "tests_units": "samples tested"
     },
     {
       "date": "2021-01-02"
+    },
+    {
+      "date": "2021-01-03"
     }
   ]
 }

@@ -10060,7 +10060,7 @@
       "positive_rate": 0.029,
       "tests_per_case": 34.5,
       "tests_units": "tests performed",
-      "total_vaccinations": 6139.0,
+      "total_vaccinations": 6145.0,
       "total_vaccinations_per_hundred": 0.11,
       "total_recovered": 112268,
       "new_recovered": 3060
@@ -10088,7 +10088,7 @@
       "positive_rate": 0.03,
       "tests_per_case": 32.9,
       "tests_units": "tests performed",
-      "total_vaccinations": 7988.0,
+      "total_vaccinations": 7994.0,
       "total_vaccinations_per_hundred": 0.14,
       "total_recovered": 115395,
       "new_recovered": 3127
@@ -10116,8 +10116,8 @@
       "positive_rate": 0.033,
       "tests_per_case": 30.1,
       "tests_units": "tests performed",
-      "total_vaccinations": 15324.0,
-      "total_vaccinations_per_hundred": 0.26,
+      "total_vaccinations": 15440.0,
+      "total_vaccinations_per_hundred": 0.27,
       "total_recovered": 119281,
       "new_recovered": 3886
     },
@@ -10135,8 +10135,8 @@
       "total_deaths_per_million": 216.843,
       "new_deaths_per_million": 5.179,
       "new_deaths_smoothed_per_million": 3.946,
-      "total_vaccinations": 24563.0,
-      "total_vaccinations_per_hundred": 0.42,
+      "total_vaccinations": 24931.0,
+      "total_vaccinations_per_hundred": 0.43,
       "total_recovered": 123515,
       "new_recovered": 4234
     },
@@ -10160,10 +10160,29 @@
       "new_recovered": 4329
     },
     {
-      "date": "2021-01-01"
+      "date": "2021-01-01",
+      "total_cases": 166567.0,
+      "new_cases": 2451.0,
+      "new_cases_smoothed": 2377.286,
+      "total_deaths": 1322.0,
+      "new_deaths": 24.0,
+      "new_deaths_smoothed": 26.857,
+      "total_cases_per_million": 28757.107,
+      "new_cases_per_million": 423.155,
+      "new_cases_smoothed_per_million": 410.429,
+      "total_deaths_per_million": 228.238,
+      "new_deaths_per_million": 4.144,
+      "new_deaths_smoothed_per_million": 4.637,
+      "total_vaccinations": 31746.0,
+      "total_vaccinations_per_hundred": 0.55
     },
     {
-      "date": "2021-01-02"
+      "date": "2021-01-02",
+      "total_vaccinations": 32368.0,
+      "total_vaccinations_per_hundred": 0.56
+    },
+    {
+      "date": "2021-01-03"
     }
   ]
 }
