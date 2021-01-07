@@ -9037,7 +9037,9 @@
       "tests_per_case": 5.0,
       "tests_units": "tests performed",
       "total_vaccinations": 2778.0,
+      "new_vaccinations": 712.0,
       "total_vaccinations_per_hundred": 0.01,
+      "new_vaccinations_per_million": 37.01,
       "stringency_index": 76.85,
       "total_recovered": 549262,
       "new_recovered": 5921
@@ -9065,6 +9067,10 @@
       "positive_rate": 0.199,
       "tests_per_case": 5.0,
       "tests_units": "tests performed",
+      "total_vaccinations": 5666.0,
+      "new_vaccinations": 1800.0,
+      "total_vaccinations_per_hundred": 0.03,
+      "new_vaccinations_per_million": 93.57,
       "stringency_index": 76.85,
       "total_recovered": 554056,
       "new_recovered": 4794
@@ -9088,8 +9094,10 @@
       "positive_rate": 0.21,
       "tests_per_case": 4.8,
       "tests_units": "tests performed",
-      "total_vaccinations": 10829.0,
-      "total_vaccinations_per_hundred": 0.06,
+      "total_vaccinations": 10289.0,
+      "new_vaccinations": 2741.0,
+      "total_vaccinations_per_hundred": 0.05,
+      "new_vaccinations_per_million": 142.48,
       "stringency_index": 76.85,
       "total_recovered": 560793,
       "new_recovered": 6737
@@ -9116,7 +9124,9 @@
       "tests_per_case": 4.5,
       "tests_units": "tests performed",
       "total_vaccinations": 11656.0,
+      "new_vaccinations": 2398.0,
       "total_vaccinations_per_hundred": 0.06,
+      "new_vaccinations_per_million": 124.65,
       "stringency_index": 76.85,
       "total_recovered": 566365,
       "new_recovered": 5572
@@ -9145,7 +9155,9 @@
       "tests_per_case": 4.5,
       "tests_units": "tests performed",
       "total_vaccinations": 13242.0,
+      "new_vaccinations": 2235.0,
       "total_vaccinations_per_hundred": 0.07,
+      "new_vaccinations_per_million": 116.18,
       "stringency_index": 76.85,
       "total_recovered": 571333,
       "new_recovered": 4968
@@ -9174,7 +9186,9 @@
       "tests_per_case": 4.4,
       "tests_units": "tests performed",
       "total_vaccinations": 13596.0,
+      "new_vaccinations": 1922.0,
       "total_vaccinations_per_hundred": 0.07,
+      "new_vaccinations_per_million": 99.91,
       "stringency_index": 76.85,
       "total_recovered": 574897,
       "new_recovered": 3564
@@ -9199,19 +9213,55 @@
       "new_tests_per_thousand": 0.504,
       "new_tests_smoothed": 14646.0,
       "new_tests_smoothed_per_thousand": 0.761,
+      "positive_rate": 0.245,
+      "tests_per_case": 4.1,
       "tests_units": "tests performed",
       "total_vaccinations": 25508.0,
+      "new_vaccinations": 3349.0,
       "total_vaccinations_per_hundred": 0.13,
+      "new_vaccinations_per_million": 174.09,
       "total_recovered": 577198,
       "new_recovered": 2301
     },
     {
       "date": "2021-01-05",
+      "total_cases": 648288.0,
+      "new_cases": 4729.0,
+      "new_cases_smoothed": 3603.143,
+      "total_deaths": 16178.0,
+      "new_deaths": 121.0,
+      "new_deaths_smoothed": 101.286,
+      "total_cases_per_million": 33698.862,
+      "new_cases_per_million": 245.82,
+      "new_cases_smoothed_per_million": 187.296,
+      "total_deaths_per_million": 840.954,
+      "new_deaths_per_million": 6.29,
+      "new_deaths_smoothed_per_million": 5.265,
+      "new_tests": 31022.0,
+      "total_tests": 4868383.0,
+      "total_tests_per_thousand": 253.065,
+      "new_tests_per_thousand": 1.613,
+      "new_tests_smoothed": 16761.0,
+      "new_tests_smoothed_per_thousand": 0.871,
+      "positive_rate": 0.215,
+      "tests_per_case": 4.7,
+      "tests_units": "tests performed",
       "total_vaccinations": 41609.0,
-      "total_vaccinations_per_hundred": 0.22
+      "new_vaccinations": 5547.0,
+      "total_vaccinations_per_hundred": 0.22,
+      "new_vaccinations_per_million": 288.34,
+      "total_recovered": 581856,
+      "new_recovered": 4658
     },
     {
-      "date": "2021-01-06"
+      "date": "2021-01-06",
+      "total_vaccinations": 58554.0,
+      "new_vaccinations": 7555.0,
+      "total_vaccinations_per_hundred": 0.3,
+      "new_vaccinations_per_million": 392.72
+    },
+    {
+      "date": "2021-01-07"
     }
   ]
 }
