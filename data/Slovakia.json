@@ -9124,6 +9124,7 @@
       "positive_rate": 0.279,
       "tests_per_case": 3.6,
       "tests_units": "tests performed",
+      "stringency_index": 46.3,
       "total_recovered": 129994,
       "new_recovered": 1709
     },
@@ -9152,6 +9153,7 @@
       "tests_units": "tests performed",
       "total_vaccinations": 7201.0,
       "total_vaccinations_per_hundred": 0.13,
+      "stringency_index": 46.3,
       "total_recovered": 130897,
       "new_recovered": 903
     },
@@ -9180,6 +9182,7 @@
       "tests_units": "tests performed",
       "new_vaccinations": 1775.0,
       "new_vaccinations_per_million": 325.0,
+      "stringency_index": 46.3,
       "total_recovered": 132852,
       "new_recovered": 1955
     },
@@ -9210,6 +9213,7 @@
       "new_vaccinations": 1775.0,
       "total_vaccinations_per_hundred": 0.2,
       "new_vaccinations_per_million": 325.0,
+      "stringency_index": 46.3,
       "total_recovered": 135760,
       "new_recovered": 2908
     },
@@ -9240,6 +9244,7 @@
       "new_vaccinations": 4175.0,
       "total_vaccinations_per_hundred": 0.36,
       "new_vaccinations_per_million": 765.0,
+      "stringency_index": 54.63,
       "total_recovered": 138383,
       "new_recovered": 2623
     },
@@ -9257,14 +9262,33 @@
       "total_deaths_per_million": 510.656,
       "new_deaths_per_million": 13.005,
       "new_deaths_smoothed_per_million": 14.077,
+      "stringency_index": 54.63,
       "total_recovered": 141490,
       "new_recovered": 3107
     },
     {
-      "date": "2021-01-09"
+      "date": "2021-01-09",
+      "total_cases": 205236.0,
+      "new_cases": 4072.0,
+      "new_cases_smoothed": 2713.143,
+      "total_deaths": 2836.0,
+      "new_deaths": 48.0,
+      "new_deaths_smoothed": 83.714,
+      "total_cases_per_million": 37591.469,
+      "new_cases_per_million": 745.836,
+      "new_cases_smoothed_per_million": 496.945,
+      "total_deaths_per_million": 519.448,
+      "new_deaths_per_million": 8.792,
+      "new_deaths_smoothed_per_million": 15.333,
+      "stringency_index": 54.63,
+      "total_recovered": 144612,
+      "new_recovered": 3122
     },
     {
       "date": "2021-01-10"
+    },
+    {
+      "date": "2021-01-11"
     }
   ]
 }
