@@ -8688,6 +8688,7 @@
       "positive_rate": 0.047,
       "tests_per_case": 21.1,
       "tests_units": "people tested",
+      "stringency_index": 56.48,
       "total_recovered": 142056,
       "new_recovered": 131
     },
@@ -8714,6 +8715,7 @@
       "positive_rate": 0.047,
       "tests_per_case": 21.2,
       "tests_units": "people tested",
+      "stringency_index": 56.48,
       "total_recovered": 142182,
       "new_recovered": 126
     },
@@ -8740,6 +8742,7 @@
       "positive_rate": 0.046,
       "tests_per_case": 21.8,
       "tests_units": "people tested",
+      "stringency_index": 56.48,
       "total_recovered": 142314,
       "new_recovered": 132
     },
@@ -8766,6 +8769,7 @@
       "positive_rate": 0.043,
       "tests_per_case": 23.5,
       "tests_units": "people tested",
+      "stringency_index": 56.48,
       "total_recovered": 142453,
       "new_recovered": 139
     },
@@ -8792,6 +8796,7 @@
       "positive_rate": 0.042,
       "tests_per_case": 23.7,
       "tests_units": "people tested",
+      "stringency_index": 56.48,
       "total_recovered": 142572,
       "new_recovered": 119
     },
@@ -8809,14 +8814,32 @@
       "total_deaths_per_million": 85.385,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.05,
+      "stringency_index": 56.48,
       "total_recovered": 142695,
       "new_recovered": 123
     },
     {
-      "date": "2021-01-11"
+      "date": "2021-01-11",
+      "total_cases": 146068.0,
+      "new_cases": 203.0,
+      "new_cases_smoothed": 203.429,
+      "total_deaths": 246.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.143,
+      "total_cases_per_million": 50699.395,
+      "new_cases_per_million": 70.46,
+      "new_cases_smoothed_per_million": 70.609,
+      "total_deaths_per_million": 85.385,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.05,
+      "total_recovered": 142827,
+      "new_recovered": 132
     },
     {
       "date": "2021-01-12"
+    },
+    {
+      "date": "2021-01-13"
     }
   ]
 }

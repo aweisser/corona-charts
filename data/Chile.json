@@ -8708,6 +8708,7 @@
       "new_vaccinations": 250.0,
       "total_vaccinations_per_hundred": 0.05,
       "new_vaccinations_per_million": 13.0,
+      "stringency_index": 79.17,
       "total_recovered": 588991,
       "new_recovered": 2091
     },
@@ -8738,6 +8739,7 @@
       "new_vaccinations": 272.0,
       "total_vaccinations_per_hundred": 0.06,
       "new_vaccinations_per_million": 14.0,
+      "stringency_index": 79.17,
       "total_recovered": 591081,
       "new_recovered": 2090
     },
@@ -8764,6 +8766,7 @@
       "positive_rate": 0.078,
       "tests_per_case": 12.8,
       "tests_units": "tests performed",
+      "stringency_index": 79.17,
       "total_recovered": 593235,
       "new_recovered": 2154
     },
@@ -8790,6 +8793,7 @@
       "positive_rate": 0.08,
       "tests_per_case": 12.5,
       "tests_units": "tests performed",
+      "stringency_index": 79.17,
       "total_recovered": 595799,
       "new_recovered": 2564
     },
@@ -8816,6 +8820,7 @@
       "positive_rate": 0.08,
       "tests_per_case": 12.5,
       "tests_units": "tests performed",
+      "stringency_index": 79.17,
       "total_recovered": 599604,
       "new_recovered": 3805
     },
@@ -8842,14 +8847,33 @@
       "positive_rate": 0.078,
       "tests_per_case": 12.8,
       "tests_units": "tests performed",
+      "stringency_index": 79.17,
       "total_recovered": 602861,
       "new_recovered": 3257
     },
     {
-      "date": "2021-01-11"
+      "date": "2021-01-11",
+      "total_cases": 645892.0,
+      "new_cases": 3969.0,
+      "new_cases_smoothed": 3607.286,
+      "total_deaths": 17162.0,
+      "new_deaths": 66.0,
+      "new_deaths_smoothed": 56.429,
+      "total_cases_per_million": 33787.662,
+      "new_cases_per_million": 207.625,
+      "new_cases_smoothed_per_million": 188.703,
+      "total_deaths_per_million": 897.772,
+      "new_deaths_per_million": 3.453,
+      "new_deaths_smoothed_per_million": 2.952,
+      "stringency_index": 79.17,
+      "total_recovered": 606055,
+      "new_recovered": 3194
     },
     {
       "date": "2021-01-12"
+    },
+    {
+      "date": "2021-01-13"
     }
   ]
 }

@@ -7810,6 +7810,7 @@
       "positive_rate": 0.152,
       "tests_per_case": 6.6,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 5718,
       "new_recovered": 3
     },
@@ -7832,6 +7833,7 @@
       "positive_rate": 0.182,
       "tests_per_case": 5.5,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 5753,
       "new_recovered": 35
     },
@@ -7856,6 +7858,7 @@
       "positive_rate": 0.202,
       "tests_per_case": 4.9,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 5787,
       "new_recovered": 34
     },
@@ -7878,6 +7881,7 @@
       "positive_rate": 0.207,
       "tests_per_case": 4.8,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 5791,
       "new_recovered": 4
     },
@@ -7902,6 +7906,7 @@
       "positive_rate": 0.221,
       "tests_per_case": 4.5,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 5802,
       "new_recovered": 11
     },
@@ -7924,6 +7929,7 @@
       "positive_rate": 0.249,
       "tests_per_case": 4.0,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 5809,
       "new_recovered": 7
     },
@@ -7946,14 +7952,38 @@
       "positive_rate": 0.241,
       "tests_per_case": 4.2,
       "tests_units": "samples tested",
+      "stringency_index": 48.15,
       "total_recovered": 5826,
       "new_recovered": 17
     },
     {
-      "date": "2021-01-11"
+      "date": "2021-01-11",
+      "total_cases": 9027.0,
+      "new_cases": 452.0,
+      "new_cases_smoothed": 298.857,
+      "total_deaths": 235.0,
+      "new_deaths": 10.0,
+      "new_deaths_smoothed": 5.571,
+      "total_cases_per_million": 471.878,
+      "new_cases_per_million": 23.628,
+      "new_cases_smoothed_per_million": 15.622,
+      "total_deaths_per_million": 12.284,
+      "new_deaths_per_million": 0.523,
+      "new_deaths_smoothed_per_million": 0.291,
+      "total_tests": 95736.0,
+      "total_tests_per_thousand": 5.005,
+      "new_tests_smoothed": 1141.0,
+      "new_tests_smoothed_per_thousand": 0.06,
+      "tests_units": "samples tested",
+      "stringency_index": 48.15,
+      "total_recovered": 5838,
+      "new_recovered": 12
     },
     {
       "date": "2021-01-12"
+    },
+    {
+      "date": "2021-01-13"
     }
   ]
 }

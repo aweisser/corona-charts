@@ -8482,6 +8482,7 @@
       "new_vaccinations": 9000.0,
       "total_vaccinations_per_hundred": 0.09,
       "new_vaccinations_per_million": 525.0,
+      "stringency_index": 84.26,
       "total_recovered": 10376,
       "new_recovered": 73
     },
@@ -8503,6 +8504,7 @@
       "new_vaccinations": 10500.0,
       "total_vaccinations_per_hundred": 0.16,
       "new_vaccinations_per_million": 613.0,
+      "stringency_index": 84.26,
       "total_recovered": 10514,
       "new_recovered": 138
     },
@@ -8524,6 +8526,7 @@
       "new_vaccinations": 8000.0,
       "total_vaccinations_per_hundred": 0.18,
       "new_vaccinations_per_million": 467.0,
+      "stringency_index": 84.26,
       "total_recovered": 10716,
       "new_recovered": 202
     },
@@ -8545,18 +8548,42 @@
       "new_vaccinations": 6250.0,
       "total_vaccinations_per_hundred": 0.18,
       "new_vaccinations_per_million": 365.0,
+      "stringency_index": 84.26,
       "total_recovered": 10952,
       "new_recovered": 236
     },
     {
       "date": "2021-01-11",
+      "total_cases": 890566.0,
+      "new_cases": 5468.0,
+      "new_cases_smoothed": 7321.429,
+      "total_deaths": 12512.0,
+      "new_deaths": 51.0,
+      "new_deaths_smoothed": 106.0,
+      "total_cases_per_million": 51973.89,
+      "new_cases_per_million": 319.115,
+      "new_cases_smoothed_per_million": 427.282,
+      "total_deaths_per_million": 730.207,
+      "new_deaths_per_million": 2.976,
+      "new_deaths_smoothed_per_million": 6.186,
       "total_vaccinations": 35500.0,
       "new_vaccinations": 5900.0,
       "total_vaccinations_per_hundred": 0.21,
-      "new_vaccinations_per_million": 344.0
+      "new_vaccinations_per_million": 344.0,
+      "stringency_index": 84.26,
+      "total_recovered": 11089,
+      "new_recovered": 137
     },
     {
-      "date": "2021-01-12"
+      "date": "2021-01-12",
+      "total_vaccinations": 45000.0,
+      "new_vaccinations": 6500.0,
+      "total_vaccinations_per_hundred": 0.26,
+      "new_vaccinations_per_million": 379.0,
+      "stringency_index": 84.26
+    },
+    {
+      "date": "2021-01-13"
     }
   ]
 }

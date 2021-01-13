@@ -8176,6 +8176,7 @@
       "positive_rate": 0.036,
       "tests_per_case": 27.9,
       "tests_units": "samples tested",
+      "stringency_index": 59.26,
       "total_recovered": 79357,
       "new_recovered": 100
     },
@@ -8200,6 +8201,7 @@
       "positive_rate": 0.04,
       "tests_per_case": 24.9,
       "tests_units": "samples tested",
+      "stringency_index": 59.26,
       "total_recovered": 79966,
       "new_recovered": 609
     },
@@ -8217,6 +8219,7 @@
       "total_deaths_per_million": 31.653,
       "new_deaths_per_million": 0.149,
       "new_deaths_smoothed_per_million": 0.085,
+      "stringency_index": 59.26,
       "total_recovered": 80306,
       "new_recovered": 340
     },
@@ -8234,6 +8237,7 @@
       "total_deaths_per_million": 31.671,
       "new_deaths_per_million": 0.019,
       "new_deaths_smoothed_per_million": 0.058,
+      "stringency_index": 59.26,
       "total_recovered": 80671,
       "new_recovered": 365
     },
@@ -8251,6 +8255,7 @@
       "total_deaths_per_million": 31.69,
       "new_deaths_per_million": 0.019,
       "new_deaths_smoothed_per_million": 0.05,
+      "stringency_index": 59.26,
       "total_recovered": 80808,
       "new_recovered": 137
     },
@@ -8268,14 +8273,33 @@
       "total_deaths_per_million": 31.801,
       "new_deaths_per_million": 0.112,
       "new_deaths_smoothed_per_million": 0.066,
+      "stringency_index": 59.26,
       "total_recovered": 80875,
       "new_recovered": 67
     },
     {
-      "date": "2021-01-11"
+      "date": "2021-01-11",
+      "total_cases": 98334.0,
+      "new_cases": 63.0,
+      "new_cases_smoothed": 203.714,
+      "total_deaths": 1713.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 3.857,
+      "total_cases_per_million": 1828.745,
+      "new_cases_per_million": 1.172,
+      "new_cases_smoothed_per_million": 3.789,
+      "total_deaths_per_million": 31.857,
+      "new_deaths_per_million": 0.056,
+      "new_deaths_smoothed_per_million": 0.072,
+      "stringency_index": 59.26,
+      "total_recovered": 81101,
+      "new_recovered": 226
     },
     {
       "date": "2021-01-12"
+    },
+    {
+      "date": "2021-01-13"
     }
   ]
 }

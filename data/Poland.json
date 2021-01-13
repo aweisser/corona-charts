@@ -8864,6 +8864,7 @@
       "new_vaccinations": 12274.0,
       "total_vaccinations_per_hundred": 0.24,
       "new_vaccinations_per_million": 324.0,
+      "stringency_index": 71.3,
       "total_recovered": 1078892,
       "new_recovered": 9338
     },
@@ -8894,6 +8895,7 @@
       "new_vaccinations": 14847.0,
       "total_vaccinations_per_hundred": 0.37,
       "new_vaccinations_per_million": 392.0,
+      "stringency_index": 71.3,
       "total_recovered": 1087744,
       "new_recovered": 8852
     },
@@ -8924,6 +8926,7 @@
       "new_vaccinations": 16108.0,
       "total_vaccinations_per_hundred": 0.42,
       "new_vaccinations_per_million": 426.0,
+      "stringency_index": 71.3,
       "total_recovered": 1095616,
       "new_recovered": 7872
     },
@@ -8954,6 +8957,7 @@
       "new_vaccinations": 20061.0,
       "total_vaccinations_per_hundred": 0.5,
       "new_vaccinations_per_million": 530.0,
+      "stringency_index": 71.3,
       "total_recovered": 1104599,
       "new_recovered": 8983
     },
@@ -8984,6 +8988,7 @@
       "new_vaccinations": 21332.0,
       "total_vaccinations_per_hundred": 0.53,
       "new_vaccinations_per_million": 564.0,
+      "stringency_index": 71.3,
       "total_recovered": 1113738,
       "new_recovered": 9139
     },
@@ -9005,18 +9010,41 @@
       "new_vaccinations": 21376.0,
       "total_vaccinations_per_hundred": 0.53,
       "new_vaccinations_per_million": 565.0,
+      "stringency_index": 71.3,
       "total_recovered": 1123318,
       "new_recovered": 9580
     },
     {
       "date": "2021-01-11",
+      "total_cases": 1390385.0,
+      "new_cases": 4863.0,
+      "new_cases_smoothed": 9634.0,
+      "total_deaths": 31264.0,
+      "new_deaths": 75.0,
+      "new_deaths_smoothed": 300.429,
+      "total_cases_per_million": 36737.377,
+      "new_cases_per_million": 128.492,
+      "new_cases_smoothed_per_million": 254.554,
+      "total_deaths_per_million": 826.071,
+      "new_deaths_per_million": 1.982,
+      "new_deaths_smoothed_per_million": 7.938,
       "total_vaccinations": 203053.0,
       "new_vaccinations": 21746.0,
       "total_vaccinations_per_hundred": 0.54,
-      "new_vaccinations_per_million": 575.0
+      "new_vaccinations_per_million": 575.0,
+      "stringency_index": 71.3,
+      "total_recovered": 1130460,
+      "new_recovered": 7142
     },
     {
-      "date": "2021-01-12"
+      "date": "2021-01-12",
+      "total_vaccinations": 257834.0,
+      "new_vaccinations": 23659.0,
+      "total_vaccinations_per_hundred": 0.68,
+      "new_vaccinations_per_million": 625.0
+    },
+    {
+      "date": "2021-01-13"
     }
   ]
 }
