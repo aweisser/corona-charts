@@ -8709,16 +8709,33 @@
     },
     {
       "date": "2021-01-13",
+      "total_cases": 858043.0,
+      "new_cases": 11278.0,
+      "new_cases_smoothed": 9948.714,
+      "total_deaths": 24951.0,
+      "new_deaths": 306.0,
+      "new_deaths_smoothed": 236.429,
+      "total_cases_per_million": 3136.998,
+      "new_cases_per_million": 41.232,
+      "new_cases_smoothed_per_million": 36.372,
+      "total_deaths_per_million": 91.221,
+      "new_deaths_per_million": 1.119,
+      "new_deaths_smoothed_per_million": 0.864,
       "new_tests": 40548.0,
       "total_tests": 5333160.0,
       "total_tests_per_thousand": 19.498,
       "new_tests_per_thousand": 0.148,
       "new_tests_smoothed": 32449.0,
       "new_tests_smoothed_per_thousand": 0.119,
-      "tests_units": "people tested"
+      "tests_units": "people tested",
+      "total_recovered": 703464,
+      "new_recovered": 7657
     },
     {
       "date": "2021-01-14"
+    },
+    {
+      "date": "2021-01-15"
     }
   ]
 }
