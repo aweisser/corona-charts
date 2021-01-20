@@ -9442,6 +9442,7 @@
       "tests_units": "people tested",
       "new_vaccinations_smoothed": 14056.0,
       "new_vaccinations_smoothed_per_million": 311.0,
+      "stringency_index": 79.17,
       "total_recovered": 1527861,
       "new_recovered": 9146
     },
@@ -9463,6 +9464,7 @@
       "new_vaccinations_smoothed": 13323.0,
       "total_vaccinations_per_hundred": 0.37,
       "new_vaccinations_smoothed_per_million": 295.0,
+      "stringency_index": 79.17,
       "total_recovered": 1536423,
       "new_recovered": 8562
     },
@@ -9482,6 +9484,7 @@
       "new_deaths_smoothed_per_million": 3.17,
       "new_vaccinations_smoothed": 13320.0,
       "new_vaccinations_smoothed_per_million": 295.0,
+      "stringency_index": 79.17,
       "total_recovered": 1549490,
       "new_recovered": 13067
     },
@@ -9503,6 +9506,7 @@
       "new_vaccinations_smoothed": 13317.0,
       "total_vaccinations_per_hundred": 0.44,
       "new_vaccinations_smoothed_per_million": 295.0,
+      "stringency_index": 79.17,
       "total_recovered": 1561963,
       "new_recovered": 12473
     },
@@ -9520,6 +9524,7 @@
       "total_deaths_per_million": 1002.195,
       "new_deaths_per_million": 1.505,
       "new_deaths_smoothed_per_million": 2.775,
+      "stringency_index": 79.17,
       "total_recovered": 1573104,
       "new_recovered": 11141
     },
@@ -9537,14 +9542,33 @@
       "total_deaths_per_million": 1004.674,
       "new_deaths_per_million": 2.478,
       "new_deaths_smoothed_per_million": 2.883,
+      "stringency_index": 79.17,
       "total_recovered": 1583465,
       "new_recovered": 10361
     },
     {
-      "date": "2021-01-18"
+      "date": "2021-01-18",
+      "total_cases": 1807428.0,
+      "new_cases": 8185.0,
+      "new_cases_smoothed": 10929.571,
+      "total_deaths": 45832.0,
+      "new_deaths": 425.0,
+      "new_deaths_smoothed": 168.286,
+      "total_cases_per_million": 39991.081,
+      "new_cases_per_million": 181.101,
+      "new_cases_smoothed_per_million": 241.827,
+      "total_deaths_per_million": 1014.077,
+      "new_deaths_per_million": 9.404,
+      "new_deaths_smoothed_per_million": 3.723,
+      "stringency_index": 79.17,
+      "total_recovered": 1594768,
+      "new_recovered": 11303
     },
     {
       "date": "2021-01-19"
+    },
+    {
+      "date": "2021-01-20"
     }
   ]
 }

@@ -8622,6 +8622,8 @@
       "positive_rate": 0.171,
       "tests_per_case": 5.8,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 7858.0,
+      "new_vaccinations_smoothed_per_million": 734.0,
       "stringency_index": 69.44,
       "total_recovered": 708842,
       "new_recovered": 16295
@@ -8647,6 +8649,8 @@
       "positive_rate": 0.167,
       "tests_per_case": 6.0,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 8464.0,
+      "new_vaccinations_smoothed_per_million": 790.0,
       "stringency_index": 69.44,
       "total_recovered": 717569,
       "new_recovered": 8727
@@ -8672,6 +8676,10 @@
       "positive_rate": 0.162,
       "tests_per_case": 6.2,
       "tests_units": "tests performed",
+      "total_vaccinations": 105167.0,
+      "new_vaccinations_smoothed": 9071.0,
+      "total_vaccinations_per_hundred": 0.98,
+      "new_vaccinations_smoothed_per_million": 847.0,
       "stringency_index": 69.44,
       "total_recovered": 719844,
       "new_recovered": 2275
@@ -8697,14 +8705,36 @@
       "positive_rate": 0.161,
       "tests_per_case": 6.2,
       "tests_units": "tests performed",
+      "total_vaccinations": 108239.0,
+      "new_vaccinations": 3072.0,
+      "new_vaccinations_smoothed": 8473.0,
+      "total_vaccinations_per_hundred": 1.01,
+      "new_vaccinations_smoothed_per_million": 791.0,
       "total_recovered": 726409,
       "new_recovered": 6565
     },
     {
-      "date": "2021-01-18"
+      "date": "2021-01-18",
+      "total_cases": 891852.0,
+      "new_cases": 2693.0,
+      "new_cases_smoothed": 8056.857,
+      "total_deaths": 14449.0,
+      "new_deaths": 111.0,
+      "new_deaths_smoothed": 168.143,
+      "total_cases_per_million": 83280.745,
+      "new_cases_per_million": 251.471,
+      "new_cases_smoothed_per_million": 752.346,
+      "total_deaths_per_million": 1349.241,
+      "new_deaths_per_million": 10.365,
+      "new_deaths_smoothed_per_million": 15.701,
+      "total_recovered": 732446,
+      "new_recovered": 6037
     },
     {
       "date": "2021-01-19"
+    },
+    {
+      "date": "2021-01-20"
     }
   ]
 }

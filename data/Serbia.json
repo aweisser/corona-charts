@@ -9016,6 +9016,7 @@
       "tests_units": "people tested",
       "new_vaccinations_smoothed": 1680.0,
       "new_vaccinations_smoothed_per_million": 247.0,
+      "stringency_index": 60.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -9044,6 +9045,7 @@
       "tests_units": "people tested",
       "new_vaccinations_smoothed": 1785.0,
       "new_vaccinations_smoothed_per_million": 262.0,
+      "stringency_index": 60.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -9074,6 +9076,7 @@
       "new_vaccinations_smoothed": 1856.0,
       "total_vaccinations_per_hundred": 0.27,
       "new_vaccinations_smoothed_per_million": 273.0,
+      "stringency_index": 60.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -9100,6 +9103,7 @@
       "positive_rate": 0.168,
       "tests_per_case": 6.0,
       "tests_units": "people tested",
+      "stringency_index": 60.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -9126,6 +9130,7 @@
       "positive_rate": 0.189,
       "tests_per_case": 5.3,
       "tests_units": "people tested",
+      "stringency_index": 60.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -9152,14 +9157,33 @@
       "positive_rate": 0.167,
       "tests_per_case": 6.0,
       "tests_units": "people tested",
+      "stringency_index": 60.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-01-18"
+      "date": "2021-01-18",
+      "total_cases": 374111.0,
+      "new_cases": 1578.0,
+      "new_cases_smoothed": 1761.286,
+      "total_deaths": 3771.0,
+      "new_deaths": 21.0,
+      "new_deaths_smoothed": 23.0,
+      "total_cases_per_million": 54979.164,
+      "new_cases_per_million": 231.902,
+      "new_cases_smoothed_per_million": 258.838,
+      "total_deaths_per_million": 554.184,
+      "new_deaths_per_million": 3.086,
+      "new_deaths_smoothed_per_million": 3.38,
+      "stringency_index": 56.48,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-01-19"
+    },
+    {
+      "date": "2021-01-20"
     }
   ]
 }

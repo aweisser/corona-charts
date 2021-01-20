@@ -8465,6 +8465,7 @@
       "positive_rate": 0.08,
       "tests_per_case": 12.5,
       "tests_units": "samples tested",
+      "stringency_index": 71.3,
       "total_recovered": 11526,
       "new_recovered": 20
     },
@@ -8489,6 +8490,7 @@
       "positive_rate": 0.082,
       "tests_per_case": 12.3,
       "tests_units": "samples tested",
+      "stringency_index": 71.3,
       "total_recovered": 11568,
       "new_recovered": 42
     },
@@ -8511,6 +8513,7 @@
       "positive_rate": 0.083,
       "tests_per_case": 12.1,
       "tests_units": "samples tested",
+      "stringency_index": 71.3,
       "total_recovered": 11592,
       "new_recovered": 24
     },
@@ -8533,6 +8536,7 @@
       "positive_rate": 0.081,
       "tests_per_case": 12.3,
       "tests_units": "samples tested",
+      "stringency_index": 71.3,
       "total_recovered": 11630,
       "new_recovered": 38
     },
@@ -8557,6 +8561,7 @@
       "positive_rate": 0.083,
       "tests_per_case": 12.1,
       "tests_units": "samples tested",
+      "stringency_index": 71.3,
       "total_recovered": 11674,
       "new_recovered": 44
     },
@@ -8574,14 +8579,33 @@
       "total_deaths_per_million": 109.417,
       "new_deaths_per_million": 0.338,
       "new_deaths_smoothed_per_million": 0.579,
+      "stringency_index": 71.3,
       "total_recovered": 11709,
       "new_recovered": 35
     },
     {
-      "date": "2021-01-18"
+      "date": "2021-01-18",
+      "total_cases": 14274.0,
+      "new_cases": 113.0,
+      "new_cases_smoothed": 91.0,
+      "total_deaths": 326.0,
+      "new_deaths": 2.0,
+      "new_deaths_smoothed": 1.857,
+      "total_cases_per_million": 4820.407,
+      "new_cases_per_million": 38.161,
+      "new_cases_smoothed_per_million": 30.731,
+      "total_deaths_per_million": 110.092,
+      "new_deaths_per_million": 0.675,
+      "new_deaths_smoothed_per_million": 0.627,
+      "stringency_index": 71.3,
+      "total_recovered": 11727,
+      "new_recovered": 18
     },
     {
       "date": "2021-01-19"
+    },
+    {
+      "date": "2021-01-20"
     }
   ]
 }
