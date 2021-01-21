@@ -10759,7 +10759,7 @@
       "new_tests_per_thousand": 1.201,
       "new_tests_smoothed": 4460.0,
       "new_tests_smoothed_per_thousand": 2.145,
-      "positive_rate": 0.248,
+      "positive_rate": 0.249,
       "tests_per_case": 4.0,
       "tests_units": "tests performed",
       "total_vaccinations": 41439.0,
@@ -10817,6 +10817,15 @@
       "total_deaths_per_million": 1542.138,
       "new_deaths_per_million": 12.506,
       "new_deaths_smoothed_per_million": 12.644,
+      "total_tests": 754304.0,
+      "new_tests": 5306.0,
+      "total_tests_per_thousand": 362.832,
+      "new_tests_per_thousand": 2.552,
+      "new_tests_smoothed": 4385.0,
+      "new_tests_smoothed_per_thousand": 2.109,
+      "positive_rate": 0.244,
+      "tests_per_case": 4.1,
+      "tests_units": "tests performed",
       "total_vaccinations": 43081.0,
       "new_vaccinations": 1046.0,
       "new_vaccinations_smoothed": 2942.0,
@@ -10827,10 +10836,41 @@
       "new_recovered": 737
     },
     {
-      "date": "2021-01-19"
+      "date": "2021-01-19",
+      "total_cases": 151137.0,
+      "new_cases": 1713.0,
+      "new_cases_smoothed": 1364.286,
+      "total_deaths": 3231.0,
+      "new_deaths": 25.0,
+      "new_deaths_smoothed": 25.429,
+      "total_cases_per_million": 72699.348,
+      "new_cases_per_million": 823.981,
+      "new_cases_smoothed_per_million": 656.244,
+      "total_deaths_per_million": 1554.163,
+      "new_deaths_per_million": 12.025,
+      "new_deaths_smoothed_per_million": 12.232,
+      "total_tests": 759688.0,
+      "new_tests": 5384.0,
+      "total_tests_per_thousand": 365.422,
+      "new_tests_per_thousand": 2.59,
+      "new_tests_smoothed": 4270.0,
+      "new_tests_smoothed_per_thousand": 2.054,
+      "positive_rate": 0.238,
+      "tests_per_case": 4.2,
+      "tests_units": "tests performed",
+      "total_vaccinations": 43869.0,
+      "new_vaccinations": 788.0,
+      "new_vaccinations_smoothed": 2772.0,
+      "total_vaccinations_per_hundred": 2.11,
+      "new_vaccinations_smoothed_per_million": 1333.0,
+      "total_recovered": 125315,
+      "new_recovered": 2570
     },
     {
       "date": "2021-01-20"
+    },
+    {
+      "date": "2021-01-21"
     }
   ]
 }
