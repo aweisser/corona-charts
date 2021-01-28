@@ -10025,6 +10025,8 @@
       "new_tests_per_thousand": 1.042,
       "new_tests_smoothed": 14074.0,
       "new_tests_smoothed_per_thousand": 1.457,
+      "positive_rate": 0.078,
+      "tests_per_case": 12.8,
       "tests_units": "tests performed",
       "total_vaccinations": 162315.0,
       "people_vaccinated": 149676.0,
@@ -10039,10 +10041,52 @@
       "new_recovered": 1620
     },
     {
-      "date": "2021-01-26"
+      "date": "2021-01-26",
+      "total_cases": 360877.0,
+      "new_cases": 459.0,
+      "new_cases_smoothed": 1085.857,
+      "total_deaths": 12113.0,
+      "new_deaths": 89.0,
+      "new_deaths_smoothed": 84.714,
+      "total_cases_per_million": 37356.514,
+      "new_cases_per_million": 47.514,
+      "new_cases_smoothed_per_million": 112.403,
+      "total_deaths_per_million": 1253.888,
+      "new_deaths_per_million": 9.213,
+      "new_deaths_smoothed_per_million": 8.769,
+      "total_tests": 2616827.0,
+      "new_tests": 5531.0,
+      "total_tests_per_thousand": 270.883,
+      "new_tests_per_thousand": 0.573,
+      "new_tests_smoothed": 14131.0,
+      "new_tests_smoothed_per_thousand": 1.463,
+      "positive_rate": 0.077,
+      "tests_per_case": 13.0,
+      "tests_units": "tests performed",
+      "total_vaccinations": 170476.0,
+      "people_vaccinated": 152704.0,
+      "people_fully_vaccinated": 17772.0,
+      "new_vaccinations": 8161.0,
+      "new_vaccinations_smoothed": 5317.0,
+      "total_vaccinations_per_hundred": 1.76,
+      "people_vaccinated_per_hundred": 1.58,
+      "people_fully_vaccinated_per_hundred": 0.18,
+      "new_vaccinations_smoothed_per_million": 550.0,
+      "total_recovered": 244681,
+      "new_recovered": 1589
     },
     {
-      "date": "2021-01-27"
+      "date": "2021-01-27",
+      "total_tests": 2633880.0,
+      "new_tests": 17053.0,
+      "total_tests_per_thousand": 272.649,
+      "new_tests_per_thousand": 1.765,
+      "new_tests_smoothed": 14281.0,
+      "new_tests_smoothed_per_thousand": 1.478,
+      "tests_units": "tests performed"
+    },
+    {
+      "date": "2021-01-28"
     }
   ]
 }

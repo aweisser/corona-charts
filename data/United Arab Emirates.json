@@ -9783,6 +9783,7 @@
       "people_vaccinated_per_hundred": 18.35,
       "people_fully_vaccinated_per_hundred": 2.53,
       "new_vaccinations_smoothed_per_million": 11407.0,
+      "stringency_index": 50.93,
       "total_recovered": 231675,
       "new_recovered": 3311
     },
@@ -9818,6 +9819,7 @@
       "people_vaccinated_per_hundred": 19.32,
       "people_fully_vaccinated_per_hundred": 2.53,
       "new_vaccinations_smoothed_per_million": 11072.0,
+      "stringency_index": 50.93,
       "total_recovered": 235421,
       "new_recovered": 3746
     },
@@ -9853,6 +9855,7 @@
       "people_vaccinated_per_hundred": 20.18,
       "people_fully_vaccinated_per_hundred": 2.53,
       "new_vaccinations_smoothed_per_million": 10374.0,
+      "stringency_index": 50.93,
       "total_recovered": 239322,
       "new_recovered": 3901
     },
@@ -9888,6 +9891,7 @@
       "people_vaccinated_per_hundred": 21.12,
       "people_fully_vaccinated_per_hundred": 2.53,
       "new_vaccinations_smoothed_per_million": 9722.0,
+      "stringency_index": 50.93,
       "total_recovered": 243267,
       "new_recovered": 3945
     },
@@ -9923,6 +9927,7 @@
       "people_vaccinated_per_hundred": 22.01,
       "people_fully_vaccinated_per_hundred": 2.53,
       "new_vaccinations_smoothed_per_million": 9083.0,
+      "stringency_index": 50.93,
       "total_recovered": 247318,
       "new_recovered": 4051
     },
@@ -9958,6 +9963,7 @@
       "people_vaccinated_per_hundred": 22.63,
       "people_fully_vaccinated_per_hundred": 2.53,
       "new_vaccinations_smoothed_per_million": 8739.0,
+      "stringency_index": 50.93,
       "total_recovered": 251484,
       "new_recovered": 4166
     },
@@ -9981,6 +9987,8 @@
       "new_tests_per_thousand": 14.203,
       "new_tests_smoothed": 164820.0,
       "new_tests_smoothed_per_thousand": 16.665,
+      "positive_rate": 0.022,
+      "tests_per_case": 46.5,
       "tests_units": "tests performed",
       "total_vaccinations": 2571091.0,
       "people_vaccinated": 2321091.0,
@@ -9991,11 +9999,33 @@
       "people_vaccinated_per_hundred": 23.47,
       "people_fully_vaccinated_per_hundred": 2.53,
       "new_vaccinations_smoothed_per_million": 8660.0,
+      "stringency_index": 50.93,
       "total_recovered": 255304,
       "new_recovered": 3820
     },
     {
       "date": "2021-01-26",
+      "total_cases": 285147.0,
+      "new_cases": 3601.0,
+      "new_cases_smoothed": 3560.571,
+      "total_deaths": 805.0,
+      "new_deaths": 7.0,
+      "new_deaths_smoothed": 7.0,
+      "total_cases_per_million": 28830.684,
+      "new_cases_per_million": 364.09,
+      "new_cases_smoothed_per_million": 360.003,
+      "total_deaths_per_million": 81.392,
+      "new_deaths_per_million": 0.708,
+      "new_deaths_smoothed_per_million": 0.708,
+      "total_tests": 24872781.0,
+      "new_tests": 175249.0,
+      "total_tests_per_thousand": 2514.841,
+      "new_tests_per_thousand": 17.719,
+      "new_tests_smoothed": 166563.0,
+      "new_tests_smoothed_per_thousand": 16.841,
+      "positive_rate": 0.021,
+      "tests_per_case": 46.8,
+      "tests_units": "tests performed",
       "total_vaccinations": 2677680.0,
       "people_vaccinated": 2427680.0,
       "people_fully_vaccinated": 250000.0,
@@ -10004,10 +10034,24 @@
       "total_vaccinations_per_hundred": 27.07,
       "people_vaccinated_per_hundred": 24.55,
       "people_fully_vaccinated_per_hundred": 2.53,
-      "new_vaccinations_smoothed_per_million": 8844.0
+      "new_vaccinations_smoothed_per_million": 8844.0,
+      "total_recovered": 259194,
+      "new_recovered": 3890
     },
     {
-      "date": "2021-01-27"
+      "date": "2021-01-27",
+      "total_vaccinations": 2764450.0,
+      "people_vaccinated": 2514450.0,
+      "people_fully_vaccinated": 250000.0,
+      "new_vaccinations": 86770.0,
+      "new_vaccinations_smoothed": 86186.0,
+      "total_vaccinations_per_hundred": 27.95,
+      "people_vaccinated_per_hundred": 25.42,
+      "people_fully_vaccinated_per_hundred": 2.53,
+      "new_vaccinations_smoothed_per_million": 8714.0
+    },
+    {
+      "date": "2021-01-28"
     }
   ]
 }
