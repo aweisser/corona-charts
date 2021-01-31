@@ -8216,6 +8216,7 @@
       "positive_rate": 0.14,
       "tests_per_case": 7.1,
       "tests_units": "samples tested",
+      "stringency_index": 46.3,
       "total_recovered": 30270,
       "new_recovered": 250
     },
@@ -8242,6 +8243,7 @@
       "positive_rate": 0.141,
       "tests_per_case": 7.1,
       "tests_units": "samples tested",
+      "stringency_index": 38.89,
       "total_recovered": 30432,
       "new_recovered": 162
     },
@@ -8268,6 +8270,7 @@
       "positive_rate": 0.143,
       "tests_per_case": 7.0,
       "tests_units": "samples tested",
+      "stringency_index": 38.89,
       "total_recovered": 31210,
       "new_recovered": 778
     },
@@ -8294,14 +8297,33 @@
       "positive_rate": 0.145,
       "tests_per_case": 6.9,
       "tests_units": "samples tested",
+      "stringency_index": 38.89,
       "total_recovered": 31409,
       "new_recovered": 199
     },
     {
-      "date": "2021-01-29"
+      "date": "2021-01-29",
+      "total_cases": 33696.0,
+      "new_cases": 237.0,
+      "new_cases_smoothed": 264.0,
+      "total_deaths": 342.0,
+      "new_deaths": 10.0,
+      "new_deaths_smoothed": 4.429,
+      "total_cases_per_million": 13261.359,
+      "new_cases_per_million": 93.273,
+      "new_cases_smoothed_per_million": 103.9,
+      "total_deaths_per_million": 134.597,
+      "new_deaths_per_million": 3.936,
+      "new_deaths_smoothed_per_million": 1.743,
+      "stringency_index": 38.89,
+      "total_recovered": 31652,
+      "new_recovered": 243
     },
     {
       "date": "2021-01-30"
+    },
+    {
+      "date": "2021-01-31"
     }
   ]
 }
