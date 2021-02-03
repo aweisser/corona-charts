@@ -8650,6 +8650,7 @@
       "positive_rate": 0.131,
       "tests_per_case": 7.6,
       "tests_units": "samples tested",
+      "stringency_index": 58.33,
       "total_recovered": 99276,
       "new_recovered": 917
     },
@@ -8672,6 +8673,7 @@
       "positive_rate": 0.139,
       "tests_per_case": 7.2,
       "tests_units": "samples tested",
+      "stringency_index": 58.33,
       "total_recovered": 100365,
       "new_recovered": 1089
     },
@@ -8694,6 +8696,7 @@
       "positive_rate": 0.124,
       "tests_per_case": 8.0,
       "tests_units": "samples tested",
+      "stringency_index": 58.33,
       "total_recovered": 100853,
       "new_recovered": 488
     },
@@ -8716,6 +8719,7 @@
       "positive_rate": 0.158,
       "tests_per_case": 6.3,
       "tests_units": "samples tested",
+      "stringency_index": 58.33,
       "total_recovered": 102780,
       "new_recovered": 1927
     },
@@ -8738,6 +8742,7 @@
       "positive_rate": 0.178,
       "tests_per_case": 5.6,
       "tests_units": "samples tested",
+      "stringency_index": 58.33,
       "total_recovered": 103712,
       "new_recovered": 932
     },
@@ -8762,14 +8767,33 @@
       "positive_rate": 0.221,
       "tests_per_case": 4.5,
       "tests_units": "samples tested",
+      "stringency_index": 58.33,
       "total_recovered": 104989,
       "new_recovered": 1277
     },
     {
-      "date": "2021-02-01"
+      "date": "2021-02-01",
+      "total_cases": 131918.0,
+      "new_cases": 676.0,
+      "new_cases_smoothed": 1274.571,
+      "total_deaths": 1607.0,
+      "new_deaths": 21.0,
+      "new_deaths_smoothed": 14.286,
+      "total_cases_per_million": 639.945,
+      "new_cases_per_million": 3.279,
+      "new_cases_smoothed_per_million": 6.183,
+      "total_deaths_per_million": 7.796,
+      "new_deaths_per_million": 0.102,
+      "new_deaths_smoothed_per_million": 0.069,
+      "stringency_index": 58.33,
+      "total_recovered": 106275,
+      "new_recovered": 1286
     },
     {
       "date": "2021-02-02"
+    },
+    {
+      "date": "2021-02-03"
     }
   ]
 }
