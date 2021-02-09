@@ -10578,6 +10578,8 @@
       "new_tests_per_thousand": 1.517,
       "new_tests_smoothed": 9073.0,
       "new_tests_smoothed_per_thousand": 1.306,
+      "positive_rate": 0.075,
+      "tests_per_case": 13.3,
       "tests_units": "tests performed",
       "total_vaccinations": 56860.0,
       "people_vaccinated": 39468.0,
@@ -10605,6 +10607,11 @@
       "total_deaths_per_million": 1340.012,
       "new_deaths_per_million": 1.295,
       "new_deaths_smoothed_per_million": 5.818,
+      "new_tests_smoothed": 8126.0,
+      "new_tests_smoothed_per_thousand": 1.169,
+      "positive_rate": 0.087,
+      "tests_per_case": 11.5,
+      "tests_units": "tests performed",
       "total_vaccinations": 57016.0,
       "people_vaccinated": 39624.0,
       "people_fully_vaccinated": 17392.0,
@@ -10618,10 +10625,41 @@
       "new_recovered": 161
     },
     {
-      "date": "2021-02-07"
+      "date": "2021-02-07",
+      "total_cases": 223734.0,
+      "new_cases": 182.0,
+      "new_cases_smoothed": 712.286,
+      "total_deaths": 9331.0,
+      "new_deaths": 20.0,
+      "new_deaths_smoothed": 40.857,
+      "total_cases_per_million": 32199.147,
+      "new_cases_per_million": 26.193,
+      "new_cases_smoothed_per_million": 102.51,
+      "total_deaths_per_million": 1342.89,
+      "new_deaths_per_million": 2.878,
+      "new_deaths_smoothed_per_million": 5.88,
+      "new_tests_smoothed": 8472.0,
+      "new_tests_smoothed_per_thousand": 1.219,
+      "positive_rate": 0.084,
+      "tests_per_case": 11.9,
+      "tests_units": "tests performed",
+      "total_vaccinations": 57038.0,
+      "people_vaccinated": 39646.0,
+      "people_fully_vaccinated": 17392.0,
+      "new_vaccinations": 22.0,
+      "new_vaccinations_smoothed": 2273.0,
+      "total_vaccinations_per_hundred": 0.82,
+      "people_vaccinated_per_hundred": 0.57,
+      "people_fully_vaccinated_per_hundred": 0.25,
+      "new_vaccinations_smoothed_per_million": 327.0,
+      "total_recovered": 193251,
+      "new_recovered": 60
     },
     {
       "date": "2021-02-08"
+    },
+    {
+      "date": "2021-02-09"
     }
   ]
 }
