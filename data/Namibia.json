@@ -8433,6 +8433,7 @@
       "positive_rate": 0.124,
       "tests_per_case": 8.0,
       "tests_units": "samples tested",
+      "stringency_index": 42.59,
       "total_recovered": 32739,
       "new_recovered": 175
     },
@@ -8459,6 +8460,7 @@
       "positive_rate": 0.117,
       "tests_per_case": 8.6,
       "tests_units": "samples tested",
+      "stringency_index": 42.59,
       "total_recovered": 32777,
       "new_recovered": 38
     },
@@ -8485,6 +8487,7 @@
       "positive_rate": 0.113,
       "tests_per_case": 8.8,
       "tests_units": "samples tested",
+      "stringency_index": 42.59,
       "total_recovered": 32872,
       "new_recovered": 95
     },
@@ -8511,6 +8514,7 @@
       "positive_rate": 0.094,
       "tests_per_case": 10.7,
       "tests_units": "samples tested",
+      "stringency_index": 42.59,
       "total_recovered": 33220,
       "new_recovered": 348
     },
@@ -8537,6 +8541,7 @@
       "positive_rate": 0.099,
       "tests_per_case": 10.1,
       "tests_units": "samples tested",
+      "stringency_index": 42.59,
       "total_recovered": 33359,
       "new_recovered": 139
     },
@@ -8563,14 +8568,33 @@
       "positive_rate": 0.114,
       "tests_per_case": 8.8,
       "tests_units": "samples tested",
+      "stringency_index": 42.59,
       "total_recovered": 33454,
       "new_recovered": 95
     },
     {
-      "date": "2021-02-08"
+      "date": "2021-02-08",
+      "total_cases": 35070.0,
+      "new_cases": 97.0,
+      "new_cases_smoothed": 128.857,
+      "total_deaths": 375.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 3.143,
+      "total_cases_per_million": 13802.109,
+      "new_cases_per_million": 38.175,
+      "new_cases_smoothed_per_million": 50.713,
+      "total_deaths_per_million": 147.585,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 1.237,
+      "stringency_index": 42.59,
+      "total_recovered": 33573,
+      "new_recovered": 119
     },
     {
       "date": "2021-02-09"
+    },
+    {
+      "date": "2021-02-10"
     }
   ]
 }
