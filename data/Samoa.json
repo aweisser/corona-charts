@@ -12,7 +12,7 @@
   "female_smokers": 16.7,
   "male_smokers": 38.1,
   "life_expectancy": 73.32,
-  "human_development_index": 0.713,
+  "human_development_index": 0.715,
   "data": [
     {
       "date": "2020-01-01"
@@ -2642,10 +2642,23 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-02-09"
+      "date": "2021-02-09",
+      "total_cases": 2.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 10.08,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "total_recovered": 2,
+      "new_recovered": 0
     },
     {
       "date": "2021-02-10"
+    },
+    {
+      "date": "2021-02-11"
     }
   ]
 }

@@ -14,7 +14,7 @@
   "male_smokers": 47.1,
   "hospital_beds_per_thousand": 1.1,
   "life_expectancy": 76.68,
-  "human_development_index": 0.667,
+  "human_development_index": 0.686,
   "data": [
     {
       "date": "2020-01-01"
@@ -9925,10 +9925,32 @@
       "new_recovered": 493
     },
     {
-      "date": "2021-02-09"
+      "date": "2021-02-09",
+      "total_cases": 476125.0,
+      "new_cases": 536.0,
+      "new_cases_smoothed": 550.286,
+      "total_deaths": 8424.0,
+      "new_deaths": 16.0,
+      "new_deaths_smoothed": 16.429,
+      "total_cases_per_million": 12899.426,
+      "new_cases_per_million": 14.522,
+      "new_cases_smoothed_per_million": 14.909,
+      "total_deaths_per_million": 228.227,
+      "new_deaths_per_million": 0.433,
+      "new_deaths_smoothed_per_million": 0.445,
+      "total_vaccinations": 615181.0,
+      "new_vaccinations": 65032.0,
+      "new_vaccinations_smoothed": 51127.0,
+      "total_vaccinations_per_hundred": 1.67,
+      "new_vaccinations_smoothed_per_million": 1385.0,
+      "total_recovered": 456032,
+      "new_recovered": 1035
     },
     {
       "date": "2021-02-10"
+    },
+    {
+      "date": "2021-02-11"
     }
   ]
 }

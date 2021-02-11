@@ -15,7 +15,7 @@
   "handwashing_facilities": 87.847,
   "hospital_beds_per_thousand": 1.38,
   "life_expectancy": 75.05,
-  "human_development_index": 0.774,
+  "human_development_index": 0.779,
   "data": [
     {
       "date": "2020-01-01",
@@ -10715,10 +10715,36 @@
       "new_recovered": 11503
     },
     {
-      "date": "2021-02-09"
+      "date": "2021-02-09",
+      "total_cases": 1946751.0,
+      "new_cases": 10738.0,
+      "new_cases_smoothed": 10379.857,
+      "total_deaths": 168432.0,
+      "new_deaths": 1701.0,
+      "new_deaths_smoothed": 1271.286,
+      "total_cases_per_million": 15098.964,
+      "new_cases_per_million": 83.284,
+      "new_cases_smoothed_per_million": 80.506,
+      "total_deaths_per_million": 1306.355,
+      "new_deaths_per_million": 13.193,
+      "new_deaths_smoothed_per_million": 9.86,
+      "total_vaccinations": 724347.0,
+      "people_vaccinated": 640129.0,
+      "people_fully_vaccinated": 84218.0,
+      "new_vaccinations": 6527.0,
+      "new_vaccinations_smoothed": 6687.0,
+      "total_vaccinations_per_hundred": 0.56,
+      "people_vaccinated_per_hundred": 0.5,
+      "people_fully_vaccinated_per_hundred": 0.07,
+      "new_vaccinations_smoothed_per_million": 52.0,
+      "total_recovered": 1511199,
+      "new_recovered": 9619
     },
     {
       "date": "2021-02-10"
+    },
+    {
+      "date": "2021-02-11"
     }
   ]
 }

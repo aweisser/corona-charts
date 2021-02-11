@@ -15,7 +15,7 @@
   "handwashing_facilities": 12.227,
   "hospital_beds_per_thousand": 0.7,
   "life_expectancy": 60.85,
-  "human_development_index": 0.437,
+  "human_development_index": 0.456,
   "data": [
     {
       "date": "2020-01-01"
@@ -8647,6 +8647,7 @@
       "positive_rate": 0.29,
       "tests_per_case": 3.5,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 21343,
       "new_recovered": 332
     },
@@ -8673,6 +8674,7 @@
       "positive_rate": 0.294,
       "tests_per_case": 3.4,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 22494,
       "new_recovered": 1151
     },
@@ -8699,6 +8701,7 @@
       "positive_rate": 0.308,
       "tests_per_case": 3.2,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 22750,
       "new_recovered": 256
     },
@@ -8725,6 +8728,7 @@
       "positive_rate": 0.317,
       "tests_per_case": 3.2,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 23559,
       "new_recovered": 809
     },
@@ -8751,6 +8755,7 @@
       "positive_rate": 0.319,
       "tests_per_case": 3.1,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 23945,
       "new_recovered": 386
     },
@@ -8777,6 +8782,7 @@
       "positive_rate": 0.312,
       "tests_per_case": 3.2,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 23955,
       "new_recovered": 10
     },
@@ -8803,6 +8809,7 @@
       "positive_rate": 0.306,
       "tests_per_case": 3.3,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 24593,
       "new_recovered": 638
     },
@@ -8829,6 +8836,7 @@
       "positive_rate": 0.289,
       "tests_per_case": 3.5,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 25010,
       "new_recovered": 417
     },
@@ -8855,6 +8863,7 @@
       "positive_rate": 0.299,
       "tests_per_case": 3.3,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 25485,
       "new_recovered": 475
     },
@@ -8881,6 +8890,7 @@
       "positive_rate": 0.303,
       "tests_per_case": 3.3,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 25673,
       "new_recovered": 188
     },
@@ -8907,6 +8917,7 @@
       "positive_rate": 0.309,
       "tests_per_case": 3.2,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 26212,
       "new_recovered": 539
     },
@@ -8933,6 +8944,7 @@
       "positive_rate": 0.318,
       "tests_per_case": 3.1,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 26790,
       "new_recovered": 578
     },
@@ -8959,6 +8971,7 @@
       "positive_rate": 0.326,
       "tests_per_case": 3.1,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 27162,
       "new_recovered": 372
     },
@@ -8976,14 +8989,33 @@
       "total_deaths_per_million": 14.877,
       "new_deaths_per_million": 0.16,
       "new_deaths_smoothed_per_million": 0.361,
+      "stringency_index": 64.81,
       "total_recovered": 27438,
       "new_recovered": 276
     },
     {
-      "date": "2021-02-09"
+      "date": "2021-02-09",
+      "total_cases": 45785.0,
+      "new_cases": 873.0,
+      "new_cases_smoothed": 789.286,
+      "total_deaths": 480.0,
+      "new_deaths": 15.0,
+      "new_deaths_smoothed": 11.0,
+      "total_cases_per_million": 1464.865,
+      "new_cases_per_million": 27.931,
+      "new_cases_smoothed_per_million": 25.253,
+      "total_deaths_per_million": 15.357,
+      "new_deaths_per_million": 0.48,
+      "new_deaths_smoothed_per_million": 0.352,
+      "stringency_index": 64.81,
+      "total_recovered": 27814,
+      "new_recovered": 376
     },
     {
       "date": "2021-02-10"
+    },
+    {
+      "date": "2021-02-11"
     }
   ]
 }
