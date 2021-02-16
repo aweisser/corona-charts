@@ -9997,6 +9997,8 @@
       "new_tests_per_thousand": 8.067,
       "new_tests_smoothed": 13375.0,
       "new_tests_smoothed_per_thousand": 7.86,
+      "positive_rate": 0.055,
+      "tests_per_case": 18.3,
       "tests_units": "units unclear",
       "total_vaccinations": 232540.0,
       "people_vaccinated": 232540.0,
@@ -10022,6 +10024,11 @@
       "total_deaths_per_million": 233.9,
       "new_deaths_per_million": 1.763,
       "new_deaths_smoothed_per_million": 1.595,
+      "new_tests_smoothed": 13414.0,
+      "new_tests_smoothed_per_thousand": 7.883,
+      "positive_rate": 0.057,
+      "tests_per_case": 17.4,
+      "tests_units": "units unclear",
       "total_vaccinations": 242260.0,
       "people_vaccinated": 242260.0,
       "new_vaccinations": 9720.0,
@@ -10033,10 +10040,41 @@
       "new_recovered": 609
     },
     {
-      "date": "2021-02-14"
+      "date": "2021-02-14",
+      "total_cases": 112742.0,
+      "new_cases": 640.0,
+      "new_cases_smoothed": 773.286,
+      "total_deaths": 403.0,
+      "new_deaths": 5.0,
+      "new_deaths_smoothed": 3.286,
+      "total_cases_per_million": 66257.126,
+      "new_cases_per_million": 376.12,
+      "new_cases_smoothed_per_million": 454.451,
+      "total_deaths_per_million": 236.838,
+      "new_deaths_per_million": 2.938,
+      "new_deaths_smoothed_per_million": 1.931,
+      "total_tests": 2886600.0,
+      "total_tests_per_thousand": 1696.42,
+      "new_tests_smoothed": 13454.0,
+      "new_tests_smoothed_per_thousand": 7.907,
+      "positive_rate": 0.057,
+      "tests_per_case": 17.4,
+      "tests_units": "units unclear",
+      "total_vaccinations": 248775.0,
+      "people_vaccinated": 248775.0,
+      "new_vaccinations": 6515.0,
+      "new_vaccinations_smoothed": 8196.0,
+      "total_vaccinations_per_hundred": 14.62,
+      "people_vaccinated_per_hundred": 14.62,
+      "new_vaccinations_smoothed_per_million": 4817.0,
+      "total_recovered": 105166,
+      "new_recovered": 679
     },
     {
       "date": "2021-02-15"
+    },
+    {
+      "date": "2021-02-16"
     }
   ]
 }
