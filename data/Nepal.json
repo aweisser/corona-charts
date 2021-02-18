@@ -10023,6 +10023,7 @@
       "positive_rate": 0.04,
       "tests_per_case": 25.0,
       "tests_units": "tests performed",
+      "stringency_index": 57.41,
       "total_recovered": 268549,
       "new_recovered": 118
     },
@@ -10050,6 +10051,7 @@
       "positive_rate": 0.038,
       "tests_per_case": 26.7,
       "tests_units": "tests performed",
+      "stringency_index": 57.41,
       "total_recovered": 268660,
       "new_recovered": 111
     },
@@ -10077,6 +10079,7 @@
       "positive_rate": 0.037,
       "tests_per_case": 27.4,
       "tests_units": "tests performed",
+      "stringency_index": 57.41,
       "total_recovered": 268796,
       "new_recovered": 136
     },
@@ -10095,6 +10098,7 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.093,
       "reproduction_rate": 0.7,
+      "stringency_index": 57.41,
       "total_recovered": 268929,
       "new_recovered": 133
     },
@@ -10113,6 +10117,7 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.078,
       "reproduction_rate": 0.7,
+      "stringency_index": 57.41,
       "total_recovered": 269060,
       "new_recovered": 131
     },
@@ -10130,14 +10135,32 @@
       "total_deaths_per_million": 70.529,
       "new_deaths_per_million": 0.034,
       "new_deaths_smoothed_per_million": 0.049,
+      "stringency_index": 57.41,
       "total_recovered": 269204,
       "new_recovered": 144
     },
     {
-      "date": "2021-02-16"
+      "date": "2021-02-16",
+      "total_cases": 272945.0,
+      "new_cases": 105.0,
+      "new_cases_smoothed": 104.286,
+      "total_deaths": 2055.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 1.143,
+      "total_cases_per_million": 9367.704,
+      "new_cases_per_million": 3.604,
+      "new_cases_smoothed_per_million": 3.579,
+      "total_deaths_per_million": 70.529,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.039,
+      "total_recovered": 269303,
+      "new_recovered": 99
     },
     {
       "date": "2021-02-17"
+    },
+    {
+      "date": "2021-02-18"
     }
   ]
 }
