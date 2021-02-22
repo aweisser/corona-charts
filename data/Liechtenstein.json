@@ -3109,7 +3109,7 @@
       "total_deaths_per_million": 26.221,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
-      "reproduction_rate": 0.15,
+      "reproduction_rate": 0.14,
       "total_recovered": 94,
       "new_recovered": 4
     },
@@ -3505,7 +3505,7 @@
       "total_deaths_per_million": 26.221,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
-      "reproduction_rate": 0.56,
+      "reproduction_rate": 0.57,
       "total_recovered": 105,
       "new_recovered": 0
     },
@@ -4117,7 +4117,7 @@
       "total_deaths_per_million": 26.221,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
-      "reproduction_rate": 1.74,
+      "reproduction_rate": 1.73,
       "total_recovered": 142,
       "new_recovered": 0
     },
@@ -4765,7 +4765,7 @@
       "total_deaths_per_million": 367.098,
       "new_deaths_per_million": 26.221,
       "new_deaths_smoothed_per_million": 22.475,
-      "reproduction_rate": 0.93,
+      "reproduction_rate": 0.94,
       "total_recovered": 985,
       "new_recovered": 33
     },
@@ -4801,7 +4801,7 @@
       "total_deaths_per_million": 393.319,
       "new_deaths_per_million": 26.221,
       "new_deaths_smoothed_per_million": 26.221,
-      "reproduction_rate": 0.93,
+      "reproduction_rate": 0.94,
       "total_recovered": 1024,
       "new_recovered": 14
     },
@@ -4963,7 +4963,7 @@
       "total_deaths_per_million": 445.761,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 7.492,
-      "reproduction_rate": 0.99,
+      "reproduction_rate": 1.0,
       "total_recovered": 1183,
       "new_recovered": 0
     },
@@ -4999,7 +4999,7 @@
       "total_deaths_per_million": 498.204,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 11.238,
-      "reproduction_rate": 1.02,
+      "reproduction_rate": 1.03,
       "total_recovered": 1235,
       "new_recovered": 0
     },
@@ -5017,7 +5017,7 @@
       "total_deaths_per_million": 498.204,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 11.238,
-      "reproduction_rate": 1.07,
+      "reproduction_rate": 1.08,
       "total_recovered": 1270,
       "new_recovered": 35
     },
@@ -5071,7 +5071,7 @@
       "total_deaths_per_million": 524.425,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 11.238,
-      "reproduction_rate": 1.18,
+      "reproduction_rate": 1.19,
       "total_recovered": 1296,
       "new_recovered": 0
     },
@@ -5107,7 +5107,7 @@
       "total_deaths_per_million": 524.425,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 3.746,
-      "reproduction_rate": 1.26,
+      "reproduction_rate": 1.25,
       "total_recovered": 1351,
       "new_recovered": 55
     },
@@ -5323,7 +5323,7 @@
       "total_deaths_per_million": 812.859,
       "new_deaths_per_million": 26.221,
       "new_deaths_smoothed_per_million": 22.475,
-      "reproduction_rate": 1.03,
+      "reproduction_rate": 1.04,
       "total_recovered": 1591,
       "new_recovered": 0
     },
@@ -5521,7 +5521,7 @@
       "total_deaths_per_million": 1258.62,
       "new_deaths_per_million": 78.664,
       "new_deaths_smoothed_per_million": 33.713,
-      "reproduction_rate": 0.76,
+      "reproduction_rate": 0.77,
       "total_recovered": 2005,
       "new_recovered": 0
     },
@@ -5629,7 +5629,7 @@
       "total_deaths_per_million": 1284.841,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 14.984,
-      "reproduction_rate": 0.62,
+      "reproduction_rate": 0.61,
       "total_recovered": 2196,
       "new_recovered": 88
     },
@@ -6085,7 +6085,7 @@
       "total_deaths_per_million": 1363.505,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
-      "reproduction_rate": 0.62,
+      "reproduction_rate": 0.61,
       "new_vaccinations_smoothed": 26.0,
       "new_vaccinations_smoothed_per_million": 682.0,
       "total_recovered": 2424,
@@ -6349,14 +6349,32 @@
       "total_deaths_per_million": 1415.948,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 7.492,
+      "reproduction_rate": 0.46,
       "total_recovered": 2484,
       "new_recovered": 0
     },
     {
-      "date": "2021-02-20"
+      "date": "2021-02-20",
+      "total_cases": 2545.0,
+      "new_cases": 2.0,
+      "new_cases_smoothed": 1.0,
+      "total_deaths": 54.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.286,
+      "total_cases_per_million": 66733.094,
+      "new_cases_per_million": 52.443,
+      "new_cases_smoothed_per_million": 26.221,
+      "total_deaths_per_million": 1415.948,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 7.492,
+      "total_recovered": 2484,
+      "new_recovered": 0
     },
     {
       "date": "2021-02-21"
+    },
+    {
+      "date": "2021-02-22"
     }
   ]
 }
