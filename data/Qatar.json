@@ -10012,6 +10012,7 @@
       "new_vaccinations_smoothed": 4286.0,
       "people_vaccinated_per_hundred": 3.47,
       "new_vaccinations_smoothed_per_million": 1488.0,
+      "stringency_index": 65.74,
       "total_recovered": 148766,
       "new_recovered": 128
     },
@@ -10043,6 +10044,7 @@
       "new_vaccinations_smoothed": 4286.0,
       "total_vaccinations_per_hundred": 4.86,
       "new_vaccinations_smoothed_per_million": 1488.0,
+      "stringency_index": 65.74,
       "total_recovered": 149031,
       "new_recovered": 265
     },
@@ -10070,6 +10072,7 @@
       "positive_rate": 0.087,
       "tests_per_case": 11.5,
       "tests_units": "people tested",
+      "stringency_index": 65.74,
       "total_recovered": 149320,
       "new_recovered": 289
     },
@@ -10097,6 +10100,7 @@
       "positive_rate": 0.088,
       "tests_per_case": 11.3,
       "tests_units": "people tested",
+      "stringency_index": 65.74,
       "total_recovered": 149740,
       "new_recovered": 420
     },
@@ -10124,6 +10128,7 @@
       "positive_rate": 0.091,
       "tests_per_case": 11.0,
       "tests_units": "people tested",
+      "stringency_index": 65.74,
       "total_recovered": 150220,
       "new_recovered": 480
     },
@@ -10141,14 +10146,33 @@
       "total_deaths_per_million": 89.203,
       "new_deaths_per_million": 0.347,
       "new_deaths_smoothed_per_million": 0.099,
+      "stringency_index": 65.74,
       "total_recovered": 150715,
       "new_recovered": 495
     },
     {
-      "date": "2021-02-23"
+      "date": "2021-02-23",
+      "total_cases": 161344.0,
+      "new_cases": 455.0,
+      "new_cases_smoothed": 458.0,
+      "total_deaths": 257.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.143,
+      "total_cases_per_million": 56001.611,
+      "new_cases_per_million": 157.928,
+      "new_cases_smoothed_per_million": 158.969,
+      "total_deaths_per_million": 89.203,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.05,
+      "stringency_index": 65.74,
+      "total_recovered": 151225,
+      "new_recovered": 510
     },
     {
       "date": "2021-02-24"
+    },
+    {
+      "date": "2021-02-25"
     }
   ]
 }

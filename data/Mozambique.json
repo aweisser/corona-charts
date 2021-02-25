@@ -9071,6 +9071,7 @@
       "positive_rate": 0.31,
       "tests_per_case": 3.2,
       "tests_units": "units unclear",
+      "stringency_index": 64.81,
       "total_recovered": 28395,
       "new_recovered": 581
     },
@@ -9373,10 +9374,27 @@
       "new_recovered": 957
     },
     {
-      "date": "2021-02-23"
+      "date": "2021-02-23",
+      "total_cases": 56595.0,
+      "new_cases": 435.0,
+      "new_cases_smoothed": 685.0,
+      "total_deaths": 606.0,
+      "new_deaths": 7.0,
+      "new_deaths_smoothed": 7.857,
+      "total_cases_per_million": 1810.725,
+      "new_cases_per_million": 13.918,
+      "new_cases_smoothed_per_million": 21.916,
+      "total_deaths_per_million": 19.389,
+      "new_deaths_per_million": 0.224,
+      "new_deaths_smoothed_per_million": 0.251,
+      "total_recovered": 37570,
+      "new_recovered": 1346
     },
     {
       "date": "2021-02-24"
+    },
+    {
+      "date": "2021-02-25"
     }
   ]
 }
