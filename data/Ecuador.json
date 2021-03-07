@@ -9997,6 +9997,8 @@
       "positive_rate": 0.303,
       "tests_per_case": 3.3,
       "tests_units": "people tested",
+      "new_vaccinations_smoothed": 3669.0,
+      "new_vaccinations_smoothed_per_million": 208.0,
       "total_recovered": 247898,
       "new_recovered": 0
     },
@@ -10024,6 +10026,8 @@
       "positive_rate": 0.293,
       "tests_per_case": 3.4,
       "tests_units": "people tested",
+      "new_vaccinations_smoothed": 4156.0,
+      "new_vaccinations_smoothed_per_million": 236.0,
       "total_recovered": 247898,
       "new_recovered": 0
     },
@@ -10041,14 +10045,48 @@
       "total_deaths_per_million": 904.548,
       "new_deaths_per_million": 2.154,
       "new_deaths_smoothed_per_million": 2.348,
+      "total_vaccinations": 59316.0,
+      "people_vaccinated": 53088.0,
+      "people_fully_vaccinated": 6228.0,
+      "new_vaccinations_smoothed": 4471.0,
+      "total_vaccinations_per_hundred": 0.34,
+      "people_vaccinated_per_hundred": 0.3,
+      "people_fully_vaccinated_per_hundred": 0.04,
+      "new_vaccinations_smoothed_per_million": 253.0,
       "total_recovered": 247898,
       "new_recovered": 0
     },
     {
-      "date": "2021-03-05"
+      "date": "2021-03-05",
+      "total_cases": 291070.0,
+      "new_cases": 1335.0,
+      "new_cases_smoothed": 1210.143,
+      "total_deaths": 15997.0,
+      "new_deaths": 38.0,
+      "new_deaths_smoothed": 40.571,
+      "total_cases_per_million": 16497.705,
+      "new_cases_per_million": 75.667,
+      "new_cases_smoothed_per_million": 68.59,
+      "total_deaths_per_million": 906.702,
+      "new_deaths_per_million": 2.154,
+      "new_deaths_smoothed_per_million": 2.3,
+      "total_vaccinations": 71148.0,
+      "people_vaccinated": 64920.0,
+      "people_fully_vaccinated": 6228.0,
+      "new_vaccinations": 11832.0,
+      "new_vaccinations_smoothed": 5658.0,
+      "total_vaccinations_per_hundred": 0.4,
+      "people_vaccinated_per_hundred": 0.37,
+      "people_fully_vaccinated_per_hundred": 0.04,
+      "new_vaccinations_smoothed_per_million": 321.0,
+      "total_recovered": 247898,
+      "new_recovered": 0
     },
     {
       "date": "2021-03-06"
+    },
+    {
+      "date": "2021-03-07"
     }
   ]
 }
