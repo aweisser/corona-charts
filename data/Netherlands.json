@@ -10403,6 +10403,7 @@
       "tests_units": "people tested",
       "new_vaccinations_smoothed": 41283.0,
       "new_vaccinations_smoothed_per_million": 2409.0,
+      "stringency_index": 75.0,
       "total_recovered": 14687,
       "new_recovered": 23
     },
@@ -10444,6 +10445,7 @@
       "people_vaccinated_per_hundred": 7.05,
       "people_fully_vaccinated_per_hundred": 2.4,
       "new_vaccinations_smoothed_per_million": 2363.0,
+      "stringency_index": 75.0,
       "total_recovered": 14706,
       "new_recovered": 19
     },
@@ -10462,6 +10464,7 @@
       "new_deaths_per_million": 1.634,
       "new_deaths_smoothed_per_million": 2.334,
       "reproduction_rate": 1.03,
+      "stringency_index": 75.0,
       "total_recovered": 14713,
       "new_recovered": 7
     },
@@ -10480,6 +10483,7 @@
       "new_deaths_per_million": 3.268,
       "new_deaths_smoothed_per_million": 2.259,
       "reproduction_rate": 1.04,
+      "stringency_index": 75.0,
       "total_recovered": 14786,
       "new_recovered": 73
     },
@@ -10498,6 +10502,7 @@
       "new_deaths_per_million": 1.809,
       "new_deaths_smoothed_per_million": 2.109,
       "reproduction_rate": 1.05,
+      "stringency_index": 75.0,
       "total_recovered": 14829,
       "new_recovered": 43
     },
@@ -10515,14 +10520,33 @@
       "total_deaths_per_million": 941.18,
       "new_deaths_per_million": 2.918,
       "new_deaths_smoothed_per_million": 2.251,
+      "stringency_index": 75.0,
       "total_recovered": 14877,
       "new_recovered": 48
     },
     {
-      "date": "2021-03-12"
+      "date": "2021-03-12",
+      "total_cases": 1160380.0,
+      "new_cases": 6123.0,
+      "new_cases_smoothed": 5011.571,
+      "total_deaths": 16153.0,
+      "new_deaths": 26.0,
+      "new_deaths_smoothed": 37.571,
+      "total_cases_per_million": 67720.374,
+      "new_cases_per_million": 357.341,
+      "new_cases_smoothed_per_million": 292.478,
+      "total_deaths_per_million": 942.697,
+      "new_deaths_per_million": 1.517,
+      "new_deaths_smoothed_per_million": 2.193,
+      "stringency_index": 75.0,
+      "total_recovered": 14928,
+      "new_recovered": 51
     },
     {
       "date": "2021-03-13"
+    },
+    {
+      "date": "2021-03-14"
     }
   ]
 }
