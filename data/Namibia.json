@@ -9424,6 +9424,7 @@
       "positive_rate": 0.12,
       "tests_per_case": 8.3,
       "tests_units": "samples tested",
+      "stringency_index": 44.44,
       "total_recovered": 37893,
       "new_recovered": 315
     },
@@ -9451,6 +9452,7 @@
       "positive_rate": 0.122,
       "tests_per_case": 8.2,
       "tests_units": "samples tested",
+      "stringency_index": 44.44,
       "total_recovered": 38043,
       "new_recovered": 150
     },
@@ -9478,6 +9480,7 @@
       "positive_rate": 0.116,
       "tests_per_case": 8.6,
       "tests_units": "samples tested",
+      "stringency_index": 44.44,
       "total_recovered": 38104,
       "new_recovered": 61
     },
@@ -9505,6 +9508,7 @@
       "positive_rate": 0.108,
       "tests_per_case": 9.3,
       "tests_units": "samples tested",
+      "stringency_index": 44.44,
       "total_recovered": 38217,
       "new_recovered": 113
     },
@@ -9532,6 +9536,7 @@
       "positive_rate": 0.112,
       "tests_per_case": 9.0,
       "tests_units": "samples tested",
+      "stringency_index": 44.44,
       "total_recovered": 38264,
       "new_recovered": 47
     },
@@ -9558,14 +9563,33 @@
       "positive_rate": 0.114,
       "tests_per_case": 8.8,
       "tests_units": "samples tested",
+      "stringency_index": 44.44,
       "total_recovered": 38470,
       "new_recovered": 206
     },
     {
-      "date": "2021-03-15"
+      "date": "2021-03-15",
+      "total_cases": 41424.0,
+      "new_cases": 224.0,
+      "new_cases_smoothed": 176.714,
+      "total_deaths": 465.0,
+      "new_deaths": 7.0,
+      "new_deaths_smoothed": 3.714,
+      "total_cases_per_million": 16302.782,
+      "new_cases_per_million": 88.157,
+      "new_cases_smoothed_per_million": 69.547,
+      "total_deaths_per_million": 183.005,
+      "new_deaths_per_million": 2.755,
+      "new_deaths_smoothed_per_million": 1.462,
+      "stringency_index": 44.44,
+      "total_recovered": 38514,
+      "new_recovered": 44
     },
     {
       "date": "2021-03-16"
+    },
+    {
+      "date": "2021-03-17"
     }
   ]
 }

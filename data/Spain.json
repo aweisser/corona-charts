@@ -10516,6 +10516,8 @@
       "new_deaths_per_million": 3.7,
       "new_deaths_smoothed_per_million": 3.422,
       "reproduction_rate": 0.78,
+      "new_vaccinations_smoothed": 124860.0,
+      "new_vaccinations_smoothed_per_million": 2671.0,
       "stringency_index": 71.3,
       "total_recovered": 150376,
       "new_recovered": 0
@@ -10535,6 +10537,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 3.422,
       "reproduction_rate": 0.77,
+      "new_vaccinations_smoothed": 123835.0,
+      "new_vaccinations_smoothed_per_million": 2649.0,
       "total_recovered": 150376,
       "new_recovered": 0
     },
@@ -10552,14 +10556,41 @@
       "total_deaths_per_million": 1545.468,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 3.422,
+      "new_vaccinations_smoothed": 122810.0,
+      "new_vaccinations_smoothed_per_million": 2627.0,
       "total_recovered": 150376,
       "new_recovered": 0
     },
     {
-      "date": "2021-03-15"
+      "date": "2021-03-15",
+      "total_cases": 3195062.0,
+      "new_cases": 11358.0,
+      "new_cases_smoothed": 4870.286,
+      "total_deaths": 72424.0,
+      "new_deaths": 166.0,
+      "new_deaths_smoothed": 141.143,
+      "total_cases_per_million": 68336.581,
+      "new_cases_per_million": 242.927,
+      "new_cases_smoothed_per_million": 104.167,
+      "total_deaths_per_million": 1549.018,
+      "new_deaths_per_million": 3.55,
+      "new_deaths_smoothed_per_million": 3.019,
+      "total_vaccinations": 5644895.0,
+      "people_vaccinated": 3951221.0,
+      "people_fully_vaccinated": 1693674.0,
+      "new_vaccinations_smoothed": 113750.0,
+      "total_vaccinations_per_hundred": 12.07,
+      "people_vaccinated_per_hundred": 8.45,
+      "people_fully_vaccinated_per_hundred": 3.62,
+      "new_vaccinations_smoothed_per_million": 2433.0,
+      "total_recovered": 150376,
+      "new_recovered": 0
     },
     {
       "date": "2021-03-16"
+    },
+    {
+      "date": "2021-03-17"
     }
   ]
 }

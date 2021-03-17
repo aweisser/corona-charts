@@ -10067,6 +10067,7 @@
       "positive_rate": 0.085,
       "tests_per_case": 11.7,
       "tests_units": "tests performed",
+      "stringency_index": 36.11,
       "total_recovered": 79162,
       "new_recovered": 441
     },
@@ -10094,6 +10095,7 @@
       "positive_rate": 0.088,
       "tests_per_case": 11.3,
       "tests_units": "tests performed",
+      "stringency_index": 36.11,
       "total_recovered": 79556,
       "new_recovered": 394
     },
@@ -10121,6 +10123,7 @@
       "positive_rate": 0.092,
       "tests_per_case": 10.8,
       "tests_units": "tests performed",
+      "stringency_index": 36.11,
       "total_recovered": 80027,
       "new_recovered": 471
     },
@@ -10148,6 +10151,7 @@
       "positive_rate": 0.089,
       "tests_per_case": 11.2,
       "tests_units": "tests performed",
+      "stringency_index": 36.11,
       "total_recovered": 80462,
       "new_recovered": 435
     },
@@ -10175,6 +10179,7 @@
       "positive_rate": 0.081,
       "tests_per_case": 12.3,
       "tests_units": "tests performed",
+      "stringency_index": 36.11,
       "total_recovered": 80599,
       "new_recovered": 137
     },
@@ -10201,14 +10206,33 @@
       "positive_rate": 0.082,
       "tests_per_case": 12.2,
       "tests_units": "tests performed",
+      "stringency_index": 36.11,
       "total_recovered": 81756,
       "new_recovered": 1157
     },
     {
-      "date": "2021-03-15"
+      "date": "2021-03-15",
+      "total_cases": 84950.0,
+      "new_cases": 153.0,
+      "new_cases_smoothed": 327.857,
+      "total_deaths": 1164.0,
+      "new_deaths": 6.0,
+      "new_deaths_smoothed": 4.571,
+      "total_cases_per_million": 4620.877,
+      "new_cases_per_million": 8.322,
+      "new_cases_smoothed_per_million": 17.834,
+      "total_deaths_per_million": 63.316,
+      "new_deaths_per_million": 0.326,
+      "new_deaths_smoothed_per_million": 0.249,
+      "stringency_index": 36.11,
+      "total_recovered": 82375,
+      "new_recovered": 619
     },
     {
       "date": "2021-03-16"
+    },
+    {
+      "date": "2021-03-17"
     }
   ]
 }

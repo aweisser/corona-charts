@@ -10034,6 +10034,7 @@
       "positive_rate": 0.136,
       "tests_per_case": 7.4,
       "tests_units": "tests performed",
+      "stringency_index": 80.09,
       "total_recovered": 1456759,
       "new_recovered": 7409
     },
@@ -10052,6 +10053,7 @@
       "new_deaths_per_million": 0.726,
       "new_deaths_smoothed_per_million": 0.978,
       "reproduction_rate": 1.03,
+      "stringency_index": 80.09,
       "total_recovered": 1464268,
       "new_recovered": 7509
     },
@@ -10070,6 +10072,7 @@
       "new_deaths_per_million": 1.048,
       "new_deaths_smoothed_per_million": 0.995,
       "reproduction_rate": 1.0,
+      "stringency_index": 80.09,
       "total_recovered": 1471179,
       "new_recovered": 6911
     },
@@ -10088,6 +10091,7 @@
       "new_deaths_per_million": 0.631,
       "new_deaths_smoothed_per_million": 0.947,
       "reproduction_rate": 0.98,
+      "stringency_index": 80.09,
       "total_recovered": 1477588,
       "new_recovered": 6409
     },
@@ -10106,6 +10110,7 @@
       "new_deaths_per_million": 0.869,
       "new_deaths_smoothed_per_million": 0.932,
       "reproduction_rate": 0.95,
+      "stringency_index": 80.09,
       "total_recovered": 1485179,
       "new_recovered": 7591
     },
@@ -10123,14 +10128,33 @@
       "total_deaths_per_million": 728.99,
       "new_deaths_per_million": 1.048,
       "new_deaths_smoothed_per_million": 0.924,
+      "stringency_index": 80.09,
       "total_recovered": 1492488,
       "new_recovered": 7309
     },
     {
-      "date": "2021-03-15"
+      "date": "2021-03-15",
+      "total_cases": 1754933.0,
+      "new_cases": 7980.0,
+      "new_cases_smoothed": 8132.571,
+      "total_deaths": 61330.0,
+      "new_deaths": 100.0,
+      "new_deaths_smoothed": 77.714,
+      "total_cases_per_million": 20893.812,
+      "new_cases_per_million": 95.008,
+      "new_cases_smoothed_per_million": 96.824,
+      "total_deaths_per_million": 730.18,
+      "new_deaths_per_million": 1.191,
+      "new_deaths_smoothed_per_million": 0.925,
+      "stringency_index": 80.09,
+      "total_recovered": 1499301,
+      "new_recovered": 6813
     },
     {
       "date": "2021-03-16"
+    },
+    {
+      "date": "2021-03-17"
     }
   ]
 }
