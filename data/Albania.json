@@ -11049,6 +11049,8 @@
       "positive_rate": 0.186,
       "tests_per_case": 5.4,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 1960.0,
+      "new_vaccinations_smoothed_per_million": 681.0,
       "total_recovered": 83264,
       "new_recovered": 710
     },
@@ -11067,6 +11069,8 @@
       "new_deaths_per_million": 5.56,
       "new_deaths_smoothed_per_million": 5.163,
       "reproduction_rate": 0.81,
+      "new_vaccinations_smoothed": 2240.0,
+      "new_vaccinations_smoothed_per_million": 778.0,
       "total_recovered": 83954,
       "new_recovered": 690
     },
@@ -11085,6 +11089,8 @@
       "new_deaths_per_million": 3.822,
       "new_deaths_smoothed_per_million": 5.113,
       "reproduction_rate": 0.81,
+      "new_vaccinations_smoothed": 2386.0,
+      "new_vaccinations_smoothed_per_million": 829.0,
       "total_recovered": 84625,
       "new_recovered": 671
     },
@@ -11102,14 +11108,37 @@
       "total_deaths_per_million": 742.581,
       "new_deaths_per_million": 1.39,
       "new_deaths_smoothed_per_million": 4.567,
+      "new_vaccinations_smoothed": 2533.0,
+      "new_vaccinations_smoothed_per_million": 880.0,
       "total_recovered": 85147,
       "new_recovered": 522
     },
     {
-      "date": "2021-03-22"
+      "date": "2021-03-22",
+      "total_cases": 121544.0,
+      "new_cases": 344.0,
+      "new_cases_smoothed": 503.857,
+      "total_deaths": 2145.0,
+      "new_deaths": 8.0,
+      "new_deaths_smoothed": 12.143,
+      "total_cases_per_million": 42235.041,
+      "new_cases_per_million": 119.536,
+      "new_cases_smoothed_per_million": 175.084,
+      "total_deaths_per_million": 745.361,
+      "new_deaths_per_million": 2.78,
+      "new_deaths_smoothed_per_million": 4.219,
+      "total_vaccinations": 48229.0,
+      "new_vaccinations_smoothed": 2679.0,
+      "total_vaccinations_per_hundred": 1.68,
+      "new_vaccinations_smoothed_per_million": 931.0,
+      "total_recovered": 85846,
+      "new_recovered": 699
     },
     {
       "date": "2021-03-23"
+    },
+    {
+      "date": "2021-03-24"
     }
   ]
 }
