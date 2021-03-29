@@ -10783,6 +10783,7 @@
       "positive_rate": 0.03,
       "tests_per_case": 33.1,
       "tests_units": "tests performed",
+      "stringency_index": 57.41,
       "total_recovered": 258127,
       "new_recovered": 819
     },
@@ -10810,6 +10811,7 @@
       "positive_rate": 0.031,
       "tests_per_case": 31.9,
       "tests_units": "tests performed",
+      "stringency_index": 57.41,
       "total_recovered": 258652,
       "new_recovered": 525
     },
@@ -10837,6 +10839,7 @@
       "positive_rate": 0.032,
       "tests_per_case": 31.1,
       "tests_units": "tests performed",
+      "stringency_index": 57.41,
       "total_recovered": 259619,
       "new_recovered": 967
     },
@@ -10864,6 +10867,7 @@
       "positive_rate": 0.035,
       "tests_per_case": 28.9,
       "tests_units": "tests performed",
+      "stringency_index": 57.41,
       "total_recovered": 260607,
       "new_recovered": 988
     },
@@ -10891,6 +10895,7 @@
       "positive_rate": 0.038,
       "tests_per_case": 26.4,
       "tests_units": "tests performed",
+      "stringency_index": 57.41,
       "total_recovered": 261749,
       "new_recovered": 1142
     },
@@ -10915,14 +10920,33 @@
       "new_tests_smoothed": 29107.0,
       "new_tests_smoothed_per_thousand": 1.55,
       "tests_units": "tests performed",
+      "stringency_index": 57.41,
       "total_recovered": 262699,
       "new_recovered": 950
     },
     {
-      "date": "2021-03-27"
+      "date": "2021-03-27",
+      "total_cases": 290792.0,
+      "new_cases": 1690.0,
+      "new_cases_smoothed": 1284.857,
+      "total_deaths": 3220.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 2.714,
+      "total_cases_per_million": 15486.848,
+      "new_cases_per_million": 90.005,
+      "new_cases_smoothed_per_million": 68.428,
+      "total_deaths_per_million": 171.489,
+      "new_deaths_per_million": 0.16,
+      "new_deaths_smoothed_per_million": 0.145,
+      "stringency_index": 57.41,
+      "total_recovered": 263808,
+      "new_recovered": 1109
     },
     {
       "date": "2021-03-28"
+    },
+    {
+      "date": "2021-03-29"
     }
   ]
 }
