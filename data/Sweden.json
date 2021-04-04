@@ -11654,6 +11654,7 @@
       "tests_units": "tests performed",
       "new_vaccinations_smoothed": 17563.0,
       "new_vaccinations_smoothed_per_million": 1739.0,
+      "stringency_index": 69.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11687,6 +11688,7 @@
       "tests_units": "tests performed",
       "new_vaccinations_smoothed": 17867.0,
       "new_vaccinations_smoothed_per_million": 1769.0,
+      "stringency_index": 69.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11707,6 +11709,7 @@
       "reproduction_rate": 1.26,
       "new_vaccinations_smoothed": 20658.0,
       "new_vaccinations_smoothed_per_million": 2045.0,
+      "stringency_index": 69.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11733,6 +11736,7 @@
       "people_vaccinated_per_hundred": 10.95,
       "people_fully_vaccinated_per_hundred": 4.78,
       "new_vaccinations_smoothed_per_million": 2322.0,
+      "stringency_index": 69.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11760,6 +11764,7 @@
       "people_vaccinated_per_hundred": 11.14,
       "people_fully_vaccinated_per_hundred": 4.81,
       "new_vaccinations_smoothed_per_million": 2545.0,
+      "stringency_index": 69.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11786,14 +11791,33 @@
       "people_vaccinated_per_hundred": 11.56,
       "people_fully_vaccinated_per_hundred": 4.94,
       "new_vaccinations_smoothed_per_million": 3226.0,
+      "stringency_index": 69.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-04-02"
+      "date": "2021-04-02",
+      "total_cases": 813191.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 4739.0,
+      "total_deaths": 13498.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 13.714,
+      "total_cases_per_million": 80519.78,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 469.242,
+      "total_deaths_per_million": 1336.532,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 1.358,
+      "stringency_index": 69.44,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-04-03"
+    },
+    {
+      "date": "2021-04-04"
     }
   ]
 }
