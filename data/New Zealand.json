@@ -11808,6 +11808,8 @@
       "new_tests_per_thousand": 0.975,
       "new_tests_smoothed": 4466.0,
       "new_tests_smoothed_per_thousand": 0.926,
+      "positive_rate": 0.001,
+      "tests_per_case": 1563.2,
       "tests_units": "tests performed",
       "total_recovered": 2464,
       "new_recovered": 0
@@ -11827,6 +11829,11 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.8,
+      "new_tests_smoothed": 4250.0,
+      "new_tests_smoothed_per_thousand": 0.881,
+      "positive_rate": 0.001,
+      "tests_per_case": 1416.7,
+      "tests_units": "tests performed",
       "total_recovered": 2467,
       "new_recovered": 3
     },
@@ -11844,14 +11851,43 @@
       "total_deaths_per_million": 5.392,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "new_tests_smoothed": 4146.0,
+      "new_tests_smoothed_per_thousand": 0.86,
+      "positive_rate": 0.0,
+      "tests_per_case": 2232.6,
+      "tests_units": "tests performed",
       "total_recovered": 2468,
       "new_recovered": 1
     },
     {
-      "date": "2021-04-19"
+      "date": "2021-04-19",
+      "total_cases": 2597.0,
+      "new_cases": 1.0,
+      "new_cases_smoothed": 1.429,
+      "total_deaths": 26.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 538.547,
+      "new_cases_per_million": 0.207,
+      "new_cases_smoothed_per_million": 0.296,
+      "total_deaths_per_million": 5.392,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "total_tests": 1974755.0,
+      "total_tests_per_thousand": 409.51,
+      "new_tests_smoothed": 4267.0,
+      "new_tests_smoothed_per_thousand": 0.885,
+      "positive_rate": 0.0,
+      "tests_per_case": 2986.0,
+      "tests_units": "tests performed",
+      "total_recovered": 2485,
+      "new_recovered": 17
     },
     {
       "date": "2021-04-20"
+    },
+    {
+      "date": "2021-04-21"
     }
   ]
 }
