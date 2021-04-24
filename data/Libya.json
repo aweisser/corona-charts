@@ -9357,6 +9357,10 @@
       "new_deaths_smoothed_per_million": 1.559,
       "reproduction_rate": 0.9,
       "tests_units": "samples tested",
+      "total_vaccinations": 750.0,
+      "people_vaccinated": 750.0,
+      "total_vaccinations_per_hundred": 0.01,
+      "people_vaccinated_per_hundred": 0.01,
       "stringency_index": 79.63,
       "total_recovered": 156344,
       "new_recovered": 0
@@ -9398,6 +9402,9 @@
       "new_deaths_per_million": 1.746,
       "new_deaths_smoothed_per_million": 1.663,
       "reproduction_rate": 0.9,
+      "new_tests": 2672.0,
+      "new_tests_per_thousand": 0.389,
+      "tests_units": "samples tested",
       "stringency_index": 79.63,
       "total_recovered": 157658,
       "new_recovered": 648
@@ -9417,6 +9424,9 @@
       "new_deaths_per_million": 1.601,
       "new_deaths_smoothed_per_million": 1.85,
       "reproduction_rate": 0.9,
+      "new_tests": 2449.0,
+      "new_tests_per_thousand": 0.356,
+      "tests_units": "samples tested",
       "total_recovered": 158352,
       "new_recovered": 694
     },
@@ -9434,14 +9444,34 @@
       "total_deaths_per_million": 425.539,
       "new_deaths_per_million": 0.728,
       "new_deaths_smoothed_per_million": 1.871,
+      "new_tests": 2786.0,
+      "new_tests_per_thousand": 0.405,
+      "tests_units": "samples tested",
       "total_recovered": 158891,
       "new_recovered": 539
     },
     {
-      "date": "2021-04-22"
+      "date": "2021-04-22",
+      "total_cases": 174216.0,
+      "new_cases": 533.0,
+      "new_cases_smoothed": 522.571,
+      "total_deaths": 2936.0,
+      "new_deaths": 12.0,
+      "new_deaths_smoothed": 9.0,
+      "total_cases_per_million": 25354.202,
+      "new_cases_per_million": 77.569,
+      "new_cases_smoothed_per_million": 76.051,
+      "total_deaths_per_million": 427.285,
+      "new_deaths_per_million": 1.746,
+      "new_deaths_smoothed_per_million": 1.31,
+      "total_recovered": 159630,
+      "new_recovered": 739
     },
     {
       "date": "2021-04-23"
+    },
+    {
+      "date": "2021-04-24"
     }
   ]
 }
