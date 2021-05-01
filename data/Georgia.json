@@ -8477,6 +8477,11 @@
       "new_deaths_per_million": 4.262,
       "new_deaths_smoothed_per_million": 3.617,
       "reproduction_rate": 1.11,
+      "new_tests_smoothed": 26115.0,
+      "new_tests_smoothed_per_thousand": 6.546,
+      "positive_rate": 0.044,
+      "tests_per_case": 22.5,
+      "tests_units": "tests performed",
       "total_vaccinations": 40095.0,
       "people_vaccinated": 40095.0,
       "new_vaccinations": 1542.0,
@@ -8501,6 +8506,11 @@
       "total_deaths_per_million": 1022.016,
       "new_deaths_per_million": 4.262,
       "new_deaths_smoothed_per_million": 3.796,
+      "new_tests_smoothed": 25802.0,
+      "new_tests_smoothed_per_thousand": 6.468,
+      "positive_rate": 0.046,
+      "tests_per_case": 21.6,
+      "tests_units": "tests performed",
       "total_vaccinations": 41801.0,
       "people_vaccinated": 41801.0,
       "new_vaccinations": 1706.0,
@@ -8512,10 +8522,41 @@
       "new_recovered": 878
     },
     {
-      "date": "2021-04-29"
+      "date": "2021-04-29",
+      "total_cases": 308834.0,
+      "new_cases": 1433.0,
+      "new_cases_smoothed": 1224.286,
+      "total_deaths": 4095.0,
+      "new_deaths": 18.0,
+      "new_deaths_smoothed": 16.286,
+      "total_cases_per_million": 77418.012,
+      "new_cases_per_million": 359.222,
+      "new_cases_smoothed_per_million": 306.902,
+      "total_deaths_per_million": 1026.528,
+      "new_deaths_per_million": 4.512,
+      "new_deaths_smoothed_per_million": 4.082,
+      "total_tests": 4156000.0,
+      "total_tests_per_thousand": 1041.819,
+      "new_tests_smoothed": 25898.0,
+      "new_tests_smoothed_per_thousand": 6.492,
+      "positive_rate": 0.047,
+      "tests_per_case": 21.2,
+      "tests_units": "tests performed",
+      "total_vaccinations": 43568.0,
+      "people_vaccinated": 43568.0,
+      "new_vaccinations": 1767.0,
+      "new_vaccinations_smoothed": 1462.0,
+      "total_vaccinations_per_hundred": 1.09,
+      "people_vaccinated_per_hundred": 1.09,
+      "new_vaccinations_smoothed_per_million": 366.0,
+      "total_recovered": 289976,
+      "new_recovered": 1160
     },
     {
       "date": "2021-04-30"
+    },
+    {
+      "date": "2021-05-01"
     }
   ]
 }

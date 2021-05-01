@@ -12348,6 +12348,15 @@
       "new_deaths_per_million": 0.259,
       "new_deaths_smoothed_per_million": 0.312,
       "reproduction_rate": 1.08,
+      "new_tests": 66185.0,
+      "total_tests": 16774888.0,
+      "total_tests_per_thousand": 481.845,
+      "new_tests_per_thousand": 1.901,
+      "new_tests_smoothed": 60396.0,
+      "new_tests_smoothed_per_thousand": 1.735,
+      "positive_rate": 0.017,
+      "tests_per_case": 58.6,
+      "tests_units": "tests performed",
       "total_vaccinations": 8650969.0,
       "new_vaccinations": 206579.0,
       "new_vaccinations_smoothed": 176821.0,
@@ -12370,6 +12379,15 @@
       "total_deaths_per_million": 199.202,
       "new_deaths_per_million": 0.373,
       "new_deaths_smoothed_per_million": 0.316,
+      "new_tests": 63731.0,
+      "total_tests": 16838619.0,
+      "total_tests_per_thousand": 483.676,
+      "new_tests_per_thousand": 1.831,
+      "new_tests_smoothed": 60654.0,
+      "new_tests_smoothed_per_thousand": 1.742,
+      "positive_rate": 0.017,
+      "tests_per_case": 58.6,
+      "tests_units": "tests performed",
       "total_vaccinations": 8847625.0,
       "new_vaccinations": 196656.0,
       "new_vaccinations_smoothed": 176585.0,
@@ -12379,10 +12397,32 @@
       "new_recovered": 867
     },
     {
-      "date": "2021-04-29"
+      "date": "2021-04-29",
+      "total_cases": 416307.0,
+      "new_cases": 1026.0,
+      "new_cases_smoothed": 1030.571,
+      "total_deaths": 6946.0,
+      "new_deaths": 11.0,
+      "new_deaths_smoothed": 11.0,
+      "total_cases_per_million": 11958.08,
+      "new_cases_per_million": 29.471,
+      "new_cases_smoothed_per_million": 29.602,
+      "total_deaths_per_million": 199.518,
+      "new_deaths_per_million": 0.316,
+      "new_deaths_smoothed_per_million": 0.316,
+      "total_vaccinations": 9000505.0,
+      "new_vaccinations": 152880.0,
+      "new_vaccinations_smoothed": 176143.0,
+      "total_vaccinations_per_hundred": 25.85,
+      "new_vaccinations_smoothed_per_million": 5060.0,
+      "total_recovered": 399509,
+      "new_recovered": 1055
     },
     {
       "date": "2021-04-30"
+    },
+    {
+      "date": "2021-05-01"
     }
   ]
 }

@@ -9176,6 +9176,11 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.78,
+      "new_tests_smoothed": 617.0,
+      "new_tests_smoothed_per_thousand": 0.055,
+      "positive_rate": 0.015,
+      "tests_per_case": 66.4,
+      "tests_units": "tests performed",
       "total_recovered": 10250,
       "new_recovered": 0
     },
@@ -9194,6 +9199,13 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.79,
+      "total_tests": 149288.0,
+      "total_tests_per_thousand": 13.337,
+      "new_tests_smoothed": 619.0,
+      "new_tests_smoothed_per_thousand": 0.055,
+      "positive_rate": 0.017,
+      "tests_per_case": 57.8,
+      "tests_units": "tests performed",
       "total_recovered": 10312,
       "new_recovered": 62
     },
@@ -9211,14 +9223,40 @@
       "total_deaths_per_million": 10.184,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "new_tests": 677.0,
+      "total_tests": 149965.0,
+      "total_tests_per_thousand": 13.397,
+      "new_tests_per_thousand": 0.06,
+      "new_tests_smoothed": 624.0,
+      "new_tests_smoothed_per_thousand": 0.056,
+      "positive_rate": 0.015,
+      "tests_per_case": 65.2,
+      "tests_units": "tests performed",
       "total_recovered": 10312,
       "new_recovered": 0
     },
     {
-      "date": "2021-04-29"
+      "date": "2021-04-29",
+      "total_cases": 10567.0,
+      "new_cases": 14.0,
+      "new_cases_smoothed": 9.0,
+      "total_deaths": 114.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 944.011,
+      "new_cases_per_million": 1.251,
+      "new_cases_smoothed_per_million": 0.804,
+      "total_deaths_per_million": 10.184,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "total_recovered": 10312,
+      "new_recovered": 0
     },
     {
       "date": "2021-04-30"
+    },
+    {
+      "date": "2021-05-01"
     }
   ]
 }
