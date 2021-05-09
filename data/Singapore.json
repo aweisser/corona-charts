@@ -10959,7 +10959,7 @@
       "positive_rate": 0.001,
       "tests_per_case": 1587.2,
       "tests_units": "samples tested",
-      "stringency_index": 49.07,
+      "stringency_index": 52.78,
       "total_recovered": 60765,
       "new_recovered": 14
     },
@@ -10983,7 +10983,7 @@
       "positive_rate": 0.001,
       "tests_per_case": 1670.3,
       "tests_units": "samples tested",
-      "stringency_index": 49.07,
+      "stringency_index": 52.78,
       "total_recovered": 60786,
       "new_recovered": 21
     },
@@ -11009,7 +11009,7 @@
       "positive_rate": 0.0,
       "tests_per_case": 2011.7,
       "tests_units": "samples tested",
-      "stringency_index": 49.07,
+      "stringency_index": 52.78,
       "total_recovered": 60806,
       "new_recovered": 20
     },
@@ -11028,6 +11028,7 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.024,
       "reproduction_rate": 0.94,
+      "stringency_index": 52.78,
       "total_recovered": 60823,
       "new_recovered": 17
     },
@@ -11046,6 +11047,7 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.024,
       "reproduction_rate": 0.92,
+      "stringency_index": 52.78,
       "total_recovered": 60844,
       "new_recovered": 21
     },
@@ -11063,14 +11065,33 @@
       "total_deaths_per_million": 5.299,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.024,
+      "stringency_index": 52.78,
       "total_recovered": 60873,
       "new_recovered": 29
     },
     {
-      "date": "2021-05-07"
+      "date": "2021-05-07",
+      "total_cases": 61311.0,
+      "new_cases": 25.0,
+      "new_cases_smoothed": 23.714,
+      "total_deaths": 31.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.143,
+      "total_cases_per_million": 10479.898,
+      "new_cases_per_million": 4.273,
+      "new_cases_smoothed_per_million": 4.053,
+      "total_deaths_per_million": 5.299,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.024,
+      "stringency_index": 52.78,
+      "total_recovered": 60906,
+      "new_recovered": 33
     },
     {
       "date": "2021-05-08"
+    },
+    {
+      "date": "2021-05-09"
     }
   ]
 }
