@@ -13177,6 +13177,7 @@
       "tests_units": "tests performed",
       "new_vaccinations_smoothed": 2661.0,
       "new_vaccinations_smoothed_per_million": 7798.0,
+      "stringency_index": 50.0,
       "total_recovered": 6231,
       "new_recovered": 4
     },
@@ -13208,6 +13209,7 @@
       "tests_units": "tests performed",
       "new_vaccinations_smoothed": 2230.0,
       "new_vaccinations_smoothed_per_million": 6535.0,
+      "stringency_index": 50.0,
       "total_recovered": 6240,
       "new_recovered": 9
     },
@@ -13245,6 +13247,7 @@
       "people_vaccinated_per_hundred": 25.51,
       "people_fully_vaccinated_per_hundred": 10.11,
       "new_vaccinations_smoothed_per_million": 5269.0,
+      "stringency_index": 50.0,
       "total_recovered": 6244,
       "new_recovered": 4
     },
@@ -13283,6 +13286,7 @@
       "people_vaccinated_per_hundred": 28.72,
       "people_fully_vaccinated_per_hundred": 10.38,
       "new_vaccinations_smoothed_per_million": 8261.0,
+      "stringency_index": 50.0,
       "total_recovered": 6246,
       "new_recovered": 2
     },
@@ -13319,6 +13323,7 @@
       "people_vaccinated_per_hundred": 32.06,
       "people_fully_vaccinated_per_hundred": 10.62,
       "new_vaccinations_smoothed_per_million": 12794.0,
+      "stringency_index": 50.0,
       "total_recovered": 6253,
       "new_recovered": 7
     },
@@ -13348,6 +13353,7 @@
       "tests_units": "tests performed",
       "new_vaccinations_smoothed": 4212.0,
       "new_vaccinations_smoothed_per_million": 12343.0,
+      "stringency_index": 50.0,
       "total_recovered": 6253,
       "new_recovered": 0
     },
@@ -13381,6 +13387,7 @@
       "tests_units": "tests performed",
       "new_vaccinations_smoothed": 4057.0,
       "new_vaccinations_smoothed_per_million": 11889.0,
+      "stringency_index": 50.0,
       "total_recovered": 6253,
       "new_recovered": 0
     },
@@ -13416,6 +13423,7 @@
       "people_vaccinated_per_hundred": 32.29,
       "people_fully_vaccinated_per_hundred": 10.66,
       "new_vaccinations_smoothed_per_million": 11434.0,
+      "stringency_index": 50.0,
       "total_recovered": 6280,
       "new_recovered": 27
     },
@@ -13445,6 +13453,7 @@
       "tests_units": "tests performed",
       "new_vaccinations_smoothed": 4501.0,
       "new_vaccinations_smoothed_per_million": 13190.0,
+      "stringency_index": 50.0,
       "total_recovered": 6295,
       "new_recovered": 15
     },
@@ -13480,6 +13489,7 @@
       "people_vaccinated_per_hundred": 33.83,
       "people_fully_vaccinated_per_hundred": 12.4,
       "new_vaccinations_smoothed_per_million": 14945.0,
+      "stringency_index": 50.0,
       "total_recovered": 6295,
       "new_recovered": 0
     },
@@ -13515,6 +13525,7 @@
       "people_vaccinated_per_hundred": 36.34,
       "people_fully_vaccinated_per_hundred": 14.71,
       "new_vaccinations_smoothed_per_million": 14277.0,
+      "stringency_index": 50.0,
       "total_recovered": 6332,
       "new_recovered": 37
     },
@@ -13541,6 +13552,7 @@
       "people_vaccinated_per_hundred": 40.61,
       "people_fully_vaccinated_per_hundred": 15.72,
       "new_vaccinations_smoothed_per_million": 16346.0,
+      "stringency_index": 50.0,
       "total_recovered": 6347,
       "new_recovered": 15
     },
@@ -13558,14 +13570,33 @@
       "total_deaths_per_million": 84.982,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "stringency_index": 50.0,
       "total_recovered": 6347,
       "new_recovered": 0
     },
     {
-      "date": "2021-05-09"
+      "date": "2021-05-09",
+      "total_cases": 6506.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 4.857,
+      "total_deaths": 29.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 19065.201,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 14.233,
+      "total_deaths_per_million": 84.982,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "stringency_index": 50.0,
+      "total_recovered": 6347,
+      "new_recovered": 0
     },
     {
       "date": "2021-05-10"
+    },
+    {
+      "date": "2021-05-11"
     }
   ]
 }

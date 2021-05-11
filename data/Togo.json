@@ -12068,6 +12068,7 @@
       "positive_rate": 0.032,
       "tests_per_case": 31.4,
       "tests_units": "tests performed",
+      "stringency_index": 42.59,
       "total_recovered": 11269,
       "new_recovered": 0
     },
@@ -12095,6 +12096,7 @@
       "positive_rate": 0.029,
       "tests_per_case": 34.5,
       "tests_units": "tests performed",
+      "stringency_index": 42.59,
       "total_recovered": 11306,
       "new_recovered": 37
     },
@@ -12122,6 +12124,7 @@
       "positive_rate": 0.03,
       "tests_per_case": 32.9,
       "tests_units": "tests performed",
+      "stringency_index": 42.59,
       "total_recovered": 11385,
       "new_recovered": 79
     },
@@ -12139,6 +12142,7 @@
       "total_deaths_per_million": 14.857,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "stringency_index": 42.59,
       "total_recovered": 11385,
       "new_recovered": 0
     },
@@ -12156,6 +12160,7 @@
       "total_deaths_per_million": 14.978,
       "new_deaths_per_million": 0.121,
       "new_deaths_smoothed_per_million": 0.017,
+      "stringency_index": 42.59,
       "total_recovered": 11580,
       "new_recovered": 195
     },
@@ -12173,14 +12178,33 @@
       "total_deaths_per_million": 14.978,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.017,
+      "stringency_index": 42.59,
       "total_recovered": 11580,
       "new_recovered": 0
     },
     {
-      "date": "2021-05-09"
+      "date": "2021-05-09",
+      "total_cases": 13154.0,
+      "new_cases": 48.0,
+      "new_cases_smoothed": 20.571,
+      "total_deaths": 124.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.143,
+      "total_cases_per_million": 1588.89,
+      "new_cases_per_million": 5.798,
+      "new_cases_smoothed_per_million": 2.485,
+      "total_deaths_per_million": 14.978,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.017,
+      "stringency_index": 42.59,
+      "total_recovered": 11691,
+      "new_recovered": 111
     },
     {
       "date": "2021-05-10"
+    },
+    {
+      "date": "2021-05-11"
     }
   ]
 }
