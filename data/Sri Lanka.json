@@ -13796,6 +13796,15 @@
       "total_deaths_per_million": 59.262,
       "new_deaths_per_million": 1.214,
       "new_deaths_smoothed_per_million": 1.695,
+      "new_tests": 17263.0,
+      "total_tests": 3372763.0,
+      "total_tests_per_thousand": 157.508,
+      "new_tests_per_thousand": 0.806,
+      "new_tests_smoothed": 22409.0,
+      "new_tests_smoothed_per_thousand": 1.047,
+      "positive_rate": 0.141,
+      "tests_per_case": 7.1,
+      "tests_units": "tests performed",
       "total_vaccinations": 1782429.0,
       "people_vaccinated": 1441501.0,
       "people_fully_vaccinated": 340928.0,
@@ -13809,10 +13818,45 @@
       "new_recovered": 1228
     },
     {
-      "date": "2021-05-26"
+      "date": "2021-05-26",
+      "total_cases": 172277.0,
+      "new_cases": 2377.0,
+      "new_cases_smoothed": 2990.571,
+      "total_deaths": 1298.0,
+      "new_deaths": 29.0,
+      "new_deaths_smoothed": 35.286,
+      "total_cases_per_million": 8045.346,
+      "new_cases_per_million": 111.006,
+      "new_cases_smoothed_per_million": 139.66,
+      "total_deaths_per_million": 60.617,
+      "new_deaths_per_million": 1.354,
+      "new_deaths_smoothed_per_million": 1.648,
+      "new_tests": 20193.0,
+      "total_tests": 3392956.0,
+      "total_tests_per_thousand": 158.451,
+      "new_tests_per_thousand": 0.943,
+      "new_tests_smoothed": 21665.0,
+      "new_tests_smoothed_per_thousand": 1.012,
+      "positive_rate": 0.138,
+      "tests_per_case": 7.2,
+      "tests_units": "tests performed",
+      "total_vaccinations": 1786343.0,
+      "people_vaccinated": 1443066.0,
+      "people_fully_vaccinated": 343277.0,
+      "new_vaccinations": 3914.0,
+      "new_vaccinations_smoothed": 14734.0,
+      "total_vaccinations_per_hundred": 8.34,
+      "people_vaccinated_per_hundred": 6.74,
+      "people_fully_vaccinated_per_hundred": 1.6,
+      "new_vaccinations_smoothed_per_million": 688.0,
+      "total_recovered": 142378,
+      "new_recovered": 1203
     },
     {
       "date": "2021-05-27"
+    },
+    {
+      "date": "2021-05-28"
     }
   ]
 }
