@@ -552,7 +552,7 @@
       "total_deaths_per_million": 0.248,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.035,
-      "reproduction_rate": 1.39,
+      "reproduction_rate": 1.4,
       "stringency_index": 87.04,
       "total_recovered": 2,
       "new_recovered": 1
@@ -609,7 +609,7 @@
       "total_deaths_per_million": 0.496,
       "new_deaths_per_million": 0.248,
       "new_deaths_smoothed_per_million": 0.035,
-      "reproduction_rate": 1.53,
+      "reproduction_rate": 1.54,
       "stringency_index": 87.04,
       "total_recovered": 2,
       "new_recovered": 0
@@ -685,8 +685,9 @@
       "total_deaths_per_million": 0.992,
       "new_deaths_per_million": 0.496,
       "new_deaths_smoothed_per_million": 0.106,
-      "reproduction_rate": 1.97,
+      "reproduction_rate": 1.96,
       "stringency_index": 87.04,
+      "excess_mortality": -20.04,
       "total_recovered": 18,
       "new_recovered": 3
     },
@@ -723,7 +724,7 @@
       "total_deaths_per_million": 1.487,
       "new_deaths_per_million": 0.248,
       "new_deaths_smoothed_per_million": 0.177,
-      "reproduction_rate": 2.07,
+      "reproduction_rate": 2.06,
       "stringency_index": 87.04,
       "total_recovered": 23,
       "new_recovered": 0
@@ -742,7 +743,7 @@
       "total_deaths_per_million": 1.983,
       "new_deaths_per_million": 0.496,
       "new_deaths_smoothed_per_million": 0.212,
-      "reproduction_rate": 2.08,
+      "reproduction_rate": 2.07,
       "stringency_index": 87.04,
       "total_recovered": 26,
       "new_recovered": 3
@@ -761,7 +762,7 @@
       "total_deaths_per_million": 2.975,
       "new_deaths_per_million": 0.992,
       "new_deaths_smoothed_per_million": 0.354,
-      "reproduction_rate": 2.07,
+      "reproduction_rate": 2.06,
       "stringency_index": 87.04,
       "total_recovered": 29,
       "new_recovered": 3
@@ -799,7 +800,7 @@
       "total_deaths_per_million": 4.71,
       "new_deaths_per_million": 0.992,
       "new_deaths_smoothed_per_million": 0.602,
-      "reproduction_rate": 1.78,
+      "reproduction_rate": 1.77,
       "stringency_index": 87.04,
       "total_recovered": 37,
       "new_recovered": 7
@@ -856,7 +857,7 @@
       "total_deaths_per_million": 7.189,
       "new_deaths_per_million": 0.496,
       "new_deaths_smoothed_per_million": 0.815,
-      "reproduction_rate": 1.45,
+      "reproduction_rate": 1.46,
       "stringency_index": 87.04,
       "total_recovered": 50,
       "new_recovered": 10
@@ -1160,7 +1161,7 @@
       "total_deaths_per_million": 23.302,
       "new_deaths_per_million": 2.479,
       "new_deaths_smoothed_per_million": 1.31,
-      "reproduction_rate": 1.18,
+      "reproduction_rate": 1.17,
       "stringency_index": 84.26,
       "total_recovered": 825,
       "new_recovered": 70
@@ -1179,7 +1180,7 @@
       "total_deaths_per_million": 23.798,
       "new_deaths_per_million": 0.496,
       "new_deaths_smoothed_per_million": 1.027,
-      "reproduction_rate": 1.12,
+      "reproduction_rate": 1.11,
       "stringency_index": 84.26,
       "total_recovered": 895,
       "new_recovered": 70
@@ -1257,6 +1258,7 @@
       "new_deaths_smoothed_per_million": 1.275,
       "reproduction_rate": 0.91,
       "stringency_index": 84.26,
+      "excess_mortality": -26.54,
       "total_recovered": 1182,
       "new_recovered": 68
     },
@@ -1540,7 +1542,7 @@
       "total_deaths_per_million": 50.075,
       "new_deaths_per_million": 1.983,
       "new_deaths_smoothed_per_million": 1.842,
-      "reproduction_rate": 1.23,
+      "reproduction_rate": 1.22,
       "stringency_index": 84.26,
       "total_recovered": 2228,
       "new_recovered": 0
@@ -1749,7 +1751,7 @@
       "total_deaths_per_million": 66.188,
       "new_deaths_per_million": 1.487,
       "new_deaths_smoothed_per_million": 1.629,
-      "reproduction_rate": 1.07,
+      "reproduction_rate": 1.06,
       "stringency_index": 80.56,
       "total_recovered": 3884,
       "new_recovered": 82
@@ -1846,6 +1848,7 @@
       "new_deaths_smoothed_per_million": 1.594,
       "reproduction_rate": 1.16,
       "stringency_index": 80.56,
+      "excess_mortality": 21.08,
       "total_recovered": 4581,
       "new_recovered": 126
     },
@@ -1920,7 +1923,7 @@
       "total_deaths_per_million": 78.087,
       "new_deaths_per_million": 1.239,
       "new_deaths_smoothed_per_million": 1.169,
-      "reproduction_rate": 1.18,
+      "reproduction_rate": 1.19,
       "stringency_index": 80.56,
       "total_recovered": 5009,
       "new_recovered": 146
@@ -1996,7 +1999,7 @@
       "total_deaths_per_million": 87.507,
       "new_deaths_per_million": 2.975,
       "new_deaths_smoothed_per_million": 1.7,
-      "reproduction_rate": 1.23,
+      "reproduction_rate": 1.24,
       "stringency_index": 80.56,
       "total_recovered": 5738,
       "new_recovered": 100
@@ -2416,6 +2419,7 @@
       "new_deaths_smoothed_per_million": 1.948,
       "reproduction_rate": 0.84,
       "stringency_index": 80.56,
+      "excess_mortality": 12.92,
       "total_recovered": 9382,
       "new_recovered": 153
     },
@@ -2490,7 +2494,7 @@
       "total_deaths_per_million": 143.779,
       "new_deaths_per_million": 1.983,
       "new_deaths_smoothed_per_million": 2.089,
-      "reproduction_rate": 0.85,
+      "reproduction_rate": 0.86,
       "stringency_index": 80.56,
       "total_recovered": 10396,
       "new_recovered": 303
@@ -2604,7 +2608,7 @@
       "total_deaths_per_million": 157.413,
       "new_deaths_per_million": 2.727,
       "new_deaths_smoothed_per_million": 2.231,
-      "reproduction_rate": 0.94,
+      "reproduction_rate": 0.95,
       "stringency_index": 74.07,
       "total_recovered": 12188,
       "new_recovered": 252
@@ -3005,6 +3009,7 @@
       "new_deaths_smoothed_per_million": 1.842,
       "reproduction_rate": 1.13,
       "stringency_index": 57.41,
+      "excess_mortality": 21.67,
       "total_recovered": 17269,
       "new_recovered": 229
     },
@@ -3212,7 +3217,7 @@
       "total_deaths_per_million": 212.446,
       "new_deaths_per_million": 1.735,
       "new_deaths_smoothed_per_million": 1.664,
-      "reproduction_rate": 1.08,
+      "reproduction_rate": 1.09,
       "stringency_index": 57.41,
       "total_recovered": 19740,
       "new_recovered": 440
@@ -3421,7 +3426,7 @@
       "total_deaths_per_million": 231.782,
       "new_deaths_per_million": 1.487,
       "new_deaths_smoothed_per_million": 1.417,
-      "reproduction_rate": 1.21,
+      "reproduction_rate": 1.2,
       "stringency_index": 57.41,
       "total_recovered": 22683,
       "new_recovered": 0
@@ -3594,6 +3599,7 @@
       "new_deaths_smoothed_per_million": 1.771,
       "reproduction_rate": 0.97,
       "stringency_index": 57.41,
+      "excess_mortality": 1.68,
       "total_recovered": 25872,
       "new_recovered": 733
     },
@@ -3649,7 +3655,7 @@
       "total_deaths_per_million": 256.819,
       "new_deaths_per_million": 2.975,
       "new_deaths_smoothed_per_million": 2.089,
-      "reproduction_rate": 1.05,
+      "reproduction_rate": 1.04,
       "stringency_index": 50.0,
       "total_recovered": 27017,
       "new_recovered": 828
@@ -3687,7 +3693,7 @@
       "total_deaths_per_million": 263.513,
       "new_deaths_per_million": 3.966,
       "new_deaths_smoothed_per_million": 2.585,
-      "reproduction_rate": 1.07,
+      "reproduction_rate": 1.06,
       "stringency_index": 50.0,
       "total_recovered": 27799,
       "new_recovered": 782
@@ -4164,6 +4170,7 @@
       "new_deaths_smoothed_per_million": 2.691,
       "reproduction_rate": 1.24,
       "stringency_index": 37.96,
+      "excess_mortality": 22.92,
       "total_recovered": 38997,
       "new_recovered": 418
     },
@@ -4238,7 +4245,7 @@
       "total_deaths_per_million": 338.625,
       "new_deaths_per_million": 3.223,
       "new_deaths_smoothed_per_million": 2.798,
-      "reproduction_rate": 1.18,
+      "reproduction_rate": 1.17,
       "stringency_index": 42.59,
       "total_recovered": 40955,
       "new_recovered": 480
@@ -4485,7 +4492,7 @@
       "total_deaths_per_million": 388.948,
       "new_deaths_per_million": 4.958,
       "new_deaths_smoothed_per_million": 3.931,
-      "reproduction_rate": 0.91,
+      "reproduction_rate": 0.92,
       "stringency_index": 48.15,
       "total_recovered": 47230,
       "new_recovered": 687
@@ -4753,6 +4760,7 @@
       "new_deaths_smoothed_per_million": 4.108,
       "reproduction_rate": 1.07,
       "stringency_index": 48.15,
+      "excess_mortality": 21.61,
       "total_recovered": 55782,
       "new_recovered": 592
     },
@@ -4808,7 +4816,7 @@
       "total_deaths_per_million": 455.631,
       "new_deaths_per_million": 4.958,
       "new_deaths_smoothed_per_million": 4.533,
-      "reproduction_rate": 1.1,
+      "reproduction_rate": 1.09,
       "stringency_index": 48.15,
       "total_recovered": 57402,
       "new_recovered": 527
@@ -4846,7 +4854,7 @@
       "total_deaths_per_million": 462.572,
       "new_deaths_per_million": 3.718,
       "new_deaths_smoothed_per_million": 4.214,
-      "reproduction_rate": 1.15,
+      "reproduction_rate": 1.14,
       "stringency_index": 48.15,
       "total_recovered": 59220,
       "new_recovered": 928
@@ -5323,6 +5331,7 @@
       "new_deaths_smoothed_per_million": 4.781,
       "reproduction_rate": 1.09,
       "stringency_index": 57.41,
+      "excess_mortality": 14.75,
       "total_recovered": 95354,
       "new_recovered": 768
     },
@@ -5587,7 +5596,7 @@
       "total_deaths_per_million": 644.032,
       "new_deaths_per_million": 6.445,
       "new_deaths_smoothed_per_million": 5.666,
-      "reproduction_rate": 0.96,
+      "reproduction_rate": 0.95,
       "stringency_index": 57.41,
       "total_recovered": 110179,
       "new_recovered": 1278
@@ -5758,7 +5767,7 @@
       "total_deaths_per_million": 700.304,
       "new_deaths_per_million": 5.454,
       "new_deaths_smoothed_per_million": 6.197,
-      "reproduction_rate": 0.78,
+      "reproduction_rate": 0.79,
       "stringency_index": 57.41,
       "total_recovered": 122614,
       "new_recovered": 1212
@@ -5912,6 +5921,7 @@
       "new_deaths_smoothed_per_million": 4.852,
       "reproduction_rate": 0.72,
       "stringency_index": 57.41,
+      "excess_mortality": 46.79,
       "total_recovered": 130643,
       "new_recovered": 1104
     },
@@ -6974,7 +6984,7 @@
       "total_deaths_per_million": 959.602,
       "new_deaths_per_million": 6.197,
       "new_deaths_smoothed_per_million": 5.454,
-      "reproduction_rate": 1.26,
+      "reproduction_rate": 1.25,
       "stringency_index": 51.85,
       "total_recovered": 164321,
       "new_recovered": 425
@@ -6993,7 +7003,7 @@
       "total_deaths_per_million": 966.543,
       "new_deaths_per_million": 6.941,
       "new_deaths_smoothed_per_million": 5.666,
-      "reproduction_rate": 1.24,
+      "reproduction_rate": 1.23,
       "stringency_index": 51.85,
       "total_recovered": 164888,
       "new_recovered": 567
@@ -7718,7 +7728,7 @@
       "total_deaths_per_million": 1218.405,
       "new_deaths_per_million": 11.403,
       "new_deaths_smoothed_per_million": 10.341,
-      "reproduction_rate": 0.88,
+      "reproduction_rate": 0.89,
       "new_vaccinations_smoothed": 2503.0,
       "new_vaccinations_smoothed_per_million": 620.0,
       "stringency_index": 65.74,
@@ -8458,7 +8468,7 @@
       "total_deaths_per_million": 1436.553,
       "new_deaths_per_million": 3.718,
       "new_deaths_smoothed_per_million": 4.498,
-      "reproduction_rate": 0.62,
+      "reproduction_rate": 0.63,
       "total_vaccinations": 145117.0,
       "people_vaccinated": 128587.0,
       "people_fully_vaccinated": 16530.0,
@@ -9044,7 +9054,7 @@
       "total_deaths_per_million": 1503.98,
       "new_deaths_per_million": 1.487,
       "new_deaths_smoothed_per_million": 2.16,
-      "reproduction_rate": 0.66,
+      "reproduction_rate": 0.67,
       "new_tests": 6005.0,
       "total_tests": 1076472.0,
       "total_tests_per_thousand": 266.852,
@@ -9235,7 +9245,7 @@
       "total_deaths_per_million": 1510.425,
       "new_deaths_per_million": 1.239,
       "new_deaths_smoothed_per_million": 1.133,
-      "reproduction_rate": 0.56,
+      "reproduction_rate": 0.57,
       "new_tests": 4575.0,
       "total_tests": 1098704.0,
       "total_tests_per_thousand": 272.363,
@@ -9271,7 +9281,7 @@
       "total_deaths_per_million": 1511.417,
       "new_deaths_per_million": 0.992,
       "new_deaths_smoothed_per_million": 1.062,
-      "reproduction_rate": 0.56,
+      "reproduction_rate": 0.57,
       "new_tests": 6438.0,
       "total_tests": 1105142.0,
       "total_tests_per_thousand": 273.959,
@@ -9405,7 +9415,7 @@
       "total_deaths_per_million": 1515.631,
       "new_deaths_per_million": 1.735,
       "new_deaths_smoothed_per_million": 1.062,
-      "reproduction_rate": 0.58,
+      "reproduction_rate": 0.59,
       "new_tests": 2644.0,
       "total_tests": 1115509.0,
       "total_tests_per_thousand": 276.529,
@@ -9441,7 +9451,7 @@
       "total_deaths_per_million": 1517.119,
       "new_deaths_per_million": 1.487,
       "new_deaths_smoothed_per_million": 1.133,
-      "reproduction_rate": 0.57,
+      "reproduction_rate": 0.59,
       "new_tests": 5440.0,
       "total_tests": 1120949.0,
       "total_tests_per_thousand": 277.878,
@@ -9477,7 +9487,7 @@
       "total_deaths_per_million": 1518.358,
       "new_deaths_per_million": 1.239,
       "new_deaths_smoothed_per_million": 1.133,
-      "reproduction_rate": 0.57,
+      "reproduction_rate": 0.6,
       "new_tests_smoothed": 3901.0,
       "new_tests_smoothed_per_thousand": 0.967,
       "positive_rate": 0.014,
@@ -9509,7 +9519,7 @@
       "total_deaths_per_million": 1519.35,
       "new_deaths_per_million": 0.992,
       "new_deaths_smoothed_per_million": 1.133,
-      "reproduction_rate": 0.56,
+      "reproduction_rate": 0.6,
       "total_tests": 1131074.0,
       "total_tests_per_thousand": 280.388,
       "new_tests_smoothed": 3705.0,
@@ -9536,7 +9546,7 @@
       "total_deaths_per_million": 1520.093,
       "new_deaths_per_million": 0.744,
       "new_deaths_smoothed_per_million": 1.133,
-      "reproduction_rate": 0.55,
+      "reproduction_rate": 0.61,
       "new_tests_smoothed": 3950.0,
       "new_tests_smoothed_per_thousand": 0.979,
       "positive_rate": 0.012,
@@ -9567,7 +9577,7 @@
       "total_deaths_per_million": 1520.589,
       "new_deaths_per_million": 0.496,
       "new_deaths_smoothed_per_million": 1.062,
-      "reproduction_rate": 0.55,
+      "reproduction_rate": 0.64,
       "new_tests_smoothed": 4195.0,
       "new_tests_smoothed_per_thousand": 1.04,
       "positive_rate": 0.01,
@@ -9599,6 +9609,7 @@
       "total_deaths_per_million": 1521.333,
       "new_deaths_per_million": 0.744,
       "new_deaths_smoothed_per_million": 1.062,
+      "reproduction_rate": 0.66,
       "new_tests_smoothed": 4436.0,
       "new_tests_smoothed_per_thousand": 1.1,
       "positive_rate": 0.01,
@@ -9617,10 +9628,32 @@
       "new_recovered": 22
     },
     {
-      "date": "2021-06-08"
+      "date": "2021-06-08",
+      "total_cases": 255541.0,
+      "new_cases": 40.0,
+      "new_cases_smoothed": 42.857,
+      "total_deaths": 6141.0,
+      "new_deaths": 4.0,
+      "new_deaths_smoothed": 3.857,
+      "total_cases_per_million": 63347.383,
+      "new_cases_per_million": 9.916,
+      "new_cases_smoothed_per_million": 10.624,
+      "total_deaths_per_million": 1522.324,
+      "new_deaths_per_million": 0.992,
+      "new_deaths_smoothed_per_million": 0.956,
+      "total_tests": 1148201.0,
+      "total_tests_per_thousand": 284.633,
+      "new_tests_smoothed": 4670.0,
+      "new_tests_smoothed_per_thousand": 1.158,
+      "tests_units": "tests performed",
+      "total_recovered": 248145,
+      "new_recovered": 83
     },
     {
       "date": "2021-06-09"
+    },
+    {
+      "date": "2021-06-10"
     }
   ]
 }
