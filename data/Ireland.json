@@ -15603,6 +15603,8 @@
       "icu_patients_per_million": 7.088,
       "hosp_patients": 98.0,
       "hosp_patients_per_million": 19.847,
+      "new_vaccinations_smoothed": 14851.0,
+      "new_vaccinations_smoothed_per_million": 3008.0,
       "stringency_index": 74.07,
       "total_recovered": 23364,
       "new_recovered": 0
@@ -15626,6 +15628,8 @@
       "icu_patients_per_million": 6.886,
       "hosp_patients": 89.0,
       "hosp_patients_per_million": 18.024,
+      "new_vaccinations_smoothed": 24253.0,
+      "new_vaccinations_smoothed_per_million": 4912.0,
       "stringency_index": 74.07,
       "total_recovered": 23364,
       "new_recovered": 0
@@ -15649,6 +15653,8 @@
       "icu_patients_per_million": 6.886,
       "hosp_patients": 93.0,
       "hosp_patients_per_million": 18.834,
+      "new_vaccinations_smoothed": 33656.0,
+      "new_vaccinations_smoothed_per_million": 6816.0,
       "stringency_index": 74.07,
       "total_recovered": 23364,
       "new_recovered": 0
@@ -15672,6 +15678,8 @@
       "icu_patients_per_million": 6.076,
       "hosp_patients": 84.0,
       "hosp_patients_per_million": 17.012,
+      "new_vaccinations_smoothed": 43058.0,
+      "new_vaccinations_smoothed_per_million": 8720.0,
       "stringency_index": 74.07,
       "total_recovered": 23364,
       "new_recovered": 0
@@ -15695,6 +15703,8 @@
       "icu_patients_per_million": 5.671,
       "hosp_patients": 86.0,
       "hosp_patients_per_million": 17.417,
+      "new_vaccinations_smoothed": 52460.0,
+      "new_vaccinations_smoothed_per_million": 10624.0,
       "stringency_index": 74.07,
       "total_recovered": 23364,
       "new_recovered": 0
@@ -15718,6 +15728,8 @@
       "icu_patients_per_million": 5.873,
       "hosp_patients": 74.0,
       "hosp_patients_per_million": 14.986,
+      "new_vaccinations_smoothed": 61863.0,
+      "new_vaccinations_smoothed_per_million": 12528.0,
       "stringency_index": 74.07,
       "total_recovered": 23364,
       "new_recovered": 0
@@ -15745,6 +15757,8 @@
       "weekly_icu_admissions_per_million": 2.82,
       "weekly_hosp_admissions": 0.0,
       "weekly_hosp_admissions_per_million": 0.0,
+      "new_vaccinations_smoothed": 71265.0,
+      "new_vaccinations_smoothed_per_million": 14433.0,
       "stringency_index": 74.07,
       "total_recovered": 23364,
       "new_recovered": 0
@@ -15764,6 +15778,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.89,
+      "new_vaccinations_smoothed": 71265.0,
+      "new_vaccinations_smoothed_per_million": 14433.0,
       "stringency_index": 74.07,
       "total_recovered": 23364,
       "new_recovered": 0
@@ -15783,6 +15799,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.86,
+      "new_vaccinations_smoothed": 71265.0,
+      "new_vaccinations_smoothed_per_million": 14433.0,
       "stringency_index": 74.07,
       "total_recovered": 23364,
       "new_recovered": 0
@@ -15802,6 +15820,10 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.85,
+      "total_vaccinations": 3100000.0,
+      "new_vaccinations_smoothed": 71265.0,
+      "total_vaccinations_per_hundred": 62.78,
+      "new_vaccinations_smoothed_per_million": 14433.0,
       "total_recovered": 23364,
       "new_recovered": 0
     },
@@ -15840,10 +15862,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-06-12"
+      "date": "2021-06-12",
+      "total_cases": 266489.0,
+      "new_cases": 431.0,
+      "new_cases_smoothed": 329.143,
+      "total_deaths": 4941.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 53969.22,
+      "new_cases_per_million": 87.286,
+      "new_cases_smoothed_per_million": 66.658,
+      "total_deaths_per_million": 1000.649,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "total_recovered": 23364,
+      "new_recovered": 0
     },
     {
       "date": "2021-06-13"
+    },
+    {
+      "date": "2021-06-14"
     }
   ]
 }
