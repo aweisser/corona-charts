@@ -13896,6 +13896,8 @@
       "new_tests_per_thousand": 1.021,
       "new_tests_smoothed": 3784.0,
       "new_tests_smoothed_per_thousand": 0.785,
+      "positive_rate": 0.001,
+      "tests_per_case": 1324.5,
       "tests_units": "tests performed",
       "stringency_index": 22.22,
       "total_recovered": 2647,
@@ -13916,6 +13918,11 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.91,
+      "new_tests_smoothed": 3846.0,
+      "new_tests_smoothed_per_thousand": 0.798,
+      "positive_rate": 0.001,
+      "tests_per_case": 1035.5,
+      "tests_units": "tests performed",
       "stringency_index": 22.22,
       "total_recovered": 2655,
       "new_recovered": 8
@@ -13934,15 +13941,49 @@
       "total_deaths_per_million": 5.392,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "total_tests": 2195282.0,
+      "total_tests_per_thousand": 455.242,
+      "new_tests_smoothed": 3908.0,
+      "new_tests_smoothed_per_thousand": 0.81,
+      "positive_rate": 0.001,
+      "tests_per_case": 1013.2,
+      "tests_units": "tests performed",
       "stringency_index": 22.22,
       "total_recovered": 2656,
       "new_recovered": 1
     },
     {
-      "date": "2021-06-14"
+      "date": "2021-06-14",
+      "total_cases": 2709.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 2.429,
+      "total_deaths": 26.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 561.773,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 0.504,
+      "total_deaths_per_million": 5.392,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "new_tests": 2164.0,
+      "total_tests": 2197446.0,
+      "total_tests_per_thousand": 455.691,
+      "new_tests_per_thousand": 0.449,
+      "new_tests_smoothed": 3931.0,
+      "new_tests_smoothed_per_thousand": 0.815,
+      "positive_rate": 0.001,
+      "tests_per_case": 1618.4,
+      "tests_units": "tests performed",
+      "stringency_index": 22.22,
+      "total_recovered": 2656,
+      "new_recovered": 0
     },
     {
       "date": "2021-06-15"
+    },
+    {
+      "date": "2021-06-16"
     }
   ]
 }

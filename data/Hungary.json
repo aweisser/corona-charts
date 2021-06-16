@@ -15433,6 +15433,8 @@
       "new_tests_per_thousand": 1.451,
       "new_tests_smoothed": 11143.0,
       "new_tests_smoothed_per_thousand": 1.153,
+      "positive_rate": 0.016,
+      "tests_per_case": 64.0,
       "tests_units": "tests performed",
       "total_recovered": 724614,
       "new_recovered": 2318
@@ -15452,6 +15454,11 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.917,
       "reproduction_rate": 0.43,
+      "new_tests_smoothed": 10694.0,
+      "new_tests_smoothed_per_thousand": 1.107,
+      "positive_rate": 0.012,
+      "tests_per_case": 81.5,
+      "tests_units": "tests performed",
       "total_recovered": 724614,
       "new_recovered": 0
     },
@@ -15469,14 +15476,45 @@
       "total_deaths_per_million": 3095.54,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.739,
+      "new_tests_smoothed": 10213.0,
+      "new_tests_smoothed_per_thousand": 1.057,
+      "positive_rate": 0.011,
+      "tests_per_case": 91.4,
+      "tests_units": "tests performed",
       "total_recovered": 724614,
       "new_recovered": 0
     },
     {
-      "date": "2021-06-14"
+      "date": "2021-06-14",
+      "total_cases": 807045.0,
+      "new_cases": 255.0,
+      "new_cases_smoothed": 136.571,
+      "total_deaths": 29925.0,
+      "new_deaths": 21.0,
+      "new_deaths_smoothed": 8.429,
+      "total_cases_per_million": 83542.004,
+      "new_cases_per_million": 26.397,
+      "new_cases_smoothed_per_million": 14.137,
+      "total_deaths_per_million": 3097.714,
+      "new_deaths_per_million": 2.174,
+      "new_deaths_smoothed_per_million": 0.872,
+      "new_tests": 28283.0,
+      "total_tests": 5540334.0,
+      "total_tests_per_thousand": 573.513,
+      "new_tests_per_thousand": 2.928,
+      "new_tests_smoothed": 10615.0,
+      "new_tests_smoothed_per_thousand": 1.099,
+      "positive_rate": 0.013,
+      "tests_per_case": 77.7,
+      "tests_units": "tests performed",
+      "total_recovered": 730588,
+      "new_recovered": 5974
     },
     {
       "date": "2021-06-15"
+    },
+    {
+      "date": "2021-06-16"
     }
   ]
 }
