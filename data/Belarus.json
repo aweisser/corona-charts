@@ -12007,6 +12007,8 @@
       "positive_rate": 0.058,
       "tests_per_case": 17.2,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 18613.0,
+      "new_vaccinations_smoothed_per_million": 1970.0,
       "total_recovered": 392744,
       "new_recovered": 378
     },
@@ -12030,6 +12032,8 @@
       "positive_rate": 0.057,
       "tests_per_case": 17.5,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 18927.0,
+      "new_vaccinations_smoothed_per_million": 2003.0,
       "total_recovered": 393237,
       "new_recovered": 493
     },
@@ -12053,6 +12057,8 @@
       "positive_rate": 0.056,
       "tests_per_case": 18.0,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 19241.0,
+      "new_vaccinations_smoothed_per_million": 2036.0,
       "total_recovered": 394272,
       "new_recovered": 1035
     },
@@ -12076,6 +12082,8 @@
       "positive_rate": 0.056,
       "tests_per_case": 17.9,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 19556.0,
+      "new_vaccinations_smoothed_per_million": 2070.0,
       "total_recovered": 395463,
       "new_recovered": 1191
     },
@@ -12101,6 +12109,8 @@
       "positive_rate": 0.054,
       "tests_per_case": 18.5,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 19870.0,
+      "new_vaccinations_smoothed_per_million": 2103.0,
       "total_recovered": 396650,
       "new_recovered": 1187
     },
@@ -12124,6 +12134,8 @@
       "positive_rate": 0.055,
       "tests_per_case": 18.3,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 20184.0,
+      "new_vaccinations_smoothed_per_million": 2136.0,
       "total_recovered": 397587,
       "new_recovered": 937
     },
@@ -12147,6 +12159,14 @@
       "positive_rate": 0.055,
       "tests_per_case": 18.3,
       "tests_units": "tests performed",
+      "total_vaccinations": 1068413.0,
+      "people_vaccinated": 699141.0,
+      "people_fully_vaccinated": 369272.0,
+      "new_vaccinations_smoothed": 20498.0,
+      "total_vaccinations_per_hundred": 11.31,
+      "people_vaccinated_per_hundred": 7.4,
+      "people_fully_vaccinated_per_hundred": 3.91,
+      "new_vaccinations_smoothed_per_million": 2169.0,
       "total_recovered": 398742,
       "new_recovered": 1155
     },
@@ -12190,6 +12210,11 @@
       "new_deaths_per_million": 0.847,
       "new_deaths_smoothed_per_million": 0.998,
       "reproduction_rate": 0.92,
+      "new_tests_smoothed": 15301.0,
+      "new_tests_smoothed_per_thousand": 1.619,
+      "positive_rate": 0.055,
+      "tests_per_case": 18.3,
+      "tests_units": "tests performed",
       "total_recovered": 399549,
       "new_recovered": 375
     },
@@ -12207,14 +12232,43 @@
       "total_deaths_per_million": 318.118,
       "new_deaths_per_million": 1.164,
       "new_deaths_smoothed_per_million": 1.013,
+      "new_tests_smoothed": 15405.0,
+      "new_tests_smoothed_per_thousand": 1.63,
+      "positive_rate": 0.055,
+      "tests_per_case": 18.3,
+      "tests_units": "tests performed",
       "total_recovered": 400513,
       "new_recovered": 964
     },
     {
-      "date": "2021-06-17"
+      "date": "2021-06-17",
+      "total_cases": 408621.0,
+      "new_cases": 873.0,
+      "new_cases_smoothed": 828.857,
+      "total_deaths": 3015.0,
+      "new_deaths": 9.0,
+      "new_deaths_smoothed": 9.429,
+      "total_cases_per_million": 43243.425,
+      "new_cases_per_million": 92.388,
+      "new_cases_smoothed_per_million": 87.716,
+      "total_deaths_per_million": 319.071,
+      "new_deaths_per_million": 0.952,
+      "new_deaths_smoothed_per_million": 0.998,
+      "total_tests": 6593438.0,
+      "total_tests_per_thousand": 697.768,
+      "new_tests_smoothed": 15510.0,
+      "new_tests_smoothed_per_thousand": 1.641,
+      "positive_rate": 0.053,
+      "tests_per_case": 18.7,
+      "tests_units": "tests performed",
+      "total_recovered": 401462,
+      "new_recovered": 949
     },
     {
       "date": "2021-06-18"
+    },
+    {
+      "date": "2021-06-19"
     }
   ]
 }

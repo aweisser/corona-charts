@@ -9234,6 +9234,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.054,
       "reproduction_rate": 0.86,
+      "new_vaccinations_smoothed": 5722.0,
+      "new_vaccinations_smoothed_per_million": 436.0,
       "total_recovered": 21452,
       "new_recovered": 14
     },
@@ -9252,6 +9254,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.054,
       "reproduction_rate": 0.86,
+      "new_vaccinations_smoothed": 6878.0,
+      "new_vaccinations_smoothed_per_million": 524.0,
       "total_recovered": 21488,
       "new_recovered": 36
     },
@@ -9270,6 +9274,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.054,
       "reproduction_rate": 0.86,
+      "new_vaccinations_smoothed": 8034.0,
+      "new_vaccinations_smoothed_per_million": 612.0,
       "total_recovered": 21488,
       "new_recovered": 0
     },
@@ -9288,6 +9294,14 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.033,
       "reproduction_rate": 0.86,
+      "total_vaccinations": 441446.0,
+      "people_vaccinated": 331202.0,
+      "people_fully_vaccinated": 110244.0,
+      "new_vaccinations_smoothed": 8067.0,
+      "total_vaccinations_per_hundred": 3.36,
+      "people_vaccinated_per_hundred": 2.52,
+      "people_fully_vaccinated_per_hundred": 0.84,
+      "new_vaccinations_smoothed_per_million": 614.0,
       "total_recovered": 21488,
       "new_recovered": 0
     },
@@ -9309,10 +9323,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-06-17"
+      "date": "2021-06-17",
+      "total_cases": 23431.0,
+      "new_cases": 33.0,
+      "new_cases_smoothed": 11.286,
+      "total_deaths": 167.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 1784.16,
+      "new_cases_per_million": 2.513,
+      "new_cases_smoothed_per_million": 0.859,
+      "total_deaths_per_million": 12.716,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "total_recovered": 21488,
+      "new_recovered": 0
     },
     {
       "date": "2021-06-18"
+    },
+    {
+      "date": "2021-06-19"
     }
   ]
 }

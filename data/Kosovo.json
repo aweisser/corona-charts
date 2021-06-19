@@ -9250,6 +9250,11 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.37,
       "reproduction_rate": 0.56,
+      "new_tests_smoothed": 2373.0,
+      "new_tests_smoothed_per_thousand": 1.228,
+      "positive_rate": 0.005,
+      "tests_per_case": 218.6,
+      "tests_units": "tests performed",
       "total_recovered": 104772,
       "new_recovered": 94
     },
@@ -9268,6 +9273,11 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.37,
       "reproduction_rate": 0.55,
+      "new_tests_smoothed": 2235.0,
+      "new_tests_smoothed_per_thousand": 1.156,
+      "positive_rate": 0.005,
+      "tests_per_case": 205.9,
+      "tests_units": "tests performed",
       "total_recovered": 104772,
       "new_recovered": 0
     },
@@ -9285,14 +9295,47 @@
       "total_deaths_per_million": 1166.717,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.222,
+      "total_tests": 648333.0,
+      "total_tests_per_thousand": 335.442,
+      "new_tests_smoothed": 2096.0,
+      "new_tests_smoothed_per_thousand": 1.084,
+      "positive_rate": 0.005,
+      "tests_per_case": 219.0,
+      "tests_units": "tests performed",
       "total_recovered": 104985,
       "new_recovered": 213
     },
     {
-      "date": "2021-06-17"
+      "date": "2021-06-17",
+      "total_cases": 107192.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 9.571,
+      "total_deaths": 2255.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.429,
+      "total_cases_per_million": 55460.183,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 4.952,
+      "total_deaths_per_million": 1166.717,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.222,
+      "new_tests": 1848.0,
+      "total_tests": 650181.0,
+      "total_tests_per_thousand": 336.398,
+      "new_tests_per_thousand": 0.956,
+      "new_tests_smoothed": 1941.0,
+      "new_tests_smoothed_per_thousand": 1.004,
+      "positive_rate": 0.005,
+      "tests_per_case": 202.8,
+      "tests_units": "tests performed",
+      "total_recovered": 104985,
+      "new_recovered": 0
     },
     {
       "date": "2021-06-18"
+    },
+    {
+      "date": "2021-06-19"
     }
   ]
 }
