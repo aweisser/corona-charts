@@ -11556,6 +11556,8 @@
       "new_deaths_per_million": 0.036,
       "new_deaths_smoothed_per_million": 0.093,
       "reproduction_rate": 0.68,
+      "new_vaccinations_smoothed": 10013.0,
+      "new_vaccinations_smoothed_per_million": 362.0,
       "total_recovered": 40318,
       "new_recovered": 39
     },
@@ -11574,6 +11576,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.088,
       "reproduction_rate": 0.68,
+      "new_vaccinations_smoothed": 9771.0,
+      "new_vaccinations_smoothed_per_million": 353.0,
       "total_recovered": 40345,
       "new_recovered": 27
     },
@@ -11591,6 +11595,8 @@
       "total_deaths_per_million": 32.321,
       "new_deaths_per_million": 0.108,
       "new_deaths_smoothed_per_million": 0.083,
+      "new_vaccinations_smoothed": 9459.0,
+      "new_vaccinations_smoothed_per_million": 342.0,
       "total_recovered": 40394,
       "new_recovered": 49
     },
@@ -11608,14 +11614,39 @@
       "total_deaths_per_million": 32.357,
       "new_deaths_per_million": 0.036,
       "new_deaths_smoothed_per_million": 0.072,
+      "new_vaccinations_smoothed": 9146.0,
+      "new_vaccinations_smoothed_per_million": 330.0,
       "total_recovered": 40425,
       "new_recovered": 31
     },
     {
-      "date": "2021-06-20"
+      "date": "2021-06-20",
+      "total_cases": 42123.0,
+      "new_cases": 36.0,
+      "new_cases_smoothed": 27.143,
+      "total_deaths": 901.0,
+      "new_deaths": 5.0,
+      "new_deaths_smoothed": 2.0,
+      "total_cases_per_million": 1521.179,
+      "new_cases_per_million": 1.3,
+      "new_cases_smoothed_per_million": 0.98,
+      "total_deaths_per_million": 32.538,
+      "new_deaths_per_million": 0.181,
+      "new_deaths_smoothed_per_million": 0.072,
+      "total_vaccinations": 188752.0,
+      "people_vaccinated": 188752.0,
+      "new_vaccinations_smoothed": 8834.0,
+      "total_vaccinations_per_hundred": 0.68,
+      "people_vaccinated_per_hundred": 0.68,
+      "new_vaccinations_smoothed_per_million": 319.0,
+      "total_recovered": 40450,
+      "new_recovered": 25
     },
     {
       "date": "2021-06-21"
+    },
+    {
+      "date": "2021-06-22"
     }
   ]
 }
