@@ -10108,6 +10108,8 @@
       "total_tests_per_thousand": 300.68,
       "new_tests_smoothed": 4498.0,
       "new_tests_smoothed_per_thousand": 1.115,
+      "positive_rate": 0.011,
+      "tests_per_case": 88.9,
       "tests_units": "tests performed",
       "new_vaccinations_smoothed": 13202.0,
       "new_vaccinations_smoothed_per_million": 3273.0,
@@ -10128,6 +10130,11 @@
       "total_deaths_per_million": 1531.496,
       "new_deaths_per_million": 0.744,
       "new_deaths_smoothed_per_million": 0.673,
+      "new_tests_smoothed": 4642.0,
+      "new_tests_smoothed_per_thousand": 1.151,
+      "positive_rate": 0.012,
+      "tests_per_case": 84.0,
+      "tests_units": "tests performed",
       "total_vaccinations": 655537.0,
       "people_vaccinated": 410648.0,
       "people_fully_vaccinated": 244889.0,
@@ -10140,10 +10147,41 @@
       "new_recovered": 62
     },
     {
-      "date": "2021-06-24"
+      "date": "2021-06-24",
+      "total_cases": 256387.0,
+      "new_cases": 63.0,
+      "new_cases_smoothed": 56.143,
+      "total_deaths": 6180.0,
+      "new_deaths": 2.0,
+      "new_deaths_smoothed": 2.571,
+      "total_cases_per_million": 63557.103,
+      "new_cases_per_million": 15.617,
+      "new_cases_smoothed_per_million": 13.918,
+      "total_deaths_per_million": 1531.992,
+      "new_deaths_per_million": 0.496,
+      "new_deaths_smoothed_per_million": 0.637,
+      "new_tests_smoothed": 4786.0,
+      "new_tests_smoothed_per_thousand": 1.186,
+      "positive_rate": 0.012,
+      "tests_per_case": 85.2,
+      "tests_units": "tests performed",
+      "total_vaccinations": 667835.0,
+      "people_vaccinated": 417565.0,
+      "people_fully_vaccinated": 250270.0,
+      "new_vaccinations": 12298.0,
+      "new_vaccinations_smoothed": 10049.0,
+      "total_vaccinations_per_hundred": 16.56,
+      "people_vaccinated_per_hundred": 10.35,
+      "people_fully_vaccinated_per_hundred": 6.2,
+      "new_vaccinations_smoothed_per_million": 2491.0,
+      "total_recovered": 249381,
+      "new_recovered": 69
     },
     {
       "date": "2021-06-25"
+    },
+    {
+      "date": "2021-06-26"
     }
   ]
 }
