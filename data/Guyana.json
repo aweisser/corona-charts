@@ -9488,6 +9488,8 @@
       "new_deaths_per_million": 3.814,
       "new_deaths_smoothed_per_million": 2.724,
       "reproduction_rate": 1.0,
+      "new_vaccinations_smoothed": 2249.0,
+      "new_vaccinations_smoothed_per_million": 2859.0,
       "total_recovered": 17241,
       "new_recovered": 66
     },
@@ -9505,6 +9507,8 @@
       "total_deaths_per_million": 574.655,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 2.543,
+      "new_vaccinations_smoothed": 2127.0,
+      "new_vaccinations_smoothed_per_million": 2704.0,
       "total_recovered": 17241,
       "new_recovered": 0
     },
@@ -9522,6 +9526,8 @@
       "total_deaths_per_million": 582.283,
       "new_deaths_per_million": 7.628,
       "new_deaths_smoothed_per_million": 3.088,
+      "new_vaccinations_smoothed": 2140.0,
+      "new_vaccinations_smoothed_per_million": 2721.0,
       "total_recovered": 17405,
       "new_recovered": 164
     },
@@ -9539,14 +9545,39 @@
       "total_deaths_per_million": 583.554,
       "new_deaths_per_million": 1.271,
       "new_deaths_smoothed_per_million": 3.088,
+      "total_vaccinations": 335091.0,
+      "people_vaccinated": 230486.0,
+      "people_fully_vaccinated": 104605.0,
+      "new_vaccinations_smoothed": 2153.0,
+      "total_vaccinations_per_hundred": 42.6,
+      "people_vaccinated_per_hundred": 29.3,
+      "people_fully_vaccinated_per_hundred": 13.3,
+      "new_vaccinations_smoothed_per_million": 2737.0,
       "total_recovered": 17626,
       "new_recovered": 221
     },
     {
-      "date": "2021-06-26"
+      "date": "2021-06-26",
+      "total_cases": 19774.0,
+      "new_cases": 100.0,
+      "new_cases_smoothed": 114.429,
+      "total_deaths": 462.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 2.571,
+      "total_cases_per_million": 25139.881,
+      "new_cases_per_million": 127.136,
+      "new_cases_smoothed_per_million": 145.48,
+      "total_deaths_per_million": 587.369,
+      "new_deaths_per_million": 3.814,
+      "new_deaths_smoothed_per_million": 3.269,
+      "total_recovered": 17647,
+      "new_recovered": 21
     },
     {
       "date": "2021-06-27"
+    },
+    {
+      "date": "2021-06-28"
     }
   ]
 }
