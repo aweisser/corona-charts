@@ -14351,8 +14351,15 @@
       "positive_rate": 0.135,
       "tests_per_case": 7.4,
       "tests_units": "people tested",
-      "new_vaccinations_smoothed": 231774.0,
-      "new_vaccinations_smoothed_per_million": 2115.0,
+      "total_vaccinations": 8591406.0,
+      "people_vaccinated": 7045380.0,
+      "people_fully_vaccinated": 2183489.0,
+      "new_vaccinations": 184064.0,
+      "new_vaccinations_smoothed": 220861.0,
+      "total_vaccinations_per_hundred": 7.84,
+      "people_vaccinated_per_hundred": 6.43,
+      "people_fully_vaccinated_per_hundred": 1.99,
+      "new_vaccinations_smoothed_per_million": 2016.0,
       "stringency_index": 71.76,
       "total_recovered": 1284643,
       "new_recovered": 6928
@@ -14381,14 +14388,8 @@
       "positive_rate": 0.13,
       "tests_per_case": 7.7,
       "tests_units": "people tested",
-      "total_vaccinations": 8928249.0,
-      "people_vaccinated": 6681352.0,
-      "people_fully_vaccinated": 2246897.0,
-      "new_vaccinations_smoothed": 222849.0,
-      "total_vaccinations_per_hundred": 8.15,
-      "people_vaccinated_per_hundred": 6.1,
-      "people_fully_vaccinated_per_hundred": 2.05,
-      "new_vaccinations_smoothed_per_million": 2034.0,
+      "new_vaccinations_smoothed": 208700.0,
+      "new_vaccinations_smoothed_per_million": 1905.0,
       "total_recovered": 1291389,
       "new_recovered": 6746
     },
@@ -14415,8 +14416,8 @@
       "positive_rate": 0.126,
       "tests_per_case": 7.9,
       "tests_units": "people tested",
-      "new_vaccinations_smoothed": 224257.0,
-      "new_vaccinations_smoothed_per_million": 2046.0,
+      "new_vaccinations_smoothed": 214824.0,
+      "new_vaccinations_smoothed_per_million": 1960.0,
       "total_recovered": 1298442,
       "new_recovered": 7053
     },
@@ -14434,8 +14435,8 @@
       "total_deaths_per_million": 219.344,
       "new_deaths_per_million": 0.986,
       "new_deaths_smoothed_per_million": 0.991,
-      "new_vaccinations_smoothed": 212776.0,
-      "new_vaccinations_smoothed_per_million": 1942.0,
+      "new_vaccinations_smoothed": 208060.0,
+      "new_vaccinations_smoothed_per_million": 1899.0,
       "total_recovered": 1302814,
       "new_recovered": 4372
     },
@@ -14454,8 +14455,12 @@
       "new_deaths_per_million": 1.059,
       "new_deaths_smoothed_per_million": 1.0,
       "total_vaccinations": 9542612.0,
+      "people_vaccinated": 7295715.0,
+      "people_fully_vaccinated": 2246897.0,
       "new_vaccinations_smoothed": 213129.0,
       "total_vaccinations_per_hundred": 8.71,
+      "people_vaccinated_per_hundred": 6.66,
+      "people_fully_vaccinated_per_hundred": 2.05,
       "new_vaccinations_smoothed_per_million": 1945.0,
       "total_recovered": 1305608,
       "new_recovered": 2794
@@ -14474,14 +14479,41 @@
       "total_deaths_per_million": 221.243,
       "new_deaths_per_million": 0.84,
       "new_deaths_smoothed_per_million": 0.92,
+      "new_vaccinations_smoothed": 225893.0,
+      "new_vaccinations_smoothed_per_million": 2061.0,
       "total_recovered": 1314220,
       "new_recovered": 8612
     },
     {
-      "date": "2021-06-27"
+      "date": "2021-06-27",
+      "total_cases": 1397992.0,
+      "new_cases": 6081.0,
+      "new_cases_smoothed": 5568.143,
+      "total_deaths": 24372.0,
+      "new_deaths": 128.0,
+      "new_deaths_smoothed": 107.286,
+      "total_cases_per_million": 12757.603,
+      "new_cases_per_million": 55.493,
+      "new_cases_smoothed_per_million": 50.813,
+      "total_deaths_per_million": 222.411,
+      "new_deaths_per_million": 1.168,
+      "new_deaths_smoothed_per_million": 0.979,
+      "total_vaccinations": 10065414.0,
+      "people_vaccinated": 7538128.0,
+      "people_fully_vaccinated": 2527286.0,
+      "new_vaccinations_smoothed": 236867.0,
+      "total_vaccinations_per_hundred": 9.19,
+      "people_vaccinated_per_hundred": 6.88,
+      "people_fully_vaccinated_per_hundred": 2.31,
+      "new_vaccinations_smoothed_per_million": 2162.0,
+      "total_recovered": 1321050,
+      "new_recovered": 6830
     },
     {
       "date": "2021-06-28"
+    },
+    {
+      "date": "2021-06-29"
     }
   ]
 }
