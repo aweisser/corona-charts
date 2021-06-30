@@ -9226,6 +9226,8 @@
       "total_deaths_per_million": 22.145,
       "new_deaths_per_million": 0.395,
       "new_deaths_smoothed_per_million": 0.48,
+      "new_vaccinations_smoothed": 1395.0,
+      "new_vaccinations_smoothed_per_million": 276.0,
       "stringency_index": 51.85,
       "total_recovered": 2222,
       "new_recovered": 0
@@ -9244,6 +9246,8 @@
       "total_deaths_per_million": 22.342,
       "new_deaths_per_million": 0.198,
       "new_deaths_smoothed_per_million": 0.508,
+      "new_vaccinations_smoothed": 1555.0,
+      "new_vaccinations_smoothed_per_million": 307.0,
       "stringency_index": 51.85,
       "total_recovered": 2274,
       "new_recovered": 52
@@ -9262,15 +9266,43 @@
       "total_deaths_per_million": 23.726,
       "new_deaths_per_million": 1.384,
       "new_deaths_smoothed_per_million": 0.706,
+      "new_vaccinations_smoothed": 1714.0,
+      "new_vaccinations_smoothed_per_million": 339.0,
       "stringency_index": 51.85,
       "total_recovered": 2274,
       "new_recovered": 0
     },
     {
-      "date": "2021-06-28"
+      "date": "2021-06-28",
+      "total_cases": 3794.0,
+      "new_cases": 58.0,
+      "new_cases_smoothed": 97.857,
+      "total_deaths": 123.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 3.429,
+      "total_cases_per_million": 750.147,
+      "new_cases_per_million": 11.468,
+      "new_cases_smoothed_per_million": 19.348,
+      "total_deaths_per_million": 24.319,
+      "new_deaths_per_million": 0.593,
+      "new_deaths_smoothed_per_million": 0.678,
+      "total_vaccinations": 82212.0,
+      "people_vaccinated": 79670.0,
+      "people_fully_vaccinated": 2542.0,
+      "new_vaccinations_smoothed": 1634.0,
+      "total_vaccinations_per_hundred": 1.63,
+      "people_vaccinated_per_hundred": 1.58,
+      "people_fully_vaccinated_per_hundred": 0.05,
+      "new_vaccinations_smoothed_per_million": 323.0,
+      "stringency_index": 51.85,
+      "total_recovered": 2274,
+      "new_recovered": 0
     },
     {
       "date": "2021-06-29"
+    },
+    {
+      "date": "2021-06-30"
     }
   ]
 }
