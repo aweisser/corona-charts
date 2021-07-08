@@ -14915,6 +14915,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.17,
       "reproduction_rate": 0.6,
+      "new_vaccinations_smoothed": 125678.0,
+      "new_vaccinations_smoothed_per_million": 12444.0,
       "stringency_index": 51.85,
       "total_recovered": 0,
       "new_recovered": 0
@@ -14934,6 +14936,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.17,
       "reproduction_rate": 0.6,
+      "new_vaccinations_smoothed": 131467.0,
+      "new_vaccinations_smoothed_per_million": 13017.0,
       "stringency_index": 51.85,
       "total_recovered": 0,
       "new_recovered": 0
@@ -14952,15 +14956,42 @@
       "total_deaths_per_million": 1448.719,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.17,
+      "new_vaccinations_smoothed": 137256.0,
+      "new_vaccinations_smoothed_per_million": 13591.0,
       "stringency_index": 51.85,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-07-06"
+      "date": "2021-07-06",
+      "total_cases": 1091730.0,
+      "new_cases": 850.0,
+      "new_cases_smoothed": 283.857,
+      "total_deaths": 14633.0,
+      "new_deaths": 2.0,
+      "new_deaths_smoothed": 1.0,
+      "total_cases_per_million": 108099.892,
+      "new_cases_per_million": 84.164,
+      "new_cases_smoothed_per_million": 28.107,
+      "total_deaths_per_million": 1448.917,
+      "new_deaths_per_million": 0.198,
+      "new_deaths_smoothed_per_million": 0.099,
+      "total_vaccinations": 8732503.0,
+      "people_vaccinated": 5302083.0,
+      "people_fully_vaccinated": 3430420.0,
+      "new_vaccinations_smoothed": 143045.0,
+      "total_vaccinations_per_hundred": 86.47,
+      "people_vaccinated_per_hundred": 52.5,
+      "people_fully_vaccinated_per_hundred": 33.97,
+      "new_vaccinations_smoothed_per_million": 14164.0,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-07-07"
+    },
+    {
+      "date": "2021-07-08"
     }
   ]
 }
