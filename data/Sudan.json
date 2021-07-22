@@ -330,9 +330,9 @@
     {
       "date": "2020-03-12",
       "new_cases_smoothed": 47.571,
-      "new_deaths_smoothed": 2.286,
+      "new_deaths_smoothed": 0.286,
       "new_cases_smoothed_per_million": 1.085,
-      "new_deaths_smoothed_per_million": 0.052,
+      "new_deaths_smoothed_per_million": 0.007,
       "stringency_index": 5.56,
       "total_recovered": 0,
       "new_recovered": 0
@@ -9990,10 +9990,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-07-20"
+      "date": "2021-07-20",
+      "total_cases": 37138.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 47.571,
+      "total_deaths": 2776.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 2.286,
+      "total_cases_per_million": 846.947,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 1.085,
+      "total_deaths_per_million": 63.308,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.052,
+      "total_recovered": 30647,
+      "new_recovered": 0
     },
     {
       "date": "2021-07-21"
+    },
+    {
+      "date": "2021-07-22"
     }
   ]
 }
