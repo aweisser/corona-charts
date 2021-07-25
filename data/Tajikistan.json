@@ -9210,6 +9210,7 @@
       "new_deaths_per_million": 0.21,
       "new_deaths_smoothed_per_million": 0.105,
       "reproduction_rate": 1.48,
+      "stringency_index": 29.63,
       "total_recovered": 13801,
       "new_recovered": 43
     },
@@ -9228,6 +9229,7 @@
       "new_deaths_per_million": 0.105,
       "new_deaths_smoothed_per_million": 0.09,
       "reproduction_rate": 1.45,
+      "stringency_index": 29.63,
       "total_recovered": 13846,
       "new_recovered": 45
     },
@@ -9245,14 +9247,31 @@
       "total_deaths_per_million": 12.162,
       "new_deaths_per_million": 0.105,
       "new_deaths_smoothed_per_million": 0.09,
+      "stringency_index": 29.63,
       "total_recovered": 13902,
       "new_recovered": 56
     },
     {
-      "date": "2021-07-23"
+      "date": "2021-07-23",
+      "total_cases": 14427.0,
+      "new_cases": 68.0,
+      "new_cases_smoothed": 61.0,
+      "total_deaths": 116.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.857,
+      "total_cases_per_million": 1512.638,
+      "new_cases_per_million": 7.13,
+      "new_cases_smoothed_per_million": 6.396,
+      "total_deaths_per_million": 12.162,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.09,
+      "stringency_index": 29.63
     },
     {
       "date": "2021-07-24"
+    },
+    {
+      "date": "2021-07-25"
     }
   ]
 }
