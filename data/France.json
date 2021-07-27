@@ -17515,6 +17515,7 @@
       "people_vaccinated_per_hundred": 56.59,
       "people_fully_vaccinated_per_hundred": 42.84,
       "new_vaccinations_smoothed_per_million": 9214.0,
+      "stringency_index": 41.2,
       "total_recovered": 409403,
       "new_recovered": 430
     },
@@ -17542,6 +17543,7 @@
       "people_vaccinated_per_hundred": 57.16,
       "people_fully_vaccinated_per_hundred": 43.47,
       "new_vaccinations_smoothed_per_million": 10187.0,
+      "stringency_index": 41.2,
       "total_recovered": 409687,
       "new_recovered": 284
     },
@@ -17569,6 +17571,7 @@
       "people_vaccinated_per_hundred": 57.79,
       "people_fully_vaccinated_per_hundred": 44.07,
       "new_vaccinations_smoothed_per_million": 10128.0,
+      "stringency_index": 41.2,
       "total_recovered": 410035,
       "new_recovered": 348
     },
@@ -17587,6 +17590,7 @@
       "new_deaths_per_million": 0.429,
       "new_deaths_smoothed_per_million": 0.29,
       "reproduction_rate": 1.81,
+      "stringency_index": 41.2,
       "total_recovered": 410349,
       "new_recovered": 314
     },
@@ -17604,14 +17608,33 @@
       "total_deaths_per_million": 1654.721,
       "new_deaths_per_million": 0.326,
       "new_deaths_smoothed_per_million": 0.302,
+      "stringency_index": 41.2,
       "total_recovered": 410525,
       "new_recovered": 176
     },
     {
-      "date": "2021-07-25"
+      "date": "2021-07-25",
+      "total_cases": 6056388.0,
+      "new_cases": 15242.0,
+      "new_cases_smoothed": 18065.571,
+      "total_deaths": 111806.0,
+      "new_deaths": 6.0,
+      "new_deaths_smoothed": 20.571,
+      "total_cases_per_million": 89638.942,
+      "new_cases_per_million": 225.593,
+      "new_cases_smoothed_per_million": 267.384,
+      "total_deaths_per_million": 1654.81,
+      "new_deaths_per_million": 0.089,
+      "new_deaths_smoothed_per_million": 0.304,
+      "stringency_index": 41.2,
+      "total_recovered": 410554,
+      "new_recovered": 29
     },
     {
       "date": "2021-07-26"
+    },
+    {
+      "date": "2021-07-27"
     }
   ]
 }

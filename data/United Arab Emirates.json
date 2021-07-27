@@ -15810,6 +15810,8 @@
       "positive_rate": 0.006,
       "tests_per_case": 173.9,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 47865.0,
+      "new_vaccinations_smoothed_per_million": 4840.0,
       "total_recovered": 643234,
       "new_recovered": 1484
     },
@@ -15837,6 +15839,8 @@
       "positive_rate": 0.006,
       "tests_per_case": 162.6,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 38678.0,
+      "new_vaccinations_smoothed_per_million": 3911.0,
       "total_recovered": 644753,
       "new_recovered": 1519
     },
@@ -15862,6 +15866,8 @@
       "new_tests_smoothed": 229609.0,
       "new_tests_smoothed_per_thousand": 23.215,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 30272.0,
+      "new_vaccinations_smoothed_per_million": 3061.0,
       "total_recovered": 646227,
       "new_recovered": 1474
     },
@@ -15879,14 +15885,37 @@
       "total_deaths_per_million": 193.723,
       "new_deaths_per_million": 0.303,
       "new_deaths_smoothed_per_million": 0.289,
+      "new_vaccinations_smoothed": 24970.0,
+      "new_vaccinations_smoothed_per_million": 2525.0,
       "total_recovered": 647682,
       "new_recovered": 1455
     },
     {
-      "date": "2021-07-25"
+      "date": "2021-07-25",
+      "total_cases": 671636.0,
+      "new_cases": 1528.0,
+      "new_cases_smoothed": 1522.571,
+      "total_deaths": 1920.0,
+      "new_deaths": 4.0,
+      "new_deaths_smoothed": 3.143,
+      "total_cases_per_million": 67907.87,
+      "new_cases_per_million": 154.493,
+      "new_cases_smoothed_per_million": 153.944,
+      "total_deaths_per_million": 194.128,
+      "new_deaths_per_million": 0.404,
+      "new_deaths_smoothed_per_million": 0.318,
+      "total_vaccinations": 16495917.0,
+      "new_vaccinations_smoothed": 19668.0,
+      "total_vaccinations_per_hundred": 166.79,
+      "new_vaccinations_smoothed_per_million": 1989.0,
+      "total_recovered": 649173,
+      "new_recovered": 1491
     },
     {
       "date": "2021-07-26"
+    },
+    {
+      "date": "2021-07-27"
     }
   ]
 }
