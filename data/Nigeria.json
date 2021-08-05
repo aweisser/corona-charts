@@ -13643,6 +13643,7 @@
       "positive_rate": 0.049,
       "tests_per_case": 20.6,
       "tests_units": "samples tested",
+      "stringency_index": 52.78,
       "total_recovered": 164837,
       "new_recovered": 39
     },
@@ -13666,6 +13667,7 @@
       "positive_rate": 0.05,
       "tests_per_case": 19.8,
       "tests_units": "samples tested",
+      "stringency_index": 52.78,
       "total_recovered": 164886,
       "new_recovered": 49
     },
@@ -13689,6 +13691,7 @@
       "positive_rate": 0.045,
       "tests_per_case": 22.4,
       "tests_units": "samples tested",
+      "stringency_index": 52.78,
       "total_recovered": 164930,
       "new_recovered": 44
     },
@@ -13712,6 +13715,7 @@
       "positive_rate": 0.047,
       "tests_per_case": 21.1,
       "tests_units": "samples tested",
+      "stringency_index": 52.78,
       "total_recovered": 164978,
       "new_recovered": 48
     },
@@ -13735,6 +13739,7 @@
       "positive_rate": 0.04,
       "tests_per_case": 24.8,
       "tests_units": "samples tested",
+      "stringency_index": 52.78,
       "total_recovered": 164994,
       "new_recovered": 16
     },
@@ -13758,6 +13763,7 @@
       "positive_rate": 0.038,
       "tests_per_case": 26.2,
       "tests_units": "samples tested",
+      "stringency_index": 52.78,
       "total_recovered": 165005,
       "new_recovered": 11
     },
@@ -13780,14 +13786,37 @@
       "positive_rate": 0.037,
       "tests_per_case": 27.1,
       "tests_units": "samples tested",
+      "stringency_index": 52.78,
       "total_recovered": 165037,
       "new_recovered": 32
     },
     {
-      "date": "2021-08-03"
+      "date": "2021-08-03",
+      "total_cases": 175264.0,
+      "new_cases": 505.0,
+      "new_cases_smoothed": 505.143,
+      "total_deaths": 2163.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 4.143,
+      "total_cases_per_million": 850.22,
+      "new_cases_per_million": 2.45,
+      "new_cases_smoothed_per_million": 2.45,
+      "total_deaths_per_million": 10.493,
+      "new_deaths_per_million": 0.015,
+      "new_deaths_smoothed_per_million": 0.02,
+      "total_tests": 2542261.0,
+      "total_tests_per_thousand": 12.333,
+      "new_tests_smoothed": 14630.0,
+      "new_tests_smoothed_per_thousand": 0.071,
+      "tests_units": "samples tested",
+      "total_recovered": 165122,
+      "new_recovered": 85
     },
     {
       "date": "2021-08-04"
+    },
+    {
+      "date": "2021-08-05"
     }
   ]
 }
