@@ -16906,6 +16906,10 @@
       "new_deaths_per_million": 4.53,
       "new_deaths_smoothed_per_million": 0.971,
       "reproduction_rate": 0.71,
+      "weekly_icu_admissions": 0.858,
+      "weekly_icu_admissions_per_million": 1.943,
+      "weekly_hosp_admissions": 22.31,
+      "weekly_hosp_admissions_per_million": 50.528,
       "total_vaccinations": 774907.0,
       "people_vaccinated": 404461.0,
       "people_fully_vaccinated": 396160.0,
@@ -16942,6 +16946,7 @@
       "people_vaccinated_per_hundred": 91.74,
       "people_fully_vaccinated_per_hundred": 90.17,
       "new_vaccinations_smoothed_per_million": 4643.0,
+      "stringency_index": 43.52,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -16968,14 +16973,42 @@
       "people_vaccinated_per_hundred": 91.89,
       "people_fully_vaccinated_per_hundred": 90.54,
       "new_vaccinations_smoothed_per_million": 4373.0,
+      "stringency_index": 43.52,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-08-11"
+      "date": "2021-08-11",
+      "total_cases": 35040.0,
+      "new_cases": 87.0,
+      "new_cases_smoothed": 64.286,
+      "total_deaths": 429.0,
+      "new_deaths": 1.0,
+      "new_deaths_smoothed": 0.857,
+      "total_cases_per_million": 79358.788,
+      "new_cases_per_million": 197.038,
+      "new_cases_smoothed_per_million": 145.595,
+      "total_deaths_per_million": 971.602,
+      "new_deaths_per_million": 2.265,
+      "new_deaths_smoothed_per_million": 1.941,
+      "total_vaccinations": 780770.0,
+      "people_vaccinated": 406414.0,
+      "people_fully_vaccinated": 401390.0,
+      "new_vaccinations": 1834.0,
+      "new_vaccinations_smoothed": 1848.0,
+      "total_vaccinations_per_hundred": 176.83,
+      "people_vaccinated_per_hundred": 92.04,
+      "people_fully_vaccinated_per_hundred": 90.91,
+      "new_vaccinations_smoothed_per_million": 4185.0,
+      "stringency_index": 43.52,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-08-12"
+    },
+    {
+      "date": "2021-08-13"
     }
   ]
 }

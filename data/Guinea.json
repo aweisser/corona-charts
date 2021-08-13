@@ -10577,6 +10577,8 @@
       "new_deaths_per_million": 1.066,
       "new_deaths_smoothed_per_million": 0.402,
       "reproduction_rate": 1.28,
+      "new_vaccinations_smoothed": 2913.0,
+      "new_vaccinations_smoothed_per_million": 222.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -10595,6 +10597,14 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.305,
       "reproduction_rate": 1.28,
+      "total_vaccinations": 926200.0,
+      "people_vaccinated": 583813.0,
+      "people_fully_vaccinated": 342387.0,
+      "new_vaccinations_smoothed": 3051.0,
+      "total_vaccinations_per_hundred": 7.05,
+      "people_vaccinated_per_hundred": 4.45,
+      "people_fully_vaccinated_per_hundred": 2.61,
+      "new_vaccinations_smoothed_per_million": 232.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -10612,6 +10622,15 @@
       "total_deaths_per_million": 19.798,
       "new_deaths_per_million": 0.228,
       "new_deaths_smoothed_per_million": 0.305,
+      "total_vaccinations": 933015.0,
+      "people_vaccinated": 590168.0,
+      "people_fully_vaccinated": 342847.0,
+      "new_vaccinations": 6815.0,
+      "new_vaccinations_smoothed": 3629.0,
+      "total_vaccinations_per_hundred": 7.1,
+      "people_vaccinated_per_hundred": 4.49,
+      "people_fully_vaccinated_per_hundred": 2.61,
+      "new_vaccinations_smoothed_per_million": 276.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -10633,10 +10652,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-08-11"
+      "date": "2021-08-11",
+      "total_cases": 27311.0,
+      "new_cases": 199.0,
+      "new_cases_smoothed": 160.429,
+      "total_deaths": 266.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 4.0,
+      "total_cases_per_million": 2079.603,
+      "new_cases_per_million": 15.153,
+      "new_cases_smoothed_per_million": 12.216,
+      "total_deaths_per_million": 20.255,
+      "new_deaths_per_million": 0.228,
+      "new_deaths_smoothed_per_million": 0.305,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-08-12"
+    },
+    {
+      "date": "2021-08-13"
     }
   ]
 }
