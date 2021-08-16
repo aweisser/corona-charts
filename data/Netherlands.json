@@ -15105,6 +15105,7 @@
       "tests_units": "people tested",
       "new_vaccinations_smoothed": 106376.0,
       "new_vaccinations_smoothed_per_million": 6208.0,
+      "stringency_index": 36.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -15142,6 +15143,7 @@
       "people_vaccinated_per_hundred": 69.22,
       "people_fully_vaccinated_per_hundred": 58.31,
       "new_vaccinations_smoothed_per_million": 6253.0,
+      "stringency_index": 36.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -15160,8 +15162,9 @@
       "new_deaths_per_million": 0.117,
       "new_deaths_smoothed_per_million": 0.392,
       "reproduction_rate": 0.77,
-      "new_vaccinations_smoothed": 99653.0,
-      "new_vaccinations_smoothed_per_million": 5816.0,
+      "new_vaccinations_smoothed": 98351.0,
+      "new_vaccinations_smoothed_per_million": 5740.0,
+      "stringency_index": 36.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -15180,8 +15183,9 @@
       "new_deaths_per_million": 0.584,
       "new_deaths_smoothed_per_million": 0.45,
       "reproduction_rate": 0.78,
-      "new_vaccinations_smoothed": 92156.0,
-      "new_vaccinations_smoothed_per_million": 5378.0,
+      "new_vaccinations_smoothed": 89553.0,
+      "new_vaccinations_smoothed_per_million": 5226.0,
+      "stringency_index": 36.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -15199,8 +15203,9 @@
       "total_deaths_per_million": 1061.403,
       "new_deaths_per_million": 0.7,
       "new_deaths_smoothed_per_million": 0.467,
-      "new_vaccinations_smoothed": 84660.0,
-      "new_vaccinations_smoothed_per_million": 4941.0,
+      "new_vaccinations_smoothed": 80754.0,
+      "new_vaccinations_smoothed_per_million": 4713.0,
+      "stringency_index": 36.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -15218,8 +15223,9 @@
       "total_deaths_per_million": 1061.928,
       "new_deaths_per_million": 0.525,
       "new_deaths_smoothed_per_million": 0.45,
-      "new_vaccinations_smoothed": 77163.0,
-      "new_vaccinations_smoothed_per_million": 4503.0,
+      "new_vaccinations_smoothed": 71956.0,
+      "new_vaccinations_smoothed_per_million": 4199.0,
+      "stringency_index": 36.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -15237,22 +15243,42 @@
       "total_deaths_per_million": 1062.395,
       "new_deaths_per_million": 0.467,
       "new_deaths_smoothed_per_million": 0.442,
-      "total_vaccinations": 21348406.0,
-      "people_vaccinated": 11881247.0,
-      "people_fully_vaccinated": 10246053.0,
-      "new_vaccinations_smoothed": 69666.0,
-      "total_vaccinations_per_hundred": 124.59,
-      "people_vaccinated_per_hundred": 69.34,
-      "people_fully_vaccinated_per_hundred": 59.8,
-      "new_vaccinations_smoothed_per_million": 4066.0,
+      "new_vaccinations_smoothed": 63158.0,
+      "new_vaccinations_smoothed_per_million": 3686.0,
+      "stringency_index": 36.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-08-14"
+      "date": "2021-08-14",
+      "total_cases": 1932361.0,
+      "new_cases": 2581.0,
+      "new_cases_smoothed": 2536.0,
+      "total_deaths": 18212.0,
+      "new_deaths": 8.0,
+      "new_deaths_smoothed": 7.429,
+      "total_cases_per_million": 112773.582,
+      "new_cases_per_million": 150.628,
+      "new_cases_smoothed_per_million": 148.002,
+      "total_deaths_per_million": 1062.862,
+      "new_deaths_per_million": 0.467,
+      "new_deaths_smoothed_per_million": 0.434,
+      "total_vaccinations": 21348406.0,
+      "people_vaccinated": 11881247.0,
+      "people_fully_vaccinated": 10246053.0,
+      "new_vaccinations_smoothed": 54359.0,
+      "total_vaccinations_per_hundred": 124.59,
+      "people_vaccinated_per_hundred": 69.34,
+      "people_fully_vaccinated_per_hundred": 59.8,
+      "new_vaccinations_smoothed_per_million": 3172.0,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-08-15"
+    },
+    {
+      "date": "2021-08-16"
     }
   ]
 }
