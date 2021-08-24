@@ -16326,6 +16326,7 @@
       "people_vaccinated_per_hundred": 34.33,
       "people_fully_vaccinated_per_hundred": 19.79,
       "new_vaccinations_smoothed_per_million": 9341.0,
+      "stringency_index": 85.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -16353,6 +16354,7 @@
       "positive_rate": 0.001,
       "tests_per_case": 1570.9,
       "tests_units": "tests performed",
+      "stringency_index": 85.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -16379,6 +16381,7 @@
       "positive_rate": 0.001,
       "tests_per_case": 773.4,
       "tests_units": "tests performed",
+      "stringency_index": 85.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -16402,7 +16405,10 @@
       "new_tests_per_thousand": 5.785,
       "new_tests_smoothed": 9086.0,
       "new_tests_smoothed_per_thousand": 1.884,
+      "positive_rate": 0.001,
+      "tests_per_case": 815.4,
       "tests_units": "tests performed",
+      "stringency_index": 85.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -16420,14 +16426,47 @@
       "total_deaths_per_million": 5.392,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "new_tests": 41464.0,
+      "total_tests": 2653699.0,
+      "total_tests_per_thousand": 550.305,
+      "new_tests_per_thousand": 8.599,
+      "new_tests_smoothed": 14446.0,
+      "new_tests_smoothed_per_thousand": 2.996,
+      "positive_rate": 0.001,
+      "tests_per_case": 1042.5,
+      "tests_units": "tests performed",
+      "stringency_index": 85.19,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-08-22"
+      "date": "2021-08-22",
+      "total_cases": 3055.0,
+      "new_cases": 38.0,
+      "new_cases_smoothed": 18.286,
+      "total_deaths": 26.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 633.524,
+      "new_cases_per_million": 7.88,
+      "new_cases_smoothed_per_million": 3.792,
+      "total_deaths_per_million": 5.392,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "new_tests_smoothed": 19180.0,
+      "new_tests_smoothed_per_thousand": 3.977,
+      "positive_rate": 0.001,
+      "tests_per_case": 1048.9,
+      "tests_units": "tests performed",
+      "stringency_index": 85.19,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-08-23"
+    },
+    {
+      "date": "2021-08-24"
     }
   ]
 }
