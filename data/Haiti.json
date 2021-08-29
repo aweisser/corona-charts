@@ -10363,6 +10363,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.087,
       "reproduction_rate": 1.02,
+      "new_vaccinations_smoothed": 803.0,
+      "new_vaccinations_smoothed_per_million": 70.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -10380,6 +10382,14 @@
       "total_deaths_per_million": 50.513,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.087,
+      "total_vaccinations": 29077.0,
+      "people_vaccinated": 26058.0,
+      "people_fully_vaccinated": 3360.0,
+      "new_vaccinations_smoothed": 711.0,
+      "total_vaccinations_per_hundred": 0.25,
+      "people_vaccinated_per_hundred": 0.23,
+      "people_fully_vaccinated_per_hundred": 0.03,
+      "new_vaccinations_smoothed_per_million": 62.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -10397,14 +10407,40 @@
       "total_deaths_per_million": 50.599,
       "new_deaths_per_million": 0.087,
       "new_deaths_smoothed_per_million": 0.025,
+      "total_vaccinations": 29227.0,
+      "people_vaccinated": 26208.0,
+      "people_fully_vaccinated": 3360.0,
+      "new_vaccinations": 150.0,
+      "new_vaccinations_smoothed": 637.0,
+      "total_vaccinations_per_hundred": 0.25,
+      "people_vaccinated_per_hundred": 0.23,
+      "people_fully_vaccinated_per_hundred": 0.03,
+      "new_vaccinations_smoothed_per_million": 55.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-08-27"
+      "date": "2021-08-27",
+      "total_cases": 20833.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 20.571,
+      "total_deaths": 584.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.286,
+      "total_cases_per_million": 1805.023,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 1.782,
+      "total_deaths_per_million": 50.599,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.025,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-08-28"
+    },
+    {
+      "date": "2021-08-29"
     }
   ]
 }
