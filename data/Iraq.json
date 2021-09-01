@@ -15200,6 +15200,8 @@
       "positive_rate": 0.181,
       "tests_per_case": 5.5,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 52984.0,
+      "new_vaccinations_smoothed_per_million": 1287.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -15217,6 +15219,8 @@
       "total_deaths_per_million": 499.255,
       "new_deaths_per_million": 1.918,
       "new_deaths_smoothed_per_million": 1.853,
+      "new_vaccinations_smoothed": 52501.0,
+      "new_vaccinations_smoothed_per_million": 1275.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -15234,6 +15238,8 @@
       "total_deaths_per_million": 501.028,
       "new_deaths_per_million": 1.773,
       "new_deaths_smoothed_per_million": 1.811,
+      "new_vaccinations_smoothed": 52018.0,
+      "new_vaccinations_smoothed_per_million": 1263.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -15251,14 +15257,37 @@
       "total_deaths_per_million": 502.655,
       "new_deaths_per_million": 1.627,
       "new_deaths_smoothed_per_million": 1.787,
+      "new_vaccinations_smoothed": 51535.0,
+      "new_vaccinations_smoothed_per_million": 1251.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-08-30"
+      "date": "2021-08-30",
+      "total_cases": 1881213.0,
+      "new_cases": 6778.0,
+      "new_cases_smoothed": 6996.143,
+      "total_deaths": 20764.0,
+      "new_deaths": 65.0,
+      "new_deaths_smoothed": 71.714,
+      "total_cases_per_million": 45683.406,
+      "new_cases_per_million": 164.597,
+      "new_cases_smoothed_per_million": 169.894,
+      "total_deaths_per_million": 504.233,
+      "new_deaths_per_million": 1.578,
+      "new_deaths_smoothed_per_million": 1.742,
+      "total_vaccinations": 3368843.0,
+      "new_vaccinations_smoothed": 51052.0,
+      "total_vaccinations_per_hundred": 8.18,
+      "new_vaccinations_smoothed_per_million": 1240.0,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-08-31"
+    },
+    {
+      "date": "2021-09-01"
     }
   ]
 }

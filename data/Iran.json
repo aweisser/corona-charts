@@ -14833,6 +14833,8 @@
       "new_tests_per_thousand": 1.271,
       "new_tests_smoothed": 110297.0,
       "new_tests_smoothed_per_thousand": 1.297,
+      "positive_rate": 0.328,
+      "tests_per_case": 3.1,
       "tests_units": "tests performed",
       "new_vaccinations_smoothed": 492092.0,
       "new_vaccinations_smoothed_per_million": 5787.0,
@@ -14854,6 +14856,11 @@
       "total_deaths_per_million": 1245.473,
       "new_deaths_per_million": 7.221,
       "new_deaths_smoothed_per_million": 7.639,
+      "new_tests_smoothed": 111822.0,
+      "new_tests_smoothed_per_thousand": 1.315,
+      "positive_rate": 0.325,
+      "tests_per_case": 3.1,
+      "tests_units": "tests performed",
       "new_vaccinations_smoothed": 520990.0,
       "new_vaccinations_smoothed_per_million": 6127.0,
       "total_recovered": 0,
@@ -14873,6 +14880,11 @@
       "total_deaths_per_million": 1252.306,
       "new_deaths_per_million": 6.833,
       "new_deaths_smoothed_per_million": 7.466,
+      "new_tests_smoothed": 113347.0,
+      "new_tests_smoothed_per_thousand": 1.333,
+      "positive_rate": 0.315,
+      "tests_per_case": 3.2,
+      "tests_units": "tests performed",
       "total_vaccinations": 26176126.0,
       "people_vaccinated": 18261245.0,
       "people_fully_vaccinated": 7914881.0,
@@ -14885,10 +14897,32 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-08-30"
+      "date": "2021-08-30",
+      "total_cases": 4960744.0,
+      "new_cases": 33780.0,
+      "new_cases_smoothed": 34996.143,
+      "total_deaths": 107151.0,
+      "new_deaths": 669.0,
+      "new_deaths_smoothed": 643.286,
+      "total_cases_per_million": 58341.954,
+      "new_cases_per_million": 397.277,
+      "new_cases_smoothed_per_million": 411.58,
+      "total_deaths_per_million": 1260.174,
+      "new_deaths_per_million": 7.868,
+      "new_deaths_smoothed_per_million": 7.566,
+      "new_tests_smoothed": 114872.0,
+      "new_tests_smoothed_per_thousand": 1.351,
+      "positive_rate": 0.305,
+      "tests_per_case": 3.3,
+      "tests_units": "tests performed",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-08-31"
+    },
+    {
+      "date": "2021-09-01"
     }
   ]
 }
