@@ -14383,6 +14383,8 @@
       "new_deaths_per_million": 0.17,
       "new_deaths_smoothed_per_million": 0.142,
       "reproduction_rate": 0.2,
+      "new_vaccinations_smoothed": 19280.0,
+      "new_vaccinations_smoothed_per_million": 409.0,
       "stringency_index": 81.48,
       "total_recovered": 0,
       "new_recovered": 0
@@ -14402,6 +14404,8 @@
       "new_deaths_per_million": 0.17,
       "new_deaths_smoothed_per_million": 0.149,
       "reproduction_rate": 0.21,
+      "new_vaccinations_smoothed": 22312.0,
+      "new_vaccinations_smoothed_per_million": 473.0,
       "stringency_index": 81.48,
       "total_recovered": 0,
       "new_recovered": 0
@@ -14421,6 +14425,8 @@
       "new_deaths_per_million": 0.149,
       "new_deaths_smoothed_per_million": 0.136,
       "reproduction_rate": 0.21,
+      "new_vaccinations_smoothed": 25344.0,
+      "new_vaccinations_smoothed_per_million": 538.0,
       "stringency_index": 81.48,
       "total_recovered": 0,
       "new_recovered": 0
@@ -14439,6 +14445,10 @@
       "total_deaths_per_million": 65.233,
       "new_deaths_per_million": 0.127,
       "new_deaths_smoothed_per_million": 0.13,
+      "total_vaccinations": 1593947.0,
+      "new_vaccinations_smoothed": 28376.0,
+      "total_vaccinations_per_hundred": 3.38,
+      "new_vaccinations_smoothed_per_million": 602.0,
       "stringency_index": 81.48,
       "total_recovered": 0,
       "new_recovered": 0
@@ -14461,10 +14471,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-09-11"
+      "date": "2021-09-11",
+      "total_cases": 121296.0,
+      "new_cases": 130.0,
+      "new_cases_smoothed": 118.571,
+      "total_deaths": 3092.0,
+      "new_deaths": 7.0,
+      "new_deaths_smoothed": 7.286,
+      "total_cases_per_million": 2574.001,
+      "new_cases_per_million": 2.759,
+      "new_cases_smoothed_per_million": 2.516,
+      "total_deaths_per_million": 65.615,
+      "new_deaths_per_million": 0.149,
+      "new_deaths_smoothed_per_million": 0.155,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-09-12"
+    },
+    {
+      "date": "2021-09-13"
     }
   ]
 }
