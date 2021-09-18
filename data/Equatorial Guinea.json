@@ -10939,6 +10939,11 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.197,
       "reproduction_rate": 1.27,
+      "new_tests_smoothed": 878.0,
+      "new_tests_smoothed_per_thousand": 0.606,
+      "positive_rate": 0.091,
+      "tests_per_case": 11.0,
+      "tests_units": "tests performed",
       "total_vaccinations": 370163.0,
       "people_vaccinated": 210358.0,
       "people_fully_vaccinated": 159805.0,
@@ -10965,6 +10970,11 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.197,
       "reproduction_rate": 1.27,
+      "new_tests_smoothed": 909.0,
+      "new_tests_smoothed_per_thousand": 0.627,
+      "positive_rate": 0.088,
+      "tests_per_case": 11.4,
+      "tests_units": "tests performed",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -10982,14 +10992,50 @@
       "total_deaths_per_million": 93.8,
       "new_deaths_per_million": 3.449,
       "new_deaths_smoothed_per_million": 0.69,
+      "new_tests_smoothed": 869.0,
+      "new_tests_smoothed_per_thousand": 0.599,
+      "positive_rate": 0.14,
+      "tests_per_case": 7.1,
+      "tests_units": "tests performed",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-09-16"
+      "date": "2021-09-16",
+      "total_cases": 11063.0,
+      "new_cases": 271.0,
+      "new_cases_smoothed": 111.286,
+      "total_deaths": 137.0,
+      "new_deaths": 1.0,
+      "new_deaths_smoothed": 1.143,
+      "total_cases_per_million": 7630.229,
+      "new_cases_per_million": 186.911,
+      "new_cases_smoothed_per_million": 76.755,
+      "total_deaths_per_million": 94.49,
+      "new_deaths_per_million": 0.69,
+      "new_deaths_smoothed_per_million": 0.788,
+      "total_tests": 208702.0,
+      "total_tests_per_thousand": 143.943,
+      "new_tests_smoothed": 828.0,
+      "new_tests_smoothed_per_thousand": 0.571,
+      "positive_rate": 0.134,
+      "tests_per_case": 7.4,
+      "tests_units": "tests performed",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
-      "date": "2021-09-17"
+      "date": "2021-09-17",
+      "new_tests": 2175.0,
+      "total_tests": 210877.0,
+      "total_tests_per_thousand": 145.443,
+      "new_tests_per_thousand": 1.5,
+      "new_tests_smoothed": 1012.0,
+      "new_tests_smoothed_per_thousand": 0.698,
+      "tests_units": "tests performed"
+    },
+    {
+      "date": "2021-09-18"
     }
   ]
 }

@@ -15260,6 +15260,8 @@
       "new_tests_per_thousand": 0.755,
       "new_tests_smoothed": 11623.0,
       "new_tests_smoothed_per_thousand": 0.875,
+      "positive_rate": 0.036,
+      "tests_per_case": 27.4,
       "tests_units": "samples tested",
       "new_vaccinations_smoothed": 37682.0,
       "new_vaccinations_smoothed_per_million": 2838.0,
@@ -15280,6 +15282,11 @@
       "total_deaths_per_million": 89.18,
       "new_deaths_per_million": 0.301,
       "new_deaths_smoothed_per_million": 0.398,
+      "new_tests_smoothed": 11757.0,
+      "new_tests_smoothed_per_thousand": 0.886,
+      "positive_rate": 0.036,
+      "tests_per_case": 27.7,
+      "tests_units": "samples tested",
       "total_vaccinations": 2882134.0,
       "people_vaccinated": 1827371.0,
       "people_fully_vaccinated": 1054763.0,
@@ -15292,10 +15299,41 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-09-16"
+      "date": "2021-09-16",
+      "total_cases": 94478.0,
+      "new_cases": 423.0,
+      "new_cases_smoothed": 417.571,
+      "total_deaths": 1193.0,
+      "new_deaths": 9.0,
+      "new_deaths_smoothed": 5.714,
+      "total_cases_per_million": 7116.174,
+      "new_cases_per_million": 31.861,
+      "new_cases_smoothed_per_million": 31.452,
+      "total_deaths_per_million": 89.858,
+      "new_deaths_per_million": 0.678,
+      "new_deaths_smoothed_per_million": 0.43,
+      "total_tests": 2629919.0,
+      "total_tests_per_thousand": 198.088,
+      "new_tests_smoothed": 11891.0,
+      "new_tests_smoothed_per_thousand": 0.896,
+      "positive_rate": 0.035,
+      "tests_per_case": 28.5,
+      "tests_units": "samples tested",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
-      "date": "2021-09-17"
+      "date": "2021-09-17",
+      "new_tests": 14495.0,
+      "total_tests": 2644414.0,
+      "total_tests_per_thousand": 199.18,
+      "new_tests_per_thousand": 1.092,
+      "new_tests_smoothed": 12229.0,
+      "new_tests_smoothed_per_thousand": 0.921,
+      "tests_units": "samples tested"
+    },
+    {
+      "date": "2021-09-18"
     }
   ]
 }

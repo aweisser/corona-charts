@@ -13831,6 +13831,8 @@
       "total_tests_per_thousand": 1416.037,
       "new_tests_per_thousand": 2.791,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 40.0,
+      "new_vaccinations_smoothed_per_million": 51.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13854,6 +13856,8 @@
       "total_tests_per_thousand": 1418.528,
       "new_tests_per_thousand": 2.491,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 55.0,
+      "new_vaccinations_smoothed_per_million": 71.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13877,6 +13881,8 @@
       "total_tests_per_thousand": 1421.79,
       "new_tests_per_thousand": 3.262,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 69.0,
+      "new_vaccinations_smoothed_per_million": 88.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13900,6 +13906,8 @@
       "total_tests_per_thousand": 1424.065,
       "new_tests_per_thousand": 2.275,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 84.0,
+      "new_vaccinations_smoothed_per_million": 108.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13926,6 +13934,8 @@
       "new_tests_smoothed_per_thousand": 2.568,
       "positive_rate": 0.0,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 98.0,
+      "new_vaccinations_smoothed_per_million": 126.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13952,6 +13962,8 @@
       "new_tests_smoothed_per_thousand": 3.108,
       "positive_rate": 0.0,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 113.0,
+      "new_vaccinations_smoothed_per_million": 145.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13978,6 +13990,14 @@
       "new_tests_smoothed_per_thousand": 3.186,
       "positive_rate": 0.0,
       "tests_units": "samples tested",
+      "total_vaccinations": 1046117.0,
+      "people_vaccinated": 567220.0,
+      "people_fully_vaccinated": 478897.0,
+      "new_vaccinations_smoothed": 127.0,
+      "total_vaccinations_per_hundred": 134.13,
+      "people_vaccinated_per_hundred": 72.73,
+      "people_fully_vaccinated_per_hundred": 61.4,
+      "new_vaccinations_smoothed_per_million": 163.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14022,6 +14042,7 @@
       "total_tests_per_thousand": 1439.359,
       "new_tests_smoothed": 2321.0,
       "new_tests_smoothed_per_thousand": 2.976,
+      "positive_rate": 0.0,
       "tests_units": "samples tested",
       "total_recovered": 0,
       "new_recovered": 0
@@ -14040,14 +14061,47 @@
       "total_deaths_per_million": 3.847,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "new_tests": 1540.0,
+      "total_tests": 1124096.0,
+      "total_tests_per_thousand": 1441.334,
+      "new_tests_per_thousand": 1.975,
+      "new_tests_smoothed": 2177.0,
+      "new_tests_smoothed_per_thousand": 2.791,
+      "positive_rate": 0.0,
+      "tests_units": "samples tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-09-16"
+      "date": "2021-09-16",
+      "total_cases": 2596.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 0.0,
+      "total_deaths": 3.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 3328.632,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 0.0,
+      "total_deaths_per_million": 3.847,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "new_tests": 1874.0,
+      "total_tests": 1125970.0,
+      "total_tests_per_thousand": 1443.736,
+      "new_tests_per_thousand": 2.403,
+      "new_tests_smoothed": 2192.0,
+      "new_tests_smoothed_per_thousand": 2.811,
+      "positive_rate": 0.0,
+      "tests_units": "samples tested",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-09-17"
+    },
+    {
+      "date": "2021-09-18"
     }
   ]
 }
