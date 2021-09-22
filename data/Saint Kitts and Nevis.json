@@ -8972,6 +8972,8 @@
       "new_tests_per_thousand": 4.8,
       "new_tests_smoothed": 279.0,
       "new_tests_smoothed_per_thousand": 5.21,
+      "positive_rate": 0.121,
+      "tests_per_case": 8.2,
       "tests_units": "people tested",
       "total_vaccinations": 46884.0,
       "people_vaccinated": 24968.0,
@@ -8998,6 +9000,11 @@
       "total_deaths_per_million": 168.08,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 5.336,
+      "new_tests_smoothed": 239.0,
+      "new_tests_smoothed_per_thousand": 4.463,
+      "positive_rate": 0.115,
+      "tests_per_case": 8.7,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -9015,14 +9022,43 @@
       "total_deaths_per_million": 168.08,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 5.336,
+      "new_tests_smoothed": 210.0,
+      "new_tests_smoothed_per_thousand": 3.922,
+      "positive_rate": 0.114,
+      "tests_per_case": 8.8,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-09-20"
+      "date": "2021-09-20",
+      "total_cases": 1680.0,
+      "new_cases": 48.0,
+      "new_cases_smoothed": 29.143,
+      "total_deaths": 10.0,
+      "new_deaths": 1.0,
+      "new_deaths_smoothed": 0.286,
+      "total_cases_per_million": 31374.893,
+      "new_cases_per_million": 896.426,
+      "new_cases_smoothed_per_million": 544.258,
+      "total_deaths_per_million": 186.755,
+      "new_deaths_per_million": 18.676,
+      "new_deaths_smoothed_per_million": 5.336,
+      "total_tests": 36222.0,
+      "total_tests_per_thousand": 676.465,
+      "new_tests_smoothed": 213.0,
+      "new_tests_smoothed_per_thousand": 3.978,
+      "positive_rate": 0.137,
+      "tests_per_case": 7.3,
+      "tests_units": "people tested",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-09-21"
+    },
+    {
+      "date": "2021-09-22"
     }
   ]
 }
