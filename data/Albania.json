@@ -304,6 +304,7 @@
       "excess_mortality_cumulative_absolute": -190.8,
       "excess_mortality_cumulative": -4.34,
       "excess_mortality": 2.88,
+      "excess_mortality_cumulative_per_million": -66.4129423091515,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -990,6 +991,7 @@
       "excess_mortality_cumulative_absolute": -165.0,
       "excess_mortality_cumulative": -2.59,
       "excess_mortality": 1.31,
+      "excess_mortality_cumulative_per_million": -57.4325758962789,
       "total_recovered": 52,
       "new_recovered": 8
     },
@@ -1833,6 +1835,7 @@
       "excess_mortality_cumulative_absolute": -95.0,
       "excess_mortality_cumulative": -1.17,
       "excess_mortality": 4.04,
+      "excess_mortality_cumulative_per_million": -33.0672406675545,
       "total_recovered": 470,
       "new_recovered": 15
     },
@@ -2704,6 +2707,7 @@
       "excess_mortality_cumulative_absolute": 23.0,
       "excess_mortality_cumulative": 0.24,
       "excess_mortality": 7.0,
+      "excess_mortality_cumulative_per_million": 8.00575300372372,
       "total_recovered": 872,
       "new_recovered": 15
     },
@@ -3547,6 +3551,7 @@
       "excess_mortality_cumulative_absolute": 188.0,
       "excess_mortality_cumulative": 1.65,
       "excess_mortality": 10.22,
+      "excess_mortality_cumulative_per_million": 65.4383289000026,
       "total_recovered": 1459,
       "new_recovered": 21
     },
@@ -4418,6 +4423,7 @@
       "excess_mortality_cumulative_absolute": 602.8,
       "excess_mortality_cumulative": 4.59,
       "excess_mortality": 23.69,
+      "excess_mortality_cumulative_per_million": 209.820343941072,
       "total_recovered": 2952,
       "new_recovered": 69
     },
@@ -5289,6 +5295,7 @@
       "excess_mortality_cumulative_absolute": 1384.2,
       "excess_mortality_cumulative": 9.33,
       "excess_mortality": 46.11,
+      "excess_mortality_cumulative_per_million": 481.807100337147,
       "total_recovered": 5214,
       "new_recovered": 75
     },
@@ -6132,6 +6139,7 @@
       "excess_mortality_cumulative_absolute": 1848.0,
       "excess_mortality_cumulative": 11.3,
       "excess_mortality": 30.55,
+      "excess_mortality_cumulative_per_million": 643.244850038323,
       "total_recovered": 7847,
       "new_recovered": 115
     },
@@ -7003,6 +7011,7 @@
       "excess_mortality_cumulative_absolute": 2600.0,
       "excess_mortality_cumulative": 14.44,
       "excess_mortality": 45.55,
+      "excess_mortality_cumulative_per_million": 904.998165638333,
       "total_recovered": 11189,
       "new_recovered": 92
     },
@@ -7846,6 +7855,7 @@
       "excess_mortality_cumulative_absolute": 4703.4,
       "excess_mortality_cumulative": 23.8,
       "excess_mortality": 120.15,
+      "excess_mortality_cumulative_per_million": 1637.14168163975,
       "total_recovered": 18849,
       "new_recovered": 368
     },
@@ -8717,6 +8727,7 @@
       "excess_mortality_cumulative_absolute": 5812.4,
       "excess_mortality_cumulative": 26.67,
       "excess_mortality": 54.6,
+      "excess_mortality_cumulative_per_million": 2023.15820690625,
       "total_recovered": 33634,
       "new_recovered": 449
     },
@@ -9683,6 +9694,7 @@
       "excess_mortality_cumulative_absolute": 6355.2,
       "excess_mortality_cumulative": 26.23,
       "excess_mortality": 22.3,
+      "excess_mortality_cumulative_per_million": 2212.09397779413,
       "total_recovered": 47424,
       "new_recovered": 497
     },
@@ -10554,6 +10566,7 @@
       "excess_mortality_cumulative_absolute": 8131.6,
       "excess_mortality_cumulative": 31.05,
       "excess_mortality": 90.56,
+      "excess_mortality_cumulative_per_million": 2830.41657065564,
       "total_recovered": 69773,
       "new_recovered": 804
     },
@@ -11522,6 +11535,7 @@
       "excess_mortality_cumulative_absolute": 9106.4,
       "excess_mortality_cumulative": 32.34,
       "excess_mortality": 49.55,
+      "excess_mortality_cumulative_per_million": 3169.72126752651,
       "total_recovered": 91271,
       "new_recovered": 654
     },
@@ -12503,6 +12517,7 @@
       "excess_mortality_cumulative_absolute": 9778.4,
       "excess_mortality_cumulative": 32.72,
       "excess_mortality": 38.75,
+      "excess_mortality_cumulative_per_million": 3403.62848572226,
       "total_recovered": 109338,
       "new_recovered": 732
     },
@@ -13563,6 +13578,7 @@
       "excess_mortality_cumulative_absolute": 9955.4,
       "excess_mortality_cumulative": 31.53,
       "excess_mortality": 10.5,
+      "excess_mortality_cumulative_per_million": 3465.23797622918,
       "total_recovered": 129431,
       "new_recovered": 123
     },
@@ -14463,6 +14479,7 @@
       "excess_mortality_cumulative_absolute": 9850.4,
       "excess_mortality_cumulative": 29.68,
       "excess_mortality": -6.51,
+      "excess_mortality_cumulative_per_million": 3428.68997338609,
       "total_recovered": 130009,
       "new_recovered": 7
     },
@@ -16697,6 +16714,8 @@
       "total_deaths_per_million": 915.092,
       "new_deaths_per_million": 3.481,
       "new_deaths_smoothed_per_million": 2.735,
+      "new_vaccinations_smoothed": 7955.0,
+      "new_vaccinations_smoothed_per_million": 2769.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -16714,14 +16733,41 @@
       "total_deaths_per_million": 918.921,
       "new_deaths_per_million": 3.829,
       "new_deaths_smoothed_per_million": 2.984,
+      "new_vaccinations_smoothed": 8294.0,
+      "new_vaccinations_smoothed_per_million": 2887.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-09-27"
+      "date": "2021-09-27",
+      "total_cases": 168188.0,
+      "new_cases": 295.0,
+      "new_cases_smoothed": 683.429,
+      "total_deaths": 2653.0,
+      "new_deaths": 13.0,
+      "new_deaths_smoothed": 9.429,
+      "total_cases_per_million": 58542.243,
+      "new_cases_per_million": 102.682,
+      "new_cases_smoothed_per_million": 237.885,
+      "total_deaths_per_million": 923.446,
+      "new_deaths_per_million": 4.525,
+      "new_deaths_smoothed_per_million": 3.282,
+      "total_vaccinations": 1715133.0,
+      "people_vaccinated": 938985.0,
+      "people_fully_vaccinated": 776148.0,
+      "new_vaccinations_smoothed": 8220.0,
+      "total_vaccinations_per_hundred": 59.7,
+      "people_vaccinated_per_hundred": 32.68,
+      "people_fully_vaccinated_per_hundred": 27.02,
+      "new_vaccinations_smoothed_per_million": 2861.0,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-09-28"
+    },
+    {
+      "date": "2021-09-29"
     }
   ]
 }
