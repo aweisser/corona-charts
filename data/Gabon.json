@@ -11739,6 +11739,7 @@
       "tests_units": "samples tested",
       "new_vaccinations_smoothed": 1397.0,
       "new_vaccinations_smoothed_per_million": 613.0,
+      "stringency_index": 61.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11764,6 +11765,7 @@
       "tests_units": "samples tested",
       "new_vaccinations_smoothed": 1267.0,
       "new_vaccinations_smoothed_per_million": 556.0,
+      "stringency_index": 61.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11797,6 +11799,7 @@
       "people_vaccinated_per_hundred": 4.43,
       "people_fully_vaccinated_per_hundred": 3.36,
       "new_vaccinations_smoothed_per_million": 499.0,
+      "stringency_index": 61.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11824,6 +11827,9 @@
       "positive_rate": 0.034,
       "tests_per_case": 29.2,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 917.0,
+      "new_vaccinations_smoothed_per_million": 402.0,
+      "stringency_index": 61.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11847,6 +11853,9 @@
       "positive_rate": 0.033,
       "tests_per_case": 30.2,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 825.0,
+      "new_vaccinations_smoothed_per_million": 362.0,
+      "stringency_index": 61.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11870,6 +11879,9 @@
       "positive_rate": 0.031,
       "tests_per_case": 32.1,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 733.0,
+      "new_vaccinations_smoothed_per_million": 322.0,
+      "stringency_index": 61.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11893,6 +11905,9 @@
       "positive_rate": 0.029,
       "tests_per_case": 34.0,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 642.0,
+      "new_vaccinations_smoothed_per_million": 282.0,
+      "stringency_index": 61.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11916,6 +11931,9 @@
       "positive_rate": 0.026,
       "tests_per_case": 38.1,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 550.0,
+      "new_vaccinations_smoothed_per_million": 241.0,
+      "stringency_index": 61.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11939,6 +11957,9 @@
       "positive_rate": 0.025,
       "tests_per_case": 40.2,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 458.0,
+      "new_vaccinations_smoothed_per_million": 201.0,
+      "stringency_index": 61.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11963,14 +11984,43 @@
       "positive_rate": 0.013,
       "tests_per_case": 74.6,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 366.0,
+      "new_vaccinations_smoothed_per_million": 161.0,
+      "stringency_index": 61.11,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-09-30"
+      "date": "2021-09-30",
+      "total_cases": 30155.0,
+      "new_cases": 640.0,
+      "new_cases_smoothed": 204.143,
+      "total_deaths": 186.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 1.143,
+      "total_cases_per_million": 13232.673,
+      "new_cases_per_million": 280.846,
+      "new_cases_smoothed_per_million": 89.582,
+      "total_deaths_per_million": 81.621,
+      "new_deaths_per_million": 1.316,
+      "new_deaths_smoothed_per_million": 0.502,
+      "total_vaccinations": 180320.0,
+      "people_vaccinated": 102256.0,
+      "people_fully_vaccinated": 78064.0,
+      "new_vaccinations_smoothed": 366.0,
+      "total_vaccinations_per_hundred": 7.91,
+      "people_vaccinated_per_hundred": 4.49,
+      "people_fully_vaccinated_per_hundred": 3.43,
+      "new_vaccinations_smoothed_per_million": 161.0,
+      "stringency_index": 61.11,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-01"
+    },
+    {
+      "date": "2021-10-02"
     }
   ]
 }
