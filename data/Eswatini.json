@@ -11346,6 +11346,8 @@
       "new_deaths_per_million": 1.706,
       "new_deaths_smoothed_per_million": 2.193,
       "reproduction_rate": 0.63,
+      "new_vaccinations_smoothed": 1802.0,
+      "new_vaccinations_smoothed_per_million": 1537.0,
       "stringency_index": 59.26,
       "total_recovered": 0,
       "new_recovered": 0
@@ -11365,6 +11367,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 2.072,
       "reproduction_rate": 0.62,
+      "new_vaccinations_smoothed": 1788.0,
+      "new_vaccinations_smoothed_per_million": 1525.0,
       "stringency_index": 59.26,
       "total_recovered": 0,
       "new_recovered": 0
@@ -11384,6 +11388,8 @@
       "new_deaths_per_million": 0.853,
       "new_deaths_smoothed_per_million": 1.584,
       "reproduction_rate": 0.61,
+      "new_vaccinations_smoothed": 1641.0,
+      "new_vaccinations_smoothed_per_million": 1400.0,
       "stringency_index": 59.26,
       "total_recovered": 0,
       "new_recovered": 0
@@ -11403,6 +11409,8 @@
       "new_deaths_per_million": 2.559,
       "new_deaths_smoothed_per_million": 1.706,
       "reproduction_rate": 0.58,
+      "new_vaccinations_smoothed": 1495.0,
+      "new_vaccinations_smoothed_per_million": 1275.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11421,6 +11429,14 @@
       "new_deaths_per_million": 0.853,
       "new_deaths_smoothed_per_million": 1.584,
       "reproduction_rate": 0.55,
+      "total_vaccinations": 248985.0,
+      "people_vaccinated": 217532.0,
+      "people_fully_vaccinated": 210432.0,
+      "new_vaccinations_smoothed": 1348.0,
+      "total_vaccinations_per_hundred": 21.24,
+      "people_vaccinated_per_hundred": 18.55,
+      "people_fully_vaccinated_per_hundred": 17.95,
+      "new_vaccinations_smoothed_per_million": 1150.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11477,10 +11493,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-10-03"
+      "date": "2021-10-03",
+      "total_cases": 46047.0,
+      "new_cases": 42.0,
+      "new_cases_smoothed": 39.571,
+      "total_deaths": 1224.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 1.714,
+      "total_cases_per_million": 39276.883,
+      "new_cases_per_million": 35.825,
+      "new_cases_smoothed_per_million": 33.753,
+      "total_deaths_per_million": 1044.04,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 1.462,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-04"
+    },
+    {
+      "date": "2021-10-05"
     }
   ]
 }
