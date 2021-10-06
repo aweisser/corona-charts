@@ -18948,6 +18948,10 @@
       "new_deaths_smoothed_per_million": 1.722,
       "reproduction_rate": 0.89,
       "stringency_index": 55.09,
+      "excess_mortality_cumulative_absolute": 48675.0,
+      "excess_mortality_cumulative": 5.6,
+      "excess_mortality": 20.28,
+      "excess_mortality_cumulative_per_million": 695.845785649134,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -19006,10 +19010,28 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-10-04"
+      "date": "2021-10-04",
+      "total_cases": 1647362.0,
+      "new_cases": 9930.0,
+      "new_cases_smoothed": 10776.571,
+      "total_deaths": 17111.0,
+      "new_deaths": 97.0,
+      "new_deaths_smoothed": 106.0,
+      "total_cases_per_million": 23550.281,
+      "new_cases_per_million": 141.957,
+      "new_cases_smoothed_per_million": 154.059,
+      "total_deaths_per_million": 244.615,
+      "new_deaths_per_million": 1.387,
+      "new_deaths_smoothed_per_million": 1.515,
+      "stringency_index": 55.09,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-05"
+    },
+    {
+      "date": "2021-10-06"
     }
   ]
 }
