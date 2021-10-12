@@ -17939,6 +17939,7 @@
       "total_vaccinations_per_hundred": 43.58,
       "people_fully_vaccinated_per_hundred": 20.4,
       "new_vaccinations_smoothed_per_million": 4172.0,
+      "stringency_index": 74.54,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -17964,6 +17965,7 @@
       "total_vaccinations_per_hundred": 44.06,
       "people_fully_vaccinated_per_hundred": 20.6,
       "new_vaccinations_smoothed_per_million": 4277.0,
+      "stringency_index": 74.54,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -17981,6 +17983,9 @@
       "total_deaths_per_million": 353.292,
       "new_deaths_per_million": 3.638,
       "new_deaths_smoothed_per_million": 0.951,
+      "new_vaccinations_smoothed": 473422.0,
+      "new_vaccinations_smoothed_per_million": 4263.0,
+      "stringency_index": 74.54,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -17998,14 +18003,41 @@
       "total_deaths_per_million": 355.751,
       "new_deaths_per_million": 2.458,
       "new_deaths_smoothed_per_million": 1.092,
+      "new_vaccinations_smoothed": 471928.0,
+      "new_vaccinations_smoothed_per_million": 4250.0,
+      "stringency_index": 74.54,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-10-10"
+      "date": "2021-10-10",
+      "total_cases": 2666562.0,
+      "new_cases": 12112.0,
+      "new_cases_smoothed": 10451.857,
+      "total_deaths": 39624.0,
+      "new_deaths": 119.0,
+      "new_deaths_smoothed": 122.286,
+      "total_cases_per_million": 24012.933,
+      "new_cases_per_million": 109.071,
+      "new_cases_smoothed_per_million": 94.121,
+      "total_deaths_per_million": 356.822,
+      "new_deaths_per_million": 1.072,
+      "new_deaths_smoothed_per_million": 1.101,
+      "total_vaccinations": 49673491.0,
+      "people_fully_vaccinated": 23186969.0,
+      "new_vaccinations_smoothed": 470433.0,
+      "total_vaccinations_per_hundred": 44.73,
+      "people_fully_vaccinated_per_hundred": 20.88,
+      "new_vaccinations_smoothed_per_million": 4236.0,
+      "stringency_index": 74.54,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-11"
+    },
+    {
+      "date": "2021-10-12"
     }
   ]
 }
