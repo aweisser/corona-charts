@@ -9549,6 +9549,8 @@
       "new_tests_per_thousand": 12.251,
       "new_tests_smoothed": 442.0,
       "new_tests_smoothed_per_thousand": 8.255,
+      "positive_rate": 0.115,
+      "tests_per_case": 8.7,
       "tests_units": "people tested",
       "total_vaccinations": 48755.0,
       "people_vaccinated": 25946.0,
@@ -9575,6 +9577,15 @@
       "total_deaths_per_million": 317.484,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 10.672,
+      "new_tests": 834.0,
+      "total_tests": 45476.0,
+      "total_tests_per_thousand": 849.288,
+      "new_tests_per_thousand": 15.575,
+      "new_tests_smoothed": 487.0,
+      "new_tests_smoothed_per_thousand": 9.095,
+      "positive_rate": 0.108,
+      "tests_per_case": 9.3,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -9592,14 +9603,40 @@
       "total_deaths_per_million": 317.484,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 10.672,
+      "new_tests": 904.0,
+      "total_tests": 46380.0,
+      "total_tests_per_thousand": 866.171,
+      "new_tests_per_thousand": 16.883,
+      "new_tests_smoothed": 499.0,
+      "new_tests_smoothed_per_thousand": 9.319,
+      "positive_rate": 0.105,
+      "tests_per_case": 9.5,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-10-11"
+      "date": "2021-10-11",
+      "total_cases": 2412.0,
+      "new_cases": 51.0,
+      "new_cases_smoothed": 53.571,
+      "total_deaths": 19.0,
+      "new_deaths": 2.0,
+      "new_deaths_smoothed": 0.571,
+      "total_cases_per_million": 45045.382,
+      "new_cases_per_million": 952.452,
+      "new_cases_smoothed_per_million": 1000.475,
+      "total_deaths_per_million": 354.835,
+      "new_deaths_per_million": 37.351,
+      "new_deaths_smoothed_per_million": 10.672,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-12"
+    },
+    {
+      "date": "2021-10-13"
     }
   ]
 }

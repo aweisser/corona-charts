@@ -17233,6 +17233,10 @@
       "people_fully_vaccinated_per_hundred": 25.0,
       "new_vaccinations_smoothed_per_million": 2611.0,
       "stringency_index": 52.31,
+      "excess_mortality_cumulative_absolute": 687707.8,
+      "excess_mortality_cumulative": 23.23,
+      "excess_mortality": 45.95,
+      "excess_mortality_cumulative_per_million": 4713.16750034483,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18234,6 +18238,10 @@
       "people_fully_vaccinated_per_hundred": 28.93,
       "total_boosters_per_hundred": 0.5,
       "new_vaccinations_smoothed_per_million": 1469.0,
+      "excess_mortality_cumulative_absolute": 746026.5,
+      "excess_mortality_cumulative": 24.08,
+      "excess_mortality": 42.5,
+      "excess_mortality_cumulative_per_million": 5112.85149622558,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18564,10 +18572,38 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-10-11"
+      "date": "2021-10-11",
+      "total_cases": 7687559.0,
+      "new_cases": 28636.0,
+      "new_cases_smoothed": 26794.143,
+      "total_deaths": 213522.0,
+      "new_deaths": 946.0,
+      "new_deaths_smoothed": 923.714,
+      "total_cases_per_million": 52686.262,
+      "new_cases_per_million": 196.255,
+      "new_cases_smoothed_per_million": 183.632,
+      "total_deaths_per_million": 1463.361,
+      "new_deaths_per_million": 6.483,
+      "new_deaths_smoothed_per_million": 6.331,
+      "total_vaccinations": 94671192.0,
+      "people_vaccinated": 49571462.0,
+      "people_fully_vaccinated": 45099730.0,
+      "total_boosters": 967739.0,
+      "new_vaccinations": 179503.0,
+      "new_vaccinations_smoothed": 489712.0,
+      "total_vaccinations_per_hundred": 64.88,
+      "people_vaccinated_per_hundred": 33.97,
+      "people_fully_vaccinated_per_hundred": 30.91,
+      "total_boosters_per_hundred": 0.66,
+      "new_vaccinations_smoothed_per_million": 3356.0,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-12"
+    },
+    {
+      "date": "2021-10-13"
     }
   ]
 }

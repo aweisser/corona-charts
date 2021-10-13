@@ -10470,6 +10470,11 @@
       "total_deaths_per_million": 3.252,
       "new_deaths_per_million": 0.136,
       "new_deaths_smoothed_per_million": 0.077,
+      "new_tests_smoothed": 5814.0,
+      "new_tests_smoothed_per_thousand": 0.788,
+      "positive_rate": 0.081,
+      "tests_per_case": 12.3,
+      "tests_units": "people tested",
       "stringency_index": 72.22,
       "total_recovered": 0,
       "new_recovered": 0
@@ -10488,6 +10493,11 @@
       "total_deaths_per_million": 3.252,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.058,
+      "new_tests_smoothed": 5774.0,
+      "new_tests_smoothed_per_thousand": 0.782,
+      "positive_rate": 0.067,
+      "tests_per_case": 15.0,
+      "tests_units": "people tested",
       "stringency_index": 72.22,
       "total_recovered": 0,
       "new_recovered": 0
@@ -10506,15 +10516,40 @@
       "total_deaths_per_million": 3.523,
       "new_deaths_per_million": 0.271,
       "new_deaths_smoothed_per_million": 0.077,
+      "total_tests": 612410.0,
+      "total_tests_per_thousand": 82.99,
+      "new_tests_smoothed": 5735.0,
+      "new_tests_smoothed_per_thousand": 0.777,
+      "positive_rate": 0.083,
+      "tests_per_case": 12.1,
+      "tests_units": "people tested",
       "stringency_index": 72.22,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-10-11"
+      "date": "2021-10-11",
+      "total_cases": 28849.0,
+      "new_cases": 309.0,
+      "new_cases_smoothed": 475.0,
+      "total_deaths": 30.0,
+      "new_deaths": 4.0,
+      "new_deaths_smoothed": 1.143,
+      "total_cases_per_million": 3909.419,
+      "new_cases_per_million": 41.874,
+      "new_cases_smoothed_per_million": 64.369,
+      "total_deaths_per_million": 4.065,
+      "new_deaths_per_million": 0.542,
+      "new_deaths_smoothed_per_million": 0.155,
+      "stringency_index": 72.22,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-12"
+    },
+    {
+      "date": "2021-10-13"
     }
   ]
 }

@@ -13521,6 +13521,9 @@
       "new_deaths_per_million": 2.73,
       "new_deaths_smoothed_per_million": 1.807,
       "reproduction_rate": 0.89,
+      "new_tests": 4223.0,
+      "new_tests_per_thousand": 0.607,
+      "tests_units": "samples tested",
       "total_vaccinations": 1666086.0,
       "people_vaccinated": 1413069.0,
       "people_fully_vaccinated": 253017.0,
@@ -13547,6 +13550,7 @@
       "total_deaths_per_million": 683.621,
       "new_deaths_per_million": 2.587,
       "new_deaths_smoothed_per_million": 1.909,
+      "tests_units": "samples tested",
       "new_vaccinations_smoothed": 7586.0,
       "new_vaccinations_smoothed_per_million": 1090.0,
       "stringency_index": 44.44,
@@ -13567,6 +13571,9 @@
       "total_deaths_per_million": 683.621,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 1.909,
+      "new_tests": 5278.0,
+      "new_tests_per_thousand": 0.758,
+      "tests_units": "samples tested",
       "total_vaccinations": 1689252.0,
       "people_vaccinated": 1424692.0,
       "people_fully_vaccinated": 264560.0,
@@ -13593,15 +13600,38 @@
       "total_deaths_per_million": 686.207,
       "new_deaths_per_million": 2.587,
       "new_deaths_smoothed_per_million": 1.827,
+      "new_tests": 4863.0,
+      "new_tests_per_thousand": 0.699,
+      "tests_units": "samples tested",
       "stringency_index": 44.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-10-11"
+      "date": "2021-10-11",
+      "total_cases": 346813.0,
+      "new_cases": 637.0,
+      "new_cases_smoothed": 607.857,
+      "total_deaths": 4792.0,
+      "new_deaths": 17.0,
+      "new_deaths_smoothed": 12.857,
+      "total_cases_per_million": 49839.923,
+      "new_cases_per_million": 91.542,
+      "new_cases_smoothed_per_million": 87.354,
+      "total_deaths_per_million": 688.65,
+      "new_deaths_per_million": 2.443,
+      "new_deaths_smoothed_per_million": 1.848,
+      "new_tests": 4097.0,
+      "new_tests_per_thousand": 0.589,
+      "tests_units": "samples tested",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-12"
+    },
+    {
+      "date": "2021-10-13"
     }
   ]
 }
