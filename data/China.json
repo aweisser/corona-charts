@@ -13000,9 +13000,10 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.82,
-      "people_vaccinated": 1154856151.0,
-      "new_vaccinations_smoothed": 2534214.0,
-      "people_vaccinated_per_hundred": 79.96,
+      "total_vaccinations": 2212206000.0,
+      "new_vaccinations": 754000.0,
+      "new_vaccinations_smoothed": 2534143.0,
+      "total_vaccinations_per_hundred": 153.18,
       "new_vaccinations_smoothed_per_million": 1755.0,
       "total_recovered": 0,
       "new_recovered": 0
@@ -13023,6 +13024,7 @@
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.8,
       "total_vaccinations": 2212961000.0,
+      "new_vaccinations": 755000.0,
       "new_vaccinations_smoothed": 2181714.0,
       "total_vaccinations_per_hundred": 153.23,
       "new_vaccinations_smoothed_per_million": 1511.0,
@@ -13161,7 +13163,7 @@
       "reproduction_rate": 0.77,
       "total_vaccinations": 2218826000.0,
       "new_vaccinations": 1263000.0,
-      "new_vaccinations_smoothed": 945643.0,
+      "new_vaccinations_smoothed": 945714.0,
       "total_vaccinations_per_hundred": 153.64,
       "new_vaccinations_smoothed_per_million": 655.0,
       "total_recovered": 0,
@@ -13282,10 +13284,32 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-10-14"
+      "date": "2021-10-14",
+      "total_cases": 96565.0,
+      "new_cases": 5.0,
+      "new_cases_smoothed": 19.0,
+      "total_deaths": 4636.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 66.863,
+      "new_cases_per_million": 0.003,
+      "new_cases_smoothed_per_million": 0.013,
+      "total_deaths_per_million": 3.21,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "total_vaccinations": 2227334000.0,
+      "new_vaccinations": 1830000.0,
+      "new_vaccinations_smoothed": 1395857.0,
+      "total_vaccinations_per_hundred": 154.22,
+      "new_vaccinations_smoothed_per_million": 967.0,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-15"
+    },
+    {
+      "date": "2021-10-16"
     }
   ]
 }
