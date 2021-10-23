@@ -12866,6 +12866,8 @@
       "new_deaths_per_million": 0.022,
       "new_deaths_smoothed_per_million": 0.058,
       "reproduction_rate": 0.8,
+      "icu_patients": 11.0,
+      "icu_patients_per_million": 0.247,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12883,6 +12885,8 @@
       "total_deaths_per_million": 131.677,
       "new_deaths_per_million": 0.045,
       "new_deaths_smoothed_per_million": 0.051,
+      "icu_patients": 16.0,
+      "icu_patients_per_million": 0.359,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12900,14 +12904,35 @@
       "total_deaths_per_million": 131.745,
       "new_deaths_per_million": 0.067,
       "new_deaths_smoothed_per_million": 0.051,
+      "icu_patients": 17.0,
+      "icu_patients_per_million": 0.381,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-10-21"
+      "date": "2021-10-21",
+      "total_cases": 205599.0,
+      "new_cases": 70.0,
+      "new_cases_smoothed": 84.857,
+      "total_deaths": 5881.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 2.429,
+      "total_cases_per_million": 4608.125,
+      "new_cases_per_million": 1.569,
+      "new_cases_smoothed_per_million": 1.902,
+      "total_deaths_per_million": 131.812,
+      "new_deaths_per_million": 0.067,
+      "new_deaths_smoothed_per_million": 0.054,
+      "icu_patients": 16.0,
+      "icu_patients_per_million": 0.359,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-22"
+    },
+    {
+      "date": "2021-10-23"
     }
   ]
 }

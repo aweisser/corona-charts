@@ -16258,6 +16258,8 @@
       "positive_rate": 0.008,
       "tests_per_case": 129.0,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 122891.0,
+      "new_vaccinations_smoothed_per_million": 9256.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -16281,6 +16283,8 @@
       "positive_rate": 0.007,
       "tests_per_case": 140.3,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 133665.0,
+      "new_vaccinations_smoothed_per_million": 10068.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -16306,6 +16310,8 @@
       "positive_rate": 0.007,
       "tests_per_case": 135.4,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 126442.0,
+      "new_vaccinations_smoothed_per_million": 9524.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -16332,6 +16338,8 @@
       "positive_rate": 0.006,
       "tests_per_case": 156.4,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 119218.0,
+      "new_vaccinations_smoothed_per_million": 8980.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -16358,14 +16366,50 @@
       "positive_rate": 0.006,
       "tests_per_case": 179.3,
       "tests_units": "samples tested",
+      "new_vaccinations_smoothed": 111994.0,
+      "new_vaccinations_smoothed_per_million": 8435.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-10-21"
+      "date": "2021-10-21",
+      "total_cases": 99288.0,
+      "new_cases": 36.0,
+      "new_cases_smoothed": 43.0,
+      "total_deaths": 1316.0,
+      "new_deaths": 2.0,
+      "new_deaths_smoothed": 0.429,
+      "total_cases_per_million": 7478.467,
+      "new_cases_per_million": 2.712,
+      "new_cases_smoothed_per_million": 3.239,
+      "total_deaths_per_million": 99.122,
+      "new_deaths_per_million": 0.151,
+      "new_deaths_smoothed_per_million": 0.032,
+      "new_tests": 5791.0,
+      "total_tests": 3018065.0,
+      "total_tests_per_thousand": 227.324,
+      "new_tests_per_thousand": 0.436,
+      "new_tests_smoothed": 8075.0,
+      "new_tests_smoothed_per_thousand": 0.608,
+      "positive_rate": 0.005,
+      "tests_per_case": 187.8,
+      "tests_units": "samples tested",
+      "total_vaccinations": 5179627.0,
+      "people_vaccinated": 3434690.0,
+      "people_fully_vaccinated": 1744937.0,
+      "new_vaccinations_smoothed": 104770.0,
+      "total_vaccinations_per_hundred": 39.01,
+      "people_vaccinated_per_hundred": 25.87,
+      "people_fully_vaccinated_per_hundred": 13.14,
+      "new_vaccinations_smoothed_per_million": 7891.0,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-10-22"
+    },
+    {
+      "date": "2021-10-23"
     }
   ]
 }
