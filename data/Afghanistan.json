@@ -12272,6 +12272,7 @@
       "new_deaths_per_million": 0.05,
       "new_deaths_smoothed_per_million": 0.043,
       "reproduction_rate": 1.0,
+      "stringency_index": 27.78,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12290,6 +12291,7 @@
       "new_deaths_per_million": 0.126,
       "new_deaths_smoothed_per_million": 0.05,
       "reproduction_rate": 1.01,
+      "stringency_index": 27.78,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12308,6 +12310,7 @@
       "new_deaths_per_million": 0.05,
       "new_deaths_smoothed_per_million": 0.054,
       "reproduction_rate": 1.01,
+      "stringency_index": 27.78,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12326,6 +12329,7 @@
       "new_deaths_per_million": 0.1,
       "new_deaths_smoothed_per_million": 0.068,
       "reproduction_rate": 1.01,
+      "stringency_index": 27.78,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12344,6 +12348,7 @@
       "new_deaths_per_million": 0.05,
       "new_deaths_smoothed_per_million": 0.068,
       "reproduction_rate": 1.01,
+      "stringency_index": 27.78,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12361,6 +12366,7 @@
       "total_deaths_per_million": 182.476,
       "new_deaths_per_million": 0.025,
       "new_deaths_smoothed_per_million": 0.061,
+      "stringency_index": 27.78,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12378,14 +12384,33 @@
       "total_deaths_per_million": 182.551,
       "new_deaths_per_million": 0.075,
       "new_deaths_smoothed_per_million": 0.068,
+      "stringency_index": 27.78,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-10-31"
+      "date": "2021-10-31",
+      "total_cases": 156250.0,
+      "new_cases": 40.0,
+      "new_cases_smoothed": 43.714,
+      "total_deaths": 7280.0,
+      "new_deaths": 8.0,
+      "new_deaths_smoothed": 3.571,
+      "total_cases_per_million": 3922.388,
+      "new_cases_per_million": 1.004,
+      "new_cases_smoothed_per_million": 1.097,
+      "total_deaths_per_million": 182.752,
+      "new_deaths_per_million": 0.201,
+      "new_deaths_smoothed_per_million": 0.09,
+      "stringency_index": 27.78,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-01"
+    },
+    {
+      "date": "2021-11-02"
     }
   ]
 }

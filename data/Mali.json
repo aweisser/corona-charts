@@ -11919,6 +11919,7 @@
       "reproduction_rate": 1.13,
       "new_vaccinations_smoothed": 38.0,
       "new_vaccinations_smoothed_per_million": 2.0,
+      "stringency_index": 44.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11939,6 +11940,7 @@
       "reproduction_rate": 1.13,
       "new_vaccinations_smoothed": 38.0,
       "new_vaccinations_smoothed_per_million": 2.0,
+      "stringency_index": 44.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11965,6 +11967,7 @@
       "people_vaccinated_per_hundred": 1.55,
       "people_fully_vaccinated_per_hundred": 1.26,
       "new_vaccinations_smoothed_per_million": 2.0,
+      "stringency_index": 44.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11983,6 +11986,7 @@
       "new_deaths_per_million": 0.048,
       "new_deaths_smoothed_per_million": 0.027,
       "reproduction_rate": 1.12,
+      "stringency_index": 44.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12000,6 +12004,7 @@
       "total_deaths_per_million": 26.995,
       "new_deaths_per_million": 0.048,
       "new_deaths_smoothed_per_million": 0.034,
+      "stringency_index": 44.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12017,14 +12022,33 @@
       "total_deaths_per_million": 26.995,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.034,
+      "stringency_index": 44.44,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-10-31"
+      "date": "2021-10-31",
+      "total_cases": 16073.0,
+      "new_cases": 35.0,
+      "new_cases_smoothed": 32.143,
+      "total_deaths": 563.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.714,
+      "total_cases_per_million": 770.676,
+      "new_cases_per_million": 1.678,
+      "new_cases_smoothed_per_million": 1.541,
+      "total_deaths_per_million": 26.995,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.034,
+      "stringency_index": 44.44,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-01"
+    },
+    {
+      "date": "2021-11-02"
     }
   ]
 }
