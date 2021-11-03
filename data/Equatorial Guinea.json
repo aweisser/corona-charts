@@ -12186,6 +12186,8 @@
       "total_tests_per_thousand": 167.144,
       "new_tests_smoothed": 677.0,
       "new_tests_smoothed_per_thousand": 0.467,
+      "positive_rate": 0.044,
+      "tests_per_case": 22.9,
       "tests_units": "tests performed",
       "total_vaccinations": 431001.0,
       "people_vaccinated": 241430.0,
@@ -12212,6 +12214,11 @@
       "total_deaths_per_million": 115.181,
       "new_deaths_per_million": 0.69,
       "new_deaths_smoothed_per_million": 0.394,
+      "new_tests_smoothed": 676.0,
+      "new_tests_smoothed_per_thousand": 0.466,
+      "positive_rate": 0.043,
+      "tests_per_case": 23.4,
+      "tests_units": "tests performed",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -12229,14 +12236,43 @@
       "total_deaths_per_million": 115.181,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.394,
+      "new_tests_smoothed": 675.0,
+      "new_tests_smoothed_per_thousand": 0.466,
+      "positive_rate": 0.043,
+      "tests_per_case": 23.4,
+      "tests_units": "tests performed",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-11-01"
+      "date": "2021-11-01",
+      "total_cases": 13368.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 28.857,
+      "total_deaths": 167.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.571,
+      "total_cases_per_million": 9220.003,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 19.903,
+      "total_deaths_per_million": 115.181,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.394,
+      "total_tests": 243644.0,
+      "total_tests_per_thousand": 168.043,
+      "new_tests_smoothed": 672.0,
+      "new_tests_smoothed_per_thousand": 0.463,
+      "positive_rate": 0.043,
+      "tests_per_case": 23.3,
+      "tests_units": "tests performed",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-02"
+    },
+    {
+      "date": "2021-11-03"
     }
   ]
 }

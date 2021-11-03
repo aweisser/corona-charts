@@ -21245,6 +21245,8 @@
       "new_tests_per_thousand": 3.268,
       "new_tests_smoothed": 22213.0,
       "new_tests_smoothed_per_thousand": 3.215,
+      "positive_rate": 0.296,
+      "tests_per_case": 3.4,
       "tests_units": "people tested",
       "total_vaccinations": 7085931.0,
       "people_vaccinated": 3150109.0,
@@ -21277,6 +21279,15 @@
       "icu_patients_per_million": 40.821,
       "hosp_patients": 6780.0,
       "hosp_patients_per_million": 981.439,
+      "new_tests": 20128.0,
+      "total_tests": 6296571.0,
+      "total_tests_per_thousand": 911.46,
+      "new_tests_per_thousand": 2.914,
+      "new_tests_smoothed": 22034.0,
+      "new_tests_smoothed_per_thousand": 3.19,
+      "positive_rate": 0.294,
+      "tests_per_case": 3.4,
+      "tests_units": "people tested",
       "total_vaccinations": 7104240.0,
       "people_vaccinated": 3153364.0,
       "people_fully_vaccinated": 3002829.0,
@@ -21309,14 +21320,44 @@
       "icu_patients_per_million": 40.676,
       "hosp_patients": 6764.0,
       "hosp_patients_per_million": 979.123,
+      "new_tests": 16048.0,
+      "total_tests": 6312619.0,
+      "total_tests_per_thousand": 913.783,
+      "new_tests_per_thousand": 2.323,
+      "new_tests_smoothed": 21847.0,
+      "new_tests_smoothed_per_thousand": 3.162,
+      "positive_rate": 0.291,
+      "tests_per_case": 3.4,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-11-01"
+      "date": "2021-11-01",
+      "total_cases": 1148645.0,
+      "new_cases": 5896.0,
+      "new_cases_smoothed": 6361.143,
+      "total_deaths": 10018.0,
+      "new_deaths": 63.0,
+      "new_deaths_smoothed": 63.857,
+      "total_cases_per_million": 166272.113,
+      "new_cases_per_million": 853.476,
+      "new_cases_smoothed_per_million": 920.807,
+      "total_deaths_per_million": 1450.156,
+      "new_deaths_per_million": 9.12,
+      "new_deaths_smoothed_per_million": 9.244,
+      "icu_patients": 290.0,
+      "icu_patients_per_million": 41.979,
+      "hosp_patients": 6760.0,
+      "hosp_patients_per_million": 978.544,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-02"
+    },
+    {
+      "date": "2021-11-03"
     }
   ]
 }
