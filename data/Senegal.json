@@ -18167,6 +18167,7 @@
       "positive_rate": 0.003,
       "tests_per_case": 386.1,
       "tests_units": "tests performed",
+      "stringency_index": 21.3,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18194,6 +18195,7 @@
       "positive_rate": 0.003,
       "tests_per_case": 368.2,
       "tests_units": "tests performed",
+      "stringency_index": 21.3,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18221,6 +18223,7 @@
       "positive_rate": 0.003,
       "tests_per_case": 369.5,
       "tests_units": "tests performed",
+      "stringency_index": 21.3,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18247,6 +18250,7 @@
       "positive_rate": 0.003,
       "tests_per_case": 330.3,
       "tests_units": "tests performed",
+      "stringency_index": 21.3,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18264,14 +18268,33 @@
       "total_deaths_per_million": 109.326,
       "new_deaths_per_million": 0.058,
       "new_deaths_smoothed_per_million": 0.017,
+      "stringency_index": 21.3,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-11-06"
+      "date": "2021-11-06",
+      "total_cases": 73935.0,
+      "new_cases": 2.0,
+      "new_cases_smoothed": 2.571,
+      "total_deaths": 1880.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.286,
+      "total_cases_per_million": 4299.469,
+      "new_cases_per_million": 0.116,
+      "new_cases_smoothed_per_million": 0.15,
+      "total_deaths_per_million": 109.326,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.017,
+      "stringency_index": 21.3,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-07"
+    },
+    {
+      "date": "2021-11-08"
     }
   ]
 }
