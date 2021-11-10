@@ -19133,6 +19133,8 @@
       "positive_rate": 0.017,
       "tests_per_case": 57.5,
       "tests_units": "people tested",
+      "new_vaccinations_smoothed": 96121.0,
+      "new_vaccinations_smoothed_per_million": 2574.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -19160,6 +19162,8 @@
       "positive_rate": 0.016,
       "tests_per_case": 62.2,
       "tests_units": "people tested",
+      "new_vaccinations_smoothed": 90090.0,
+      "new_vaccinations_smoothed_per_million": 2412.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -19178,6 +19182,8 @@
       "new_deaths_per_million": 0.08,
       "new_deaths_smoothed_per_million": 0.157,
       "reproduction_rate": 0.7,
+      "new_vaccinations_smoothed": 84059.0,
+      "new_vaccinations_smoothed_per_million": 2251.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -19195,6 +19201,14 @@
       "total_deaths_per_million": 393.79,
       "new_deaths_per_million": 0.134,
       "new_deaths_smoothed_per_million": 0.149,
+      "total_vaccinations": 48083925.0,
+      "people_vaccinated": 24311560.0,
+      "people_fully_vaccinated": 22253789.0,
+      "new_vaccinations_smoothed": 78028.0,
+      "total_vaccinations_per_hundred": 128.76,
+      "people_vaccinated_per_hundred": 65.1,
+      "people_fully_vaccinated_per_hundred": 59.59,
+      "new_vaccinations_smoothed_per_million": 2089.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -19216,10 +19230,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-11-08"
+      "date": "2021-11-08",
+      "total_cases": 947451.0,
+      "new_cases": 55.0,
+      "new_cases_smoothed": 166.857,
+      "total_deaths": 14721.0,
+      "new_deaths": 8.0,
+      "new_deaths_smoothed": 6.143,
+      "total_cases_per_million": 25370.368,
+      "new_cases_per_million": 1.473,
+      "new_cases_smoothed_per_million": 4.468,
+      "total_deaths_per_million": 394.192,
+      "new_deaths_per_million": 0.214,
+      "new_deaths_smoothed_per_million": 0.164,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-09"
+    },
+    {
+      "date": "2021-11-10"
     }
   ]
 }

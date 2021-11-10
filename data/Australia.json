@@ -18816,7 +18816,7 @@
       "people_fully_vaccinated_per_hundred": 59.49,
       "total_boosters_per_hundred": 0.02,
       "new_vaccinations_smoothed_per_million": 9580.0,
-      "stringency_index": 59.72,
+      "stringency_index": 65.28,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18851,7 +18851,7 @@
       "people_fully_vaccinated_per_hundred": 60.04,
       "total_boosters_per_hundred": 0.03,
       "new_vaccinations_smoothed_per_million": 9558.0,
-      "stringency_index": 59.72,
+      "stringency_index": 65.28,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18888,7 +18888,7 @@
       "people_fully_vaccinated_per_hundred": 60.37,
       "total_boosters_per_hundred": 0.03,
       "new_vaccinations_smoothed_per_million": 9372.0,
-      "stringency_index": 59.72,
+      "stringency_index": 65.28,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -19408,10 +19408,38 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-11-08"
+      "date": "2021-11-08",
+      "total_cases": 182870.0,
+      "new_cases": 1292.0,
+      "new_cases_smoothed": 1386.429,
+      "total_deaths": 1841.0,
+      "new_deaths": 14.0,
+      "new_deaths_smoothed": 12.143,
+      "total_cases_per_million": 7091.223,
+      "new_cases_per_million": 50.1,
+      "new_cases_smoothed_per_million": 53.762,
+      "total_deaths_per_million": 71.389,
+      "new_deaths_per_million": 0.543,
+      "new_deaths_smoothed_per_million": 0.471,
+      "total_vaccinations": 36918760.0,
+      "people_vaccinated": 19338366.0,
+      "people_fully_vaccinated": 17389176.0,
+      "total_boosters": 191218.0,
+      "new_vaccinations": 155259.0,
+      "new_vaccinations_smoothed": 156217.0,
+      "total_vaccinations_per_hundred": 143.16,
+      "people_vaccinated_per_hundred": 74.99,
+      "people_fully_vaccinated_per_hundred": 67.43,
+      "total_boosters_per_hundred": 0.74,
+      "new_vaccinations_smoothed_per_million": 6058.0,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-09"
+    },
+    {
+      "date": "2021-11-10"
     }
   ]
 }
