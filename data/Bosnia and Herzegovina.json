@@ -17747,6 +17747,8 @@
       "new_tests_per_thousand": 0.852,
       "new_tests_smoothed": 3115.0,
       "new_tests_smoothed_per_thousand": 0.955,
+      "positive_rate": 0.284,
+      "tests_per_case": 3.5,
       "tests_units": "tests performed",
       "total_recovered": 0,
       "new_recovered": 0
@@ -17765,6 +17767,11 @@
       "total_deaths_per_million": 3665.436,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 10.725,
+      "new_tests_smoothed": 3104.0,
+      "new_tests_smoothed_per_thousand": 0.951,
+      "positive_rate": 0.285,
+      "tests_per_case": 3.5,
+      "tests_units": "tests performed",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -17782,14 +17789,43 @@
       "total_deaths_per_million": 3665.436,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 10.725,
+      "new_tests_smoothed": 3093.0,
+      "new_tests_smoothed_per_thousand": 0.948,
+      "positive_rate": 0.286,
+      "tests_per_case": 3.5,
+      "tests_units": "tests performed",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-11-15"
+      "date": "2021-11-15",
+      "total_cases": 265149.0,
+      "new_cases": 1562.0,
+      "new_cases_smoothed": 748.0,
+      "total_deaths": 12075.0,
+      "new_deaths": 113.0,
+      "new_deaths_smoothed": 33.571,
+      "total_cases_per_million": 81247.842,
+      "new_cases_per_million": 478.633,
+      "new_cases_smoothed_per_million": 229.205,
+      "total_deaths_per_million": 3700.062,
+      "new_deaths_per_million": 34.626,
+      "new_deaths_smoothed_per_million": 10.287,
+      "total_tests": 1349956.0,
+      "total_tests_per_thousand": 413.658,
+      "new_tests_smoothed": 3082.0,
+      "new_tests_smoothed_per_thousand": 0.944,
+      "positive_rate": 0.243,
+      "tests_per_case": 4.1,
+      "tests_units": "tests performed",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-16"
+    },
+    {
+      "date": "2021-11-17"
     }
   ]
 }

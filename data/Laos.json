@@ -11787,6 +11787,11 @@
       "total_deaths_per_million": 12.738,
       "new_deaths_per_million": 0.136,
       "new_deaths_smoothed_per_million": 0.329,
+      "new_tests_smoothed": 4509.0,
+      "new_tests_smoothed_per_thousand": 0.611,
+      "positive_rate": 0.227,
+      "tests_per_case": 4.4,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11804,6 +11809,11 @@
       "total_deaths_per_million": 13.009,
       "new_deaths_per_million": 0.271,
       "new_deaths_smoothed_per_million": 0.29,
+      "new_tests_smoothed": 3961.0,
+      "new_tests_smoothed_per_thousand": 0.537,
+      "positive_rate": 0.261,
+      "tests_per_case": 3.8,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11821,14 +11831,43 @@
       "total_deaths_per_million": 13.416,
       "new_deaths_per_million": 0.407,
       "new_deaths_smoothed_per_million": 0.329,
+      "new_tests_smoothed": 3414.0,
+      "new_tests_smoothed_per_thousand": 0.463,
+      "positive_rate": 0.299,
+      "tests_per_case": 3.3,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-11-15"
+      "date": "2021-11-15",
+      "total_cases": 55018.0,
+      "new_cases": 826.0,
+      "new_cases_smoothed": 1025.143,
+      "total_deaths": 104.0,
+      "new_deaths": 5.0,
+      "new_deaths_smoothed": 2.571,
+      "total_cases_per_million": 7455.662,
+      "new_cases_per_million": 111.934,
+      "new_cases_smoothed_per_million": 138.92,
+      "total_deaths_per_million": 14.093,
+      "new_deaths_per_million": 0.678,
+      "new_deaths_smoothed_per_million": 0.348,
+      "total_tests": 766320.0,
+      "total_tests_per_thousand": 103.846,
+      "new_tests_smoothed": 2867.0,
+      "new_tests_smoothed_per_thousand": 0.389,
+      "positive_rate": 0.358,
+      "tests_per_case": 2.8,
+      "tests_units": "people tested",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-16"
+    },
+    {
+      "date": "2021-11-17"
     }
   ]
 }
