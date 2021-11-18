@@ -17847,6 +17847,10 @@
       "total_deaths_per_million": 3518.576,
       "new_deaths_per_million": 3.841,
       "new_deaths_smoothed_per_million": 6.585,
+      "new_vaccinations_smoothed": 3349.0,
+      "new_vaccinations_smoothed_per_million": 1608.0,
+      "new_people_vaccinated_smoothed": 2601.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.125,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -17867,14 +17871,47 @@
       "total_tests": 1428329.0,
       "total_tests_per_thousand": 685.819,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 3289.0,
+      "new_vaccinations_smoothed_per_million": 1579.0,
+      "new_people_vaccinated_smoothed": 2561.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.123,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-11-16"
+      "date": "2021-11-16",
+      "total_cases": 209971.0,
+      "new_cases": 522.0,
+      "new_cases_smoothed": 437.286,
+      "total_deaths": 7354.0,
+      "new_deaths": 17.0,
+      "new_deaths_smoothed": 14.143,
+      "total_cases_per_million": 100818.616,
+      "new_cases_per_million": 250.641,
+      "new_cases_smoothed_per_million": 209.965,
+      "total_deaths_per_million": 3531.06,
+      "new_deaths_per_million": 8.163,
+      "new_deaths_smoothed_per_million": 6.791,
+      "total_vaccinations": 1657833.0,
+      "people_vaccinated": 871917.0,
+      "people_fully_vaccinated": 785916.0,
+      "total_boosters": 56349.0,
+      "new_vaccinations_smoothed": 2968.0,
+      "total_vaccinations_per_hundred": 79.6,
+      "people_vaccinated_per_hundred": 41.87,
+      "people_fully_vaccinated_per_hundred": 37.74,
+      "total_boosters_per_hundred": 2.71,
+      "new_vaccinations_smoothed_per_million": 1425.0,
+      "new_people_vaccinated_smoothed": 2313.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.111,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-17"
+    },
+    {
+      "date": "2021-11-18"
     }
   ]
 }

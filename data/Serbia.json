@@ -22517,6 +22517,10 @@
       "total_deaths_per_million": 1585.669,
       "new_deaths_per_million": 8.295,
       "new_deaths_smoothed_per_million": 8.815,
+      "icu_patients": 266.0,
+      "icu_patients_per_million": 38.505,
+      "hosp_patients": 6411.0,
+      "hosp_patients_per_million": 928.024,
       "new_tests": 15764.0,
       "total_tests": 6584767.0,
       "total_tests_per_thousand": 958.266,
@@ -22531,10 +22535,38 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-11-16"
+      "date": "2021-11-16",
+      "total_cases": 1218423.0,
+      "new_cases": 3773.0,
+      "new_cases_smoothed": 3706.714,
+      "total_deaths": 10951.0,
+      "new_deaths": 55.0,
+      "new_deaths_smoothed": 59.571,
+      "total_cases_per_million": 177314.221,
+      "new_cases_per_million": 549.076,
+      "new_cases_smoothed_per_million": 539.429,
+      "total_deaths_per_million": 1593.673,
+      "new_deaths_per_million": 8.004,
+      "new_deaths_smoothed_per_million": 8.669,
+      "icu_patients": 267.0,
+      "icu_patients_per_million": 38.65,
+      "hosp_patients": 6289.0,
+      "hosp_patients_per_million": 910.364,
+      "new_tests": 18256.0,
+      "total_tests": 6603023.0,
+      "total_tests_per_thousand": 960.922,
+      "new_tests_per_thousand": 2.657,
+      "new_tests_smoothed": 15771.0,
+      "new_tests_smoothed_per_thousand": 2.295,
+      "tests_units": "people tested",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-17"
+    },
+    {
+      "date": "2021-11-18"
     }
   ]
 }
