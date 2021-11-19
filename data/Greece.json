@@ -21190,8 +21190,8 @@
       "new_deaths_per_million": 5.014,
       "new_deaths_smoothed_per_million": 4.918,
       "reproduction_rate": 1.3,
-      "weekly_icu_admissions": 217.699,
-      "weekly_icu_admissions_per_million": 20.992,
+      "weekly_icu_admissions": 221.569,
+      "weekly_icu_admissions_per_million": 21.365,
       "weekly_hosp_admissions": 2437.258,
       "weekly_hosp_admissions_per_million": 235.013,
       "new_tests": 288562.0,
@@ -21464,6 +21464,10 @@
       "total_deaths_per_million": 1616.663,
       "new_deaths_per_million": 7.714,
       "new_deaths_smoothed_per_million": 6.488,
+      "weekly_icu_admissions": 252.531,
+      "weekly_icu_admissions_per_million": 24.35,
+      "weekly_hosp_admissions": 2779.771,
+      "weekly_hosp_admissions_per_million": 268.04,
       "new_tests_smoothed": 343889.0,
       "new_tests_smoothed_per_thousand": 33.16,
       "positive_rate": 0.02,
@@ -21553,10 +21557,40 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-11-17"
+      "date": "2021-11-17",
+      "total_cases": 853841.0,
+      "new_cases": 6653.0,
+      "new_cases_smoothed": 6506.286,
+      "total_deaths": 17012.0,
+      "new_deaths": 89.0,
+      "new_deaths_smoothed": 74.143,
+      "total_cases_per_million": 82331.678,
+      "new_cases_per_million": 641.516,
+      "new_cases_smoothed_per_million": 627.369,
+      "total_deaths_per_million": 1640.383,
+      "new_deaths_per_million": 8.582,
+      "new_deaths_smoothed_per_million": 7.149,
+      "total_vaccinations": 13411039.0,
+      "people_vaccinated": 6850757.0,
+      "people_fully_vaccinated": 6489186.0,
+      "total_boosters": 756639.0,
+      "new_vaccinations": 69416.0,
+      "new_vaccinations_smoothed": 52318.0,
+      "total_vaccinations_per_hundred": 129.32,
+      "people_vaccinated_per_hundred": 66.06,
+      "people_fully_vaccinated_per_hundred": 62.57,
+      "total_boosters_per_hundred": 7.3,
+      "new_vaccinations_smoothed_per_million": 5045.0,
+      "new_people_vaccinated_smoothed": 13763.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.133,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-18"
+    },
+    {
+      "date": "2021-11-19"
     }
   ]
 }
