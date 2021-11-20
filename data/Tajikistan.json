@@ -12087,6 +12087,10 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": -0.01,
+      "new_vaccinations_smoothed": 6784.0,
+      "new_vaccinations_smoothed_per_million": 696.0,
+      "new_people_vaccinated_smoothed": 4327.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.044,
       "stringency_index": 29.63,
       "total_recovered": 0,
       "new_recovered": 0
@@ -12106,6 +12110,10 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": -0.01,
+      "new_vaccinations_smoothed": 10589.0,
+      "new_vaccinations_smoothed_per_million": 1086.0,
+      "new_people_vaccinated_smoothed": 5350.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.055,
       "stringency_index": 29.63,
       "total_recovered": 0,
       "new_recovered": 0
@@ -12125,6 +12133,10 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": -0.01,
+      "new_vaccinations_smoothed": 14394.0,
+      "new_vaccinations_smoothed_per_million": 1476.0,
+      "new_people_vaccinated_smoothed": 6373.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.065,
       "stringency_index": 29.63,
       "total_recovered": 0,
       "new_recovered": 0
@@ -12143,6 +12155,10 @@
       "total_deaths_per_million": 12.821,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "new_vaccinations_smoothed": 18199.0,
+      "new_vaccinations_smoothed_per_million": 1867.0,
+      "new_people_vaccinated_smoothed": 7396.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.076,
       "stringency_index": 29.63,
       "total_recovered": 0,
       "new_recovered": 0
@@ -12161,6 +12177,10 @@
       "total_deaths_per_million": 12.821,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "new_vaccinations_smoothed": 22003.0,
+      "new_vaccinations_smoothed_per_million": 2257.0,
+      "new_people_vaccinated_smoothed": 8419.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.086,
       "stringency_index": 29.63,
       "total_recovered": 0,
       "new_recovered": 0
@@ -12179,6 +12199,10 @@
       "total_deaths_per_million": 12.821,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "new_vaccinations_smoothed": 25808.0,
+      "new_vaccinations_smoothed_per_million": 2647.0,
+      "new_people_vaccinated_smoothed": 9443.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.097,
       "stringency_index": 29.63,
       "total_recovered": 0,
       "new_recovered": 0
@@ -12197,6 +12221,16 @@
       "total_deaths_per_million": 12.821,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "total_vaccinations": 5059324.0,
+      "people_vaccinated": 2788171.0,
+      "people_fully_vaccinated": 2271153.0,
+      "new_vaccinations_smoothed": 29613.0,
+      "total_vaccinations_per_hundred": 51.89,
+      "people_vaccinated_per_hundred": 28.6,
+      "people_fully_vaccinated_per_hundred": 23.29,
+      "new_vaccinations_smoothed_per_million": 3037.0,
+      "new_people_vaccinated_smoothed": 10466.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.107,
       "stringency_index": 29.63,
       "total_recovered": 0,
       "new_recovered": 0
@@ -12255,10 +12289,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-11-18"
+      "date": "2021-11-18",
+      "total_cases": 17489.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 0.143,
+      "total_deaths": 125.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.0,
+      "total_cases_per_million": 1793.813,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 0.015,
+      "total_deaths_per_million": 12.821,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.0,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-19"
+    },
+    {
+      "date": "2021-11-20"
     }
   ]
 }
