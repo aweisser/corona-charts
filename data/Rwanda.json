@@ -17726,6 +17726,8 @@
       "new_tests_per_thousand": 0.648,
       "new_tests_smoothed": 10102.0,
       "new_tests_smoothed_per_thousand": 0.761,
+      "positive_rate": 0.002,
+      "tests_per_case": 431.2,
       "tests_units": "samples tested",
       "new_vaccinations_smoothed": 161424.0,
       "new_vaccinations_smoothed_per_million": 12159.0,
@@ -17748,6 +17750,11 @@
       "total_deaths_per_million": 100.779,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.032,
+      "new_tests_smoothed": 10104.0,
+      "new_tests_smoothed_per_thousand": 0.761,
+      "positive_rate": 0.002,
+      "tests_per_case": 431.3,
+      "tests_units": "samples tested",
       "new_vaccinations_smoothed": 165826.0,
       "new_vaccinations_smoothed_per_million": 12490.0,
       "new_people_vaccinated_smoothed": 95203.0,
@@ -17769,6 +17776,13 @@
       "total_deaths_per_million": 100.855,
       "new_deaths_per_million": 0.075,
       "new_deaths_smoothed_per_million": 0.032,
+      "total_tests": 3316146.0,
+      "total_tests_per_thousand": 249.775,
+      "new_tests_smoothed": 10382.0,
+      "new_tests_smoothed_per_thousand": 0.782,
+      "positive_rate": 0.002,
+      "tests_per_case": 508.2,
+      "tests_units": "samples tested",
       "total_vaccinations": 8084680.0,
       "people_vaccinated": 5227250.0,
       "people_fully_vaccinated": 2857430.0,
@@ -17783,10 +17797,34 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-11-19"
+      "date": "2021-11-19",
+      "total_cases": 100196.0,
+      "new_cases": 6.0,
+      "new_cases_smoothed": 16.286,
+      "total_deaths": 1339.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.429,
+      "total_cases_per_million": 7546.859,
+      "new_cases_per_million": 0.452,
+      "new_cases_smoothed_per_million": 1.227,
+      "total_deaths_per_million": 100.855,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.032,
+      "new_tests": 9548.0,
+      "total_tests": 3325694.0,
+      "total_tests_per_thousand": 250.494,
+      "new_tests_per_thousand": 0.719,
+      "new_tests_smoothed": 10769.0,
+      "new_tests_smoothed_per_thousand": 0.811,
+      "tests_units": "samples tested",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-20"
+    },
+    {
+      "date": "2021-11-21"
     }
   ]
 }

@@ -11877,6 +11877,11 @@
       "total_deaths_per_million": 14.906,
       "new_deaths_per_million": 0.813,
       "new_deaths_smoothed_per_million": 0.407,
+      "new_tests_smoothed": 2849.0,
+      "new_tests_smoothed_per_thousand": 0.386,
+      "positive_rate": 0.373,
+      "tests_per_case": 2.7,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11894,6 +11899,11 @@
       "total_deaths_per_million": 15.177,
       "new_deaths_per_million": 0.271,
       "new_deaths_smoothed_per_million": 0.407,
+      "new_tests_smoothed": 2830.0,
+      "new_tests_smoothed_per_thousand": 0.384,
+      "positive_rate": 0.372,
+      "tests_per_case": 2.7,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -11911,14 +11921,41 @@
       "total_deaths_per_million": 15.72,
       "new_deaths_per_million": 0.542,
       "new_deaths_smoothed_per_million": 0.445,
+      "new_tests_smoothed": 2811.0,
+      "new_tests_smoothed_per_thousand": 0.381,
+      "positive_rate": 0.397,
+      "tests_per_case": 2.5,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-11-19"
+      "date": "2021-11-19",
+      "total_cases": 59895.0,
+      "new_cases": 1097.0,
+      "new_cases_smoothed": 1102.857,
+      "total_deaths": 119.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 3.571,
+      "total_cases_per_million": 8116.56,
+      "new_cases_per_million": 148.658,
+      "new_cases_smoothed_per_million": 149.452,
+      "total_deaths_per_million": 16.126,
+      "new_deaths_per_million": 0.407,
+      "new_deaths_smoothed_per_million": 0.484,
+      "total_tests": 783585.0,
+      "total_tests_per_thousand": 106.186,
+      "new_tests_smoothed": 3188.0,
+      "new_tests_smoothed_per_thousand": 0.432,
+      "tests_units": "people tested",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-20"
+    },
+    {
+      "date": "2021-11-21"
     }
   ]
 }

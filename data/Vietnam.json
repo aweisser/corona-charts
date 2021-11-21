@@ -16622,6 +16622,11 @@
       "total_deaths_per_million": 233.577,
       "new_deaths_per_million": 0.825,
       "new_deaths_smoothed_per_million": 0.754,
+      "new_tests_smoothed": 145507.0,
+      "new_tests_smoothed_per_thousand": 1.482,
+      "positive_rate": 0.055,
+      "tests_per_case": 18.1,
+      "tests_units": "samples tested",
       "total_vaccinations": 97831758.0,
       "people_vaccinated": 64073710.0,
       "people_fully_vaccinated": 33758048.0,
@@ -16650,6 +16655,11 @@
       "total_deaths_per_million": 234.474,
       "new_deaths_per_million": 0.896,
       "new_deaths_smoothed_per_million": 0.797,
+      "new_tests_smoothed": 150608.0,
+      "new_tests_smoothed_per_thousand": 1.534,
+      "positive_rate": 0.054,
+      "tests_per_case": 18.4,
+      "tests_units": "samples tested",
       "total_vaccinations": 98930571.0,
       "people_vaccinated": 64322087.0,
       "people_fully_vaccinated": 34608484.0,
@@ -16678,6 +16688,13 @@
       "total_deaths_per_million": 235.126,
       "new_deaths_per_million": 0.652,
       "new_deaths_smoothed_per_million": 0.802,
+      "total_tests": 29756787.0,
+      "total_tests_per_thousand": 303.118,
+      "new_tests_smoothed": 155710.0,
+      "new_tests_smoothed_per_thousand": 1.586,
+      "positive_rate": 0.053,
+      "tests_per_case": 18.8,
+      "tests_units": "samples tested",
       "total_vaccinations": 99751224.0,
       "people_vaccinated": 64467940.0,
       "people_fully_vaccinated": 35283284.0,
@@ -16794,10 +16811,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-11-19"
+      "date": "2021-11-19",
+      "total_cases": 1075094.0,
+      "new_cases": 9625.0,
+      "new_cases_smoothed": 9316.429,
+      "total_deaths": 23578.0,
+      "new_deaths": 102.0,
+      "new_deaths_smoothed": 92.571,
+      "total_cases_per_million": 10951.48,
+      "new_cases_per_million": 98.045,
+      "new_cases_smoothed_per_million": 94.902,
+      "total_deaths_per_million": 240.178,
+      "new_deaths_per_million": 1.039,
+      "new_deaths_smoothed_per_million": 0.943,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-20"
+    },
+    {
+      "date": "2021-11-21"
     }
   ]
 }
