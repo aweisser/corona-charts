@@ -22876,6 +22876,15 @@
       "icu_patients_per_million": 29.675,
       "hosp_patients": 5116.0,
       "hosp_patients_per_million": 740.567,
+      "new_tests": 16737.0,
+      "total_tests": 6727663.0,
+      "total_tests_per_thousand": 979.061,
+      "new_tests_per_thousand": 2.436,
+      "new_tests_smoothed": 15232.0,
+      "new_tests_smoothed_per_thousand": 2.217,
+      "positive_rate": 0.183,
+      "tests_per_case": 5.5,
+      "tests_units": "people tested",
       "total_vaccinations": 7779147.0,
       "people_vaccinated": 3248569.0,
       "people_fully_vaccinated": 3098262.0,
@@ -22910,14 +22919,47 @@
       "icu_patients_per_million": 30.399,
       "hosp_patients": 4943.0,
       "hosp_patients_per_million": 715.524,
+      "new_tests": 15968.0,
+      "total_tests": 6743631.0,
+      "total_tests_per_thousand": 981.385,
+      "new_tests_per_thousand": 2.324,
+      "new_tests_smoothed": 15104.0,
+      "new_tests_smoothed_per_thousand": 2.198,
+      "positive_rate": 0.179,
+      "tests_per_case": 5.6,
+      "tests_units": "people tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-11-26"
+      "date": "2021-11-26",
+      "total_cases": 1246508.0,
+      "new_cases": 2339.0,
+      "new_cases_smoothed": 2597.143,
+      "total_deaths": 11484.0,
+      "new_deaths": 51.0,
+      "new_deaths_smoothed": 52.714,
+      "total_cases_per_million": 181401.364,
+      "new_cases_per_million": 340.389,
+      "new_cases_smoothed_per_million": 377.956,
+      "total_deaths_per_million": 1671.239,
+      "new_deaths_per_million": 7.422,
+      "new_deaths_smoothed_per_million": 7.671,
+      "new_tests": 15631.0,
+      "total_tests": 6759262.0,
+      "total_tests_per_thousand": 983.659,
+      "new_tests_per_thousand": 2.275,
+      "new_tests_smoothed": 15003.0,
+      "new_tests_smoothed_per_thousand": 2.183,
+      "tests_units": "people tested",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-11-27"
+    },
+    {
+      "date": "2021-11-28"
     }
   ]
 }
