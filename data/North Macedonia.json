@@ -16696,6 +16696,10 @@
       "new_vaccinations_smoothed_per_million": 2161.0,
       "new_people_vaccinated_smoothed": 1250.0,
       "new_people_vaccinated_smoothed_per_hundred": 0.06,
+      "excess_mortality_cumulative_absolute": 12131.2,
+      "excess_mortality_cumulative": 34.75,
+      "excess_mortality": 112.64,
+      "excess_mortality_cumulative_per_million": 5824.85579746296,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18227,10 +18231,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-12-01"
+      "date": "2021-12-01",
+      "total_cases": 215995.0,
+      "new_cases": 410.0,
+      "new_cases_smoothed": 384.143,
+      "total_deaths": 7592.0,
+      "new_deaths": 11.0,
+      "new_deaths_smoothed": 16.857,
+      "total_cases_per_million": 103711.07,
+      "new_cases_per_million": 196.864,
+      "new_cases_smoothed_per_million": 184.448,
+      "total_deaths_per_million": 3645.336,
+      "new_deaths_per_million": 5.282,
+      "new_deaths_smoothed_per_million": 8.094,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-02"
+    },
+    {
+      "date": "2021-12-03"
     }
   ]
 }
