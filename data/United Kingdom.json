@@ -24870,6 +24870,15 @@
       "icu_patients_per_million": 13.122,
       "hosp_patients": 7373.0,
       "hosp_patients_per_million": 108.097,
+      "new_tests": 1156427.0,
+      "total_tests": 331325360.0,
+      "total_tests_per_thousand": 4857.636,
+      "new_tests_per_thousand": 16.955,
+      "new_tests_smoothed": 986507.0,
+      "new_tests_smoothed_per_thousand": 14.463,
+      "positive_rate": 0.045,
+      "tests_per_case": 22.2,
+      "tests_units": "tests performed",
       "total_vaccinations": 116945656.0,
       "people_vaccinated": 51046133.0,
       "people_fully_vaccinated": 46462638.0,
@@ -24930,14 +24939,44 @@
       "total_deaths_per_million": 2140.554,
       "new_deaths_per_million": 1.862,
       "new_deaths_smoothed_per_million": 1.747,
+      "total_vaccinations": 117880359.0,
+      "people_vaccinated": 51094640.0,
+      "people_fully_vaccinated": 46527302.0,
+      "total_boosters": 20258417.0,
+      "new_vaccinations": 510373.0,
+      "new_vaccinations_smoothed": 433912.0,
+      "total_vaccinations_per_hundred": 172.83,
+      "people_vaccinated_per_hundred": 74.91,
+      "people_fully_vaccinated_per_hundred": 68.21,
+      "total_boosters_per_hundred": 29.7,
+      "new_vaccinations_smoothed_per_million": 6362.0,
+      "new_people_vaccinated_smoothed": 24972.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.037,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-12-05"
+      "date": "2021-12-05",
+      "total_cases": 10523316.0,
+      "new_cases": 43361.0,
+      "new_cases_smoothed": 45849.429,
+      "total_deaths": 146055.0,
+      "new_deaths": 54.0,
+      "new_deaths_smoothed": 119.571,
+      "total_cases_per_million": 154284.728,
+      "new_cases_per_million": 635.725,
+      "new_cases_smoothed_per_million": 672.209,
+      "total_deaths_per_million": 2141.346,
+      "new_deaths_per_million": 0.792,
+      "new_deaths_smoothed_per_million": 1.753,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-06"
+    },
+    {
+      "date": "2021-12-07"
     }
   ]
 }
