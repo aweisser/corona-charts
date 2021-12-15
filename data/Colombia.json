@@ -20432,6 +20432,17 @@
       "positive_rate": 0.054,
       "tests_per_case": 18.5,
       "tests_units": "tests performed",
+      "total_vaccinations": 60630010.0,
+      "people_vaccinated": 39516164.0,
+      "people_fully_vaccinated": 26168206.0,
+      "new_vaccinations": 244017.0,
+      "new_vaccinations_smoothed": 258882.0,
+      "total_vaccinations_per_hundred": 118.27,
+      "people_vaccinated_per_hundred": 77.08,
+      "people_fully_vaccinated_per_hundred": 51.04,
+      "new_vaccinations_smoothed_per_million": 5050.0,
+      "new_people_vaccinated_smoothed": 143891.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.281,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -20458,14 +20469,42 @@
       "positive_rate": 0.052,
       "tests_per_case": 19.2,
       "tests_units": "tests performed",
+      "total_vaccinations": 60782329.0,
+      "people_vaccinated": 39598761.0,
+      "people_fully_vaccinated": 26245302.0,
+      "new_vaccinations": 152319.0,
+      "new_vaccinations_smoothed": 248163.0,
+      "total_vaccinations_per_hundred": 118.56,
+      "people_vaccinated_per_hundred": 77.24,
+      "people_fully_vaccinated_per_hundred": 51.19,
+      "new_vaccinations_smoothed_per_million": 4841.0,
+      "new_people_vaccinated_smoothed": 136009.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.265,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-12-13"
+      "date": "2021-12-13",
+      "total_cases": 5095821.0,
+      "new_cases": 2287.0,
+      "new_cases_smoothed": 1865.571,
+      "total_deaths": 129163.0,
+      "new_deaths": 56.0,
+      "new_deaths_smoothed": 48.857,
+      "total_cases_per_million": 99399.93,
+      "new_cases_per_million": 44.611,
+      "new_cases_smoothed_per_million": 36.39,
+      "total_deaths_per_million": 2519.475,
+      "new_deaths_per_million": 1.092,
+      "new_deaths_smoothed_per_million": 0.953,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-14"
+    },
+    {
+      "date": "2021-12-15"
     }
   ]
 }
