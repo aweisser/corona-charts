@@ -330,9 +330,9 @@
     {
       "date": "2020-03-12",
       "new_cases_smoothed": 100.857,
-      "new_deaths_smoothed": 7.286,
+      "new_deaths_smoothed": 6.571,
       "new_cases_smoothed_per_million": 2.246,
-      "new_deaths_smoothed_per_million": 0.162,
+      "new_deaths_smoothed_per_million": 0.146,
       "stringency_index": 5.56,
       "total_recovered": 0,
       "new_recovered": 0
@@ -13578,6 +13578,10 @@
       "new_deaths_per_million": 0.111,
       "new_deaths_smoothed_per_million": 0.134,
       "reproduction_rate": 0.98,
+      "new_vaccinations_smoothed": 68583.0,
+      "new_vaccinations_smoothed_per_million": 1527.0,
+      "new_people_vaccinated_smoothed": 53673.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.12,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13596,6 +13600,10 @@
       "new_deaths_per_million": 0.045,
       "new_deaths_smoothed_per_million": 0.14,
       "reproduction_rate": 0.98,
+      "new_vaccinations_smoothed": 104166.0,
+      "new_vaccinations_smoothed_per_million": 2319.0,
+      "new_people_vaccinated_smoothed": 74118.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.165,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13613,6 +13621,10 @@
       "total_deaths_per_million": 71.433,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.14,
+      "new_vaccinations_smoothed": 139750.0,
+      "new_vaccinations_smoothed_per_million": 3112.0,
+      "new_people_vaccinated_smoothed": 94563.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.211,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13630,6 +13642,10 @@
       "total_deaths_per_million": 71.433,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.14,
+      "new_vaccinations_smoothed": 175333.0,
+      "new_vaccinations_smoothed_per_million": 3904.0,
+      "new_people_vaccinated_smoothed": 115007.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.256,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13647,6 +13663,10 @@
       "total_deaths_per_million": 72.234,
       "new_deaths_per_million": 0.802,
       "new_deaths_smoothed_per_million": 0.14,
+      "new_vaccinations_smoothed": 210916.0,
+      "new_vaccinations_smoothed_per_million": 4696.0,
+      "new_people_vaccinated_smoothed": 135452.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.302,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -13664,14 +13684,45 @@
       "total_deaths_per_million": 72.413,
       "new_deaths_per_million": 0.178,
       "new_deaths_smoothed_per_million": 0.165,
+      "new_vaccinations_smoothed": 246500.0,
+      "new_vaccinations_smoothed_per_million": 5489.0,
+      "new_people_vaccinated_smoothed": 155896.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.347,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-12-15"
+      "date": "2021-12-15",
+      "total_cases": 45112.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 100.857,
+      "total_deaths": 3252.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 7.286,
+      "total_cases_per_million": 1004.512,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 2.246,
+      "total_deaths_per_million": 72.413,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.162,
+      "total_vaccinations": 5251235.0,
+      "people_vaccinated": 4016849.0,
+      "people_fully_vaccinated": 1234386.0,
+      "new_vaccinations_smoothed": 282083.0,
+      "total_vaccinations_per_hundred": 11.69,
+      "people_vaccinated_per_hundred": 8.94,
+      "people_fully_vaccinated_per_hundred": 2.75,
+      "new_vaccinations_smoothed_per_million": 6281.0,
+      "new_people_vaccinated_smoothed": 176341.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.393,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-16"
+    },
+    {
+      "date": "2021-12-17"
     }
   ]
 }

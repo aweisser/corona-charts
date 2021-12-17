@@ -20596,6 +20596,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.99,
+      "hosp_patients": 24.0,
+      "hosp_patients_per_million": 69.897,
       "new_tests": 2640.0,
       "total_tests": 766005.0,
       "total_tests_per_thousand": 2230.909,
@@ -20626,6 +20628,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.99,
+      "hosp_patients": 24.0,
+      "hosp_patients_per_million": 69.897,
       "new_tests": 2448.0,
       "total_tests": 768453.0,
       "total_tests_per_thousand": 2238.039,
@@ -20663,6 +20667,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.99,
+      "hosp_patients": 21.0,
+      "hosp_patients_per_million": 61.16,
       "new_tests": 2510.0,
       "total_tests": 770963.0,
       "total_tests_per_thousand": 2245.349,
@@ -20692,6 +20698,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.99,
+      "hosp_patients": 21.0,
+      "hosp_patients_per_million": 61.16,
       "new_tests": 2437.0,
       "total_tests": 773400.0,
       "total_tests_per_thousand": 2252.446,
@@ -20729,6 +20737,8 @@
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
       "reproduction_rate": 0.99,
+      "hosp_patients": 17.0,
+      "hosp_patients_per_million": 49.511,
       "new_tests": 2003.0,
       "total_tests": 775403.0,
       "total_tests_per_thousand": 2258.28,
@@ -20757,6 +20767,8 @@
       "total_deaths_per_million": 101.934,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "hosp_patients": 17.0,
+      "hosp_patients_per_million": 49.511,
       "new_tests": 1649.0,
       "total_tests": 777052.0,
       "total_tests_per_thousand": 2263.082,
@@ -20785,6 +20797,10 @@
       "total_deaths_per_million": 101.934,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.0,
+      "hosp_patients": 17.0,
+      "hosp_patients_per_million": 49.511,
+      "weekly_hosp_admissions": 7.0,
+      "weekly_hosp_admissions_per_million": 19.224,
       "new_tests": 1733.0,
       "total_tests": 778785.0,
       "total_tests_per_thousand": 2268.13,
@@ -20864,10 +20880,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-12-15"
+      "date": "2021-12-15",
+      "total_cases": 19861.0,
+      "new_cases": 153.0,
+      "new_cases_smoothed": 137.857,
+      "total_deaths": 36.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.143,
+      "total_cases_per_million": 57843.08,
+      "new_cases_per_million": 445.596,
+      "new_cases_smoothed_per_million": 401.494,
+      "total_deaths_per_million": 104.846,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.416,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-16"
+    },
+    {
+      "date": "2021-12-17"
     }
   ]
 }
