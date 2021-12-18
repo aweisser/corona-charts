@@ -20560,6 +20560,17 @@
       "positive_rate": 0.049,
       "tests_per_case": 20.4,
       "tests_units": "tests performed",
+      "total_vaccinations": 61405812.0,
+      "people_vaccinated": 39942186.0,
+      "people_fully_vaccinated": 26563983.0,
+      "new_vaccinations": 317865.0,
+      "new_vaccinations_smoothed": 255805.0,
+      "total_vaccinations_per_hundred": 119.78,
+      "people_vaccinated_per_hundred": 77.91,
+      "people_fully_vaccinated_per_hundred": 51.82,
+      "new_vaccinations_smoothed_per_million": 4990.0,
+      "new_people_vaccinated_smoothed": 138247.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.27,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -20577,14 +20588,49 @@
       "total_deaths_per_million": 2521.289,
       "new_deaths_per_million": 0.995,
       "new_deaths_smoothed_per_million": 1.064,
+      "new_tests": 46451.0,
+      "total_tests": 28720320.0,
+      "total_tests_per_thousand": 560.223,
+      "new_tests_per_thousand": 0.906,
+      "new_tests_smoothed": 42827.0,
+      "new_tests_smoothed_per_thousand": 0.835,
+      "positive_rate": 0.049,
+      "tests_per_case": 20.4,
+      "tests_units": "tests performed",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-12-16"
+      "date": "2021-12-16",
+      "total_cases": 5101466.0,
+      "new_cases": 1720.0,
+      "new_cases_smoothed": 1922.571,
+      "total_deaths": 129295.0,
+      "new_deaths": 39.0,
+      "new_deaths_smoothed": 46.571,
+      "total_cases_per_million": 99510.042,
+      "new_cases_per_million": 33.551,
+      "new_cases_smoothed_per_million": 37.502,
+      "total_deaths_per_million": 2522.05,
+      "new_deaths_per_million": 0.761,
+      "new_deaths_smoothed_per_million": 0.908,
+      "new_tests": 51736.0,
+      "total_tests": 28772056.0,
+      "total_tests_per_thousand": 561.232,
+      "new_tests_per_thousand": 1.009,
+      "new_tests_smoothed": 46254.0,
+      "new_tests_smoothed_per_thousand": 0.902,
+      "positive_rate": 0.05,
+      "tests_per_case": 20.0,
+      "tests_units": "tests performed",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-17"
+    },
+    {
+      "date": "2021-12-18"
     }
   ]
 }

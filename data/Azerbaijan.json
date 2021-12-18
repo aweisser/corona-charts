@@ -17484,6 +17484,11 @@
       "total_deaths_per_million": 795.924,
       "new_deaths_per_million": 1.369,
       "new_deaths_smoothed_per_million": 1.649,
+      "new_tests_smoothed": 10601.0,
+      "new_tests_smoothed_per_thousand": 1.037,
+      "positive_rate": 0.0992,
+      "tests_per_case": 10.1,
+      "tests_units": "tests performed",
       "total_vaccinations": 10960235.0,
       "people_vaccinated": 5128454.0,
       "people_fully_vaccinated": 4626667.0,
@@ -17501,10 +17506,47 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-12-16"
+      "date": "2021-12-16",
+      "total_cases": 608060.0,
+      "new_cases": 984.0,
+      "new_cases_smoothed": 1004.571,
+      "total_deaths": 8149.0,
+      "new_deaths": 12.0,
+      "new_deaths_smoothed": 15.857,
+      "total_cases_per_million": 59477.603,
+      "new_cases_per_million": 96.25,
+      "new_cases_smoothed_per_million": 98.263,
+      "total_deaths_per_million": 797.097,
+      "new_deaths_per_million": 1.174,
+      "new_deaths_smoothed_per_million": 1.551,
+      "total_tests": 5718629.0,
+      "total_tests_per_thousand": 559.37,
+      "new_tests_smoothed": 9035.0,
+      "new_tests_smoothed_per_thousand": 0.884,
+      "positive_rate": 0.1112,
+      "tests_per_case": 9.0,
+      "tests_units": "tests performed",
+      "total_vaccinations": 10990538.0,
+      "people_vaccinated": 5131789.0,
+      "people_fully_vaccinated": 4630793.0,
+      "total_boosters": 1227956.0,
+      "new_vaccinations": 30303.0,
+      "new_vaccinations_smoothed": 26309.0,
+      "total_vaccinations_per_hundred": 107.5,
+      "people_vaccinated_per_hundred": 50.2,
+      "people_fully_vaccinated_per_hundred": 45.3,
+      "total_boosters_per_hundred": 12.01,
+      "new_vaccinations_smoothed_per_million": 2573.0,
+      "new_people_vaccinated_smoothed": 2979.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.029,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-17"
+    },
+    {
+      "date": "2021-12-18"
     }
   ]
 }
