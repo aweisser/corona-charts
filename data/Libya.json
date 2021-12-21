@@ -15776,6 +15776,7 @@
       "new_deaths_per_million": 0.862,
       "new_deaths_smoothed_per_million": 1.006,
       "reproduction_rate": 1.05,
+      "tests_units": "samples tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -15793,14 +15794,34 @@
       "total_deaths_per_million": 803.186,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 1.006,
+      "new_tests": 5364.0,
+      "new_tests_per_thousand": 0.771,
+      "tests_units": "samples tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-12-19"
+      "date": "2021-12-19",
+      "total_cases": 381749.0,
+      "new_cases": 726.0,
+      "new_cases_smoothed": 520.571,
+      "total_deaths": 5598.0,
+      "new_deaths": 9.0,
+      "new_deaths_smoothed": 6.429,
+      "total_cases_per_million": 54860.518,
+      "new_cases_per_million": 104.332,
+      "new_cases_smoothed_per_million": 74.81,
+      "total_deaths_per_million": 804.479,
+      "new_deaths_per_million": 1.293,
+      "new_deaths_smoothed_per_million": 0.924,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-20"
+    },
+    {
+      "date": "2021-12-21"
     }
   ]
 }

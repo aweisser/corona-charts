@@ -25288,6 +25288,7 @@
       "positive_rate": 0.0842,
       "tests_per_case": 11.9,
       "tests_units": "tests performed",
+      "stringency_index": 46.3,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -25315,6 +25316,7 @@
       "positive_rate": 0.0888,
       "tests_per_case": 11.3,
       "tests_units": "tests performed",
+      "stringency_index": 46.3,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -25333,6 +25335,16 @@
       "new_deaths_per_million": 1.575,
       "new_deaths_smoothed_per_million": 1.8,
       "reproduction_rate": 1.1,
+      "new_tests": 4732.0,
+      "total_tests": 3765019.0,
+      "total_tests_per_thousand": 5930.901,
+      "new_tests_per_thousand": 7.454,
+      "new_tests_smoothed": 4278.0,
+      "new_tests_smoothed_per_thousand": 6.739,
+      "positive_rate": 0.0901,
+      "tests_per_case": 11.1,
+      "tests_units": "tests performed",
+      "stringency_index": 46.3,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -25351,6 +25363,7 @@
       "new_deaths_per_million": 1.575,
       "new_deaths_smoothed_per_million": 1.8,
       "reproduction_rate": 1.1,
+      "stringency_index": 46.3,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -25368,14 +25381,33 @@
       "total_deaths_per_million": 1414.588,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 1.8,
+      "stringency_index": 46.3,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-12-19"
+      "date": "2021-12-19",
+      "total_cases": 96108.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 382.714,
+      "total_deaths": 898.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 1.143,
+      "total_cases_per_million": 151395.527,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 602.876,
+      "total_deaths_per_million": 1414.588,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 1.8,
+      "stringency_index": 46.3,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-20"
+    },
+    {
+      "date": "2021-12-21"
     }
   ]
 }

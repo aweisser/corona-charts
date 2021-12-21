@@ -14562,6 +14562,7 @@
       "new_vaccinations_smoothed_per_million": 363.0,
       "new_people_vaccinated_smoothed": 5243.0,
       "new_people_vaccinated_smoothed_per_hundred": 0.012,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14593,6 +14594,7 @@
       "new_vaccinations_smoothed_per_million": 787.0,
       "new_people_vaccinated_smoothed": 23904.0,
       "new_people_vaccinated_smoothed_per_hundred": 0.054,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14613,6 +14615,7 @@
       "reproduction_rate": 1.13,
       "icu_patients": 16.0,
       "icu_patients_per_million": 0.359,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14633,6 +14636,7 @@
       "reproduction_rate": 1.12,
       "icu_patients": 15.0,
       "icu_patients_per_million": 0.336,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14653,6 +14657,7 @@
       "reproduction_rate": 1.09,
       "icu_patients": 15.0,
       "icu_patients_per_million": 0.336,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14673,6 +14678,7 @@
       "reproduction_rate": 1.09,
       "icu_patients": 15.0,
       "icu_patients_per_million": 0.336,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14693,6 +14699,7 @@
       "reproduction_rate": 1.09,
       "icu_patients": 16.0,
       "icu_patients_per_million": 0.359,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14713,6 +14720,7 @@
       "reproduction_rate": 1.08,
       "icu_patients": 14.0,
       "icu_patients_per_million": 0.314,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14733,6 +14741,7 @@
       "reproduction_rate": 1.07,
       "icu_patients": 20.0,
       "icu_patients_per_million": 0.448,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14753,6 +14762,7 @@
       "reproduction_rate": 1.06,
       "icu_patients": 19.0,
       "icu_patients_per_million": 0.426,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14773,6 +14783,7 @@
       "reproduction_rate": 1.07,
       "icu_patients": 20.0,
       "icu_patients_per_million": 0.448,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14793,6 +14804,7 @@
       "reproduction_rate": 1.09,
       "icu_patients": 22.0,
       "icu_patients_per_million": 0.493,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14813,6 +14825,7 @@
       "reproduction_rate": 1.12,
       "icu_patients": 24.0,
       "icu_patients_per_million": 0.538,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14833,6 +14846,7 @@
       "reproduction_rate": 1.13,
       "icu_patients": 28.0,
       "icu_patients_per_million": 0.628,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14853,6 +14867,7 @@
       "reproduction_rate": 1.13,
       "icu_patients": 26.0,
       "icu_patients_per_million": 0.583,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14873,6 +14888,7 @@
       "reproduction_rate": 1.14,
       "icu_patients": 28.0,
       "icu_patients_per_million": 0.628,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14893,6 +14909,7 @@
       "reproduction_rate": 1.16,
       "icu_patients": 26.0,
       "icu_patients_per_million": 0.583,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14913,6 +14930,7 @@
       "reproduction_rate": 1.17,
       "icu_patients": 30.0,
       "icu_patients_per_million": 0.672,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14933,6 +14951,7 @@
       "reproduction_rate": 1.19,
       "icu_patients": 27.0,
       "icu_patients_per_million": 0.605,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -14952,14 +14971,33 @@
       "new_deaths_smoothed_per_million": 0.138,
       "icu_patients": 24.0,
       "icu_patients_per_million": 0.538,
+      "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-12-19"
+      "date": "2021-12-19",
+      "total_cases": 214592.0,
+      "new_cases": 262.0,
+      "new_cases_smoothed": 249.143,
+      "total_deaths": 6184.0,
+      "new_deaths": 4.0,
+      "new_deaths_smoothed": 5.571,
+      "total_cases_per_million": 4809.687,
+      "new_cases_per_million": 5.872,
+      "new_cases_smoothed_per_million": 5.584,
+      "total_deaths_per_million": 138.603,
+      "new_deaths_per_million": 0.09,
+      "new_deaths_smoothed_per_million": 0.125,
+      "stringency_index": 50.0,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-20"
+    },
+    {
+      "date": "2021-12-21"
     }
   ]
 }
