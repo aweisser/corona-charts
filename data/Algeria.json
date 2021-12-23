@@ -15052,6 +15052,8 @@
       "total_deaths_per_million": 138.603,
       "new_deaths_per_million": 0.09,
       "new_deaths_smoothed_per_million": 0.125,
+      "icu_patients": 21.0,
+      "icu_patients_per_million": 0.471,
       "stringency_index": 50.0,
       "total_recovered": 0,
       "new_recovered": 0
@@ -15070,14 +15072,33 @@
       "total_deaths_per_million": 138.738,
       "new_deaths_per_million": 0.134,
       "new_deaths_smoothed_per_million": 0.125,
+      "icu_patients": 22.0,
+      "icu_patients_per_million": 0.493,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-12-21"
+      "date": "2021-12-21",
+      "total_cases": 215145.0,
+      "new_cases": 310.0,
+      "new_cases_smoothed": 265.286,
+      "total_deaths": 6198.0,
+      "new_deaths": 8.0,
+      "new_deaths_smoothed": 6.143,
+      "total_cases_per_million": 4822.081,
+      "new_cases_per_million": 6.948,
+      "new_cases_smoothed_per_million": 5.946,
+      "total_deaths_per_million": 138.917,
+      "new_deaths_per_million": 0.179,
+      "new_deaths_smoothed_per_million": 0.138,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-22"
+    },
+    {
+      "date": "2021-12-23"
     }
   ]
 }
