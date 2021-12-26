@@ -24349,6 +24349,18 @@
     },
     {
       "date": "2021-12-24",
+      "total_cases": 3045334.0,
+      "new_cases": 12449.0,
+      "new_cases_smoothed": 12648.857,
+      "total_deaths": 20736.0,
+      "new_deaths": 40.0,
+      "new_deaths_smoothed": 41.571,
+      "total_cases_per_million": 177331.703,
+      "new_cases_per_million": 724.913,
+      "new_cases_smoothed_per_million": 736.551,
+      "total_deaths_per_million": 1207.47,
+      "new_deaths_per_million": 2.329,
+      "new_deaths_smoothed_per_million": 2.421,
       "icu_patients": 546.0,
       "icu_patients_per_million": 31.794,
       "hosp_patients": 1580.0,
@@ -24356,10 +24368,15 @@
       "weekly_icu_admissions": 192.0,
       "weekly_icu_admissions_per_million": 11.18,
       "weekly_hosp_admissions": 1194.0,
-      "weekly_hosp_admissions_per_million": 69.527
+      "weekly_hosp_admissions_per_million": 69.527,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-25"
+    },
+    {
+      "date": "2021-12-26"
     }
   ]
 }
