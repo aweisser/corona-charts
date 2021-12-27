@@ -26945,6 +26945,8 @@
       "icu_patients_per_million": 35.913,
       "hosp_patients": 1677.0,
       "hosp_patients_per_million": 192.416,
+      "weekly_hosp_admissions": 598.0,
+      "weekly_hosp_admissions_per_million": 68.613,
       "new_tests": 68131.0,
       "total_tests": 13754280.0,
       "total_tests_per_thousand": 1578.141,
@@ -26990,6 +26992,8 @@
       "icu_patients_per_million": 36.257,
       "hosp_patients": 1666.0,
       "hosp_patients_per_million": 191.154,
+      "weekly_hosp_admissions": 515.0,
+      "weekly_hosp_admissions_per_million": 59.09,
       "new_tests": 58519.0,
       "total_tests": 13812799.0,
       "total_tests_per_thousand": 1584.856,
@@ -27034,24 +27038,19 @@
     },
     {
       "date": "2021-12-24",
-      "total_cases": 1227395.0,
-      "new_cases_smoothed": 7382.0,
-      "total_deaths": 12065.0,
-      "new_deaths": 8.0,
-      "new_deaths_smoothed": 22.143,
-      "total_cases_per_million": 140829.08,
-      "new_cases_smoothed_per_million": 846.997,
-      "total_deaths_per_million": 1384.316,
-      "new_deaths_per_million": 0.918,
-      "new_deaths_smoothed_per_million": 2.541,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-12-25"
+      "date": "2021-12-25",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2021-12-26"
+    },
+    {
+      "date": "2021-12-27"
     }
   ]
 }
