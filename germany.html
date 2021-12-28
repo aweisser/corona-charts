@@ -262,7 +262,6 @@
 		var refresh = function() {
 			selectedCategories.forEach(function(categoryName, index) {
 				// Load data and render charts
-				//$.getJSON('https://aweisser.github.io/corona-charts/data/age-groups/'+categoryName+'.json', function(location) {
 				$.getJSON('data/age-groups/'+categoryName+'.json', function(categoryData) {
 					// Init charts only once. Use first category to get exemplary dates from.
 					if(index == 0) {
@@ -281,7 +280,6 @@
 
 		// MAIN process
 		window.onload = function() {
-			//$.getJSON('https://aweisser.github.io/corona-charts/age-groups.json', function(locationNames) {
 			$.getJSON('age-groups.json', function(categories) {
 				categories.forEach(function(categoryName, index) {
 					// Add category to selector
