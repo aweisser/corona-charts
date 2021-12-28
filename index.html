@@ -268,7 +268,7 @@
 		var refresh = function() {
 			selectedLocations.forEach(function(locationName, index) {
 				// Load location data and render charts
-				$.getJSON('https://aweisser.github.io/corona-charts/data/'+locationName+'.json', function(location) {
+				$.getJSON('https://aweisser.github.io/corona-charts/data/locations/'+locationName+'.json', function(location) {
 					// Init charts only once. Use first location to get exemplary dates from.
 					if(index == 0) {
 						initChartConfigs(location);

@@ -26,7 +26,7 @@ jobs:
     - run: |
         python -m pip install --upgrade pip
         pip install requests
-    - run: python update_data.py
+    - run: python update_data_locations.py
     # Git add, commit and push the data/*.json files to the current branch
     - uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
       with:

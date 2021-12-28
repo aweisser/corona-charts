@@ -71,7 +71,7 @@ for owidCountry in owidWorld:
         current_date += timedelta(days=1)
 
     # regenerate .json file for this country
-    with open('data/'+location+'.json', 'w') as country_file:
+    with open('data/locations/'+location+'.json', 'w') as country_file:
         json.dump(country, country_file, indent=2)
 
 # regenerate locations.json
