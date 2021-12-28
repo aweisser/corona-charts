@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Corona-Charts</title>
+	<link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+	<link rel="stylesheet" href="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1569006288/BBBootstrap/choices.min.css?version=7.0.0">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+	<script src="https://res.cloudinary.com/dxfq3iotg/raw/upload/v1569006273/BBBootstrap/choices.min.js?version=7.0.0"></script>
+	<style>
+	canvas{
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+	</style>
+</head>
+
+<body class="container">
+        <a class="github-fork-ribbon" href="https://github.com/aweisser/corona-charts" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+	<div class="jumbotron">
+		<h3>Die folgenden Charts vergleichen die Vulnerabilität der verschiedenen Altersgruppen in der Corona-Pandemie in Deutschland.</h3>
+        <p class="lead">
+			Die 7-Tage Inzidenz als alleinige Orientierung in der Corana-Pandemie ist nicht sehr aussagekräftig.
+			Insbesondere dann nicht, wenn man ein Gefühl dafür bekommen will, wie die Gefährdungslage der verschiedenen Altersgruppen ist.
+			Hohe Infektionsraten sind insbesondere dann gefährlich, wenn viele Infizierte schwere Verläufe erleiden,
+			ins Krankenhaus eingewiesen werden oder gar an Corona sterben.
+		</p>
+		<p class="lead">
+			Auch der Vergleich zwischen geimpften und ungeimpften Personen ist wichtig, um den Einfluss der Impfung auf die Vulnerabilität besser verstehen zu können.
+			In welchem Maße sind Ungeimpfte stärker gefährdet als Geimpfte? Und wie verhält sich das in den verschiedenen Altersgruppen?
+		</p>
+        <hr>
+		<p>
+			Die folgenden Charts werden aus den offiziellen Zahlen des RKI erstellt und sind der folgenden Quelle entnommen:
+			<a href="https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/api">https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/api</a>.
+		</p>
+		<p>
+			<div class="alert alert-danger" role="alert">
+				<b>WARNUG:</b> Obwohl sie aus prominenten Quellen stammen, sind die hier verwendeten Daten möglicherweise nicht korrekt. Bitte vergleiche sie immer mit den Quellen, denen Du vertraust, bevor Du irgendwelche Schlussfolgerungen ziehst!
+			</div>
+		</p>
+	</div>
+	<div class="card">
+        <div class="card-header">
+            Wähle die Altersgruppen aus, die verglichen werden sollen!
+        </div>
+        <div class="row d-flex justify-content-center mt-100">
+			<div class="col-md-12"> 
+				<select id="choices-multiple-remove-button" placeholder="Start typing to filter." multiple>
+				</select>
+			</div>
+		</div>
+    </div>
+	<script>
+		const COLORS = [
+	      'rgb(75, 192, 192)', // green
+	      'rgb(54, 162, 235)', // blue
+	      'rgb(255, 159, 64)', // orange
+	      'rgb(255, 99, 132)', // red
+	      'rgb(201, 203, 207)', // grey
+	      'rgb(255, 205, 86)', // yellow
+	      'rgb(153, 102, 255)', // purple
+		];
+		const charts = [
+			{ 
+				header: "Wir fangen mit dem schlimmst anzunehmenden Fall an und vergleichen die Todesraten der verschiedenen Altersgruppen im zeitlichen Verlauf.",
+				title: 'Todesfälle',
+				getValue: function(dayData) { return dayData.AnzahlTodesfall; },
+				config: {},
+				text: "",
+			},
+			/*
+			{ 
+				header: "Let's normalize those numbers. As if every country had the same population.",
+				title: 'Corona infections per 100k citizens',
+				getValue: function(dayData, locationData) { return dayData.total_cases/locationData.population*100000; },
+				config: {},
+				text: "Now the countries are somehow comparable. But it doesn't show you the current situation.",
+			},
+			{ 
+				header: "Ok. Now let's see how many people are currently infected in the different countries.",
+				title: 'Running Corona infections per 100k citizens', 
+				getValue: function(dayData, locationData) {
+					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
+					return running/locationData.population*100000;
+				},
+				config: {},
+				text: "This is even better because this reflects the current situation."
+			},
+			{ 
+				header: "Let's see how this changes when we normalize the numbers to the population density.", 
+				title: "Running Corona infections per square kilometer", 				
+				getValue: function(dayData, locationData) {
+					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
+					return running/locationData.population * locationData.population_density;
+				},
+				config: {},
+				text: "This describes an average square kilometer. So don't take this as absolute numbers. " + 
+				"It should be clear that the numbers in a city are much higher than on the countryside. " +
+				"But if you compare similar regions of two countries this graph reflects the correct relation.",
+			},
+			{ 
+				header: "But how reliable are those numbers above? The Corona test policies of the countries are very different. " +
+				"If only a few tests are applied then the number of running infections is not very reliable. " +
+				"So let's take a look at the number of tests applied in relation to the population.",
+				title: 'New tests per 100k citizens (smoothed)', 
+				getValue: function(dayData, locationData) {
+					return dayData.new_tests_smoothed/locationData.population*100000;
+				},
+				config: {},
+				text: "",
+			},
+			{ 
+				header: "Now we can sum it all up. Let's say every country would apply the same number of tests in relation to their population. " +
+				"How many running infections would each country have per square kilometer?",
+				title: 'Running Corona infections per square kilometer in relation to new tests (smoothed)', 
+				getValue: function(dayData, locationData) {
+					var runningCases = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
+					var runningCasesPerSquareKilometer = runningCases/locationData.population * locationData.population_density
+					var testsPerSquareKilometer = dayData.new_tests_smoothed/locationData.population * locationData.population_density;
+					return runningCasesPerSquareKilometer/testsPerSquareKilometer;;
+				},
+				config: {},
+				text: "If you want to compare the Corona situations I would recommend this chart. " + 
+				'It corrects the poor comparability of countries by removing the factors "population density" and "different test policies". ' +
+				"(Unfortunately the number of new tests is not consistently reported by the different countries. " +
+				"So the graphs are incomplete and not that smooth.)",
+			},
+                        { 
+				header: "Finally, to complete the picture, we take a look at new deaths in relation to the population.",
+				title: 'New deaths per 100k citizens (smoothed)', 
+				getValue: function(dayData, locationData) {
+				        return dayData.new_deaths_smoothed/locationData.population*100000
+				},
+				config: {},
+				text: "",
+			},
+			*/
+
+		];
+		const configTemplate = {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: []
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: true,
+					text: '',
+					fontSize: 18,
+				},
+				tooltips: {
+					mode: 'index',
+					intersect: false,
+				},
+				hover: {
+					mode: 'nearest',
+					intersect: true,
+				},
+				scales: {
+					x: {
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Month',
+						}
+					},
+					y: {
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Value',
+						}
+					}
+				}
+			}
+		};
+
+		var selectedCategories = [ "A00-A04", "A05-A14", "A15-A34", "A35-A59", "A60-A79", "A80+" ];
+
+		var clone = function(obj) {
+			return JSON.parse(JSON.stringify(obj));
+		};
+
+		var round = function(num) {
+			if(num < 10) {
+				// round to 4 digits
+				return Math.max(0, Math.round((num + Number.EPSILON) * 10000) / 10000);
+			}
+			// round to integer
+			return Math.max(0, Math.round(num));
+		}
+
+		var initChartConfigs = function(categoryData) {
+			charts.forEach(function(chart) {
+					var cfg = clone(configTemplate);
+					cfg.options.title.text = chart.title;
+					chart.config = cfg;
+			});	
+			// Get days from the given category (examplary for all other categories)
+			categoryData.data.forEach(function(day) {
+				charts.forEach(function(chart, index) {
+					chart.config.data.labels.push(day.date);
+				});
+			});
+		};
+
+		var addCategoryToCharts = function(categoryData, color) {
+			var name = categoryData.name;
+			charts.forEach(function(chart, index) {
+				var ds = {
+					label: name,
+					backgroundColor: color,
+					borderColor: color,
+					data: [],
+					fill: false,
+				};
+				categoryData.data.forEach(function(dayData) {
+					ds.data.push(round(chart.getValue(dayData, categoryData)));
+				});
+				chart.config.data.datasets.push(ds);
+			});
+		};
+
+		var drawCharts = function() {
+			charts.forEach(function(chart, index) {
+				var canvasId = "canvas"+index;
+				if(chart.chartObject === undefined) {
+					// create markup for charts only once
+					$("body").append($([
+						"<div class='card mt-3'>",
+						"	<div class='card-header'>",
+						"		"+chart.header,
+						"	</div>",
+						"	<div class='card-body'>",
+						"		<div style='width:100%;'>",
+						"			<canvas id='"+canvasId+"'></canvas>",
+						"		</div>",
+						"		<p/>",
+						"		<p class='card-text'>",
+						"			"+chart.text || '',
+						"		</p>",
+						"	</div>",
+						"</div>",
+					].join("\n")));
+				} else {
+					chart.chartObject.destroy();
+				}
+
+				// create or recreate the Chart object
+				var ctx = document.getElementById(canvasId).getContext('2d');
+				chart.chartObject = new Chart(ctx, chart.config);
+				window.myLine = chart.chartObject;
+			});
+		}
+
+		var refresh = function() {
+			selectedCategories.forEach(function(categoryName, index) {
+				// Load data and render charts
+				//$.getJSON('https://aweisser.github.io/corona-charts/data/age-groups/'+categoryName+'.json', function(location) {
+				$.getJSON('data/age-groups/'+categoryName+'.json', function(categoryData) {
+					// Init charts only once. Use first category to get exemplary dates from.
+					if(index == 0) {
+						initChartConfigs(categoryData);
+					}
+					
+					addCategoryToCharts(categoryData, COLORS[index]);
+
+					// Draw charts after the last location has been processed
+					if(index == selectedCategories.length -1) {
+						drawCharts();
+					}
+				});
+			});
+		}
+
+		// MAIN process
+		window.onload = function() {
+			//$.getJSON('https://aweisser.github.io/corona-charts/age-groups.json', function(locationNames) {
+			$.getJSON('age-groups.json', function(categories) {
+				categories.forEach(function(categoryName, index) {
+					// Add category to selector
+					if(selectedCategories.includes(categoryName)) {
+						$("#choices-multiple-remove-button").append($('<option value="'+categoryName+'" selected>'+categoryName+'</option>'));
+					} else {
+						$("#choices-multiple-remove-button").append($('<option value="'+categoryName+'">'+categoryName+'</option>'));
+					}
+				});	
+				refresh();
+
+				// Init selector
+				var multipleCancelButton = new Choices('#choices-multiple-remove-button', {
+					removeItemButton: true,
+					maxItemCount:7,
+					searchResultLimit:7,
+					renderChoiceLimit:7
+				});
+
+				$("#choices-multiple-remove-button").change(function(){
+					selectedCategories = [];
+					$.each($("#choices-multiple-remove-button option:selected"), function(){            
+						selectedCategories.push($(this).val());
+					});
+					refresh();
+				});
+			});
+		};
+	</script>
+</body>
+
+</html>
