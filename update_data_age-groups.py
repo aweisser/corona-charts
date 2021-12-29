@@ -1,4 +1,4 @@
-import requests, json, sys
+import requests, json
 from datetime import datetime
 from datetime import timedelta
 
