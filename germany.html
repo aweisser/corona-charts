@@ -66,9 +66,23 @@
 		];
 		const charts = [
 			{ 
-				header: "Wir fangen mit dem schlimmst anzunehmenden Fall an und vergleichen die Todesraten der verschiedenen Altersgruppen im zeitlichen Verlauf.",
+				header: "Todesfälle der verschiedenen Altersgruppen im zeitlichen Verlauf.",
 				title: 'Todesfälle',
 				getValue: function(dayData) { return dayData.AnzahlTodesfall; },
+				config: {},
+				text: "",
+			},
+			{
+				header: "Infektionen der verschiedenen Altersgruppen im zeitlichen Verlauf.",
+				title: 'Infektionen',
+				getValue: function(dayData) { return dayData.AnzahlFall; },
+				config: {},
+				text: "",
+			},
+			{
+				header: "Todesfälle im Verhältnis zur Infektion der verschiedenen Altersgruppen im zeitlichen Verlauf.",
+				title: 'Todesfälle / Infektionen',
+				getValue: function(dayData) { return dayData.AnzahlTodesfall/dayData.AnzahlFall; },
 				config: {},
 				text: "",
 			},
