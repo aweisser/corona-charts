@@ -142,7 +142,7 @@
 
 		];
 		const configTemplate = {
-			type: 'line',
+			type: 'bar',
 			data: {
 				labels: [],
 				datasets: []
@@ -220,6 +220,7 @@
 					data: [],
 					fill: false,
 				};
+
 				categoryData.data.forEach(function(dayData) {
 					ds.data.push(round(chart.getValue(dayData, categoryData)));
 				});
@@ -263,6 +264,21 @@
 			selectedCategories.forEach(function(categoryName, index) {
 				// Load data and render charts
 				$.getJSON('data/age-groups/'+categoryName+'.json', function(categoryData) {
+
+					var aggregatedData = [];
+					categoryData.data.reduce(function(res, value) {
+						date = value.date.substring(0,7)
+						if (!res[date]) {
+							res[date] = { date: date, AnzahlFall: 0, AnzahlTodesfall:0 };
+							aggregatedData.push(res[date])
+						}
+						res[date].AnzahlFall += value.AnzahlFall;
+						res[date].AnzahlTodesfall += value.AnzahlTodesfall;
+						return res;
+					}, {});
+
+					categoryData.data = aggregatedData
+
 					// Init charts only once. Use first category to get exemplary dates from.
 					if(index == 0) {
 						initChartConfigs(categoryData);
