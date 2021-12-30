@@ -13,7 +13,7 @@ categoryPattern = re.compile(r'^(A\d\d)(-|\+)(A\d\d)?$')
 # Group by Refdatum,Altersgruppe as HTML: https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_COVID19/FeatureServer/0/query?where=&objectIds=&time=&resultType=none&outFields=Refdatum%2CAltersgruppe%2CAnzahlFall%2CAnzahlTodesfall&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Refdatum+desc&groupByFieldsForStatistics=Refdatum%2CAltersgruppe&outStatistics=%5B%0D%0A++%7B%0D%0A++++%22statisticType%22%3A+%22sum%22%2C%0D%0A++++%22onStatisticField%22%3A+%22AnzahlFall%22%2C%0D%0A++++%22outStatisticFieldName%22%3A+%22AnzahlFall%22%0D%0A++%7D%2C%0D%0A++%7B%0D%0A++++%22statisticType%22%3A+%22sum%22%2C%0D%0A++++%22onStatisticField%22%3A+%22AnzahlTodesfall%22%2C%0D%0A++++%22outStatisticFieldName%22%3A+%22AnzahlTodesfall%22%0D%0A++%7D%0D%0A%5D&having=&resultOffset=&resultRecordCount=&sqlFormat=none&f=html&token=
 url = "https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_COVID19/FeatureServer/0/query?where=&objectIds=&time=&resultType=none&outFields=Refdatum%2CAltersgruppe%2CAnzahlFall%2CAnzahlTodesfall&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnDistinctValues=false&cacheHint=false&orderByFields=Refdatum+desc&groupByFieldsForStatistics=Refdatum%2CAltersgruppe&outStatistics=%5B%0D%0A++%7B%0D%0A++++%22statisticType%22%3A+%22sum%22%2C%0D%0A++++%22onStatisticField%22%3A+%22AnzahlFall%22%2C%0D%0A++++%22outStatisticFieldName%22%3A+%22AnzahlFall%22%0D%0A++%7D%2C%0D%0A++%7B%0D%0A++++%22statisticType%22%3A+%22sum%22%2C%0D%0A++++%22onStatisticField%22%3A+%22AnzahlTodesfall%22%2C%0D%0A++++%22outStatisticFieldName%22%3A+%22AnzahlTodesfall%22%0D%0A++%7D%0D%0A%5D&having=&resultOffset=&resultRecordCount=&sqlFormat=none&f=pjson&token="
 dataPoints = list(requests.get(url).json()["features"])
-print(f"Got '{len(dataPoints)}' data points from RKI.")
+print(f"Got '{len(dataPoints)}' data points from arcgis.")
 
 # Get additional population by age data from Genesis (Statistisches Bundesamt)
 # Human readable version of this data table: https://www-genesis.destatis.de/genesis//online?operation=table&code=12411-0005&bypass=true&levelindex=0&levelid=1640791908447#abreadcrumb
@@ -24,6 +24,14 @@ populationList = [ int(row.split(b';').pop()) for row in populationCsv.splitline
 # The last row is the total population. Get the last row and remove it from the list.
 populationTotal = populationList.pop()
 print(f"Got '{len(populationList)+1}' data points from Genesis.")
+
+# Get additional data about hospitalisation
+urlRkiHosp = "https://raw.githubusercontent.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/master/Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv"
+hospCsv = requests.get(urlRkiHosp).content
+# Split by rows and columns and filter only data from whole Germany
+hospList = list(filter(lambda row: b'Bundesgebiet' in row ,[row.split(b',') for row in hospCsv.splitlines()]))
+hospDict = { (row[0]+b" "+row[3]).decode("utf-8") : int(row[4]) for row in hospList }
+print(f"Got {len(hospDict)} data points from RKI Github.")
 
 # Parse different catagories
 for dataPoint in dataPoints:
@@ -72,6 +80,11 @@ for category in categories:
         if dayData:
             day = dayData
             day['date'] = date
+
+        # Add hospitalisation for this day and category
+        hospValue = hospDict.get(date+' '+category.replace('A', ''))
+        if hospValue:
+            day['AnzahlHospitalisierung7T'] = hospValue
 
         # add day to country data
         categoryData["data"].append(day)

@@ -65,10 +65,24 @@
 	      'rgb(153, 102, 255)', // purple
 		];
 		const charts = [
-			{ 
-				header: "Todesfälle der verschiedenen Altersgruppen im zeitlichen Verlauf (absolut).",
-				title: 'Todesfälle (absolut)',
-				getValue: function(dayData) { return dayData.AnzahlTodesfall; },
+			{
+				header: "Infektionen der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
+				title: 'Infektionen (von 100.000)',
+				getValue: function(dayData, categoryData) { return dayData.AnzahlFall/categoryData.population*100000; },
+				config: {},
+				text: "",
+			},
+			{
+				header: "Mittelwert der hospitalisierten COVID-19-Fälle mit Meldedatum innerhalb der letzten 7 Tage (normiert auf 100.000).",
+				title: 'Hospitalisierungen (von 100.000)',
+				getValue: function(dayData, categoryData) { return (dayData.AnzahlHospitalisierung7T/dayData.count)/categoryData.population*100000; },
+				config: {},
+				text: "",
+			},
+			{
+				header: "Hospitalisierung im Verhältnis zur Infektion der verschiedenen Altersgruppen im zeitlichen Verlauf.",
+				title: 'Hospitalisierung / Infektion',
+				getValue: function(dayData) { return dayData.AnzahlHospitalisierung7T/dayData.AnzahlFall; },
 				config: {},
 				text: "",
 			},
@@ -80,6 +94,20 @@
 				text: "",
 			},
 			{
+				header: "Todesfälle im Verhältnis zur Infektion der verschiedenen Altersgruppen im zeitlichen Verlauf.",
+				title: 'Todesfälle / Infektionen',
+				getValue: function(dayData) { return dayData.AnzahlTodesfall/dayData.AnzahlFall; },
+				config: {},
+				text: "",
+			},
+			{
+				header: "Todesfälle im Verhältnis zur Hospitalisierung der verschiedenen Altersgruppen im zeitlichen Verlauf.",
+				title: 'Todesfälle / Hospitalisierung',
+				getValue: function(dayData) { return dayData.AnzahlTodesfall/dayData.AnzahlHospitalisierung7T; },
+				config: {},
+				text: "",
+			},
+			{
 				header: "Infektionen der verschiedenen Altersgruppen im zeitlichen Verlauf (absolut).",
 				title: 'Infektionen (absolut)',
 				getValue: function(dayData) { return dayData.AnzahlFall; },
@@ -87,87 +115,19 @@
 				text: "",
 			},
 			{
-				header: "Infektionen der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
-				title: 'Infektionen (von 100.000)',
-				getValue: function(dayData, categoryData) { return dayData.AnzahlFall/categoryData.population*100000; },
+				header: "Mittelwert der hospitalisierten COVID-19-Fälle mit Meldedatum innerhalb der letzten 7 Tage.",
+				title: 'Hospitalisierungen (Mittelwert absolut)',
+				getValue: function(dayData) { return dayData.AnzahlHospitalisierung7T/dayData.count; },
 				config: {},
 				text: "",
 			},
 			{
-				header: "Todesfälle im Verhältnis zur Infektion der verschiedenen Altersgruppen im zeitlichen Verlauf.",
-				title: 'Todesfälle / Infektionen',
-				getValue: function(dayData) { return dayData.AnzahlTodesfall/dayData.AnzahlFall; },
+				header: "Todesfälle der verschiedenen Altersgruppen im zeitlichen Verlauf (absolut).",
+				title: 'Todesfälle (absolut)',
+				getValue: function(dayData) { return dayData.AnzahlTodesfall; },
 				config: {},
 				text: "",
 			},
-			/*
-			{ 
-				header: "Let's normalize those numbers. As if every country had the same population.",
-				title: 'Corona infections per 100k citizens',
-				getValue: function(dayData, locationData) { return dayData.total_cases/locationData.population*100000; },
-				config: {},
-				text: "Now the countries are somehow comparable. But it doesn't show you the current situation.",
-			},
-			{ 
-				header: "Ok. Now let's see how many people are currently infected in the different countries.",
-				title: 'Running Corona infections per 100k citizens', 
-				getValue: function(dayData, locationData) {
-					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
-					return running/locationData.population*100000;
-				},
-				config: {},
-				text: "This is even better because this reflects the current situation."
-			},
-			{ 
-				header: "Let's see how this changes when we normalize the numbers to the population density.", 
-				title: "Running Corona infections per square kilometer", 				
-				getValue: function(dayData, locationData) {
-					var running = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
-					return running/locationData.population * locationData.population_density;
-				},
-				config: {},
-				text: "This describes an average square kilometer. So don't take this as absolute numbers. " + 
-				"It should be clear that the numbers in a city are much higher than on the countryside. " +
-				"But if you compare similar regions of two countries this graph reflects the correct relation.",
-			},
-			{ 
-				header: "But how reliable are those numbers above? The Corona test policies of the countries are very different. " +
-				"If only a few tests are applied then the number of running infections is not very reliable. " +
-				"So let's take a look at the number of tests applied in relation to the population.",
-				title: 'New tests per 100k citizens (smoothed)', 
-				getValue: function(dayData, locationData) {
-					return dayData.new_tests_smoothed/locationData.population*100000;
-				},
-				config: {},
-				text: "",
-			},
-			{ 
-				header: "Now we can sum it all up. Let's say every country would apply the same number of tests in relation to their population. " +
-				"How many running infections would each country have per square kilometer?",
-				title: 'Running Corona infections per square kilometer in relation to new tests (smoothed)', 
-				getValue: function(dayData, locationData) {
-					var runningCases = dayData.total_cases - dayData.total_recovered - dayData.total_deaths;
-					var runningCasesPerSquareKilometer = runningCases/locationData.population * locationData.population_density
-					var testsPerSquareKilometer = dayData.new_tests_smoothed/locationData.population * locationData.population_density;
-					return runningCasesPerSquareKilometer/testsPerSquareKilometer;;
-				},
-				config: {},
-				text: "If you want to compare the Corona situations I would recommend this chart. " + 
-				'It corrects the poor comparability of countries by removing the factors "population density" and "different test policies". ' +
-				"(Unfortunately the number of new tests is not consistently reported by the different countries. " +
-				"So the graphs are incomplete and not that smooth.)",
-			},
-                        { 
-				header: "Finally, to complete the picture, we take a look at new deaths in relation to the population.",
-				title: 'New deaths per 100k citizens (smoothed)', 
-				getValue: function(dayData, locationData) {
-				        return dayData.new_deaths_smoothed/locationData.population*100000
-				},
-				config: {},
-				text: "",
-			},
-			*/
-
 		];
 		const configTemplate = {
 			type: 'bar',
@@ -295,17 +255,26 @@
 
 					var aggregatedData = [];
 					categoryData.data.reduce(function(res, value) {
-						date = value.date.substring(0,7)
-						if (!res[date]) {
-							res[date] = { date: date, AnzahlFall: 0, AnzahlTodesfall:0 };
-							aggregatedData.push(res[date])
+						month = value.date.substring(0,7)
+						if (!res[month]) {
+							res[month] = {
+								date: month,
+								AnzahlFall: 0,
+								AnzahlTodesfall: 0,
+								AnzahlHospitalisierung7T: 0,
+								count: 0,
+							};
+							aggregatedData.push(res[month])
 						}
-						res[date].AnzahlFall += value.AnzahlFall;
-						res[date].AnzahlTodesfall += value.AnzahlTodesfall;
+						res[month].AnzahlFall += value.AnzahlFall;
+						res[month].AnzahlTodesfall += value.AnzahlTodesfall;
+						res[month].AnzahlHospitalisierung7T += value.AnzahlHospitalisierung7T;
+						res[month].count += 1;
 						return res;
 					}, {});
 
 					categoryData.data = aggregatedData
+
 
 					// Init charts only once. Use first category to get exemplary dates from.
 					if(index == 0) {
