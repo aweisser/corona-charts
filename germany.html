@@ -66,16 +66,30 @@
 		];
 		const charts = [
 			{ 
-				header: "Todesfälle der verschiedenen Altersgruppen im zeitlichen Verlauf.",
-				title: 'Todesfälle',
+				header: "Todesfälle der verschiedenen Altersgruppen im zeitlichen Verlauf (absolut).",
+				title: 'Todesfälle (absolut)',
 				getValue: function(dayData) { return dayData.AnzahlTodesfall; },
 				config: {},
 				text: "",
 			},
 			{
-				header: "Infektionen der verschiedenen Altersgruppen im zeitlichen Verlauf.",
-				title: 'Infektionen',
+				header: "Todesfälle der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
+				title: 'Todesfälle (von 100.000)',
+				getValue: function(dayData, categoryData) { return dayData.AnzahlTodesfall/categoryData.population*100000; },
+				config: {},
+				text: "",
+			},
+			{
+				header: "Infektionen der verschiedenen Altersgruppen im zeitlichen Verlauf (absolut).",
+				title: 'Infektionen (absolut)',
 				getValue: function(dayData) { return dayData.AnzahlFall; },
+				config: {},
+				text: "",
+			},
+			{
+				header: "Infektionen der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
+				title: 'Infektionen (von 100.000)',
+				getValue: function(dayData, categoryData) { return dayData.AnzahlFall/categoryData.population*100000; },
 				config: {},
 				text: "",
 			},
