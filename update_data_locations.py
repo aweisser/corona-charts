@@ -2,7 +2,7 @@ import requests, json, sys
 from datetime import datetime
 from datetime import timedelta
 
-start_date = "2020-01-01"
+start_date = "2020-03-01"
 owidWorld = []
 locations = []
 

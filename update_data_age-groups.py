@@ -2,7 +2,7 @@ import requests, json, re
 from datetime import datetime
 from datetime import timedelta
 
-start_date = "2020-01-01"
+start_date = "2020-03-01"
 dataPoints = []
 categories = []
 categoryKey = 'Altersgruppe'
