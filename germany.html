@@ -66,6 +66,108 @@
 		];
 		const charts = [
 			{
+				header: "Bisheriger Monatsdurchschnitt an Infektionen der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
+				title: 'Monatsdurchschnitt Infektionen (von 100.000)',
+				getValue: function(dayData, categoryData) {
+					// Sum all cases in the past
+					var totalCases = 0;
+					var count = 0;
+					categoryData.data.some(function(d) {
+						totalCases += d.AnzahlFall || 0;
+						count += 1;
+						return d.date === dayData.date;
+					});
+					return (totalCases/count)/categoryData.population*100000;
+				},
+				config: {},
+				text: "",
+			},
+			{
+				header: "Bisheriger Monatsdurchschnitt an Hospitalisierungen der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
+				title: 'Monatsdurchschnitt Hospitalisierungen (von 100.000)',
+				getValue: function(dayData, categoryData) {
+					// Sum all cases in the past
+					var totalCases = 0;
+					var count = 0;
+					categoryData.data.some(function(d) {
+						totalCases += d.AnzahlHospitalisierung7T || 0;
+						count += 1;
+						return d.date === dayData.date;
+					});
+					return (totalCases/count)/categoryData.population*100000;
+				},
+				config: {},
+				text: "",
+			},
+			{
+				header: "Bisheriger Monatsdurchschnitt an Todesfälle der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
+				title: 'Monatsdurchschnitt Todesfälle (von 100.000)',
+				getValue: function(dayData, categoryData) {
+					// Sum all cases in the past
+					var totalCases = 0;
+					var count = 0;
+					categoryData.data.some(function(d) {
+						totalCases += d.AnzahlTodesfall || 0;
+						count += 1;
+						return d.date === dayData.date;
+					});
+					return (totalCases/count)/categoryData.population*100000;
+				},
+				config: {},
+				text: "",
+			},
+			{
+				header: "Bisheriger Monatsdurchschnitt an Hospitalisierungen pro Infektion der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
+				title: 'Monatsdurchschnitt Hospitalisierungen pro Infektion',
+				getValue: function(dayData, categoryData) {
+					// Sum all cases in the past
+					var totalCases = 0;
+					var totalHosp = 0;
+					categoryData.data.some(function(d) {
+						totalCases += d.AnzahlFall || 0;
+						totalHosp += d.AnzahlHospitalisierung7T || 0;
+						return d.date === dayData.date;
+					});
+					return (totalHosp/totalCases);
+				},
+				config: {},
+				text: "",
+			},
+			{
+				header: "Bisheriger Monatsdurchschnitt an Todesfälle pro Infektion der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
+				title: 'Monatsdurchschnitt Todesfälle pro Infektion',
+				getValue: function(dayData, categoryData) {
+					// Sum all cases in the past
+					var totalCases = 0;
+					var totalDeaths = 0;
+					categoryData.data.some(function(d) {
+						totalCases += d.AnzahlFall || 0;
+						totalDeaths += d.AnzahlTodesfall|| 0;
+						return d.date === dayData.date;
+					});
+					return (totalDeaths/totalCases);
+				},
+				config: {},
+				text: "",
+			},
+			{
+				header: "Bisheriger Monatsdurchschnitt an Todesfällen der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
+				title: 'Monatsdurchschnitt Todesfälle (von 100.000)',
+				getValue: function(dayData, categoryData) {
+					// Sum all cases in the past
+					var totalCases = 0;
+					var count = 0;
+					categoryData.data.some(function(d) {
+						totalCases += d.AnzahlTodesfall || 0;
+						count += 1;
+						return d.date === dayData.date;
+					});
+					return (totalCases/count)/categoryData.population*100000;
+				},
+				config: {},
+				text: "",
+			},
+			{
 				header: "Infektionen der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
 				title: 'Infektionen (von 100.000)',
 				getValue: function(dayData, categoryData) { return dayData.AnzahlFall/categoryData.population*100000; },
