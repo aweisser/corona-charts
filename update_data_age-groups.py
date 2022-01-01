@@ -37,16 +37,13 @@ print(f"Got {len(hospDict)} data points from RKI Github.")
 for dataPoint in dataPoints:
     dataPoint = dataPoint['attributes']
     category = dataPoint[categoryKey]
-    
-    # Extend list of selectable locations
-    categories.append(category)
+    # Extend list of selectable locations only if the category matches the pattern
+    if categoryPattern.match(category):
+        categories.append(category)
 
 categories = sorted(set(categories))
 
 for category in categories:
-    if not categoryPattern.match(category):
-        print(f"Skipping category '{category}'. It doesn't match the pattern '{categoryPattern.pattern}'.")
-        continue
 
     categoryDataPointsDict = {
         datetime.fromtimestamp(int(d['attributes']['Refdatum']/1000)).strftime("%Y-%m-%d")
