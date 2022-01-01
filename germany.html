@@ -151,23 +151,6 @@
 				text: "",
 			},
 			{
-				header: "Bisheriger Monatsdurchschnitt an Todesfällen der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
-				title: 'Monatsdurchschnitt Todesfälle (von 100.000)',
-				getValue: function(dayData, categoryData) {
-					// Sum all cases in the past
-					var totalCases = 0;
-					var count = 0;
-					categoryData.data.some(function(d) {
-						totalCases += d.AnzahlTodesfall || 0;
-						count += 1;
-						return d.date === dayData.date;
-					});
-					return (totalCases/count)/categoryData.population*100000;
-				},
-				config: {},
-				text: "",
-			},
-			{
 				header: "Infektionen der verschiedenen Altersgruppen im zeitlichen Verlauf (normiert auf 100.000).",
 				title: 'Infektionen (von 100.000)',
 				getValue: function(dayData, categoryData) { return dayData.AnzahlFall/categoryData.population*100000; },
