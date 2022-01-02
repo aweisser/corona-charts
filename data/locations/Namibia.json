@@ -19141,10 +19141,14 @@
     {
       "date": "2021-12-30",
       "total_cases": 146720.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 810.714,
       "total_deaths": 3616.0,
       "new_deaths": 0.0,
       "new_deaths_smoothed": 3.286,
       "total_cases_per_million": 56706.8,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 313.338,
       "total_deaths_per_million": 1397.572,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 1.27,
@@ -19169,10 +19173,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2021-12-31"
+      "date": "2021-12-31",
+      "total_cases": 147974.0,
+      "new_cases": 1254.0,
+      "new_cases_smoothed": 628.286,
+      "total_deaths": 3633.0,
+      "new_deaths": 17.0,
+      "new_deaths_smoothed": 4.571,
+      "total_cases_per_million": 57191.467,
+      "new_cases_per_million": 484.667,
+      "new_cases_smoothed_per_million": 242.83,
+      "total_deaths_per_million": 1404.143,
+      "new_deaths_per_million": 6.57,
+      "new_deaths_smoothed_per_million": 1.767,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2022-01-01"
+    },
+    {
+      "date": "2022-01-02"
     }
   ]
 }

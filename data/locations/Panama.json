@@ -21929,10 +21929,14 @@
     {
       "date": "2021-12-30",
       "total_cases": 491043.0,
+      "new_cases": 0.0,
+      "new_cases_smoothed": 790.143,
       "total_deaths": 7425.0,
       "new_deaths": 0.0,
       "new_deaths_smoothed": 2.714,
       "total_cases_per_million": 112069.77,
+      "new_cases_per_million": 0.0,
+      "new_cases_smoothed_per_million": 180.333,
       "total_deaths_per_million": 1694.593,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.619,
@@ -21943,14 +21947,47 @@
       "new_tests_smoothed": 12479.0,
       "new_tests_smoothed_per_thousand": 2.848,
       "tests_units": "tests performed",
+      "new_vaccinations_smoothed": 17683.0,
+      "new_vaccinations_smoothed_per_million": 4036.0,
+      "new_people_vaccinated_smoothed": 745.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.017,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2021-12-31"
+      "date": "2021-12-31",
+      "total_cases": 495920.0,
+      "new_cases": 4877.0,
+      "new_cases_smoothed": 1486.857,
+      "total_deaths": 7428.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 3.143,
+      "total_cases_per_million": 113182.838,
+      "new_cases_per_million": 1113.068,
+      "new_cases_smoothed_per_million": 339.342,
+      "total_deaths_per_million": 1695.278,
+      "new_deaths_per_million": 0.685,
+      "new_deaths_smoothed_per_million": 0.717,
+      "total_vaccinations": 5892548.0,
+      "people_vaccinated": 3028793.0,
+      "people_fully_vaccinated": 2468168.0,
+      "total_boosters": 395587.0,
+      "new_vaccinations_smoothed": 16849.0,
+      "total_vaccinations_per_hundred": 134.48,
+      "people_vaccinated_per_hundred": 69.13,
+      "people_fully_vaccinated_per_hundred": 56.33,
+      "total_boosters_per_hundred": 9.03,
+      "new_vaccinations_smoothed_per_million": 3845.0,
+      "new_people_vaccinated_smoothed": 739.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.017,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2022-01-01"
+    },
+    {
+      "date": "2022-01-02"
     }
   ]
 }
