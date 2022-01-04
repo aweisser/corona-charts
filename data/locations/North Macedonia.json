@@ -17192,6 +17192,10 @@
       "new_vaccinations_smoothed_per_million": 1932.0,
       "new_people_vaccinated_smoothed": 481.0,
       "new_people_vaccinated_smoothed_per_hundred": 0.023,
+      "excess_mortality_cumulative_absolute": 12642.2,
+      "excess_mortality_cumulative": 34.53,
+      "excess_mortality": 30.02,
+      "excess_mortality_cumulative_per_million": 6070.21497977827,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18726,10 +18730,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2022-01-02"
+      "date": "2022-01-02",
+      "total_cases": 225730.0,
+      "new_cases": 246.0,
+      "new_cases_smoothed": 359.857,
+      "total_deaths": 7975.0,
+      "new_deaths": 6.0,
+      "new_deaths_smoothed": 10.143,
+      "total_cases_per_million": 108385.378,
+      "new_cases_per_million": 118.118,
+      "new_cases_smoothed_per_million": 172.787,
+      "total_deaths_per_million": 3829.236,
+      "new_deaths_per_million": 2.881,
+      "new_deaths_smoothed_per_million": 4.87,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2022-01-03"
+    },
+    {
+      "date": "2022-01-04"
     }
   ]
 }

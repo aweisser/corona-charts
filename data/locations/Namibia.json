@@ -19158,6 +19158,8 @@
       "new_tests_per_thousand": 0.892,
       "new_tests_smoothed": 2009.0,
       "new_tests_smoothed_per_thousand": 0.776,
+      "positive_rate": 0.4035,
+      "tests_per_case": 2.5,
       "tests_units": "samples tested",
       "total_vaccinations": 745158.0,
       "people_vaccinated": 403489.0,
@@ -19186,6 +19188,15 @@
       "total_deaths_per_million": 1404.143,
       "new_deaths_per_million": 6.57,
       "new_deaths_smoothed_per_million": 1.767,
+      "new_tests": 2793.0,
+      "total_tests": 872058.0,
+      "total_tests_per_thousand": 337.048,
+      "new_tests_per_thousand": 1.079,
+      "new_tests_smoothed": 1960.0,
+      "new_tests_smoothed_per_thousand": 0.758,
+      "positive_rate": 0.3206,
+      "tests_per_case": 3.1,
+      "tests_units": "samples tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -19203,14 +19214,40 @@
       "total_deaths_per_million": 1408.781,
       "new_deaths_per_million": 4.638,
       "new_deaths_smoothed_per_million": 2.043,
+      "new_tests": 1975.0,
+      "total_tests": 874033.0,
+      "total_tests_per_thousand": 337.811,
+      "new_tests_per_thousand": 0.763,
+      "new_tests_smoothed": 1892.0,
+      "new_tests_smoothed_per_thousand": 0.731,
+      "positive_rate": 0.3179,
+      "tests_per_case": 3.1,
+      "tests_units": "samples tested",
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2022-01-02"
+      "date": "2022-01-02",
+      "total_cases": 149478.0,
+      "new_cases": 639.0,
+      "new_cases_smoothed": 548.714,
+      "total_deaths": 3655.0,
+      "new_deaths": 10.0,
+      "new_deaths_smoothed": 6.429,
+      "total_cases_per_million": 57772.758,
+      "new_cases_per_million": 246.971,
+      "new_cases_smoothed_per_million": 212.076,
+      "total_deaths_per_million": 1412.646,
+      "new_deaths_per_million": 3.865,
+      "new_deaths_smoothed_per_million": 2.485,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2022-01-03"
+    },
+    {
+      "date": "2022-01-04"
     }
   ]
 }

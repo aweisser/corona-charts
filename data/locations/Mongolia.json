@@ -16630,6 +16630,8 @@
       "new_tests_per_thousand": 1.771,
       "new_tests_smoothed": 5503.0,
       "new_tests_smoothed_per_thousand": 1.653,
+      "positive_rate": 0.0273,
+      "tests_per_case": 36.7,
       "tests_units": "samples tested",
       "total_vaccinations": 5340605.0,
       "people_vaccinated": 2265984.0,
@@ -16660,6 +16662,11 @@
       "total_deaths_per_million": 618.752,
       "new_deaths_per_million": 0.3,
       "new_deaths_smoothed_per_million": 0.257,
+      "new_tests_smoothed": 4935.0,
+      "new_tests_smoothed_per_thousand": 1.482,
+      "positive_rate": 0.0453,
+      "tests_per_case": 22.1,
+      "tests_units": "samples tested",
       "total_vaccinations": 5346343.0,
       "people_vaccinated": 2266150.0,
       "people_fully_vaccinated": 2164097.0,
@@ -16677,10 +16684,39 @@
       "new_recovered": 0
     },
     {
-      "date": "2022-01-02"
+      "date": "2022-01-02",
+      "total_cases": 389876.0,
+      "total_deaths": 2060.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.714,
+      "total_cases_per_million": 117105.13,
+      "total_deaths_per_million": 618.752,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.215,
+      "new_tests_smoothed": 4642.0,
+      "new_tests_smoothed_per_thousand": 1.394,
+      "tests_units": "samples tested",
+      "total_vaccinations": 5348124.0,
+      "people_vaccinated": 2266151.0,
+      "people_fully_vaccinated": 2164925.0,
+      "total_boosters": 917048.0,
+      "new_vaccinations": 1781.0,
+      "new_vaccinations_smoothed": 3493.0,
+      "total_vaccinations_per_hundred": 160.64,
+      "people_vaccinated_per_hundred": 68.07,
+      "people_fully_vaccinated_per_hundred": 65.03,
+      "total_boosters_per_hundred": 27.54,
+      "new_vaccinations_smoothed_per_million": 1049.0,
+      "new_people_vaccinated_smoothed": 72.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.002,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2022-01-03"
+    },
+    {
+      "date": "2022-01-04"
     }
   ]
 }

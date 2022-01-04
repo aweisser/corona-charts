@@ -20463,10 +20463,10 @@
       "new_people_vaccinated_smoothed": 345759.0,
       "new_people_vaccinated_smoothed_per_hundred": 0.237,
       "stringency_index": 60.65,
-      "excess_mortality_cumulative_absolute": 984309.3,
-      "excess_mortality_cumulative": 29.1,
-      "excess_mortality": 83.46,
-      "excess_mortality_cumulative_per_million": 6745.90953170397,
+      "excess_mortality_cumulative_absolute": 985999.6,
+      "excess_mortality_cumulative": 29.15,
+      "excess_mortality": 84.67,
+      "excess_mortality_cumulative_per_million": 6757.49390958341,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -21567,6 +21567,11 @@
       "total_deaths_per_million": 2074.339,
       "new_deaths_per_million": 6.031,
       "new_deaths_smoothed_per_million": 6.269,
+      "new_tests_smoothed": 429233.0,
+      "new_tests_smoothed_per_thousand": 2.942,
+      "positive_rate": 0.0517,
+      "tests_per_case": 19.3,
+      "tests_units": "tests performed",
       "total_vaccinations": 146364014.0,
       "people_vaccinated": 73824201.0,
       "people_fully_vaccinated": 66773441.0,
@@ -21579,6 +21584,10 @@
       "new_vaccinations_smoothed_per_million": 3252.0,
       "new_people_vaccinated_smoothed": 179674.0,
       "new_people_vaccinated_smoothed_per_hundred": 0.123,
+      "excess_mortality_cumulative_absolute": 1043824.3,
+      "excess_mortality_cumulative": 29.56,
+      "excess_mortality": 38.8,
+      "excess_mortality_cumulative_per_million": 7153.7923036938,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -21596,6 +21605,11 @@
       "total_deaths_per_million": 2079.993,
       "new_deaths_per_million": 5.654,
       "new_deaths_smoothed_per_million": 6.142,
+      "new_tests_smoothed": 415020.0,
+      "new_tests_smoothed_per_thousand": 2.844,
+      "positive_rate": 0.0517,
+      "tests_per_case": 19.3,
+      "tests_units": "tests performed",
       "total_vaccinations": 146724190.0,
       "people_vaccinated": 73944505.0,
       "people_fully_vaccinated": 67008180.0,
@@ -21613,10 +21627,34 @@
       "new_recovered": 0
     },
     {
-      "date": "2022-01-02"
+      "date": "2022-01-02",
+      "total_cases": 10358099.0,
+      "new_cases": 18088.0,
+      "new_cases_smoothed": 20690.571,
+      "total_deaths": 304284.0,
+      "new_deaths": 788.0,
+      "new_deaths_smoothed": 874.143,
+      "total_cases_per_million": 70988.661,
+      "new_cases_per_million": 123.965,
+      "new_cases_smoothed_per_million": 141.802,
+      "total_deaths_per_million": 2085.394,
+      "new_deaths_per_million": 5.401,
+      "new_deaths_smoothed_per_million": 5.991,
+      "total_tests": 241536819.0,
+      "total_tests_per_thousand": 1655.359,
+      "new_tests_smoothed": 400807.0,
+      "new_tests_smoothed_per_thousand": 2.747,
+      "positive_rate": 0.0516,
+      "tests_per_case": 19.4,
+      "tests_units": "tests performed",
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2022-01-03"
+    },
+    {
+      "date": "2022-01-04"
     }
   ]
 }
