@@ -18143,6 +18143,10 @@
       "total_deaths_per_million": 586.638,
       "new_deaths_per_million": 0.153,
       "new_deaths_smoothed_per_million": 0.153,
+      "new_vaccinations_smoothed": 8035.0,
+      "new_vaccinations_smoothed_per_million": 1233.0,
+      "new_people_vaccinated_smoothed": 830.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.013,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18160,6 +18164,10 @@
       "total_deaths_per_million": 586.638,
       "new_deaths_per_million": 0.0,
       "new_deaths_smoothed_per_million": 0.131,
+      "new_vaccinations_smoothed": 7707.0,
+      "new_vaccinations_smoothed_per_million": 1182.0,
+      "new_people_vaccinated_smoothed": 798.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.012,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18177,6 +18185,10 @@
       "total_deaths_per_million": 586.791,
       "new_deaths_per_million": 0.153,
       "new_deaths_smoothed_per_million": 0.153,
+      "new_vaccinations_smoothed": 7379.0,
+      "new_vaccinations_smoothed_per_million": 1132.0,
+      "new_people_vaccinated_smoothed": 766.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.012,
       "total_recovered": 0,
       "new_recovered": 0
     },
@@ -18194,14 +18206,43 @@
       "total_deaths_per_million": 586.945,
       "new_deaths_per_million": 0.153,
       "new_deaths_smoothed_per_million": 0.131,
+      "new_vaccinations_smoothed": 7051.0,
+      "new_vaccinations_smoothed_per_million": 1082.0,
+      "new_people_vaccinated_smoothed": 734.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.011,
       "total_recovered": 0,
       "new_recovered": 0
     },
     {
-      "date": "2022-01-04"
+      "date": "2022-01-04",
+      "total_cases": 122063.0,
+      "total_deaths": 3826.0,
+      "new_deaths": 0.0,
+      "new_deaths_smoothed": 0.857,
+      "total_cases_per_million": 18725.627,
+      "total_deaths_per_million": 586.945,
+      "new_deaths_per_million": 0.0,
+      "new_deaths_smoothed_per_million": 0.131,
+      "total_vaccinations": 9651029.0,
+      "people_vaccinated": 4486892.0,
+      "people_fully_vaccinated": 4164802.0,
+      "total_boosters": 999335.0,
+      "new_vaccinations_smoothed": 6723.0,
+      "total_vaccinations_per_hundred": 148.06,
+      "people_vaccinated_per_hundred": 68.83,
+      "people_fully_vaccinated_per_hundred": 63.89,
+      "total_boosters_per_hundred": 15.33,
+      "new_vaccinations_smoothed_per_million": 1031.0,
+      "new_people_vaccinated_smoothed": 702.0,
+      "new_people_vaccinated_smoothed_per_hundred": 0.011,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2022-01-05"
+    },
+    {
+      "date": "2022-01-06"
     }
   ]
 }

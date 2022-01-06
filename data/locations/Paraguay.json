@@ -21256,6 +21256,8 @@
       "new_tests_per_thousand": 0.689,
       "new_tests_smoothed": 3444.0,
       "new_tests_smoothed_per_thousand": 0.477,
+      "positive_rate": 0.0445,
+      "tests_per_case": 22.5,
       "tests_units": "tests performed",
       "stringency_index": 35.19,
       "total_recovered": 0,
@@ -21281,6 +21283,8 @@
       "new_tests_per_thousand": 0.579,
       "new_tests_smoothed": 3639.0,
       "new_tests_smoothed_per_thousand": 0.504,
+      "positive_rate": 0.0421,
+      "tests_per_case": 23.7,
       "tests_units": "tests performed",
       "stringency_index": 35.19,
       "total_recovered": 0,
@@ -21306,6 +21310,8 @@
       "new_tests_per_thousand": 0.591,
       "new_tests_smoothed": 3853.0,
       "new_tests_smoothed_per_thousand": 0.534,
+      "positive_rate": 0.0398,
+      "tests_per_case": 25.1,
       "tests_units": "tests performed",
       "total_recovered": 0,
       "new_recovered": 0
@@ -21328,10 +21334,27 @@
       "new_recovered": 0
     },
     {
-      "date": "2022-01-04"
+      "date": "2022-01-04",
+      "total_cases": 470460.0,
+      "new_cases": 937.0,
+      "new_cases_smoothed": 699.429,
+      "total_deaths": 16645.0,
+      "new_deaths": 3.0,
+      "new_deaths_smoothed": 5.429,
+      "total_cases_per_million": 65163.905,
+      "new_cases_per_million": 129.785,
+      "new_cases_smoothed_per_million": 96.879,
+      "total_deaths_per_million": 2305.516,
+      "new_deaths_per_million": 0.416,
+      "new_deaths_smoothed_per_million": 0.752,
+      "total_recovered": 0,
+      "new_recovered": 0
     },
     {
       "date": "2022-01-05"
+    },
+    {
+      "date": "2022-01-06"
     }
   ]
 }
